@@ -1,0 +1,10 @@
+^C:\USERS\HITXI\.CODEX\WORKTREES\VISUAL-GAZE-RC\VVENC-LFNST\BUILD-GAZE-UNIT\CMAKEFILES\A3BA75D2650E1EAF965901ADBA4924B3\GENERATE.STAMP.RULE
+setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/visual-gaze-rc/vvenc-LFNST/test/visualgaze -BC:/Users/hitxi/.codex/worktrees/visual-gaze-rc/vvenc-LFNST/build-gaze-unit --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hitxi/.codex/worktrees/visual-gaze-rc/vvenc-LFNST/build-gaze-unit/visual_gaze_test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\test\visualgaze\controller_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\VisualGaze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\test\visualgaze\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C9B410AA-9627-3039-A208-4568FAC51B54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.13)
+project(visual_gaze_test LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 14)
+enable_testing()
+add_executable(visual_gaze_test controller_test.cpp ../../source/Lib/EncoderLib/VtmRcCompat/VisualGaze.cpp)
+target_include_directories(visual_gaze_test PRIVATE ../../source/Lib)
+add_test(NAME visual_gaze_formulas COMMAND visual_gaze_test)
