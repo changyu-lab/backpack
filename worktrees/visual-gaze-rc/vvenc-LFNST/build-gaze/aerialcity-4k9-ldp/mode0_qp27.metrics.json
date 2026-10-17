@@ -1,0 +1,101 @@
+{
+  "actual_bps": 11381066.666666666,
+  "target_bps": 9355093.0,
+  "bitrate_error_percent": 21.656371205146385,
+  "actual_bps_basis": "AnnexB file bytes, same basis as fixed-QP targets",
+  "nal_bps": 11379573.333333334,
+  "nal_bitrate_error_percent": 21.640408420668123,
+  "quality_mean_db": {
+    "psnr": 38.243678397548564,
+    "ws_psnr": 37.58666284500379,
+    "s_psnr_nn": 37.57937261687916
+  },
+  "frames": [
+    {
+      "psnr": 42.29526630639317,
+      "ws_psnr": 41.694711599046656,
+      "s_psnr_nn": 41.693698038375786
+    },
+    {
+      "psnr": 39.61467116887388,
+      "ws_psnr": 38.98464673584666,
+      "s_psnr_nn": 38.96198151517273
+    },
+    {
+      "psnr": 39.195210589119725,
+      "ws_psnr": 38.5514262920949,
+      "s_psnr_nn": 38.54689610005215
+    },
+    {
+      "psnr": 38.688880123099224,
+      "ws_psnr": 38.04375472470347,
+      "s_psnr_nn": 38.018590642564874
+    },
+    {
+      "psnr": 38.038387246221404,
+      "ws_psnr": 37.40643084761277,
+      "s_psnr_nn": 37.3811984760913
+    },
+    {
+      "psnr": 37.56876186371815,
+      "ws_psnr": 36.900758371774096,
+      "s_psnr_nn": 36.9066259692744
+    },
+    {
+      "psnr": 36.884159939355385,
+      "ws_psnr": 36.18460977315426,
+      "s_psnr_nn": 36.17002289836516
+    },
+    {
+      "psnr": 36.20905774108848,
+      "ws_psnr": 35.51800726131675,
+      "s_psnr_nn": 35.52454996020492
+    },
+    {
+      "psnr": 35.69871060006762,
+      "ws_psnr": 34.99561999948453,
+      "s_psnr_nn": 35.01078995181109
+    }
+  ],
+  "frame_bits_display_order": [
+    3379408,
+    16648,
+    5000,
+    4256,
+    2608,
+    2096,
+    1520,
+    1360,
+    976
+  ],
+  "buffer_encoding_order": [
+    311836.43333333335,
+    623672.8666666667,
+    935509.3,
+    1247345.7333333334,
+    1559182.1666666667,
+    1871018.6,
+    2182855.033333333,
+    2494691.466666667,
+    2806527.9
+  ],
+  "encoding_pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "buffer_delay": 16,
+  "buffer_convention": "Eq32 inclusive sum, encoding-order debit",
+  "sphere_sha256": "575554c853d5fe9c1306d645580aa4e496a2456bb936f7cbff90b93c00097278",
+  "metric_scope": "ERP luma; 360Lib sphere orientation, 8192 rounding, peak=255<<(depth-8); S-PSNR-NN only, no S-PSNR-I claim",
+  "input_sha256": "3c6170ca7c3ff5db6c82bed917f1191047bd898890c907e38728f81c5dbac4da",
+  "reconstruction_sha256": "b0cad5f1d026b5ae89e72d0880d85be90621f84800da85da7de579527fc2fc30",
+  "trace_sha256": "75f2803ef7cd896c5694a2256fc73e195881926e18a31bffcf61bfda032ffa37",
+  "bitstream_sha256": "ffdc990b71f04068ae8ebe6309c9d56843488dc17c6f3ea3b29346fb0b9b7798"
+}

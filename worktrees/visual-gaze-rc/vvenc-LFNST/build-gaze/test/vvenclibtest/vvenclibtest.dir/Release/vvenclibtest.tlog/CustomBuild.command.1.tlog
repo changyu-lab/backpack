@@ -1,0 +1,10 @@
+^C:\USERS\HITXI\.CODEX\WORKTREES\VISUAL-GAZE-RC\VVENC-LFNST\TEST\VVENCLIBTEST\CMAKELISTS.TXT
+setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/visual-gaze-rc/vvenc-LFNST -BC:/Users/hitxi/.codex/worktrees/visual-gaze-rc/vvenc-LFNST/build-gaze --check-stamp-file C:/Users/hitxi/.codex/worktrees/visual-gaze-rc/vvenc-LFNST/build-gaze/test/vvenclibtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

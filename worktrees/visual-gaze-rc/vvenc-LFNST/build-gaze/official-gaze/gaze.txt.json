@@ -1,0 +1,78 @@
+{
+  "geometry": [
+    256,
+    128,
+    64,
+    10,
+    19
+  ],
+  "implementation": "explicit-port-conventions-v1",
+  "manifest": {
+    "model_sha256": "926471c39227bb193e0a4f3df48dc5fa869bf4280774a3fa89d26727e4b0cedf",
+    "seed": 1234,
+    "scandmm_commit": "e14d0ef37124157c2a55dd0c88c124108e87becd",
+    "torch": "2.1.1",
+    "pyro": "1.8.6",
+    "numpy": "1.26.3",
+    "model_eval": true,
+    "source_prefix_sha256": "214b6b96f582a12ac188d0ef4d10134c5544704325eb05eefc4a9eca8c689004",
+    "source_geometry": [
+      3840,
+      1920
+    ],
+    "source_frames": 19,
+    "segment_convention": "display GOP starts at POC0; no additional I frames inserted",
+    "image_conversion": "8bit YUV420 BT709 limited range; bilinear chroma upsample",
+    "resize": [
+      256,
+      128
+    ],
+    "segments": [
+      {
+        "source_poc": 0,
+        "target_pocs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "array": "paths_0\\poc_0.npy",
+        "image_sha256": "360ed90754658b0834a3cb4e4fb826cf5bcde8063c3108633a561d55c0fe1f67"
+      },
+      {
+        "source_poc": 16,
+        "target_pocs": [
+          16,
+          17,
+          18
+        ],
+        "array": "paths_16\\poc_16.npy",
+        "image_sha256": "88d6b4330425a8360f10c1350395faaf14c0383143c4c1cba9b98323d54855a8"
+      }
+    ]
+  },
+  "arrays": [
+    {
+      "path": "build-gaze\\official-gaze\\paths_0\\poc_0.npy",
+      "sha256": "7b0af4a1022db9c571d2ea5c0ab0a22a9fe05b2668c1016e81af64af39fc6a9c"
+    },
+    {
+      "path": "build-gaze\\official-gaze\\paths_16\\poc_16.npy",
+      "sha256": "c003a6615752fe9ee7087b892ffac5822cb1a105d95a91c174996a7c3d46403a"
+    }
+  ],
+  "manifest_sha256": "980064894c367a3d88f2fadc6e2678d159407e92c6387d49a69455370eee1fbf",
+  "output_sha256": "5baf06c0402e2a56788541e6f361a0c3b1efef6ca26aac783bfa6002670475bb"
+}

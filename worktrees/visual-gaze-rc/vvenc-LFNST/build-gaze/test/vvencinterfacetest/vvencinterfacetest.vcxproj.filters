@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\test\vvencinterfacetest\vvencinterfacetest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\test\vvencinterfacetest\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\test\vvencinterfacetest\resource_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\test\vvencinterfacetest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\test\vvencinterfacetest\vvencinterfacetest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6F20B475-31C5-3142-9D9B-A6B0716963D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{FAB5182D-C974-342E-ACB8-A264B67FB2DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B70B7FF9-E8A8-3D88-8A2B-245923344E4F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

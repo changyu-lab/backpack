@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\Adapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\IntraCost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\RateCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\VisualGaze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\VisualGazeRuntime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\AdaptiveLoopFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\AffineGradientSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\BitStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\CodingStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\ContextModelling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Contexts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\DepQuant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\InterPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\InterpolationFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\IntraPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\LoopFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\MCTF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\MatrixIntraPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Mv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\PicYuvMD5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Picture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\ProfileLevelTier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Quant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\QuantRDOQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\QuantRDOQ2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\RdCost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Reshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Rom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\RomTr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\SEI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\SampleAdaptiveOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\SearchSpaceCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Slice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\StatCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\TimeProfiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\TrQuant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\TrQuant_EMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\UnitPartitioner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\UnitTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\dtrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\DecoderLib\DecCu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\BinEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\BitAllocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\CABACWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncAdaptiveLoopFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncCu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncGOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncHRD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncModeCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncPicture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncReshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncSampleAdaptiveOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncSlice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\GOPCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\InterSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\IntraSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\NALwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\PreProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\RateCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\SEIEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\SEIwrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VLCWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\Utilities\NoMallocThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\vvenc\vvenc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\vvenc\vvencCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\vvenc\vvencimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\CommonDefX86.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\InitX86.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\Adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\Dependencies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\IntraCost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\RateCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\VisualGaze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\VisualGazeRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\AdaptiveLoopFilter.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\AffineGradientSearch.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\AlfParameters.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\BitStream.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Buffer.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\CodingStructure.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Common.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\CommonDef.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\ContextModelling.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Contexts.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\DepQuant.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\HRD.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\InterPrediction.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\InterpolationFilter.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\IntraPrediction.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\LoopFilter.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\MCTF.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\MD5.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\MatrixIntraPrediction.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\MipData.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\MotionInfo.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Mv.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Nal.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\PicYuvMD5.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Picture.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\ProfileLevelTier.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Quant.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\QuantRDOQ.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\QuantRDOQ2.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\RdCost.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Reshape.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Rom.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\SEI.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\SampleAdaptiveOffset.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\SearchSpaceCounter.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Slice.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\StatCounter.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\TimeProfiler.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\TrQuant.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\TrQuant_EMT.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\TypeDef.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\Unit.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\UnitPartitioner.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\UnitTools.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\dtrace.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\dtrace_buffer.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\dtrace_codingstruct.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\dtrace_next.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\DecoderLib\DecCu.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\Analyze.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\BinEncoder.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\BitAllocation.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\CABACWriter.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncAdaptiveLoopFilter.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncCfg.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncCu.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncGOP.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncHRD.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncLib.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncModeCtrl.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncPicture.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncReshape.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncSampleAdaptiveOffset.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncSlice.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\EncStage.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\GOPCfg.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\InterSearch.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\IntraSearch.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\NALwrite.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\PreProcess.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\RateCtrl.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\SEIEncoder.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\SEIwrite.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\EncoderLib\VLCWriter.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\Utilities\MsgLog.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\Utilities\NoMallocThreadPool.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\apputils\FileIOHelper.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\apputils\IStreamIO.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\apputils\LogoRenderer.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\apputils\ParseArg.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\apputils\Stats.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\apputils\VVEncAppCfg.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\apputils\YuvFileIO.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\vvenc\resource.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\vvenc\resource_version.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\vvenc\vvencimpl.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\AdaptiveLoopFilterX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\AffineGradientSearchX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\BufferX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\CommonDefX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\DepQuantX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\FixMissingIntrin.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\InterPredX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\InterpolationFilterX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\IntraPredX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\LoopFilterX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\MCTFX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\QuantX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\RdCostX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\SampleAdaptiveOffsetX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\CommonLib\x86\TrafoX86.h">
+      <Filter>Header Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\include\vvenc\vvenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\include\vvenc\vvencCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\include\vvenc\vvencDecl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\vvenc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\VisualStudio\common.natvis">
+      <Filter>Natvis Files</Filter>
+    </Natvis>
+    <Natvis Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\VisualStudio\static_vector.natvis">
+      <Filter>Natvis Files</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\AdaptiveLoopFilter_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\AffineGradientSearch_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\Buffer_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\DepQuant_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\InterPred_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\InterpolationFilter_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\IntraPred_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\LoopFilter_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\MCTF_avx41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\Quant_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\RdCost_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\SampleAdaptiveOffset_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\Trafo_sse41.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\DepQuant_sse42.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\AdaptiveLoopFilter_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\AffineGradientSearch_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\Buffer_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\DepQuant_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\InterPred_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\InterpolationFilter_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\IntraPred_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\LoopFilter_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\MCTF_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\Quant_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\RdCost_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\SampleAdaptiveOffset_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\build-gaze\source\Lib\vvenc\vvenc_x86_simd.dir\$(Configuration)\Trafo_avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\hitxi\.codex\worktrees\visual-gaze-rc\vvenc-LFNST\source\Lib\vvenc\vvenc.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6F20B475-31C5-3142-9D9B-A6B0716963D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\private">
+      <UniqueIdentifier>{91DFD698-90FC-32CF-9756-739070413E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Natvis Files">
+      <UniqueIdentifier>{0AC92E56-57F6-3B9A-AAC5-193CA439DF4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{E499A90F-39C5-3CD5-8473-AB53DE93ECFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B70B7FF9-E8A8-3D88-8A2B-245923344E4F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

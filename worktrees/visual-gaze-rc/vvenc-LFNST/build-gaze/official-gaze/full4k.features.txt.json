@@ -1,0 +1,17 @@
+{
+  "geometry": [
+    3840,
+    1920,
+    128,
+    10,
+    1
+  ],
+  "implementation": "explicit-port-conventions-v1",
+  "input_sha256": "75c85790f41ead48c749ca1130dd3df9bd51b88cb939f3efbc6a80d4f9f9da26",
+  "mu_m": 1.0,
+  "mu_s": 1.0,
+  "motion_search": 4,
+  "temporal_reference": "previous-display-original",
+  "aco": "port adaptive Canny; original HPRC thresholds not verified",
+  "output_sha256": "2095ba17f767703d31110e29a9a89415e22193f67268221222e0823b9491d04f"
+}

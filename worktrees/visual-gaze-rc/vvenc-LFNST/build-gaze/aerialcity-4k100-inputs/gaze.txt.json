@@ -1,0 +1,212 @@
+{
+  "geometry": [
+    3840,
+    1920,
+    128,
+    10,
+    100
+  ],
+  "implementation": "explicit-port-conventions-v1",
+  "manifest": {
+    "model_sha256": "926471c39227bb193e0a4f3df48dc5fa869bf4280774a3fa89d26727e4b0cedf",
+    "seed": 1234,
+    "scandmm_commit": "e14d0ef37124157c2a55dd0c88c124108e87becd",
+    "gop": 16,
+    "torch": "2.1.1",
+    "pyro": "1.8.6",
+    "numpy": "1.26.3",
+    "model_eval": true,
+    "source_prefix_sha256": "92d4699b30dcb68ac7be50d7418ecfc175cb7ac3ee8b2122e46c9845d08a89ac",
+    "source_geometry": [
+      3840,
+      1920
+    ],
+    "source_frames": 100,
+    "segment_convention": "display GOP starts at POC0; no additional I frames inserted",
+    "image_conversion": "8bit YUV420 BT709 limited range; bilinear chroma upsample",
+    "resize": null,
+    "segments": [
+      {
+        "source_poc": 0,
+        "target_pocs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "array": "paths_0\\poc_0.npy",
+        "image_sha256": "360ed90754658b0834a3cb4e4fb826cf5bcde8063c3108633a561d55c0fe1f67"
+      },
+      {
+        "source_poc": 16,
+        "target_pocs": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "array": "paths_16\\poc_16.npy",
+        "image_sha256": "88d6b4330425a8360f10c1350395faaf14c0383143c4c1cba9b98323d54855a8"
+      },
+      {
+        "source_poc": 32,
+        "target_pocs": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "array": "paths_32\\poc_32.npy",
+        "image_sha256": "0b6a586d86758c2e8a2949b10e1153d1a46329d599910b41a392ae13f3c79035"
+      },
+      {
+        "source_poc": 48,
+        "target_pocs": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "array": "paths_48\\poc_48.npy",
+        "image_sha256": "4b42a1efb863d57ac1d005b322286f0cde7454f8e11faaf0eccb58565a09e643"
+      },
+      {
+        "source_poc": 64,
+        "target_pocs": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "array": "paths_64\\poc_64.npy",
+        "image_sha256": "819852d016aba0b0b3875db5672cbd111eeac22fa1fb77ec3b73d88b90e68606"
+      },
+      {
+        "source_poc": 80,
+        "target_pocs": [
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ],
+        "array": "paths_80\\poc_80.npy",
+        "image_sha256": "f06b527090e3a59ac9eaa5715f1386072f891c2a1ac34184652ed90f0f928a3c"
+      },
+      {
+        "source_poc": 96,
+        "target_pocs": [
+          96,
+          97,
+          98,
+          99
+        ],
+        "array": "paths_96\\poc_96.npy",
+        "image_sha256": "559d8b6f50031c325320258ebce8e6d62c6ab7d5e53bab219318707f770ba4d0"
+      }
+    ]
+  },
+  "arrays": [
+    {
+      "path": "build-gaze\\aerialcity-4k100-inputs\\paths_0\\poc_0.npy",
+      "sha256": "7b0af4a1022db9c571d2ea5c0ab0a22a9fe05b2668c1016e81af64af39fc6a9c"
+    },
+    {
+      "path": "build-gaze\\aerialcity-4k100-inputs\\paths_16\\poc_16.npy",
+      "sha256": "5755b4ad1d73ca4c32aeb1f4ff6040f644d279e05f3e17c2c69c8c2351f4c83f"
+    },
+    {
+      "path": "build-gaze\\aerialcity-4k100-inputs\\paths_32\\poc_32.npy",
+      "sha256": "aeebcb4aacbb3eb56effedb23ba62c1cc186597ff1fbe1b9b81cafac56c959f5"
+    },
+    {
+      "path": "build-gaze\\aerialcity-4k100-inputs\\paths_48\\poc_48.npy",
+      "sha256": "2b62eb0340cba0f0fee0d689ef6eb877a29b79c45fe494643e051efab72c9122"
+    },
+    {
+      "path": "build-gaze\\aerialcity-4k100-inputs\\paths_64\\poc_64.npy",
+      "sha256": "8996b862aba5129c4a60f4ae64f702120641314531ec17b20560111679b00b4d"
+    },
+    {
+      "path": "build-gaze\\aerialcity-4k100-inputs\\paths_80\\poc_80.npy",
+      "sha256": "805939e00a08d774f042aa32bfd9375880ddb5df6122a41ecf5230b0c5cac8af"
+    },
+    {
+      "path": "build-gaze\\aerialcity-4k100-inputs\\paths_96\\poc_96.npy",
+      "sha256": "6f6ca12b5fa3208b5b9ec47e3a530775b968ad5434dd063b7943d916e8a9fb7b"
+    }
+  ],
+  "manifest_sha256": "009d2a129b8a926709bf2693ec36a8e65b332921c7c65031ee0357bcdfde3065",
+  "output_sha256": "994e543e7ed4e1acfba912f55df26c72640a4f9fbfbef6f01429051c304399e7"
+}
