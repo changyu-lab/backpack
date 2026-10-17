@@ -1,0 +1,7 @@
+{
+  "before_sha256": "4eb101730b7b46858a6912ccfe9d407cdf83b5e9d60a77bf516b0114b9d5a994",
+  "after_sha256": "d8e93d2c0919e4e2c9f376e1118665058226e61fb28a0800fef7d594e6792f30",
+  "C5": "Full band variance var*diagH*diagV/1024*gain replaced by1; latitude support and IB beta5 retained including zero residual blocks",
+  "C6": "Only horizontal support expanded to32; variance gain and IB unchanged",
+  "model": "Frozen original C4 I/P; no refit"
+}
