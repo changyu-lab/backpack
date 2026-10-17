@@ -1,0 +1,94 @@
+START AerialCity offset_0_3 2
+START AerialCity offset_0_3 4
+START AerialCitySTART offset_0_3 START 1 AerialCity offset_0_4 AerialCitySTART AerialCity 4
+ offset_0_4offset_0_4START  2
+ 
+1
+AerialCitySTART offset_1_2 2
+ AerialCity offset_0_4 3START
+START STARTAerialCity AerialCity offset_1_2 3START AerialCity  
+START AerialCity offset_1_3 1AerialCity offset_0_3 offset_1_2 
+ 3
+offset_1_2START1 AerialCity 
+ 4
+offset_1_3START  START3AerialCity
+  AerialCityoffset_1_4 offset_1_4 1 
+START AerialCitySTART2 AerialCity offset_1_3  
+offset_1_4 3
+2
+START AerialCity offset_1_3 START AerialCity 4offset_1_4 4
+START 
+AerialCity offset_-1_2 2
+START AerialCity offset_-1_2 3
+START AerialCity offset_-1_2 1
+START AerialCity offset_-1_2 4
+START AerialCity offset_-2_1 1
+START AerialCity offset_-2_1 2
+START AerialCity offset_-2_1 3
+START AerialCity offset_-3_0 1
+START AerialCitySTART  offset_-3_0AerialCity offset_-3_0  4
+2
+START AerialCitySTART  offset_-3_0 3
+START AerialCity AerialCity offset_-2_-1offset_-2_1START AerialCity offset_-2_-1  4
+START  1
+AerialCity offset_-2_-1 2
+START3
+ AerialCity offset_-2_-1 4
+START Balboa offset_0_3 1
+START Balboa offset_0_3 2
+START Balboa offset_0_4 3
+START Balboa offset_0_4 4
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+START Balboa offset_0_3 4
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+START Balboa offset_0_4 2
+START Balboa offset_0_3 3
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+START Balboa offset_1_2 1
+START Balboa/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+ offset_0_4 1
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+START Balboa offset_1_2 2
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py': [Errno 2] No such file or directory
+PASS AerialCity offset_0_4 4
+PASS Balboa offset_0_3 1
+PASS AerialCity offset_0_3 4
+PASS AerialCity offset_-1_2 4
+PASS AerialCity offset_-3_0 4
+PASS AerialCity offset_-2_1 4
+PASS Balboa offset_0_3 2
+PASS Balboa offset_0_4 1
+PASS Balboa offset_0_4 2
+PASS Balboa offset_0_4 3
+PASS Balboa offset_0_3 3
+PASS Balboa offset_0_4 4
+PASS Balboa offset_0_3 4
+Traceback (most recent call last):
+  File "/data/vtmrc-vvenc-tune-round2-20261014/remote_tune.py", line 144, in <module>
+    if __name__=='__main__':main()
+  File "/data/vtmrc-vvenc-tune-round2-20261014/remote_tune.py", line 131, in main
+    with ThreadPoolExecutor(max_workers=28) as pool:records=list(pool.map(encode,jobs))
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 621, in result_iterator
+    yield _result_or_cancel(fs.pop())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 319, in _result_or_cancel
+    return fut.result(timeout)
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/data/vtmrc-vvenc-tune-round2-20261014/remote_tune.py", line 76, in encode
+    if offset is not None:subprocess.run([sys.executable,str(BASE/'vvenc/tools/sibrc/verify_intra_contract.py'),str(prefix),'--output',str(prefix)+'.contract.json'],check=True,stdout=subprocess.DEVNULL)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '/data/vtmrc-vvenc-tune-round2-20261014/vvenc/tools/sibrc/verify_intra_contract.py', '/data/vtmrc-vvenc-tune-round2-20261014/runs/AerialCity/offset_0_3/R1', '--output', '/data/vtmrc-vvenc-tune-round2-20261014/runs/AerialCity/offset_0_3/R1.contract.json']' returned non-zero exit status 2.

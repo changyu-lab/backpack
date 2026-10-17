@@ -1,0 +1,25 @@
+{
+  "intra_ctus": 450,
+  "invalid_intersections": 0,
+  "unsafe_applied_qps": 0,
+  "first_invalid": [],
+  "first_unsafe": []
+}
+{
+  "intra_ctus": 450,
+  "invalid_intersections": 0,
+  "unsafe_applied_qps": 0,
+  "first_invalid": [],
+  "first_unsafe": []
+}
+{
+  "intra_ctus": 450,
+  "invalid_intersections": 0,
+  "unsafe_applied_qps": 0,
+  "first_invalid": [],
+  "first_unsafe": []
+}
+Traceback (most recent call last):
+  File "/data/vtmrc-vvenc-tune-round2-20261014/resume_after_contract_paths.py", line 6, in <module>
+    r=json.loads(path.read_text());assert r['verified']
+AssertionError
