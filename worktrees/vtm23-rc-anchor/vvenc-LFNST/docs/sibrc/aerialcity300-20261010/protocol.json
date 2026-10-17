@@ -1,0 +1,42 @@
+{
+  "frames": 300,
+  "qps": [
+    37,
+    32,
+    27,
+    22
+  ],
+  "workers": 4,
+  "sequence": "AerialCity ERP",
+  "preset": "faster",
+  "configuration": "C:\\Users\\hitxi\\.codex\\worktrees\\vtm23-rc-anchor\\vvenc-LFNST\\docs\\vtm23-rc\\aerialcity16_ldp.cfg",
+  "source": {
+    "path": "I:\\Sequences360\\AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+    "file_bytes": 3328819200,
+    "coded_prefix_sha256": "03e34c364a2a2c7bd78d164871456b1433ae278bbf8d26fb91cf8a70ebd96d87"
+  },
+  "assets": {
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc300-20261010\\encoder-frozen.exe": "1a7d9104e6714d249adc12b64d24c460813f2f89e7866d937f0aa92d5426e5ec",
+    "C:\\Users\\hitxi\\.codex\\worktrees\\vtm23-rc-anchor\\vvenc-LFNST\\docs\\vtm23-rc\\aerialcity16_ldp.cfg": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc300-20261010\\model.I": "28bd600b512a0b81bef99ad69800e20a957ab79aeca75060106a60af838f266b",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc300-20261010\\model.P": "3723841f2f0cafc1f0d2320e6dc58b7007603f295ada05d6a9ef26f5c003302e",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc300-20261010\\stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882"
+  },
+  "candidate": "fixed full I/P initial v1 models; I picture feedback safety constraint",
+  "target_rate": "rounded actual Annex-B bps from corresponding 300-frame native CQP baseline",
+  "evaluation": "mean per-picture Y-PSNR and cosine-row Y-WS-PSNR; actual bps; common-range PCHIP BD-rate",
+  "timing": "elapsed wall seconds under concurrent scheduling; not isolated speed benchmark",
+  "decoded_files": "independently verified then temporary decoded copies removed; encoded reconstructions retained",
+  "fixed_smoke_binary_identity": {
+    "sha256": "1a7d9104e6714d249adc12b64d24c460813f2f89e7866d937f0aa92d5426e5ec",
+    "reference_run": "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-safe-smoke-20261010\\smoke_full_R1.run.json",
+    "exact": true
+  },
+  "job_order": "largest target first to reduce long-tail idle time",
+  "reconstruction": "independent decoder only; temporary files removed after exact size and quality/hash evaluation",
+  "reconstruction_identity_gate": "16-frame full SIBRC VVC and both traces exactly match validated encoder-reconstruction run",
+  "io_pilot": "partial reconstruction-output pilot cancelled and archived; excluded from results",
+  "evaluation_workers": 2,
+  "evaluation_pipeline": "bounded independent decoder pipeline plus per-frame metric evaluation; at most two temporary reconstructions on fast disk",
+  "temporary_path": "C:\\Users\\hitxi\\.codex\\worktrees\\vtm23-rc-anchor\\vvenc-LFNST\\build-vtmrc\\sibrc300-decoder-temp"
+}

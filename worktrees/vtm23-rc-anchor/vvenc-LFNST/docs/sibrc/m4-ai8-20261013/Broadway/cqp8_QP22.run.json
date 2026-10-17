@@ -1,0 +1,93 @@
+{
+  "name": "cqp8_QP22",
+  "source_sequence": "Broadway",
+  "frames": 8,
+  "target_bps": 0,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-Broadway_6144x3072_60fps_8bit_420_erp.yuv",
+    "-s",
+    "6144x3072",
+    "-fr",
+    "60",
+    "-f",
+    "8",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\Broadway\\cqp8_QP22.vvc",
+    "--InputBitDepth=8",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--FrameSkip=0",
+    "--SIBRCMinOffset=-2",
+    "--SIBRCMaxOffset=2",
+    "--QP=22"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\Broadway\\cqp8_QP22.vvc"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\Broadway\\cqp8_QP22.log",
+  "width": 6144,
+  "height": 3072,
+  "window_start": 0,
+  "requested_qp": null,
+  "selector": null,
+  "fps": 60,
+  "source_bitdepth": 8,
+  "returncode": 0,
+  "elapsed_seconds": 214.52375819999907,
+  "peak_rss_bytes": 793198592,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "raw_input": {
+    "name": "Broadway",
+    "width": 6144,
+    "height": 3072,
+    "fps": 60,
+    "depth": 8,
+    "original": "I:\\Sequences360\\Broadway_6144x3072_60fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-Broadway_6144x3072_60fps_8bit_420_erp.yuv",
+    "file_bytes": 226492416,
+    "sha256": "6b4e9565e7bbc77f8bd7fb975fe46ee0f8485f0fdc9f6fd345dd8f1d8ad4f53f",
+    "scope": "first8frames_original_prefix"
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\Broadway\\cqp8_QP22.vvc": "dbd03c6415202568a042dc1763ab43771d8db38d033b7695dfd81ca2b26b59f9"
+  },
+  "actual_bps": 388203180.0
+}

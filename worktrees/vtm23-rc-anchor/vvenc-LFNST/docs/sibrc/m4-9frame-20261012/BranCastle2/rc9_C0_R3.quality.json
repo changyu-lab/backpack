@@ -1,0 +1,106 @@
+{
+  "source_prefix_sha256": "df06911caf07c5c7edbecbd28d45ebabb5fe72cda5c3237616cd0d8f733282d7",
+  "reconstruction_prefix_sha256": "904ccf8512367ec084f82c67f9c210ad6f855f4c6d63e34431a4f88ce0aabae2",
+  "frames": 9,
+  "mean_y_psnr": 32.55663698839177,
+  "mean_y_wspsnr": 31.967897125523407,
+  "picture_y_psnr": [
+    44.243221012558806,
+    37.19019773975886,
+    31.842901581495028,
+    34.18230528490171,
+    30.16187693389188,
+    31.491938371490946,
+    28.219441613703275,
+    28.97639170123039,
+    26.701458656495095
+  ],
+  "picture_y_wspsnr": [
+    43.553151072485285,
+    36.46265631019004,
+    31.274425219410894,
+    33.48444168169046,
+    29.62083626451429,
+    30.871703972654103,
+    27.71757099818158,
+    28.43146825499058,
+    26.294820355593465
+  ],
+  "picture_y_spsnr": [
+    43.55860608945885,
+    36.4429050549696,
+    31.26814100119492,
+    33.4838887424208,
+    29.596599892178546,
+    30.861443002016355,
+    27.746370534421146,
+    28.443028344028075,
+    26.293197911217906
+  ],
+  "picture_y_cpppsnr": [
+    44.0391127677467,
+    36.70576577148327,
+    31.334626681542534,
+    33.593119227320095,
+    29.609388300916155,
+    30.91415727834521,
+    27.732812508877387,
+    28.44449947257539,
+    26.298373852191176
+  ],
+  "mean_y_spsnr": 31.96602006354514,
+  "mean_y_cpppsnr": 32.074650651221994,
+  "default_metrics": [
+    "WS-PSNR",
+    "S-PSNR-NN",
+    "CPP-PSNR"
+  ],
+  "metric_workers": 1,
+  "spsnr_variant": "S-PSNR-NN",
+  "sphere_sha256": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+  "metrics360_exe_sha256": "680188720d4645545df032675e176c0cc46ffdde6887cefb931392e0ecf7faab",
+  "cpp_dimensions": [
+    6144,
+    3072
+  ],
+  "cpp_interpolation": {
+    "luma": "Lanczos3",
+    "chroma": "Lanczos2"
+  },
+  "metric_aggregation": "arithmetic mean of per-picture dB",
+  "metric_peak_10bit": 1020,
+  "metric_implementation": "unmodified VTM project 360Lib TSPSNRMetric/TCPPPSNRMetric; source8/reconstruction10; luma reported",
+  "name": "rc9_C0_R3",
+  "target_bps": 60136987,
+  "actual_bps": 72606986.66666667,
+  "picture_bits": [
+    17958632,
+    1810424,
+    186480,
+    1099104,
+    56832,
+    455864,
+    22776,
+    178800,
+    13184
+  ],
+  "picture_bitrate_bps": [
+    538758960,
+    54312720,
+    5594400,
+    32973120,
+    1704960,
+    13675920,
+    683280,
+    5364000,
+    395520
+  ],
+  "bitstream_sha256": "49c03e0cbcb1d9cb33fe79b1e937f80d942b81663eff5a6e396989a3d9a62ae0",
+  "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+  "annexb_minus_picture_bits": 0,
+  "width": 6144,
+  "height": 3072,
+  "encoder_elapsed_seconds": 132.27498379999997,
+  "source_sequence": "BranCastle2",
+  "rate_error_percent": 20.73599009319618
+}

@@ -1,0 +1,273 @@
+{
+  "sequences": {
+    "AerialCity": {
+      "sequence": "AerialCity",
+      "frames": 17,
+      "frame_csv_rows": 340,
+      "bd_rate_percent": {
+        "C0": {
+          "wspsnr": 4.029662541501041,
+          "spsnr": 3.954709808188719,
+          "cpppsnr": 3.9859819503865337,
+          "psnr": 6.022265628238083
+        },
+        "C1": {
+          "wspsnr": 1.1418113996036252,
+          "spsnr": 1.0465175390083683,
+          "cpppsnr": 1.1802577466989947,
+          "psnr": 2.0849255212230027
+        },
+        "C3": {
+          "wspsnr": 0.37270471313970416,
+          "spsnr": 0.234417749267839,
+          "cpppsnr": 0.36118764614192433,
+          "psnr": 1.3472968252676343
+        },
+        "C4": {
+          "wspsnr": 9.849648081303028,
+          "spsnr": 9.693860146585214,
+          "cpppsnr": 9.713488485325136,
+          "psnr": 11.316853195555908
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "Balboa": {
+      "sequence": "Balboa",
+      "frames": 17,
+      "frame_csv_rows": 340,
+      "bd_rate_percent": {
+        "C0": {
+          "wspsnr": 0.6597742935596991,
+          "spsnr": 0.8059792695365147,
+          "cpppsnr": 0.6516178727562169,
+          "psnr": 0.906512746155659
+        },
+        "C1": {
+          "wspsnr": 0.7873172265060154,
+          "spsnr": 0.9133928146007729,
+          "cpppsnr": 0.7681045185109909,
+          "psnr": 0.9707791831164471
+        },
+        "C3": {
+          "wspsnr": 0.8588646293599234,
+          "spsnr": 0.9709017256597854,
+          "cpppsnr": 0.8449850701499104,
+          "psnr": 1.0823778886740048
+        },
+        "C4": {
+          "wspsnr": 0.7001822408303094,
+          "spsnr": 0.8785006814003383,
+          "cpppsnr": 0.7580135591113818,
+          "psnr": 0.8914454982126251
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "BranCastle2": {
+      "sequence": "BranCastle2",
+      "frames": 17,
+      "frame_csv_rows": 340,
+      "bd_rate_percent": {
+        "C0": {
+          "wspsnr": -1.6802389354011584,
+          "spsnr": -1.6968541136822675,
+          "cpppsnr": -1.6473900716887115,
+          "psnr": -0.828140531980744
+        },
+        "C1": {
+          "wspsnr": -1.693616043278314,
+          "spsnr": -1.6850713677195581,
+          "cpppsnr": -1.6719936122944206,
+          "psnr": -0.8537441289553197
+        },
+        "C3": {
+          "wspsnr": -1.687174750937984,
+          "spsnr": -1.6849886745663043,
+          "cpppsnr": -1.6590098292656765,
+          "psnr": -0.8349771469975189
+        },
+        "C4": {
+          "wspsnr": -1.6281828787469286,
+          "spsnr": -1.607092050947801,
+          "cpppsnr": -1.6171864382177141,
+          "psnr": -0.8480127279864622
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "Broadway": {
+      "sequence": "Broadway",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -1.661357452869373,
+          "spsnr": -1.705034609503593,
+          "cpppsnr": -1.6817071905211332,
+          "psnr": -1.1845229457767228
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "ChairliftRide": {
+      "sequence": "ChairliftRide",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": 6.2840713118188205,
+          "spsnr": 6.342839191735804,
+          "cpppsnr": 6.245689851387169,
+          "psnr": 6.9671530732351235
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "DrivingInCity": {
+      "sequence": "DrivingInCity",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -1.505102626478887,
+          "spsnr": -1.5319908251642644,
+          "cpppsnr": -1.4964556648636862,
+          "psnr": -1.732476637894123
+        }
+      },
+      "scope": "calibration development sequence; not independent test"
+    },
+    "DrivingInCountry": {
+      "sequence": "DrivingInCountry",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": 4.761584839274425,
+          "spsnr": 4.750418774933875,
+          "cpppsnr": 4.642984470063983,
+          "psnr": 7.504689094040354
+        }
+      },
+      "scope": "calibration development sequence; not independent test"
+    },
+    "Gaslamp": {
+      "sequence": "Gaslamp",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -1.4787060451989864,
+          "spsnr": -1.480247745329644,
+          "cpppsnr": -1.489648530168176,
+          "psnr": -0.9188313300623948
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "Harbor": {
+      "sequence": "Harbor",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -0.14175492596327482,
+          "spsnr": -0.003061101692361752,
+          "cpppsnr": -0.18472197404727908,
+          "psnr": -0.6324535781181233
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "KiteFlite": {
+      "sequence": "KiteFlite",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -2.3672679344422547,
+          "spsnr": -2.4853761647646895,
+          "cpppsnr": -2.3858643165872246,
+          "psnr": -1.8418707398874012
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "Landing2": {
+      "sequence": "Landing2",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -2.6646345509382763,
+          "spsnr": -2.7299254006307283,
+          "cpppsnr": -2.671146219482744,
+          "psnr": 0.14371459535577272
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "PoleVault": {
+      "sequence": "PoleVault",
+      "frames": 17,
+      "frame_csv_rows": 340,
+      "bd_rate_percent": {
+        "C0": {
+          "wspsnr": 9.165399420740252,
+          "spsnr": 9.220535493963629,
+          "cpppsnr": 9.282471010881697,
+          "psnr": 12.452247229197654
+        },
+        "C1": {
+          "wspsnr": 9.249450239649656,
+          "spsnr": 9.242008976711203,
+          "cpppsnr": 9.347176420047672,
+          "psnr": 12.539478227484443
+        },
+        "C3": {
+          "wspsnr": 9.308273396462882,
+          "spsnr": 9.408429498695122,
+          "cpppsnr": 9.398529596018133,
+          "psnr": 12.682602713265553
+        },
+        "C4": {
+          "wspsnr": 10.06682200535227,
+          "spsnr": 9.976987818780483,
+          "cpppsnr": 10.155348567014846,
+          "psnr": 13.393441436359998
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "SkateboardInLot": {
+      "sequence": "SkateboardInLot",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": 0.7890791670950607,
+          "spsnr": 0.6733775268439005,
+          "cpppsnr": 0.7909543138519836,
+          "psnr": 2.3166915706380258
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    },
+    "Trolley": {
+      "sequence": "Trolley",
+      "frames": 17,
+      "frame_csv_rows": 136,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -2.126845508185056,
+          "spsnr": -1.9649964214191664,
+          "cpppsnr": -2.1722879805357946,
+          "psnr": 1.527139618980902
+        }
+      },
+      "scope": "independent of calibration; historical validation sequences"
+    }
+  },
+  "scope": "14 native ERP17frame screening; target origins differ explicitly; development sequences included"
+}

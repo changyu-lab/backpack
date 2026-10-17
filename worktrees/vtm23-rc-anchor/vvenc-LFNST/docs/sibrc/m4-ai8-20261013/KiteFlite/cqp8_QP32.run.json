@@ -1,0 +1,93 @@
+{
+  "name": "cqp8_QP32",
+  "source_sequence": "KiteFlite",
+  "frames": 8,
+  "target_bps": 0,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-KiteFlite_8192x4096_30fps_8bit_420_erp.yuv",
+    "-s",
+    "8192x4096",
+    "-fr",
+    "30",
+    "-f",
+    "8",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\KiteFlite\\cqp8_QP32.vvc",
+    "--InputBitDepth=8",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--FrameSkip=0",
+    "--SIBRCMinOffset=-2",
+    "--SIBRCMaxOffset=2",
+    "--QP=32"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\KiteFlite\\cqp8_QP32.vvc"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\KiteFlite\\cqp8_QP32.log",
+  "width": 8192,
+  "height": 4096,
+  "window_start": 0,
+  "requested_qp": null,
+  "selector": null,
+  "fps": 30,
+  "source_bitdepth": 8,
+  "returncode": 0,
+  "elapsed_seconds": 187.4072942999992,
+  "peak_rss_bytes": 1299615744,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "raw_input": {
+    "name": "KiteFlite",
+    "width": 8192,
+    "height": 4096,
+    "fps": 30,
+    "depth": 8,
+    "original": "I:\\Sequences360\\KiteFlite_8192x4096_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-KiteFlite_8192x4096_30fps_8bit_420_erp.yuv",
+    "file_bytes": 402653184,
+    "sha256": "7986353ade791d39381e4830743cb0ecd49e527d6ce83c54d01a92e2109147b2",
+    "scope": "first8frames_original_prefix"
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\KiteFlite\\cqp8_QP32.vvc": "cc3981717cc3a71bbd01285bb9d6a27d7cadc99746746266560c20a0f3e3a6b6"
+  },
+  "actual_bps": 186095700.0
+}

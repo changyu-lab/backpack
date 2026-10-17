@@ -1,0 +1,32 @@
+{
+  "sequence": "BranCastle2",
+  "frames": 9,
+  "frame_csv_rows": 180,
+  "bd_rate_percent": {
+    "C0": {
+      "wspsnr": 0.9657278352126514,
+      "spsnr": 0.9562285259476961,
+      "cpppsnr": 0.9370691571442624,
+      "psnr": 1.409312615044985
+    },
+    "C1": {
+      "wspsnr": 0.9471773988236003,
+      "spsnr": 0.9684733211908695,
+      "cpppsnr": 0.9081689200911758,
+      "psnr": 1.390849677941453
+    },
+    "C3": {
+      "wspsnr": 0.950552263600688,
+      "spsnr": 0.9603014789027758,
+      "cpppsnr": 0.9152781610468751,
+      "psnr": 1.394431476413223
+    },
+    "C4": {
+      "wspsnr": 0.9703895075804834,
+      "spsnr": 0.9629390434870138,
+      "cpppsnr": 0.9613586378318865,
+      "psnr": 1.360094648051994
+    }
+  },
+  "scope": "independent of calibration; historical validation sequences"
+}

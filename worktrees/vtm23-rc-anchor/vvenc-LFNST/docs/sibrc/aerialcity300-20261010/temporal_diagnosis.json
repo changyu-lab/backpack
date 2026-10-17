@@ -1,0 +1,406 @@
+[
+  {
+    "point": 1,
+    "target_bps": 359510,
+    "anchor_actual_bps": 362810.4,
+    "sibrc_actual_bps": 360702.4,
+    "anchor_rate_error_percent": 0.918027314956471,
+    "sibrc_rate_error_percent": 0.33167366693556133,
+    "quality_by_segment": {
+      "all": {
+        "picture_y_psnr": {
+          "anchor": 34.91974049141242,
+          "sibrc": 34.896990172452355,
+          "delta_db": -0.022750318960063964
+        },
+        "picture_y_wspsnr": {
+          "anchor": 34.018218724206214,
+          "sibrc": 34.25452697012454,
+          "delta_db": 0.23630824591832322
+        }
+      },
+      "first16": {
+        "picture_y_psnr": {
+          "anchor": 34.99427538498769,
+          "sibrc": 35.152310418188044,
+          "delta_db": 0.15803503320035617
+        },
+        "picture_y_wspsnr": {
+          "anchor": 34.09144347448575,
+          "sibrc": 34.36188091076539,
+          "delta_db": 0.2704374362796429
+        }
+      },
+      "first128": {
+        "picture_y_psnr": {
+          "anchor": 34.74863019359876,
+          "sibrc": 34.84061234551131,
+          "delta_db": 0.09198215191255343
+        },
+        "picture_y_wspsnr": {
+          "anchor": 33.820770372250145,
+          "sibrc": 34.13348415700188,
+          "delta_db": 0.31271378475173606
+        }
+      },
+      "after128": {
+        "picture_y_psnr": {
+          "anchor": 35.04707838745983,
+          "sibrc": 34.938945764594514,
+          "delta_db": -0.10813262286531256
+        },
+        "picture_y_wspsnr": {
+          "anchor": 34.16515703263859,
+          "sibrc": 34.344605342680985,
+          "delta_db": 0.17944831004239603
+        }
+      },
+      "last150": {
+        "picture_y_psnr": {
+          "anchor": 35.03843246268699,
+          "sibrc": 34.91391013910729,
+          "delta_db": -0.12452232357970416
+        },
+        "picture_y_wspsnr": {
+          "anchor": 34.15934598305253,
+          "sibrc": 34.32682789699615,
+          "delta_db": 0.1674819139436181
+        }
+      }
+    },
+    "improved_ws_pictures": 280,
+    "sibrc_by_type": {
+      "I": {
+        "ctus": 450,
+        "fallback": 48,
+        "offsets": {
+          "2": 16,
+          "1": 58,
+          "-2": 22,
+          "0": 273,
+          "-1": 81
+        },
+        "bits": 651715,
+        "min_applied_qp": 32,
+        "max_applied_qp": 36
+      },
+      "P": {
+        "ctus": 134550,
+        "fallback": 64866,
+        "offsets": {
+          "0": 96617,
+          "-1": 3882,
+          "-2": 30886,
+          "1": 1515,
+          "2": 1650
+        },
+        "bits": 2793001,
+        "min_applied_qp": 34,
+        "max_applied_qp": 57
+      }
+    }
+  },
+  {
+    "point": 2,
+    "target_bps": 792057,
+    "anchor_actual_bps": 793548.0,
+    "sibrc_actual_bps": 793332.0,
+    "anchor_rate_error_percent": 0.18824402789192618,
+    "sibrc_rate_error_percent": 0.16097326328787798,
+    "quality_by_segment": {
+      "all": {
+        "picture_y_psnr": {
+          "anchor": 37.00350683871869,
+          "sibrc": 36.91082599131416,
+          "delta_db": -0.0926808474045302
+        },
+        "picture_y_wspsnr": {
+          "anchor": 36.18247181519441,
+          "sibrc": 36.258105271967246,
+          "delta_db": 0.0756334567728345
+        }
+      },
+      "first16": {
+        "picture_y_psnr": {
+          "anchor": 36.812696745111744,
+          "sibrc": 36.93590538612217,
+          "delta_db": 0.12320864101042872
+        },
+        "picture_y_wspsnr": {
+          "anchor": 35.92072747946337,
+          "sibrc": 36.16221511309368,
+          "delta_db": 0.24148763363030668
+        }
+      },
+      "first128": {
+        "picture_y_psnr": {
+          "anchor": 36.86596072275632,
+          "sibrc": 36.88265583687946,
+          "delta_db": 0.016695114123137955
+        },
+        "picture_y_wspsnr": {
+          "anchor": 36.012810830576136,
+          "sibrc": 36.177834045327444,
+          "delta_db": 0.165023214751308
+        }
+      },
+      "after128": {
+        "picture_y_psnr": {
+          "anchor": 37.10586673896979,
+          "sibrc": 36.93178982717248,
+          "delta_db": -0.17407691179730733
+        },
+        "picture_y_wspsnr": {
+          "anchor": 36.30873115258472,
+          "sibrc": 36.31784199876891,
+          "delta_db": 0.009110846184192667
+        }
+      },
+      "last150": {
+        "picture_y_psnr": {
+          "anchor": 37.0931511403942,
+          "sibrc": 36.90867167027241,
+          "delta_db": -0.18447947012178645
+        },
+        "picture_y_wspsnr": {
+          "anchor": 36.29771714236996,
+          "sibrc": 36.300264338546576,
+          "delta_db": 0.0025471961766143636
+        }
+      }
+    },
+    "improved_ws_pictures": 232,
+    "sibrc_by_type": {
+      "I": {
+        "ctus": 450,
+        "fallback": 50,
+        "offsets": {
+          "2": 18,
+          "-2": 23,
+          "0": 285,
+          "1": 49,
+          "-1": 75
+        },
+        "bits": 923076,
+        "min_applied_qp": 29,
+        "max_applied_qp": 33
+      },
+      "P": {
+        "ctus": 134550,
+        "fallback": 48043,
+        "offsets": {
+          "0": 87086,
+          "2": 4524,
+          "-1": 5414,
+          "1": 3794,
+          "-2": 33732
+        },
+        "bits": 6762728,
+        "min_applied_qp": 28,
+        "max_applied_qp": 48
+      }
+    }
+  },
+  {
+    "point": 3,
+    "target_bps": 2196112,
+    "anchor_actual_bps": 2202148.8,
+    "sibrc_actual_bps": 2197608.0,
+    "anchor_rate_error_percent": 0.2748857981742292,
+    "sibrc_rate_error_percent": 0.06812038730266146,
+    "quality_by_segment": {
+      "all": {
+        "picture_y_psnr": {
+          "anchor": 38.73643585369346,
+          "sibrc": 38.66886267254197,
+          "delta_db": -0.06757318115148792
+        },
+        "picture_y_wspsnr": {
+          "anchor": 38.01573371550631,
+          "sibrc": 38.06844711049302,
+          "delta_db": 0.05271339498671068
+        }
+      },
+      "first16": {
+        "picture_y_psnr": {
+          "anchor": 38.355352874386725,
+          "sibrc": 38.46420147346524,
+          "delta_db": 0.10884859907851308
+        },
+        "picture_y_wspsnr": {
+          "anchor": 37.57429381111382,
+          "sibrc": 37.75710428518302,
+          "delta_db": 0.1828104740691998
+        }
+      },
+      "first128": {
+        "picture_y_psnr": {
+          "anchor": 38.649813143469544,
+          "sibrc": 38.65752477029778,
+          "delta_db": 0.0077116268282395595
+        },
+        "picture_y_wspsnr": {
+          "anchor": 37.91028581813092,
+          "sibrc": 38.02881587814456,
+          "delta_db": 0.11853006001364008
+        }
+      },
+      "after128": {
+        "picture_y_psnr": {
+          "anchor": 38.80089926595308,
+          "sibrc": 38.67730018118878,
+          "delta_db": -0.12359908476430093
+        },
+        "picture_y_wspsnr": {
+          "anchor": 38.09420656936717,
+          "sibrc": 38.09794012061278,
+          "delta_db": 0.0037335512456166953
+        }
+      },
+      "last150": {
+        "picture_y_psnr": {
+          "anchor": 38.787573878047446,
+          "sibrc": 38.65341485974079,
+          "delta_db": -0.13415901830665433
+        },
+        "picture_y_wspsnr": {
+          "anchor": 38.08172294837602,
+          "sibrc": 38.07733933164093,
+          "delta_db": -0.0043836167350903565
+        }
+      }
+    },
+    "improved_ws_pictures": 214,
+    "sibrc_by_type": {
+      "I": {
+        "ctus": 450,
+        "fallback": 13,
+        "offsets": {
+          "2": 12,
+          "-2": 26,
+          "0": 297,
+          "1": 13,
+          "-1": 102
+        },
+        "bits": 1449346,
+        "min_applied_qp": 26,
+        "max_applied_qp": 30
+      },
+      "P": {
+        "ctus": 134550,
+        "fallback": 33065,
+        "offsets": {
+          "0": 67356,
+          "1": 6138,
+          "2": 9962,
+          "-2": 40519,
+          "-1": 10575
+        },
+        "bits": 20097647,
+        "min_applied_qp": 23,
+        "max_applied_qp": 44
+      }
+    }
+  },
+  {
+    "point": 4,
+    "target_bps": 11820750,
+    "anchor_actual_bps": 11822724.0,
+    "sibrc_actual_bps": 11823593.6,
+    "anchor_rate_error_percent": 0.01669944800457568,
+    "sibrc_rate_error_percent": 0.024056003214689703,
+    "quality_by_segment": {
+      "all": {
+        "picture_y_psnr": {
+          "anchor": 40.3198186171064,
+          "sibrc": 40.24651692407234,
+          "delta_db": -0.07330169303406109
+        },
+        "picture_y_wspsnr": {
+          "anchor": 39.70238451025167,
+          "sibrc": 39.7477956295328,
+          "delta_db": 0.04541111928113395
+        }
+      },
+      "first16": {
+        "picture_y_psnr": {
+          "anchor": 40.034532944133446,
+          "sibrc": 40.138654705592174,
+          "delta_db": 0.1041217614587282
+        },
+        "picture_y_wspsnr": {
+          "anchor": 39.36894915998558,
+          "sibrc": 39.572477930247146,
+          "delta_db": 0.20352877026156335
+        }
+      },
+      "first128": {
+        "picture_y_psnr": {
+          "anchor": 40.30476434269235,
+          "sibrc": 40.28020931184002,
+          "delta_db": -0.02455503085233346
+        },
+        "picture_y_wspsnr": {
+          "anchor": 39.67554111612176,
+          "sibrc": 39.77205787875366,
+          "delta_db": 0.09651676263190012
+        }
+      },
+      "after128": {
+        "picture_y_psnr": {
+          "anchor": 40.331021798065734,
+          "sibrc": 40.22144351922193,
+          "delta_db": -0.10957827884380578
+        },
+        "picture_y_wspsnr": {
+          "anchor": 39.72236098960414,
+          "sibrc": 39.729740002205645,
+          "delta_db": 0.007379012601504087
+        }
+      },
+      "last150": {
+        "picture_y_psnr": {
+          "anchor": 40.31730817793316,
+          "sibrc": 40.20459773602523,
+          "delta_db": -0.11271044190792878
+        },
+        "picture_y_wspsnr": {
+          "anchor": 39.710387311225894,
+          "sibrc": 39.714061183248646,
+          "delta_db": 0.003673872022751823
+        }
+      }
+    },
+    "improved_ws_pictures": 229,
+    "sibrc_by_type": {
+      "I": {
+        "ctus": 450,
+        "fallback": 67,
+        "offsets": {
+          "2": 18,
+          "-1": 180,
+          "0": 164,
+          "1": 53,
+          "-2": 35
+        },
+        "bits": 3728744,
+        "min_applied_qp": 19,
+        "max_applied_qp": 23
+      },
+      "P": {
+        "ctus": 134550,
+        "fallback": 28904,
+        "offsets": {
+          "0": 49027,
+          "-2": 40250,
+          "-1": 27975,
+          "1": 8035,
+          "2": 9263
+        },
+        "bits": 113391065,
+        "min_applied_qp": 17,
+        "max_applied_qp": 37
+      }
+    }
+  }
+]

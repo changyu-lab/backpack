@@ -1,0 +1,46 @@
+{
+  "sequence": "DrivingInCity",
+  "width": 3840,
+  "height": 1920,
+  "fps": 30,
+  "frames": 300,
+  "qps": [
+    37,
+    32,
+    27,
+    22
+  ],
+  "encoder_workers": 3,
+  "metric_workers": 3,
+  "source": {
+    "path": "I:\\Sequences360\\DrivingInCity_3840x1920_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\DrivingInCity_3840x1920_30fps_8bit_420_erp.yuv",
+    "file_bytes": 3328819200,
+    "coded_prefix_sha256": "0b4a4a346f9f98b18337a9125c03b6c7b17a6edfd8fbba14239d395a8dce6bb3"
+  },
+  "assets": {
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\encoder-frozen.exe": "1a7d9104e6714d249adc12b64d24c460813f2f89e7866d937f0aa92d5426e5ec",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\ldp.cfg": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\model.I": "28bd600b512a0b81bef99ad69800e20a957ab79aeca75060106a60af838f266b",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\model.P": "3723841f2f0cafc1f0d2320e6dc58b7007603f295ada05d6a9ef26f5c003302e",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882"
+  },
+  "preset": "faster",
+  "configuration": "LDP GOP8, sequential CTU feedback, QPA/native RC/WPP/tile/frame parallelism off",
+  "model_development": [
+    "DrivingInCity",
+    "DrivingInCountry"
+  ],
+  "retuning": false,
+  "targets": "rounded actual 300-frame CQP37/32/27/22 Annex-B bps",
+  "default_metrics": [
+    "WS-PSNR",
+    "S-PSNR-NN",
+    "CPP-PSNR"
+  ],
+  "evaluation": "original360Lib S/CPP, native dimensions, mean per-frame dB, actual-rate PCHIP common-range BD-rate",
+  "encoder_workers_requested": 4,
+  "encoder_pilot_peak_rss": 594526208,
+  "available_memory_at_stage": 3982532608,
+  "memory_budget": "700MB reserve; 1.4x observed short-pilot peak per process; at least one encoder"
+}

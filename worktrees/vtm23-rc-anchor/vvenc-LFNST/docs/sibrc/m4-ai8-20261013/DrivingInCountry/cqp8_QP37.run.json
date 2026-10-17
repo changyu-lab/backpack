@@ -1,0 +1,93 @@
+{
+  "name": "cqp8_QP37",
+  "source_sequence": "DrivingInCountry",
+  "frames": 8,
+  "target_bps": 0,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-DrivingInCountry_3840x1920_30fps_8bit_420_erp.yuv",
+    "-s",
+    "3840x1920",
+    "-fr",
+    "30",
+    "-f",
+    "8",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\DrivingInCountry\\cqp8_QP37.vvc",
+    "--InputBitDepth=8",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--FrameSkip=0",
+    "--SIBRCMinOffset=-2",
+    "--SIBRCMaxOffset=2",
+    "--QP=37"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\DrivingInCountry\\cqp8_QP37.vvc"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\DrivingInCountry\\cqp8_QP37.log",
+  "width": 3840,
+  "height": 1920,
+  "window_start": 0,
+  "requested_qp": null,
+  "selector": null,
+  "fps": 30,
+  "source_bitdepth": 8,
+  "returncode": 0,
+  "elapsed_seconds": 45.640485899999476,
+  "peak_rss_bytes": 313749504,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "raw_input": {
+    "name": "DrivingInCountry",
+    "width": 3840,
+    "height": 1920,
+    "fps": 30,
+    "depth": 8,
+    "original": "I:\\Sequences360\\DrivingInCountry_3840x1920_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-DrivingInCountry_3840x1920_30fps_8bit_420_erp.yuv",
+    "file_bytes": 88473600,
+    "sha256": "24328330326e7818cb139328c0fe10e9f17719d1f5c6daa4b975fd97785dc13f",
+    "scope": "first8frames_original_prefix"
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\DrivingInCountry\\cqp8_QP37.vvc": "a45dfa2a3d63b955d0a6164cbf35eae98c4d15dcb3e86890fb213d15c2e9eb53"
+  },
+  "actual_bps": 27528570.0
+}

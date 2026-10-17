@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_MODULE_PATH: updating module path to: /root/sibrc-ra32-beta-20261015/vvenc/cmake/modules
+-- Performing Test SUPPORTED_Werror_unused_command_line_argument
+-- Performing Test SUPPORTED_Werror_unused_command_line_argument - Failed
+-- Performing Test SUPPORTED_msse4_1
+-- Performing Test SUPPORTED_msse4_1 - Success
+-- Performing Test SUPPORTED_mavx
+-- Performing Test SUPPORTED_mavx - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si16
+-- Performing Test HAVE_INTRIN_mm_storeu_si16 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si32
+-- Performing Test HAVE_INTRIN_mm_storeu_si32 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si64
+-- Performing Test HAVE_INTRIN_mm_storeu_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_loadu_si32
+-- Performing Test HAVE_INTRIN_mm_loadu_si32 - Success
+-- Performing Test HAVE_INTRIN_mm_loadu_si64
+-- Performing Test HAVE_INTRIN_mm_loadu_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_cvtsi128_si64
+-- Performing Test HAVE_INTRIN_mm_cvtsi128_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_cvtsi64_si128
+-- Performing Test HAVE_INTRIN_mm_cvtsi64_si128 - Success
+-- Performing Test HAVE_INTRIN_mm_extract_epi64
+-- Performing Test HAVE_INTRIN_mm_extract_epi64 - Success
+-- Performing Test HAVE_INTRIN_mm256_zeroupper
+-- Performing Test HAVE_INTRIN_mm256_zeroupper - Success
+-- Performing Test HAVE_INTRIN_mm256_loadu2_m128i
+-- Performing Test HAVE_INTRIN_mm256_loadu2_m128i - Success
+-- Performing Test HAVE_INTRIN_mm256_set_m128i
+-- Performing Test HAVE_INTRIN_mm256_set_m128i - Success
+-- x86 SIMD intrinsics enabled (using SIMDE for non-x86 targets)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test SUPPORTED_mxsave
+-- Performing Test SUPPORTED_mxsave - Success
+-- Performing Test SUPPORTED_msse4_2
+-- Performing Test SUPPORTED_msse4_2 - Success
+-- Performing Test SUPPORTED_mavx2
+-- Performing Test SUPPORTED_mavx2 - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/sibrc-ra32-beta-20261015/build

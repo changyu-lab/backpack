@@ -1,0 +1,46 @@
+{
+  "sequence": "BranCastle2",
+  "width": 6144,
+  "height": 3072,
+  "fps": 30,
+  "frames": 300,
+  "qps": [
+    37,
+    32,
+    27,
+    22
+  ],
+  "encoder_workers": 1,
+  "metric_workers": 2,
+  "source": {
+    "path": "I:\\Sequences360\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+    "file_bytes": 8493465600,
+    "coded_prefix_sha256": "5b031628c53407e1a0ada12a4b0e783e620fda276aa4c660778c20b4e4c7ed3c"
+  },
+  "assets": {
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\encoder-frozen.exe": "1a7d9104e6714d249adc12b64d24c460813f2f89e7866d937f0aa92d5426e5ec",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\ldp.cfg": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\model.I": "28bd600b512a0b81bef99ad69800e20a957ab79aeca75060106a60af838f266b",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\model.P": "3723841f2f0cafc1f0d2320e6dc58b7007603f295ada05d6a9ef26f5c003302e",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882"
+  },
+  "preset": "faster",
+  "configuration": "LDP GOP8, sequential CTU feedback, QPA/native RC/WPP/tile/frame parallelism off",
+  "model_development": [
+    "DrivingInCity",
+    "DrivingInCountry"
+  ],
+  "retuning": false,
+  "targets": "rounded actual 300-frame CQP37/32/27/22 Annex-B bps",
+  "default_metrics": [
+    "WS-PSNR",
+    "S-PSNR-NN",
+    "CPP-PSNR"
+  ],
+  "evaluation": "original360Lib S/CPP, native dimensions, mean per-frame dB, actual-rate PCHIP common-range BD-rate",
+  "encoder_workers_requested": 2,
+  "encoder_pilot_peak_rss": 1406898176,
+  "available_memory_at_stage": 2456637440,
+  "memory_budget": "700MB reserve; 1.4x observed short-pilot peak per process; at least one encoder"
+}

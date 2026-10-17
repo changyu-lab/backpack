@@ -1,0 +1,100 @@
+{
+  "source_prefix_sha256": "352322eee57205b202fc99018ee720c7740a9cb5c9dcfa4f21d4a4d665354bbc",
+  "reconstruction_prefix_sha256": "b77589ae03fac9ddb7b1fac307444aeac86acd5c33467c6a0d91d5b8e01045c8",
+  "frames": 8,
+  "mean_y_psnr": 36.11461254848414,
+  "mean_y_wspsnr": 34.69501537292323,
+  "picture_y_psnr": [
+    42.78975563753478,
+    39.29788443914533,
+    35.54678000028241,
+    37.027662225454506,
+    33.84400569633094,
+    35.09957256296086,
+    32.02639221625678,
+    33.2848476099075
+  ],
+  "picture_y_wspsnr": [
+    41.9265794197382,
+    38.03150948556138,
+    34.042151155796645,
+    35.58113126078635,
+    32.275407772446606,
+    33.576199824355456,
+    30.412996265264674,
+    31.714147799436525
+  ],
+  "picture_y_spsnr": [
+    41.933289395061415,
+    37.99396644018372,
+    34.00765996197657,
+    35.54287687592152,
+    32.26952741145918,
+    33.562521615356445,
+    30.379776384392628,
+    31.745162971607968
+  ],
+  "picture_y_cpppsnr": [
+    42.30622691954341,
+    38.26156481643052,
+    34.127767605839516,
+    35.704781586920824,
+    32.32719426294847,
+    33.65274339604059,
+    30.441562056082976,
+    31.75822663958121
+  ],
+  "mean_y_spsnr": 34.67934763199493,
+  "mean_y_cpppsnr": 34.82250841042344,
+  "default_metrics": [
+    "WS-PSNR",
+    "S-PSNR-NN",
+    "CPP-PSNR"
+  ],
+  "metric_workers": 1,
+  "spsnr_variant": "S-PSNR-NN",
+  "sphere_sha256": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+  "metrics360_exe_sha256": "680188720d4645545df032675e176c0cc46ffdde6887cefb931392e0ecf7faab",
+  "cpp_dimensions": [
+    3840,
+    1920
+  ],
+  "cpp_interpolation": {
+    "luma": "Lanczos3",
+    "chroma": "Lanczos2"
+  },
+  "metric_aggregation": "arithmetic mean of per-picture dB",
+  "metric_peak_10bit": 1020,
+  "metric_implementation": "unmodified VTM project 360Lib TSPSNRMetric/TCPPPSNRMetric; source8/reconstruction10; luma reported",
+  "name": "pilot8_full",
+  "target_bps": 2601930,
+  "actual_bps": 5509560.0,
+  "picture_bits": [
+    1315192,
+    62496,
+    9760,
+    42664,
+    5432,
+    21120,
+    2216,
+    10336
+  ],
+  "picture_bitrate_bps": [
+    39455760,
+    1874880,
+    292800,
+    1279920,
+    162960,
+    633600,
+    66480,
+    310080
+  ],
+  "bitstream_sha256": "1e9a45985499889c7d2d096c9447aa92c4c99d1e5e118a235d964b7ce4b68fe9",
+  "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+  "annexb_minus_picture_bits": 0,
+  "width": 3840,
+  "height": 1920,
+  "encoder_elapsed_seconds": 20.371343399994657,
+  "source_sequence": "DrivingInCity",
+  "rate_error_percent": 111.74897095617484
+}

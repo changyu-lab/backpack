@@ -1,0 +1,20 @@
+{
+  "sequences": [
+    "PoleVault",
+    "BranCastle2",
+    "DrivingInCity"
+  ],
+  "rc_streams": 24,
+  "transparent_600dpi_pngs": 24,
+  "note": "DrivingInCity participated in model development; reconstruction/source hashes were recorded during full metric pipeline. Full reconstructions were removed after verified metrics.",
+  "frames_per_stream": 300,
+  "csv_rows": 7200,
+  "status": "passed",
+  "checks": [
+    "completed run records and all output SHA256",
+    "300 POC identifiers per stream",
+    "zero invalid intra intersections and unsafe applied QPs",
+    "2400 CSV rows per sequence",
+    "RGBA transparency and 600dpi"
+  ]
+}

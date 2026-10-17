@@ -1,0 +1,33 @@
+{
+  "assets": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\models\\C4\\model.I": "21dcb3ffc3896689b34f7cc5024bf32374cb99f313123e63dd358c679660c3e0",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\models\\C4\\model.P": "880eefd7b844efbf2a16434c625da9bb1e8086a51b34de38eb74047e537a6132"
+  },
+  "source": {
+    "name": "ChairliftRide",
+    "width": 8192,
+    "height": 4096,
+    "fps": 30,
+    "depth": 10,
+    "original": "I:\\Sequences360\\ChairliftRide_8192x4096_30fps_10bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-ChairliftRide_8192x4096_30fps_10bit_420_erp.yuv",
+    "file_bytes": 805306368,
+    "sha256": "b8c8e8507fa1bf482986a9bd3611c93614244bcd0d865c40e80d269f59f60353",
+    "scope": "first8frames_original_prefix"
+  },
+  "frames": 8,
+  "targets": [
+    46543710,
+    91985460,
+    170668710,
+    305641020
+  ],
+  "offset": [
+    -2,
+    2
+  ],
+  "calibration_membership": false
+}

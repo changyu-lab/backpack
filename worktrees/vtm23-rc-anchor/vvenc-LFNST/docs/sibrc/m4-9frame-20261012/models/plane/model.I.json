@@ -1,0 +1,215 @@
+{
+  "sample_key_sha256": "f5fdc6ec2c2192e7808fb3d7c29737d68e425bcadff803d58cac02f49cd385a0",
+  "train_key_sha256": "7abc786eeda83549bd9e8186f5966ebb5ce07b6fc64e5394b2bc13b45a27a368",
+  "holdout_key_sha256": "2570d7db6db97f88e7a63abe42d8706c384036663fa02a8059f26a25727a811e",
+  "split_sha256": "e1fdb0e48e04c99129bf62bbe4362a03cd96b324b9073b9ab779a611b0c0dc00",
+  "stats_sha256": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882",
+  "input_sha256": "047ae87ec7a78b8155e86feb7f0def1cab7183477f4846e674124201d39620cd",
+  "filter_reasons": {
+    "invalid_label": 88463
+  },
+  "input_samples": 460800,
+  "matched_samples": 372337,
+  "arguments": {
+    "input": "I:\\vvenc-LFNST\\.worktrees\\m4-20261012\\development_samples.csv",
+    "stats": "I:\\vvenc-LFNST\\.worktrees\\m4-20261012\\stats.txt",
+    "output_dir": "I:\\vvenc-LFNST\\.worktrees\\m4-20261012\\models",
+    "split_manifest": null,
+    "ridge": 1e-06
+  },
+  "schema": "M4_V2",
+  "beta": 5,
+  "split_protocol": "last independent window per source; source/window/POC grouped across all QPs",
+  "scale_protocol": "train-only positive geometric mean; normalized floor",
+  "refit_all": false,
+  "kind": "I",
+  "feature": "plane",
+  "feature_selector": 5,
+  "monotonic_violation_count": {
+    "rate": 0,
+    "distortion": 0
+  },
+  "scale": 61.47839323398414,
+  "floor": 1e-12,
+  "rate": [
+    10.568104684460502,
+    -1.149140627938139,
+    0.5931264875047154,
+    -0.016453462349983506,
+    -0.02150117023591323,
+    -0.012968658951706728
+  ],
+  "distortion": [
+    -0.979829120772901,
+    0.9082942568932313,
+    0.311601167030876,
+    0.032872229118221935,
+    -0.029550976289639923,
+    -1.1040749369765415e-17
+  ],
+  "diagnostics": {
+    "train": {
+      "samples": 21600,
+      "groups": 6,
+      "zero_count": 0,
+      "floor_count": 0,
+      "qp_extrapolation_count": 0,
+      "log_rmse": {
+        "bits": 0.7358012821211314,
+        "weighted_mse": 0.609042948049043
+      },
+      "information_extrapolation_count": 0,
+      "extrapolation_fraction": 0.0,
+      "normalized_constraint_domain_outside_fraction": 0.0,
+      "latitude_log_rmse": {
+        "75": {
+          "bits": 0.9025527444979866,
+          "weighted_mse": 0.6158658827026381
+        },
+        "60": {
+          "bits": 0.7314687911609259,
+          "weighted_mse": 0.6074584815116757
+        },
+        "45": {
+          "bits": 0.6553241305259182,
+          "weighted_mse": 0.5427501075054357
+        },
+        "30": {
+          "bits": 0.735068181056048,
+          "weighted_mse": 0.6268087058281525
+        },
+        "15": {
+          "bits": 0.6219169423502623,
+          "weighted_mse": 0.5633750735079114
+        },
+        "0": {
+          "bits": 0.7390427047943662,
+          "weighted_mse": 0.6632441174081674
+        }
+      },
+      "actual_qp_log_rmse": {
+        "17.0": {
+          "bits": 0.7380587027934253,
+          "weighted_mse": 0.5753357053900069
+        },
+        "22.0": {
+          "bits": 0.8037933077636205,
+          "weighted_mse": 0.5116824629271847
+        },
+        "27.0": {
+          "bits": 0.8073915588485492,
+          "weighted_mse": 0.5654996019988183
+        },
+        "32.0": {
+          "bits": 0.8040098590859462,
+          "weighted_mse": 0.6376366489831513
+        },
+        "37.0": {
+          "bits": 0.7284545530987322,
+          "weighted_mse": 0.6867119637033432
+        },
+        "42.0": {
+          "bits": 0.6691565626831276,
+          "weighted_mse": 0.684558285955058
+        },
+        "47.0": {
+          "bits": 0.6413666399646518,
+          "weighted_mse": 0.6308875199667955
+        },
+        "52.0": {
+          "bits": 0.6725572041210309,
+          "weighted_mse": 0.5568246195905321
+        }
+      }
+    },
+    "holdout": {
+      "samples": 7200,
+      "groups": 2,
+      "zero_count": 0,
+      "floor_count": 0,
+      "qp_extrapolation_count": 0,
+      "log_rmse": {
+        "bits": 0.7312844318013433,
+        "weighted_mse": 0.6060155948559507
+      },
+      "information_extrapolation_count": 0,
+      "extrapolation_fraction": 0.0,
+      "normalized_constraint_domain_outside_fraction": 0.0,
+      "latitude_log_rmse": {
+        "75": {
+          "bits": 0.8897731809674261,
+          "weighted_mse": 0.6199337979010712
+        },
+        "60": {
+          "bits": 0.7055331913286168,
+          "weighted_mse": 0.5948029342646279
+        },
+        "45": {
+          "bits": 0.5888816720707866,
+          "weighted_mse": 0.49354099831677123
+        },
+        "30": {
+          "bits": 0.6969555955535628,
+          "weighted_mse": 0.580759393170156
+        },
+        "15": {
+          "bits": 0.6744032121386325,
+          "weighted_mse": 0.5703384574763335
+        },
+        "0": {
+          "bits": 0.7900329112738754,
+          "weighted_mse": 0.7100998231298439
+        }
+      },
+      "actual_qp_log_rmse": {
+        "17.0": {
+          "bits": 0.723369115403517,
+          "weighted_mse": 0.5618263352378383
+        },
+        "22.0": {
+          "bits": 0.7853996629624295,
+          "weighted_mse": 0.4986610575794154
+        },
+        "27.0": {
+          "bits": 0.7955021368176614,
+          "weighted_mse": 0.5538741511955175
+        },
+        "32.0": {
+          "bits": 0.809709232788462,
+          "weighted_mse": 0.624900776024034
+        },
+        "37.0": {
+          "bits": 0.7447062211456816,
+          "weighted_mse": 0.6813118305497485
+        },
+        "42.0": {
+          "bits": 0.6750753287464073,
+          "weighted_mse": 0.6838761644925919
+        },
+        "47.0": {
+          "bits": 0.6288386213770764,
+          "weighted_mse": 0.6444174871134654
+        },
+        "52.0": {
+          "bits": 0.6662545275523664,
+          "weighted_mse": 0.5738498554605703
+        }
+      }
+    }
+  },
+  "qp_support": [
+    17.0,
+    52.0
+  ],
+  "raw_information_support": [
+    0.32714569568634033,
+    3922.905859172344
+  ],
+  "normalized_monotonic_domain": [
+    -12,
+    63,
+    1e-12,
+    1000000.0
+  ],
+  "ridge": 1e-06
+}

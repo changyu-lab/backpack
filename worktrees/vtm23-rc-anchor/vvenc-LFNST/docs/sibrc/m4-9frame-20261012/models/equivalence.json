@@ -1,0 +1,22 @@
+{
+  "I": {
+    "scale_ratio": 4.000000000000001,
+    "max_standardized_feature_difference": 1.0658141036401503e-14,
+    "max_log_prediction_difference": {
+      "rate": 1.1546319456101628e-14,
+      "distortion": 3.552713678800501e-15
+    },
+    "prediction_gate_pass": true,
+    "controller_replay_required": true
+  },
+  "P": {
+    "scale_ratio": 4.000000000000003,
+    "max_standardized_feature_difference": 2.2737367544323206e-13,
+    "max_log_prediction_difference": {
+      "rate": 2.2737367544323206e-13,
+      "distortion": 8.526512829121202e-14
+    },
+    "prediction_gate_pass": true,
+    "controller_replay_required": true
+  }
+}

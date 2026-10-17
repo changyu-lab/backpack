@@ -1,0 +1,93 @@
+{
+  "name": "cqp8_QP32",
+  "source_sequence": "AerialCity",
+  "frames": 8,
+  "target_bps": 0,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+    "-s",
+    "3840x1920",
+    "-fr",
+    "30",
+    "-f",
+    "8",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\AerialCity\\cqp8_QP32.vvc",
+    "--InputBitDepth=8",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--FrameSkip=0",
+    "--SIBRCMinOffset=-2",
+    "--SIBRCMaxOffset=2",
+    "--QP=32"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\AerialCity\\cqp8_QP32.vvc"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\AerialCity\\cqp8_QP32.log",
+  "width": 3840,
+  "height": 1920,
+  "window_start": 0,
+  "requested_qp": null,
+  "selector": null,
+  "fps": 30,
+  "source_bitdepth": 8,
+  "returncode": 0,
+  "elapsed_seconds": 50.5775532,
+  "peak_rss_bytes": 319270912,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "raw_input": {
+    "name": "AerialCity",
+    "width": 3840,
+    "height": 1920,
+    "fps": 30,
+    "depth": 8,
+    "original": "I:\\Sequences360\\AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+    "file_bytes": 88473600,
+    "sha256": "411994e78de12f2f7a8bfc53c70587ff4b593c00c326aeb47d3304120a45242d",
+    "scope": "first8frames_original_prefix"
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\AerialCity\\cqp8_QP32.vvc": "b015f75ea057c6b6dac6bc1fe1ca1b9037d001c3942b6fe3325ef42308bb2ba3"
+  },
+  "actual_bps": 37771680.0
+}

@@ -1,0 +1,89 @@
+{
+  "name": "rc9_anchor_R3",
+  "source_sequence": "BranCastle2",
+  "frames": 9,
+  "target_bps": 60136987,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\encoder-m4.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+    "-s",
+    "6144x3072",
+    "-fr",
+    "30",
+    "-f",
+    "9",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\BranCastle2\\rc9_anchor_R3.vvc",
+    "--InputBitDepth=8",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--VTMTargetBitrate=60136987",
+    "--VTMRCTrace=I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\BranCastle2\\rc9_anchor_R3.vtm.csv",
+    "--FrameSkip=0",
+    "--SIBRCMinOffset=-2",
+    "--SIBRCMaxOffset=2"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\BranCastle2\\rc9_anchor_R3.vvc",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\BranCastle2\\rc9_anchor_R3.vtm.csv"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\encoder-m4.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\BranCastle2\\rc9_anchor_R3.log",
+  "width": 6144,
+  "height": 3072,
+  "window_start": 0,
+  "requested_qp": null,
+  "selector": null,
+  "returncode": 0,
+  "elapsed_seconds": 119.37325129999954,
+  "peak_rss_bytes": 1402302464,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "raw_input": {
+    "path": "I:\\Sequences360\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+    "sha256": "5b031628c53407e1a0ada12a4b0e783e620fda276aa4c660778c20b4e4c7ed3c",
+    "file_bytes": 8493465600
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\ldp.cfg": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\BranCastle2\\rc9_anchor_R3.vvc": "2500f7fe68df09cda1f046c4d3c720bc0e86a2a62df0bffba353669592894dfb",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\BranCastle2\\rc9_anchor_R3.vtm.csv": "31d57ce683028b9e82727e61ee843a4aeb6719852f0d2219a09bcfe00e1c95c0"
+  },
+  "actual_bps": 73008746.66666667
+}

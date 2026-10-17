@@ -1,0 +1,33 @@
+{
+  "assets": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\models\\C4\\model.I": "21dcb3ffc3896689b34f7cc5024bf32374cb99f313123e63dd358c679660c3e0",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\models\\C4\\model.P": "880eefd7b844efbf2a16434c625da9bb1e8086a51b34de38eb74047e537a6132"
+  },
+  "source": {
+    "name": "Landing2",
+    "width": 6144,
+    "height": 3072,
+    "fps": 30,
+    "depth": 8,
+    "original": "I:\\Sequences360\\Landing2_6144x3072_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-Landing2_6144x3072_30fps_8bit_420_erp.yuv",
+    "file_bytes": 226492416,
+    "sha256": "98f2a848e99d348ea6cc7a6eea6397c61e0c6c674ae9cfe0c061767764a16b7d",
+    "scope": "first8frames_original_prefix"
+  },
+  "frames": 8,
+  "targets": [
+    41951730,
+    76972080,
+    137164260,
+    236486970
+  ],
+  "offset": [
+    -2,
+    2
+  ],
+  "calibration_membership": false
+}

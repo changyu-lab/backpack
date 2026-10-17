@@ -1,0 +1,38 @@
+{
+  "sequences": [
+    {
+      "name": "AerialCity",
+      "width": 3840,
+      "height": 1920,
+      "fps": 30,
+      "depth": 8,
+      "original": "I:\\Sequences360\\AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+      "targets": [
+        359510,
+        792057,
+        2196112,
+        11820750
+      ],
+      "local_baseline_bd": {
+        "wspsnr": 9.849648081303028,
+        "spsnr": 9.693860146585214,
+        "cpppsnr": 9.713488485325136,
+        "psnr": 11.316853195555908
+      },
+      "source_prefix_sha256": "46882a3355839403da666f2437481284837bb06930cbf0e545209abb98803c33",
+      "filename": "AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+      "local_anchor_R1_bitstream_sha256": "not_compared_32frame"
+    }
+  ],
+  "frame_count": 32,
+  "offsets": [
+    [
+      0,
+      2
+    ]
+  ],
+  "models_frozen": true,
+  "source_scope": "32 original frames native depth/fps",
+  "target_origin": "same frozen 300frame CQP targets as LDP17 experiment",
+  "gain_scope": "32frame same-prefix extension; not independent holdout"
+}

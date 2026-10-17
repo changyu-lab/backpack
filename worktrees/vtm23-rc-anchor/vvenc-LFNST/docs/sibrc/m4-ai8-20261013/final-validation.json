@@ -1,0 +1,23 @@
+{
+  "pass_test": true,
+  "sequences": 14,
+  "comparison_streams": 112,
+  "cqp_streams": 56,
+  "frames_per_stream": 8,
+  "all_frames_I": true,
+  "intra_contracts": 56,
+  "frame_rows": 896,
+  "png": 16,
+  "checks": [
+    "all_output_SHA",
+    "all_asset_SHA",
+    "all_cached_original8frame_SHA",
+    "POC0_7",
+    "all_I_SLICE",
+    "actual_rate_native_fps",
+    "all4metric_frame_counts",
+    "intra_contract",
+    "PNG_alpha_dpi_dimensions"
+  ],
+  "reconstruction_scope": "hash recorded before temporary reconstruction removal"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "rc300_anchor_R1",
+    "checks": {
+      "vvc": {
+        "pilot_bytes": 138015,
+        "exact_prefix": true
+      },
+      "vtm.csv": {
+        "pilot_bytes": 7820320,
+        "exact_prefix": true
+      }
+    }
+  },
+  {
+    "name": "rc300_anchor_R2",
+    "checks": {
+      "vvc": {
+        "pilot_bytes": 283182,
+        "exact_prefix": true
+      },
+      "vtm.csv": {
+        "pilot_bytes": 8245669,
+        "exact_prefix": true
+      }
+    }
+  },
+  {
+    "name": "rc300_full_R1",
+    "checks": {
+      "vvc": {
+        "pilot_bytes": 143811,
+        "exact_prefix": true
+      },
+      "vtm.csv": {
+        "pilot_bytes": 7799527,
+        "exact_prefix": true
+      },
+      "sibrc.csv": {
+        "pilot_bytes": 8284624,
+        "exact_prefix": true
+      }
+    }
+  },
+  {
+    "name": "rc300_full_R2",
+    "checks": {
+      "vvc": {
+        "pilot_bytes": 297667,
+        "exact_prefix": true
+      },
+      "vtm.csv": {
+        "pilot_bytes": 8101474,
+        "exact_prefix": true
+      },
+      "sibrc.csv": {
+        "pilot_bytes": 8279828,
+        "exact_prefix": true
+      }
+    }
+  }
+]

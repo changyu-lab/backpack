@@ -1,0 +1,51 @@
+{
+  "pass": true,
+  "provenance_sha256": "a6e934b50d6ef00f3d7e1764a2cd8b95f3600dcbc59bd8080fedeb12eed63d01",
+  "replay_exe_sha256": "c8a3a54b2d00fcf09e80d91754f179c9f1d86dda6b47978eeb7dda43d63f422e",
+  "input_csv_sha256": "047ae87ec7a78b8155e86feb7f0def1cab7183477f4846e674124201d39620cd",
+  "command": [
+    "C:\\Users\\hitxi\\.codex\\worktrees\\vtm23-rc-anchor\\vvenc-LFNST\\build-vtmrc\\sibrc-tests\\Release\\sibrc_m4_replay.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-20261012\\models\\C2\\model.I",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-20261012\\models\\C2\\model.P",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-20261012\\models\\C3\\model.I",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-20261012\\models\\C3\\model.P",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-20261012\\development_samples.csv"
+  ],
+  "diagnostics": {
+    "available_groups": 1024,
+    "replay_groups": 24,
+    "scope": "per_source_first_last_window_first_poc_each_kind_low_middle_high_requested_qp",
+    "controller_replay_pass": true,
+    "samples": 9305,
+    "decisions": 37220,
+    "failures": 0,
+    "max_log_prediction_difference": 4.973799150320701e-14,
+    "max_standardized_log_difference": 1.3322676295501878e-15,
+    "selected_group_keys": [
+      "DrivingInCity/0/0/I/17",
+      "DrivingInCity/0/0/I/37",
+      "DrivingInCity/0/0/I/52",
+      "DrivingInCity/0/1/P/17",
+      "DrivingInCity/0/1/P/37",
+      "DrivingInCity/0/1/P/52",
+      "DrivingInCity/192/0/I/17",
+      "DrivingInCity/192/0/I/37",
+      "DrivingInCity/192/0/I/52",
+      "DrivingInCity/192/1/P/17",
+      "DrivingInCity/192/1/P/37",
+      "DrivingInCity/192/1/P/52",
+      "DrivingInCountry/0/0/I/17",
+      "DrivingInCountry/0/0/I/37",
+      "DrivingInCountry/0/0/I/52",
+      "DrivingInCountry/0/1/P/17",
+      "DrivingInCountry/0/1/P/37",
+      "DrivingInCountry/0/1/P/52",
+      "DrivingInCountry/192/0/I/17",
+      "DrivingInCountry/192/0/I/37",
+      "DrivingInCountry/192/0/I/52",
+      "DrivingInCountry/192/1/P/17",
+      "DrivingInCountry/192/1/P/37",
+      "DrivingInCountry/192/1/P/52"
+    ]
+  }
+}

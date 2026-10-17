@@ -1,0 +1,201 @@
+{
+  "sequences": {
+    "AerialCity": {
+      "sequence": "AerialCity",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -1.9826354678952292,
+          "spsnr": -1.9054534494838917,
+          "cpppsnr": -2.179860774391298,
+          "psnr": 1.1744664160861273
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "Balboa": {
+      "sequence": "Balboa",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -1.8577343445396775,
+          "spsnr": -1.9987322735227055,
+          "cpppsnr": -1.9173727082963845,
+          "psnr": -0.921940471020701
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "BranCastle2": {
+      "sequence": "BranCastle2",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -0.038339188136226186,
+          "spsnr": -0.036838451927863475,
+          "cpppsnr": 0.039825300118822245,
+          "psnr": 1.231944960422966
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "Broadway": {
+      "sequence": "Broadway",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -1.172349488837811,
+          "spsnr": -1.1516016227449668,
+          "cpppsnr": -1.1631134925994144,
+          "psnr": -0.5755696646975782
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "ChairliftRide": {
+      "sequence": "ChairliftRide",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -3.940452064196954,
+          "spsnr": -4.048424444820632,
+          "cpppsnr": -3.981252952677218,
+          "psnr": 0.31559057990262296
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "DrivingInCity": {
+      "sequence": "DrivingInCity",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -3.523691300481956,
+          "spsnr": -3.5610739441014707,
+          "cpppsnr": -3.4511680763346355,
+          "psnr": -1.4655370340226503
+        }
+      },
+      "scope": "calibration development sequence; not independent test"
+    },
+    "DrivingInCountry": {
+      "sequence": "DrivingInCountry",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -4.5967244858947245,
+          "spsnr": -4.576806213226134,
+          "cpppsnr": -4.692270295513576,
+          "psnr": 0.9590088590140693
+        }
+      },
+      "scope": "calibration development sequence; not independent test"
+    },
+    "Gaslamp": {
+      "sequence": "Gaslamp",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -2.51841823025001,
+          "spsnr": -2.490651478352204,
+          "cpppsnr": -2.5555431125161787,
+          "psnr": -0.9932805436153164
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "Harbor": {
+      "sequence": "Harbor",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -0.38811624368784803,
+          "spsnr": -0.21239629627209108,
+          "cpppsnr": -0.44114969156043216,
+          "psnr": -0.6497200343655655
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "KiteFlite": {
+      "sequence": "KiteFlite",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -1.594013202560893,
+          "spsnr": -1.6276731542153922,
+          "cpppsnr": -1.6778952264937037,
+          "psnr": 0.661960511458241
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "Landing2": {
+      "sequence": "Landing2",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -4.183609198521101,
+          "spsnr": -4.224959814475374,
+          "cpppsnr": -4.219151766775496,
+          "psnr": -0.777743852364178
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "PoleVault": {
+      "sequence": "PoleVault",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -4.2220226569126895,
+          "spsnr": -4.194624159995445,
+          "cpppsnr": -4.003543775638145,
+          "psnr": 1.6729514836188872
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "SkateboardInLot": {
+      "sequence": "SkateboardInLot",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -4.020458093312772,
+          "spsnr": -3.821968451333125,
+          "cpppsnr": -3.9994751464547007,
+          "psnr": -0.6100904024895483
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    },
+    "Trolley": {
+      "sequence": "Trolley",
+      "configuration": "AI",
+      "frames": 8,
+      "bd_rate_percent": {
+        "C4": {
+          "wspsnr": -3.2902027659061646,
+          "spsnr": -3.126824878924047,
+          "cpppsnr": -3.3400435905836017,
+          "psnr": 1.2977012925481641
+        }
+      },
+      "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+    }
+  },
+  "scope": "14 native ERP8frame screening; target origins differ explicitly; development sequences included"
+}

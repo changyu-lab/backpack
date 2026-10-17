@@ -1,0 +1,106 @@
+{
+  "source_prefix_sha256": "3c6170ca7c3ff5db6c82bed917f1191047bd898890c907e38728f81c5dbac4da",
+  "reconstruction_prefix_sha256": "4dada3edd014d65a633467045b8c8b3ee05ced7b4f50ea333b9715a442f69658",
+  "frames": 9,
+  "mean_y_psnr": 38.499300310995835,
+  "mean_y_wspsnr": 37.86893183918378,
+  "picture_y_psnr": [
+    42.532060901394374,
+    39.71168111317208,
+    39.0889893983716,
+    38.92717719480624,
+    38.008319814234525,
+    38.01382766847172,
+    37.07727081338113,
+    36.93444245378546,
+    36.19993344134536
+  ],
+  "picture_y_wspsnr": [
+    42.0484212345322,
+    39.116153691437106,
+    38.46340344866426,
+    38.300296021145186,
+    37.36243929353361,
+    37.372013803944306,
+    36.40775427863786,
+    36.252036749788125,
+    35.497868030971425
+  ],
+  "picture_y_spsnr": [
+    42.07013386570832,
+    39.106692076223204,
+    38.475432237501195,
+    38.28914863719933,
+    37.352845468646414,
+    37.35496450384397,
+    36.4174489685034,
+    36.260808030597545,
+    35.50290128357949
+  ],
+  "picture_y_cpppsnr": [
+    42.870086123589246,
+    39.68231004171744,
+    39.00022086579388,
+    38.79138336538519,
+    37.76052731701234,
+    37.76813720340017,
+    36.747691049820666,
+    36.558908724409605,
+    35.73685558775462
+  ],
+  "mean_y_spsnr": 37.87004167464477,
+  "mean_y_cpppsnr": 38.32401336432035,
+  "default_metrics": [
+    "WS-PSNR",
+    "S-PSNR-NN",
+    "CPP-PSNR"
+  ],
+  "metric_workers": 1,
+  "spsnr_variant": "S-PSNR-NN",
+  "sphere_sha256": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+  "metrics360_exe_sha256": "680188720d4645545df032675e176c0cc46ffdde6887cefb931392e0ecf7faab",
+  "cpp_dimensions": [
+    3840,
+    1920
+  ],
+  "cpp_interpolation": {
+    "luma": "Lanczos3",
+    "chroma": "Lanczos2"
+  },
+  "metric_aggregation": "arithmetic mean of per-picture dB",
+  "metric_peak_10bit": 1020,
+  "metric_implementation": "unmodified VTM project 360Lib TSPSNRMetric/TCPPPSNRMetric; source8/reconstruction10; luma reported",
+  "name": "rc9_C4_R4",
+  "target_bps": 11820750,
+  "actual_bps": 12614613.333333334,
+  "picture_bits": [
+    3743496,
+    16880,
+    2000,
+    10088,
+    1296,
+    5352,
+    952,
+    3736,
+    584
+  ],
+  "picture_bitrate_bps": [
+    112304880,
+    506400,
+    60000,
+    302640,
+    38880,
+    160560,
+    28560,
+    112080,
+    17520
+  ],
+  "bitstream_sha256": "533510184550fa7a960d1ebee08e42b5676a173501771e8530040cde5d0a112a",
+  "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+  "annexb_minus_picture_bits": 0,
+  "width": 3840,
+  "height": 1920,
+  "encoder_elapsed_seconds": 37.35132109999998,
+  "source_sequence": "AerialCity",
+  "rate_error_percent": 6.715845723269109
+}

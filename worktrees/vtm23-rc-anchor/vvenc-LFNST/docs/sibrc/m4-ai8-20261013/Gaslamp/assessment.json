@@ -1,0 +1,14 @@
+{
+  "sequence": "Gaslamp",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -2.51841823025001,
+      "spsnr": -2.490651478352204,
+      "cpppsnr": -2.5555431125161787,
+      "psnr": -0.9932805436153164
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

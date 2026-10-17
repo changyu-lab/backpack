@@ -1,0 +1,9 @@
+{
+  "cpu_count": 32,
+  "worker_cap": 28,
+  "memory_budget_bytes": 38000000000,
+  "metric_workers": 4,
+  "metric_reconstructions": 1,
+  "new_jobs": 168,
+  "reuse": "112 existing Anchor/C4 streams"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "AerialCity",
+    "width": 3840,
+    "height": 1920,
+    "fps": 30,
+    "depth": 8,
+    "filename": "AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+    "source_prefix_sha256": "46882a3355839403da666f2437481284837bb06930cbf0e545209abb98803c33",
+    "targets": [
+      779955,
+      1461862,
+      3289800,
+      12805088
+    ]
+  },
+  {
+    "name": "Balboa",
+    "width": 6144,
+    "height": 3072,
+    "fps": 60,
+    "depth": 8,
+    "filename": "Balboa_6144x3072_60fps_8bit_420_erp.yuv",
+    "source_prefix_sha256": "2db3b247de54fbc3bd0872fe7e5a122ef1862a110b88f784977653733579d5e4",
+    "targets": [
+      5364600,
+      11631375,
+      26315625,
+      63204930
+    ]
+  },
+  {
+    "name": "DrivingInCity",
+    "width": 3840,
+    "height": 1920,
+    "fps": 30,
+    "depth": 8,
+    "filename": "DrivingInCity_3840x1920_30fps_8bit_420_erp.yuv",
+    "source_prefix_sha256": "f2c7c0e1677b9360ef3640a8e131c3ae22d54261f0f3ad52f2c036cc6717caa7",
+    "targets": [
+      1218308,
+      2459842,
+      5485680,
+      14495025
+    ]
+  },
+  {
+    "name": "DrivingInCountry",
+    "width": 3840,
+    "height": 1920,
+    "fps": 30,
+    "depth": 8,
+    "filename": "DrivingInCountry_3840x1920_30fps_8bit_420_erp.yuv",
+    "source_prefix_sha256": "097faec32626a49cd0e0e53b89f52dd8c30a1dcdc358f4cf4d080a76487d2a92",
+    "targets": [
+      1570740,
+      3807795,
+      9356805,
+      25717088
+    ]
+  },
+  {
+    "name": "Gaslamp",
+    "width": 8192,
+    "height": 4096,
+    "fps": 30,
+    "depth": 8,
+    "filename": "Gaslamp_8192x4096_30fps_8bit_420_erp.yuv",
+    "source_prefix_sha256": "0d61c75f26376eae177099454d016943f899f2e1b7ae3daf798c742e488e49ec",
+    "targets": [
+      1483650,
+      2830215,
+      5316608,
+      10363860
+    ]
+  },
+  {
+    "name": "PoleVault",
+    "width": 3840,
+    "height": 1920,
+    "fps": 30,
+    "depth": 8,
+    "filename": "PoleVault_le_3840x1920_30fps_8bit_420_erp.yuv",
+    "source_prefix_sha256": "af6c6565779bf85436381aeeb5f3e7e49f94422fcb8184ef3cbd1e3c05a98611",
+    "targets": [
+      1727415,
+      3610718,
+      9084645,
+      28819725
+    ]
+  }
+]

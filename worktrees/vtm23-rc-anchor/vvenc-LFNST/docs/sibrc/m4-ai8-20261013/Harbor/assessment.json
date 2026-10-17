@@ -1,0 +1,14 @@
+{
+  "sequence": "Harbor",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -0.38811624368784803,
+      "spsnr": -0.21239629627209108,
+      "cpppsnr": -0.44114969156043216,
+      "psnr": -0.6497200343655655
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

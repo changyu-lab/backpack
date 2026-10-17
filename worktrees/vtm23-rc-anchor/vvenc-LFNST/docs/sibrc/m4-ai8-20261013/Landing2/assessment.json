@@ -1,0 +1,14 @@
+{
+  "sequence": "Landing2",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -4.183609198521101,
+      "spsnr": -4.224959814475374,
+      "cpppsnr": -4.219151766775496,
+      "psnr": -0.777743852364178
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

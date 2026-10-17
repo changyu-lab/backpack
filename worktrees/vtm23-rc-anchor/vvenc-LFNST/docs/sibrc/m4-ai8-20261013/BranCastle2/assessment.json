@@ -1,0 +1,14 @@
+{
+  "sequence": "BranCastle2",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -0.038339188136226186,
+      "spsnr": -0.036838451927863475,
+      "cpppsnr": 0.039825300118822245,
+      "psnr": 1.231944960422966
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

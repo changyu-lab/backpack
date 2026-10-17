@@ -1,0 +1,89 @@
+{
+  "name": "rc9_anchor_R2",
+  "source_sequence": "PoleVault",
+  "frames": 9,
+  "target_bps": 2436868,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\encoder-m4.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\PoleVault_le_3840x1920_30fps_8bit_420_erp.yuv",
+    "-s",
+    "3840x1920",
+    "-fr",
+    "30",
+    "-f",
+    "9",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\PoleVault\\rc9_anchor_R2.vvc",
+    "--InputBitDepth=8",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--VTMTargetBitrate=2436868",
+    "--VTMRCTrace=I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\PoleVault\\rc9_anchor_R2.vtm.csv",
+    "--FrameSkip=0",
+    "--SIBRCMinOffset=-2",
+    "--SIBRCMaxOffset=2"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\PoleVault\\rc9_anchor_R2.vvc",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\PoleVault\\rc9_anchor_R2.vtm.csv"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\encoder-m4.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\PoleVault\\rc9_anchor_R2.log",
+  "width": 3840,
+  "height": 1920,
+  "window_start": 0,
+  "requested_qp": null,
+  "selector": null,
+  "returncode": 0,
+  "elapsed_seconds": 16.379839100000027,
+  "peak_rss_bytes": 658698240,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "raw_input": {
+    "path": "I:\\Sequences360\\PoleVault_le_3840x1920_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\PoleVault_le_3840x1920_30fps_8bit_420_erp.yuv",
+    "sha256": "bd0d350905e96af6fdfbf4905d8e45ae45fd69dd2adddf8ec95b4edc47a972f2",
+    "file_bytes": 3317760000
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\ldp.cfg": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\PoleVault\\rc9_anchor_R2.vvc": "510d62b022ea257c7e1bbbfb1d1eb92e9c87dd5eb87d2029de8c62bb1721afeb",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-9frame-20261012\\validation\\PoleVault\\rc9_anchor_R2.vtm.csv": "7e7d27ea1862d650538b855d6061392d5dafb63ce4c55a2f8d4d8850668faad0"
+  },
+  "actual_bps": 6506560.0
+}

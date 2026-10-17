@@ -1,0 +1,14 @@
+{
+  "sequence": "PoleVault",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -4.2220226569126895,
+      "spsnr": -4.194624159995445,
+      "cpppsnr": -4.003543775638145,
+      "psnr": 1.6729514836188872
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

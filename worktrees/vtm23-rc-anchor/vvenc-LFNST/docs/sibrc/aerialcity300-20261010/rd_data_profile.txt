@@ -1,0 +1,36 @@
+# Data profile: I:\vvenc-LFNST\.worktrees\sibrc300-20261010\rd_points.csv
+
+**Shape:** 8 rows × 5 cols
+
+## Columns
+
+| Column | Type | n | missing | summary |
+|---|---|---|---|---|
+| `method` | categorical | 8 | 0 | 2 levels: Anchor(4), SIBRC(4); min_group_n=4 |
+| `target_Mbps` | continuous | 8 | 0 | mean=3.79, sd=5.01, range=[0.36, 11.8], skew=0.89 (moderately skewed); outliers=2 (IQR) |
+| `actual_Mbps` | continuous | 8 | 0 | mean=3.79, sd=5.01, range=[0.361, 11.8], skew=0.89 (moderately skewed); outliers=2 (IQR) |
+| `Y_WS_PSNR_dB` | continuous | 8 | 0 | mean=37, sd=2.23, range=[34, 39.7], skew=-0.10 (approximately symmetric) |
+| `Y_PSNR_dB` | continuous | 8 | 0 | mean=37.7, sd=2.14, range=[34.9, 40.3], skew=-0.12 (approximately symmetric) |
+
+## Group structure
+- Grouped by: `method`
+- Number of groups: 2
+- Group size: min=4, median=4, max=4
+- **WARN**: at least one group has n<10 — use box/violin + stripplot rather than mean-only bar chart.
+
+## Correlations (Pearson, sorted by |r|)
+- `target_Mbps` ↔ `actual_Mbps` : r = 1.000 (very strong)
+- `Y_WS_PSNR_dB` ↔ `Y_PSNR_dB` : r = 0.999 (very strong)
+- `actual_Mbps` ↔ `Y_WS_PSNR_dB` : r = 0.830 (very strong)
+- `target_Mbps` ↔ `Y_WS_PSNR_dB` : r = 0.830 (very strong)
+- `actual_Mbps` ↔ `Y_PSNR_dB` : r = 0.825 (very strong)
+- `target_Mbps` ↔ `Y_PSNR_dB` : r = 0.825 (very strong)
+
+## Warnings
+- 列 'method' 至少有一个类别 n<10 — 小样本必须展示原始数据点，不要只画均值柱状图。
+
+## Chart suggestions (preliminary)
+- 分类 vs 连续，小样本（每组 n<10）→ **箱线图/小提琴图 + stripplot 叠加原始点**；**避免**只画均值柱状图，会掩盖分布。
+- ≥3 个连续变量 → 相关性热力图（['target_Mbps', 'actual_Mbps', 'Y_WS_PSNR_dB', 'Y_PSNR_dB']）或 pairplot 散点矩阵
+
+> 这是基于数据形态的**初步建议**。最终图型选择必须结合**论证目标**（你想说什么）—— 详见 `references/chart_selection.md`。

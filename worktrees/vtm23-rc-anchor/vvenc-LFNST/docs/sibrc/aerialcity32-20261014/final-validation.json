@@ -1,0 +1,20 @@
+{
+  "pass_test": true,
+  "streams": 12,
+  "frames_per_stream": 32,
+  "frame_rows": 384,
+  "contracts": 8,
+  "linux_windows_baseline_compared": 0,
+  "linux_windows_baseline_bit_identical": 0,
+  "checks": [
+    "all_output_hashes",
+    "all_frozen_asset_hashes",
+    "all_native_source32_prefix_hashes",
+    "POC0_31",
+    "all_four_metric_frame_counts",
+    "actual_annexb_rate_nativefps",
+    "all_nonanchor_intra_contracts"
+  ],
+  "reconstruction_hash_scope": "recorded at evaluation; temporary files already removed",
+  "gain_scope": "32-frame same-prefix extension; no independent holdout"
+}

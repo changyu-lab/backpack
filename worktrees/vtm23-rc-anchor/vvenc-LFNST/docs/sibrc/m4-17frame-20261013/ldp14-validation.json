@@ -1,0 +1,16 @@
+{
+  "pass_test": true,
+  "sequences": 14,
+  "streams": 160,
+  "frames_per_stream": 17,
+  "frame_rows": 2720,
+  "checks": [
+    "completed_point_stream_hash",
+    "frozen_asset_hash",
+    "POC0_16",
+    "all4metric_frame_counts",
+    "actual_rate_native_fps",
+    "all_nonanchor_intra_contracts"
+  ],
+  "scope": "source/recon hashes retained in metric provenance; no full source rehash in this audit"
+}

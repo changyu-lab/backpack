@@ -1,0 +1,79 @@
+{
+  "name": "pilot8_CQP37",
+  "source_sequence": "BranCastle2",
+  "frames": 8,
+  "target_bps": 0,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\encoder-frozen.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+    "-s",
+    "6144x3072",
+    "-fr",
+    "30",
+    "-f",
+    "8",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\BranCastle2\\pilot8_CQP37.vvc",
+    "--InputBitDepth=8",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--QP=37"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\BranCastle2\\pilot8_CQP37.vvc"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\encoder-frozen.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\BranCastle2\\pilot8_CQP37.log",
+  "width": 6144,
+  "height": 3072,
+  "returncode": 0,
+  "elapsed_seconds": 79.47471319999997,
+  "peak_rss_bytes": 1235836928,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "raw_input": {
+    "path": "I:\\Sequences360\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+    "file_bytes": 8493465600,
+    "coded_prefix_sha256": "5b031628c53407e1a0ada12a4b0e783e620fda276aa4c660778c20b4e4c7ed3c"
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\encoder-frozen.exe": "1a7d9104e6714d249adc12b64d24c460813f2f89e7866d937f0aa92d5426e5ec",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\ldp.cfg": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-three-300-20261010\\BranCastle2\\pilot8_CQP37.vvc": "b4c8871cc8b831d9a6c30b7cc269f44dd3e761df4487304478181e8bffb33406"
+  },
+  "actual_bps": 23082690.0
+}

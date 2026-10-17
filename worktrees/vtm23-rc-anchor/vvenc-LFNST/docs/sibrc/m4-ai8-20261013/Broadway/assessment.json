@@ -1,0 +1,14 @@
+{
+  "sequence": "Broadway",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -1.172349488837811,
+      "spsnr": -1.1516016227449668,
+      "cpppsnr": -1.1631134925994144,
+      "psnr": -0.5755696646975782
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

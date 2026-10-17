@@ -1,0 +1,32 @@
+{
+  "sequence": "PoleVault",
+  "frames": 17,
+  "frame_csv_rows": 340,
+  "bd_rate_percent": {
+    "C0": {
+      "wspsnr": 9.165399420740252,
+      "spsnr": 9.220535493963629,
+      "cpppsnr": 9.282471010881697,
+      "psnr": 12.452247229197654
+    },
+    "C1": {
+      "wspsnr": 9.249450239649656,
+      "spsnr": 9.242008976711203,
+      "cpppsnr": 9.347176420047672,
+      "psnr": 12.539478227484443
+    },
+    "C3": {
+      "wspsnr": 9.308273396462882,
+      "spsnr": 9.408429498695122,
+      "cpppsnr": 9.398529596018133,
+      "psnr": 12.682602713265553
+    },
+    "C4": {
+      "wspsnr": 10.06682200535227,
+      "spsnr": 9.976987818780483,
+      "cpppsnr": 10.155348567014846,
+      "psnr": 13.393441436359998
+    }
+  },
+  "scope": "independent of calibration; historical validation sequences"
+}

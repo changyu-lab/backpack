@@ -1,0 +1,227 @@
+{
+  "assessment": "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\validation\\PoleVault\\C4\\assessment.json",
+  "sequence": "PoleVault",
+  "figure_inches": [
+    6.5,
+    2.8
+  ],
+  "dpi": 600,
+  "panels": [
+    {
+      "file": "frame_bitrate_R1",
+      "target_bps": 995074,
+      "metric": "picture_bitrate_bps",
+      "series": [
+        {
+          "method": "Anchor",
+          "frames": 17,
+          "min": 0.00888,
+          "max": 38.7096,
+          "first": 38.7096
+        },
+        {
+          "method": "SIBRC",
+          "frames": 17,
+          "min": 0.00888,
+          "max": 41.58072,
+          "first": 41.58072
+        }
+      ],
+      "scale": "log",
+      "spines": "all visible",
+      "ticks": "inward on all sides",
+      "grid": "original major grid, gray .88, linewidth .5",
+      "marker": "original dot, 1.8pt",
+      "all_samples_inside_axes": true
+    },
+    {
+      "file": "frame_bitrate_R2",
+      "target_bps": 2436868,
+      "metric": "picture_bitrate_bps",
+      "series": [
+        {
+          "method": "Anchor",
+          "frames": 17,
+          "min": 0.00624,
+          "max": 57.39072,
+          "first": 57.39072
+        },
+        {
+          "method": "SIBRC",
+          "frames": 17,
+          "min": 0.00864,
+          "max": 60.94128,
+          "first": 60.94128
+        }
+      ],
+      "scale": "log",
+      "spines": "all visible",
+      "ticks": "inward on all sides",
+      "grid": "original major grid, gray .88, linewidth .5",
+      "marker": "original dot, 1.8pt",
+      "all_samples_inside_axes": true
+    },
+    {
+      "file": "frame_bitrate_R3",
+      "target_bps": 7370102,
+      "metric": "picture_bitrate_bps",
+      "series": [
+        {
+          "method": "Anchor",
+          "frames": 17,
+          "min": 0.25344,
+          "max": 112.14936,
+          "first": 112.14936
+        },
+        {
+          "method": "SIBRC",
+          "frames": 17,
+          "min": 0.07296,
+          "max": 117.65376,
+          "first": 117.65376
+        }
+      ],
+      "scale": "log",
+      "spines": "all visible",
+      "ticks": "inward on all sides",
+      "grid": "original major grid, gray .88, linewidth .5",
+      "marker": "original dot, 1.8pt",
+      "all_samples_inside_axes": true
+    },
+    {
+      "file": "frame_bitrate_R4",
+      "target_bps": 32852118,
+      "metric": "picture_bitrate_bps",
+      "series": [
+        {
+          "method": "Anchor",
+          "frames": 17,
+          "min": 6.16752,
+          "max": 216.648,
+          "first": 216.648
+        },
+        {
+          "method": "SIBRC",
+          "frames": 17,
+          "min": 10.33872,
+          "max": 221.74224,
+          "first": 221.74224
+        }
+      ],
+      "scale": "log",
+      "spines": "all visible",
+      "ticks": "inward on all sides",
+      "grid": "original major grid, gray .88, linewidth .5",
+      "marker": "original dot, 1.8pt",
+      "all_samples_inside_axes": true
+    },
+    {
+      "file": "frame_spsnr_R1",
+      "target_bps": 995074,
+      "metric": "picture_y_spsnr",
+      "series": [
+        {
+          "method": "Anchor",
+          "frames": 17,
+          "min": 28.94543337800197,
+          "max": 35.04410792754997,
+          "first": 35.04410792754997
+        },
+        {
+          "method": "SIBRC",
+          "frames": 17,
+          "min": 29.05378570714327,
+          "max": 35.60749620891786,
+          "first": 35.60749620891786
+        }
+      ],
+      "scale": "linear",
+      "spines": "all visible",
+      "ticks": "inward on all sides",
+      "grid": "original major grid, gray .88, linewidth .5",
+      "marker": "original dot, 1.8pt",
+      "all_samples_inside_axes": true
+    },
+    {
+      "file": "frame_spsnr_R2",
+      "target_bps": 2436868,
+      "metric": "picture_y_spsnr",
+      "series": [
+        {
+          "method": "Anchor",
+          "frames": 17,
+          "min": 29.229015348811313,
+          "max": 37.160759330259374,
+          "first": 37.160759330259374
+        },
+        {
+          "method": "SIBRC",
+          "frames": 17,
+          "min": 29.363331056604686,
+          "max": 37.66738538620822,
+          "first": 37.66738538620822
+        }
+      ],
+      "scale": "linear",
+      "spines": "all visible",
+      "ticks": "inward on all sides",
+      "grid": "original major grid, gray .88, linewidth .5",
+      "marker": "original dot, 1.8pt",
+      "all_samples_inside_axes": true
+    },
+    {
+      "file": "frame_spsnr_R3",
+      "target_bps": 7370102,
+      "metric": "picture_y_spsnr",
+      "series": [
+        {
+          "method": "Anchor",
+          "frames": 17,
+          "min": 33.050891028297656,
+          "max": 40.949363090686504,
+          "first": 40.949363090686504
+        },
+        {
+          "method": "SIBRC",
+          "frames": 17,
+          "min": 31.78961415785708,
+          "max": 41.51541091826891,
+          "first": 41.51541091826891
+        }
+      ],
+      "scale": "linear",
+      "spines": "all visible",
+      "ticks": "inward on all sides",
+      "grid": "original major grid, gray .88, linewidth .5",
+      "marker": "original dot, 1.8pt",
+      "all_samples_inside_axes": true
+    },
+    {
+      "file": "frame_spsnr_R4",
+      "target_bps": 32852118,
+      "metric": "picture_y_spsnr",
+      "series": [
+        {
+          "method": "Anchor",
+          "frames": 17,
+          "min": 38.345572289005844,
+          "max": 45.126437228940325,
+          "first": 45.126437228940325
+        },
+        {
+          "method": "SIBRC",
+          "frames": 17,
+          "min": 38.407027785967365,
+          "max": 45.522411867280766,
+          "first": 45.522411867280766
+        }
+      ],
+      "scale": "linear",
+      "spines": "all visible",
+      "ticks": "inward on all sides",
+      "grid": "original major grid, gray .88, linewidth .5",
+      "marker": "original dot, 1.8pt",
+      "all_samples_inside_axes": true
+    }
+  ]
+}

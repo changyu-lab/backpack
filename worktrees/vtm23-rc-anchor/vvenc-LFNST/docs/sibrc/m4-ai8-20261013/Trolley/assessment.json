@@ -1,0 +1,14 @@
+{
+  "sequence": "Trolley",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -3.2902027659061646,
+      "spsnr": -3.126824878924047,
+      "cpppsnr": -3.3400435905836017,
+      "psnr": 1.2977012925481641
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

@@ -1,0 +1,106 @@
+{
+  "source_prefix_sha256": "1eb716472921b0942d2ecc7dc6269884c0355a07ec7c59bc33e062536797aa30",
+  "reconstruction_prefix_sha256": "c4e15c2ca54b5210072cb9f948873547ebb329b79dae6bce86ad5c8730868ddb",
+  "frames": 9,
+  "mean_y_psnr": 35.46330185596552,
+  "mean_y_wspsnr": 34.69312345911344,
+  "picture_y_psnr": [
+    41.80296852265835,
+    37.733587352375665,
+    35.553801027621915,
+    36.086013336633165,
+    34.476103376003,
+    34.54588298746509,
+    33.279440795946215,
+    33.407302471816394,
+    32.28461683316989
+  ],
+  "picture_y_wspsnr": [
+    40.97881113176872,
+    37.122720612288134,
+    34.873974633117165,
+    35.416121246723115,
+    33.7424283530048,
+    33.72489768164269,
+    32.49061458023553,
+    32.4819098906999,
+    31.40663300254092
+  ],
+  "picture_y_spsnr": [
+    40.949363090686504,
+    37.11084646747771,
+    34.90006775188285,
+    35.37660047569744,
+    33.74458889228689,
+    33.71321776273261,
+    32.499057142885356,
+    32.506918406426905,
+    31.429664543634704
+  ],
+  "picture_y_cpppsnr": [
+    41.48852004237594,
+    37.34000278656536,
+    34.98881101039736,
+    35.57323800733192,
+    33.85156459391857,
+    33.82996617063149,
+    32.56849157849844,
+    32.55842837063044,
+    31.461941834238118
+  ],
+  "mean_y_spsnr": 34.69225828152344,
+  "mean_y_cpppsnr": 34.85121826606529,
+  "default_metrics": [
+    "WS-PSNR",
+    "S-PSNR-NN",
+    "CPP-PSNR"
+  ],
+  "metric_workers": 1,
+  "spsnr_variant": "S-PSNR-NN",
+  "sphere_sha256": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+  "metrics360_exe_sha256": "680188720d4645545df032675e176c0cc46ffdde6887cefb931392e0ecf7faab",
+  "cpp_dimensions": [
+    3840,
+    1920
+  ],
+  "cpp_interpolation": {
+    "luma": "Lanczos3",
+    "chroma": "Lanczos2"
+  },
+  "metric_aggregation": "arithmetic mean of per-picture dB",
+  "metric_peak_10bit": 1020,
+  "metric_implementation": "unmodified VTM project 360Lib TSPSNRMetric/TCPPPSNRMetric; source8/reconstruction10; luma reported",
+  "name": "rc9_anchor_R3",
+  "target_bps": 7370102,
+  "actual_bps": 12837093.333333334,
+  "picture_bits": [
+    3738312,
+    45816,
+    4256,
+    40520,
+    1800,
+    12024,
+    680,
+    7248,
+    472
+  ],
+  "picture_bitrate_bps": [
+    112149360,
+    1374480,
+    127680,
+    1215600,
+    54000,
+    360720,
+    20400,
+    217440,
+    14160
+  ],
+  "bitstream_sha256": "f1954b7fbecda3e57acf452fa9556a22e37ecb15ce87f9eb4e6a92651e5de17f",
+  "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+  "annexb_minus_picture_bits": 0,
+  "width": 3840,
+  "height": 1920,
+  "encoder_elapsed_seconds": 22.563160500000095,
+  "source_sequence": "PoleVault",
+  "rate_error_percent": 74.17796026884477
+}

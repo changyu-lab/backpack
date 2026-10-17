@@ -1,0 +1,39 @@
+{
+  "assets": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\ldp.cfg": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\models\\C0\\model.I": "3e1dc14a141682e7a8c28935715c049e1bdbd2d1d7902e68050e821cd99d6186",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\models\\C0\\model.P": "80e4ea137db50adb429dca64c11c952ceec1a0fb182a604f4d5618d510218968",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\models\\C1\\model.I": "3277e891628d649fb5b41800dcb92ab0f684972b604de56fb3459fda51b2ee6e",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\models\\C1\\model.P": "34f1401f9809d35ca8e0860b54172250499b4d0080ab03c09e2937b7e41cdd1e",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\models\\C3\\model.I": "f0889d2cfccc9e2831458aa00a6cb57cca7c7472ff1ceb7dcc8d60eef7bbe35c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\models\\C3\\model.P": "e0168993e1846dcaf32ad38c19587bb238c42aed1e2e21c95d2c5973e781ef0e",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\models\\C4\\model.I": "21dcb3ffc3896689b34f7cc5024bf32374cb99f313123e63dd358c679660c3e0",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-17frame-20261013\\models\\C4\\model.P": "880eefd7b844efbf2a16434c625da9bb1e8086a51b34de38eb74047e537a6132"
+  },
+  "source": {
+    "name": "Balboa",
+    "width": 6144,
+    "height": 3072,
+    "fps": 60,
+    "depth": 8,
+    "original": "I:\\Sequences360\\Balboa_6144x3072_60fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4prefix17-Balboa_6144x3072_60fps_8bit_420_erp.yuv",
+    "file_bytes": 481296384,
+    "sha256": "ae781d6e24f951ad1288f13c40267ba184944ea745b6a771d3db7292c70b9b80",
+    "scope": "first17frames_original_prefix"
+  },
+  "frames": 17,
+  "targets": [
+    8715868,
+    17669675,
+    36543925,
+    86828584
+  ],
+  "offset": [
+    -2,
+    2
+  ],
+  "calibration_membership": false
+}

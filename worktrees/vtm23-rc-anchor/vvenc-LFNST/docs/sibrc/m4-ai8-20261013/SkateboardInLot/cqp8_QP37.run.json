@@ -1,0 +1,93 @@
+{
+  "name": "cqp8_QP37",
+  "source_sequence": "SkateboardInLot",
+  "frames": 8,
+  "target_bps": 0,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-SkateboardInLot_8192x4096_30fps_10bit_420_erp.yuv",
+    "-s",
+    "8192x4096",
+    "-fr",
+    "30",
+    "-f",
+    "8",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\SkateboardInLot\\cqp8_QP37.vvc",
+    "--InputBitDepth=10",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--FrameSkip=0",
+    "--SIBRCMinOffset=-2",
+    "--SIBRCMaxOffset=2",
+    "--QP=37"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\SkateboardInLot\\cqp8_QP37.vvc"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\SkateboardInLot\\cqp8_QP37.log",
+  "width": 8192,
+  "height": 4096,
+  "window_start": 0,
+  "requested_qp": null,
+  "selector": null,
+  "fps": 30,
+  "source_bitdepth": 10,
+  "returncode": 0,
+  "elapsed_seconds": 71.62343609999971,
+  "peak_rss_bytes": 1240109056,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "raw_input": {
+    "name": "SkateboardInLot",
+    "width": 8192,
+    "height": 4096,
+    "fps": 30,
+    "depth": 10,
+    "original": "I:\\Sequences360\\SkateboardInLot_8192x4096_30fps_10bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-SkateboardInLot_8192x4096_30fps_10bit_420_erp.yuv",
+    "file_bytes": 805306368,
+    "sha256": "71de17d23a05ce62b2d4b070110b6aebac0815cf51fcd92d2538a235793d88e6",
+    "scope": "first8frames_original_prefix"
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\SkateboardInLot\\cqp8_QP37.vvc": "30e784baca243fccf7badd62a133300bb0ff4f7e1d8ac9924af49c0e9a4f70b3"
+  },
+  "actual_bps": 36488130.0
+}

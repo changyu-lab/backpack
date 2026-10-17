@@ -1,0 +1,106 @@
+{
+  "source_prefix_sha256": "3c6170ca7c3ff5db6c82bed917f1191047bd898890c907e38728f81c5dbac4da",
+  "reconstruction_prefix_sha256": "2e9f8de697c3bdac6685c0e76ee461619ac00253c9c28467cf7563b150abae66",
+  "frames": 9,
+  "mean_y_psnr": 35.23037991101277,
+  "mean_y_wspsnr": 34.43405763813351,
+  "picture_y_psnr": [
+    36.981895350780924,
+    36.253128775721606,
+    35.592704501102965,
+    35.68038076417048,
+    35.27614239556555,
+    34.87826974739749,
+    34.55630020253483,
+    34.11495848410247,
+    33.739638977738664
+  ],
+  "picture_y_wspsnr": [
+    36.189537391574106,
+    35.45851922550365,
+    34.76916060260008,
+    34.87537747982485,
+    34.47865746575869,
+    34.06761423959536,
+    33.765035653055634,
+    33.335302057813145,
+    32.96731462747606
+  ],
+  "picture_y_spsnr": [
+    36.15463087378058,
+    35.42352281421961,
+    34.75146505853878,
+    34.85172556995986,
+    34.44929855949611,
+    34.05293604594765,
+    33.744929673500636,
+    33.34595209555013,
+    32.9446305414954
+  ],
+  "picture_y_cpppsnr": [
+    36.42289753160219,
+    35.66878714661722,
+    34.96307191905541,
+    35.06501378691433,
+    34.652779442530495,
+    34.22317149281654,
+    33.92292856045111,
+    33.46382713990623,
+    33.0780366270546
+  ],
+  "mean_y_spsnr": 34.41323235916541,
+  "mean_y_cpppsnr": 34.60672373854979,
+  "default_metrics": [
+    "WS-PSNR",
+    "S-PSNR-NN",
+    "CPP-PSNR"
+  ],
+  "metric_workers": 1,
+  "spsnr_variant": "S-PSNR-NN",
+  "sphere_sha256": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+  "metrics360_exe_sha256": "680188720d4645545df032675e176c0cc46ffdde6887cefb931392e0ecf7faab",
+  "cpp_dimensions": [
+    3840,
+    1920
+  ],
+  "cpp_interpolation": {
+    "luma": "Lanczos3",
+    "chroma": "Lanczos2"
+  },
+  "metric_aggregation": "arithmetic mean of per-picture dB",
+  "metric_peak_10bit": 1020,
+  "metric_implementation": "unmodified VTM project 360Lib TSPSNRMetric/TCPPPSNRMetric; source8/reconstruction10; luma reported",
+  "name": "rc9_C4_R1",
+  "target_bps": 359510,
+  "actual_bps": 2258773.3333333335,
+  "picture_bits": [
+    668304,
+    1520,
+    536,
+    2136,
+    1240,
+    1056,
+    1264,
+    928,
+    648
+  ],
+  "picture_bitrate_bps": [
+    20049120,
+    45600,
+    16080,
+    64080,
+    37200,
+    31680,
+    37920,
+    27840,
+    19440
+  ],
+  "bitstream_sha256": "b8095952d5b1faca973d2a315d9ad97e34349731ebef0c273de61aceba1939f0",
+  "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+  "annexb_minus_picture_bits": 0,
+  "width": 3840,
+  "height": 1920,
+  "encoder_elapsed_seconds": 21.5289614,
+  "source_sequence": "AerialCity",
+  "rate_error_percent": 528.2922125485615
+}

@@ -1,0 +1,14 @@
+{
+  "sequence": "ChairliftRide",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -3.940452064196954,
+      "spsnr": -4.048424444820632,
+      "cpppsnr": -3.981252952677218,
+      "psnr": 0.31559057990262296
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

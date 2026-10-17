@@ -1,0 +1,14 @@
+{
+  "sequence": "KiteFlite",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -1.594013202560893,
+      "spsnr": -1.6276731542153922,
+      "cpppsnr": -1.6778952264937037,
+      "psnr": 0.661960511458241
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

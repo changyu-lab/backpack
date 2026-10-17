@@ -1,0 +1,31 @@
+# Data profile: I:/vvenc-LFNST/.worktrees/sibrc300-20261010/metrics360/bitrate_eda.csv
+
+**Shape:** 2400 rows × 5 cols
+
+## Columns
+
+| Column | Type | n | missing | summary |
+|---|---|---|---|---|
+| `method` | categorical | 2400 | 0 | 2 levels: SIBRC(1200), Anchor(1200); min_group_n=1200 |
+| `target_bps` | ordinal | 2400 | 0 | 4 levels: 2196112(600), 359510(600), 792057(600), 11820750(600); min_group_n=600 |
+| `frame` | continuous | 2400 | 0 | mean=150, sd=86.6, range=[0, 299], skew=-0.00 (approximately symmetric) |
+| `bits` | continuous | 2400 | 0 | mean=1.26e+05, sd=3.82e+05, range=[704, 3.75e+06], skew=5.14 (highly skewed); outliers=216 (IQR); -> log axis |
+| `bitrate_Mbps` | continuous | 2400 | 0 | mean=3.79, sd=11.4, range=[0.0211, 112], skew=5.14 (highly skewed); outliers=216 (IQR); -> log axis |
+
+## Group structure
+- Grouped by: `method`, `target_bps`
+- Number of groups: 8
+- Group size: min=300, median=300, max=300
+
+## Correlations (Pearson, sorted by |r|)
+- `bits` ↔ `bitrate_Mbps` : r = 1.000 (very strong)
+- `frame` ↔ `bits` : r = -0.009 (negligible)
+- `frame` ↔ `bitrate_Mbps` : r = -0.009 (negligible)
+
+## Chart suggestions (preliminary)
+- 分类 vs 连续，样本量充足 → 箱线图 / 小提琴图，或带误差棒的柱状图（误差棒说明 SD/SEM/CI）
+- ≥3 个连续变量 → 相关性热力图（['frame', 'bits', 'bitrate_Mbps']）或 pairplot 散点矩阵
+- bits 跨数个量级（704 ~ 3.75e+06）→ 用对数 y 轴
+- bitrate_Mbps 跨数个量级（0.0211 ~ 112）→ 用对数 y 轴
+
+> 这是基于数据形态的**初步建议**。最终图型选择必须结合**论证目标**（你想说什么）—— 详见 `references/chart_selection.md`。

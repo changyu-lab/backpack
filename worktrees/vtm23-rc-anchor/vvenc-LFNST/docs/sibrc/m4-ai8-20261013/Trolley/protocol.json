@@ -1,0 +1,33 @@
+{
+  "assets": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\models\\C4\\model.I": "21dcb3ffc3896689b34f7cc5024bf32374cb99f313123e63dd358c679660c3e0",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\models\\C4\\model.P": "880eefd7b844efbf2a16434c625da9bb1e8086a51b34de38eb74047e537a6132"
+  },
+  "source": {
+    "name": "Trolley",
+    "width": 8192,
+    "height": 4096,
+    "fps": 30,
+    "depth": 8,
+    "original": "I:\\Sequences360\\Trolley_8192x4096_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-Trolley_8192x4096_30fps_8bit_420_erp.yuv",
+    "file_bytes": 402653184,
+    "sha256": "f9f4ba44c399dc23b5c5f3d6e692c373e4c1f19c0fa1ea55a489dd12f4b290c0",
+    "scope": "first8frames_original_prefix"
+  },
+  "frames": 8,
+  "targets": [
+    125564400,
+    215240700,
+    353205630,
+    565122210
+  ],
+  "offset": [
+    -2,
+    2
+  ],
+  "calibration_membership": false
+}

@@ -1,0 +1,14 @@
+{
+  "sequence": "Balboa",
+  "configuration": "AI",
+  "frames": 8,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -1.8577343445396775,
+      "spsnr": -1.9987322735227055,
+      "cpppsnr": -1.9173727082963845,
+      "psnr": -0.921940471020701
+    }
+  },
+  "scope": "eight-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

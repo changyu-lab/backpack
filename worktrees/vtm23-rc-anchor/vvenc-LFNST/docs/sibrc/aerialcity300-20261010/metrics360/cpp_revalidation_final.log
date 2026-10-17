@@ -1,0 +1,5 @@
+DECODE FOR CPP VALIDATION rc300_anchor_R1
+DECODE FOR CPP VALIDATION rc300_full_R1
+PASS CPP CORRECTED EXACT rc300_anchor_R1 [0, 150, 299]
+PASS CPP CORRECTED EXACT rc300_full_R1 [0, 150, 299]
+PASS both R1 corrected CPP spot checks; numerical BD-rates unchanged

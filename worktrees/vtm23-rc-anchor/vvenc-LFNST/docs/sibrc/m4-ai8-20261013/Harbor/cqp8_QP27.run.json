@@ -1,0 +1,93 @@
+{
+  "name": "cqp8_QP27",
+  "source_sequence": "Harbor",
+  "frames": 8,
+  "target_bps": 0,
+  "command": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "--preset",
+    "faster",
+    "-c",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg",
+    "-i",
+    "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-Harbor_8192x4096_30fps_8bit_420_erp.yuv",
+    "-s",
+    "8192x4096",
+    "-fr",
+    "30",
+    "-f",
+    "8",
+    "-b",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\Harbor\\cqp8_QP27.vvc",
+    "--InputBitDepth=8",
+    "--InternalBitDepth=10",
+    "--OutputBitDepth=10",
+    "--Threads=0",
+    "--MaxParallelFrames=0",
+    "--IFP=0",
+    "--TileParallelCtuEnc=0",
+    "--Tiles=1x1",
+    "--WaveFrontSynchro=0",
+    "--WppBitEqual=0",
+    "--HrdParametersPresent=0",
+    "--SEIBufferingPeriod=0",
+    "--PerceptQPA=0",
+    "--BIM=0",
+    "--MCTF=0",
+    "--LookAhead=0",
+    "--STA=0",
+    "--FrameSkip=0",
+    "--SIBRCMinOffset=-2",
+    "--SIBRCMaxOffset=2",
+    "--QP=27"
+  ],
+  "outputs": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\Harbor\\cqp8_QP27.vvc"
+  ],
+  "assets": [
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg"
+  ],
+  "log": "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\Harbor\\cqp8_QP27.log",
+  "width": 8192,
+  "height": 4096,
+  "window_start": 0,
+  "requested_qp": null,
+  "selector": null,
+  "fps": 30,
+  "source_bitdepth": 8,
+  "returncode": 0,
+  "elapsed_seconds": 180.76186000000234,
+  "peak_rss_bytes": 1294557184,
+  "pocs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "raw_input": {
+    "name": "Harbor",
+    "width": 8192,
+    "height": 4096,
+    "fps": 30,
+    "depth": 8,
+    "original": "I:\\Sequences360\\Harbor_8192x4096_30fps_8bit_420_erp.yuv",
+    "cache": "D:\\SIBRC-cache-20261010\\m4-ai8-prefix-Harbor_8192x4096_30fps_8bit_420_erp.yuv",
+    "file_bytes": 402653184,
+    "sha256": "16bf4c70324593faf1cabf5bef789d7142ad915eaf71da591370329a7c87e151",
+    "scope": "first8frames_original_prefix"
+  },
+  "asset_hashes": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\encoder-m4.exe": "06c02b8dadea4eb0375c69122ed49a02f22bfe3ee39c2e7b3100d239513ba461",
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\ldp.cfg": "84bef83cdcce46a0b34e49b51855bff27642543278fb613c1d33ccd2a3cda5e0"
+  },
+  "verified": true,
+  "outputs_sha256": {
+    "I:\\vvenc-LFNST\\.worktrees\\m4-ai8-20261013\\validation\\Harbor\\cqp8_QP27.vvc": "6a9a4179f0a23b6f6af42864ccfc2eb2b3583fcbd0f07bbd662b47aa9283cf32"
+  },
+  "actual_bps": 145519950.0
+}

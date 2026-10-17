@@ -1,0 +1,32 @@
+{
+  "sequence": "AerialCity",
+  "frames": 17,
+  "frame_csv_rows": 340,
+  "bd_rate_percent": {
+    "C0": {
+      "wspsnr": 4.029662541501041,
+      "spsnr": 3.954709808188719,
+      "cpppsnr": 3.9859819503865337,
+      "psnr": 6.022265628238083
+    },
+    "C1": {
+      "wspsnr": 1.1418113996036252,
+      "spsnr": 1.0465175390083683,
+      "cpppsnr": 1.1802577466989947,
+      "psnr": 2.0849255212230027
+    },
+    "C3": {
+      "wspsnr": 0.37270471313970416,
+      "spsnr": 0.234417749267839,
+      "cpppsnr": 0.36118764614192433,
+      "psnr": 1.3472968252676343
+    },
+    "C4": {
+      "wspsnr": 9.849648081303028,
+      "spsnr": 9.693860146585214,
+      "cpppsnr": 9.713488485325136,
+      "psnr": 11.316853195555908
+    }
+  },
+  "scope": "independent of calibration; historical validation sequences"
+}

@@ -1,0 +1,100 @@
+{
+  "source_prefix_sha256": "8b426756fad327b74ea90c7c9beed441629d4724210199226f8f76a20f957db1",
+  "reconstruction_prefix_sha256": "71e58c248be61deeb2fb5bc19114e9ab226c1f9ea36b124064f901add1ee59d2",
+  "frames": 8,
+  "mean_y_psnr": 34.94782287554196,
+  "mean_y_wspsnr": 34.22248019171056,
+  "picture_y_psnr": [
+    40.0499304641464,
+    36.85823043302165,
+    34.63764357120098,
+    35.21618353602588,
+    33.79299739225001,
+    33.73682294682722,
+    32.59485727259273,
+    32.69591738827083
+  ],
+  "picture_y_wspsnr": [
+    39.3973003629399,
+    36.289257525620584,
+    33.97444888020286,
+    34.5339051725439,
+    33.073605789367775,
+    32.909996897233,
+    31.806058728654968,
+    31.79526817712148
+  ],
+  "picture_y_spsnr": [
+    39.37430816451486,
+    36.28837006901055,
+    33.990625469357255,
+    34.485747352585044,
+    33.0614332897265,
+    32.88726480894073,
+    31.798943300399,
+    31.81484478754775
+  ],
+  "picture_y_cpppsnr": [
+    39.82867762381777,
+    36.488184758549096,
+    34.07314079103643,
+    34.66525893451832,
+    33.16798251887813,
+    32.99587633072493,
+    31.86951757294446,
+    31.860577576852567
+  ],
+  "mean_y_spsnr": 34.212692155260214,
+  "mean_y_cpppsnr": 34.368652013415215,
+  "default_metrics": [
+    "WS-PSNR",
+    "S-PSNR-NN",
+    "CPP-PSNR"
+  ],
+  "metric_workers": 1,
+  "spsnr_variant": "S-PSNR-NN",
+  "sphere_sha256": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+  "metrics360_exe_sha256": "680188720d4645545df032675e176c0cc46ffdde6887cefb931392e0ecf7faab",
+  "cpp_dimensions": [
+    3840,
+    1920
+  ],
+  "cpp_interpolation": {
+    "luma": "Lanczos3",
+    "chroma": "Lanczos2"
+  },
+  "metric_aggregation": "arithmetic mean of per-picture dB",
+  "metric_peak_10bit": 1020,
+  "metric_implementation": "unmodified VTM project 360Lib TSPSNRMetric/TCPPPSNRMetric; source8/reconstruction10; luma reported",
+  "name": "pilot8_full",
+  "target_bps": 5186730,
+  "actual_bps": 10662900.0,
+  "picture_bits": [
+    2778592,
+    23928,
+    2352,
+    24016,
+    1320,
+    7952,
+    512,
+    4768
+  ],
+  "picture_bitrate_bps": [
+    83357760,
+    717840,
+    70560,
+    720480,
+    39600,
+    238560,
+    15360,
+    143040
+  ],
+  "bitstream_sha256": "2a19dd15b96c3b4b5a0a07e58aa1f20c78d33036199d4589d5d18a89ce32329f",
+  "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+  "annexb_minus_picture_bits": 0,
+  "width": 3840,
+  "height": 1920,
+  "encoder_elapsed_seconds": 30.26047729999999,
+  "source_sequence": "PoleVault",
+  "rate_error_percent": 105.58039458387078
+}
