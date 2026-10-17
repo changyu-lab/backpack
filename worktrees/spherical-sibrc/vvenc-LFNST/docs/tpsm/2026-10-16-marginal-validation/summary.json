@@ -1,0 +1,59 @@
+{
+  "valid_amplification_samples": 10,
+  "nonpositive_current_improvement": 2,
+  "negative_future_responses": 6,
+  "zero_future_responses": 0,
+  "nonpositive_current_extra_bits": 3,
+  "minus_unchanged_cases": 1,
+  "plus_unchanged_cases": 0,
+  "strata": {
+    "low": {
+      "n": 4,
+      "valid_amplification_n": 3,
+      "median_wt": 0.9875186562291365,
+      "median_amplification": 110.25500414916776,
+      "negative_future_responses": 0
+    },
+    "neutral": {
+      "n": 4,
+      "valid_amplification_n": 3,
+      "median_wt": 1.0,
+      "median_amplification": -1822.8275673930866,
+      "negative_future_responses": 4
+    },
+    "high": {
+      "n": 4,
+      "valid_amplification_n": 4,
+      "median_wt": 3.935921295937048,
+      "median_amplification": 69.74195244628064,
+      "negative_future_responses": 2
+    }
+  },
+  "rank_tests": {
+    "future_per_current_error": {
+      "spearman": -0.05521888072258639,
+      "permutation_two_sided_p": 0.8914,
+      "n": 10,
+      "permutations": 19999,
+      "interpretation": "descriptive stratified one-frame sample; no population inference"
+    },
+    "raw_future_reduction": {
+      "spearman": -0.29186115364847715,
+      "permutation_two_sided_p": 0.362,
+      "n": 12,
+      "permutations": 19999,
+      "interpretation": "descriptive stratified one-frame sample; no population inference"
+    }
+  },
+  "chain_lengths_by_stratum": {
+    "low": [
+      1
+    ],
+    "neutral": [
+      1
+    ],
+    "high": [
+      4
+    ]
+  }
+}

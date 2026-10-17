@@ -1,0 +1,24 @@
+{
+  "geometry": [
+    3840,
+    1920
+  ],
+  "frames": 65,
+  "probe_poc": 8,
+  "target_bps": 818855,
+  "source_prefix_sha256": "3ee22fe710ba457828398d6298c0f7a74400605913430183efd67c9cfd810ee5",
+  "assets": {
+    "/dev/shm/spherical_sibrc_probe_src/bin/release-static/vvencFFapp": "25f6351546f8e2eb4761addac38da345222a2a78ff1c1304916df1cf330cd926",
+    "/data/ibrc_st_direct_wref/VTM-23.0/bin/umake/gcc-11.4/x86_64/release/DecoderApp": "d42fb69d8fd6dd541b9a15fe5e2355098d73e720a15c2d514e9fe84786a92e63",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp65/ldp16.cfg": "3492d46b6c4e3f75ece758c938400b6e1f3ab11ab0ffad050b44609313ee1ca8",
+    "/dev/shm/spherical_sibrc_probe_src/docs/sibrc/calibration-v1/stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882",
+    "/dev/shm/spherical_sibrc_probe_src/docs/sibrc/calibration-v1/model.I": "28bd600b512a0b81bef99ad69800e20a957ab79aeca75060106a60af838f266b",
+    "/dev/shm/spherical_sibrc_probe_src/docs/sibrc/calibration-v1/model.P": "3723841f2f0cafc1f0d2320e6dc58b7007603f295ada05d6a9ef26f5c003302e",
+    "/dev/shm/spherical_sibrc_probe_src/tools/tpsm/marginal_run.py": "2b65f98b0053e0f82ef3bfae219bc1b6327d440904945d59bbd45b55adad8cb1",
+    "/dev/shm/spherical_sibrc_probe_src/tools/tpsm/marginal.py": "c575ac728933debcdeb4af817c1c266dfcbbee754b5ba81507f0af9e07ddddbe"
+  },
+  "expected_baseline_sha256": "adf87f21575af859165eedc3a9e45447842372508fcafda7a8522775b2b8dccb",
+  "sampling": "seed20261016;4 CTUs per wt<1,wt=1,wt>1; current inter eligibility and complete configured prior beta chain, no intervening reset, bits>=32; POC8 selected from baseline-only diversity after POC16 failed; select before perturbation results",
+  "objective": "strictly future final-reconstruction spherical luma SSE; current-frame and future effects separated",
+  "limitation": "QP and lambda frozen; coding modes, MV choices, entropy and filters respond; finite contrasts include within-frame interactions and altered future bits"
+}

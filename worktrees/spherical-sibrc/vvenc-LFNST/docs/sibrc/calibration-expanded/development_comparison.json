@@ -1,0 +1,24 @@
+{
+  "I": {
+    "same_holdout_samples": 720,
+    "v1_on_extended_holdout": {
+      "bits": 0.8511491560716682,
+      "weighted_mse": 0.7307699881875586
+    },
+    "expanded_monotonic_before_refit": {
+      "bits": 0.7911910373217049,
+      "weighted_mse": 0.749264194368553
+    }
+  },
+  "P": {
+    "same_holdout_samples": 5222,
+    "v1_on_extended_holdout": {
+      "bits": 1.7754210321276798,
+      "weighted_mse": 0.4094407832134322
+    },
+    "expanded_monotonic_before_refit": {
+      "bits": 1.618167205111958,
+      "weighted_mse": 0.5578115431564775
+    }
+  }
+}

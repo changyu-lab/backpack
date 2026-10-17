@@ -1,0 +1,4 @@
+# Preserve original evidence bytes, including CRLF, across platforms.
+evidence/** -text whitespace=cr-at-eol
+# Frozen remote script has a final blank line; retain its original hash.
+evidence/remote_aerial17.py whitespace=cr-at-eol,-blank-at-eof

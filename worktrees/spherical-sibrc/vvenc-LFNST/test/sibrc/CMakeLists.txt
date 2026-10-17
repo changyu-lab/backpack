@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.15)
+project(sibrc_controller_test LANGUAGES CXX)
+enable_testing()
+add_executable(sibrc_controller_test controller_test.cpp ../../source/Lib/EncoderLib/Sibrc/Controller.cpp)
+target_include_directories(sibrc_controller_test PRIVATE ../../source/Lib/EncoderLib)
+target_compile_features(sibrc_controller_test PRIVATE cxx_std_11)
+add_test(NAME sibrc_controller COMMAND sibrc_controller_test)
+add_executable(sibrc_feature_test feature_test.cpp ../../source/Lib/EncoderLib/Sibrc/Controller.cpp ../../source/Lib/EncoderLib/Sibrc/Statistics.cpp)
+target_include_directories(sibrc_feature_test PRIVATE ../../source/Lib/EncoderLib)
+target_compile_features(sibrc_feature_test PRIVATE cxx_std_11)
+add_test(NAME sibrc_feature COMMAND sibrc_feature_test)
+
+
+add_executable(sibrc_temporal_test temporal_test.cpp ../../source/Lib/EncoderLib/Sibrc/Controller.cpp)
+target_include_directories(sibrc_temporal_test PRIVATE ../../source/Lib/EncoderLib)
+target_compile_features(sibrc_temporal_test PRIVATE cxx_std_11)
+add_test(NAME sibrc_temporal COMMAND sibrc_temporal_test)

@@ -1,0 +1,97 @@
+{
+  "interpretation": "16-frame regression screening; negative BD-rate is better; previously inspected AerialCity is not unseen validation",
+  "aerial": {
+    "sibrc": {
+      "vs_legacy_anchor": {
+        "mean_y_wspsnr": -0.3709059640592857,
+        "mean_y_spsnr": -0.3487267582043646,
+        "mean_y_cpppsnr": -0.47577631185805574
+      },
+      "vs_legacy_sibrc": {
+        "mean_y_wspsnr": -18.36033889563667,
+        "mean_y_spsnr": -18.40131571881644,
+        "mean_y_cpppsnr": -18.583404677104145
+      },
+      "vs_legacy_joint": {
+        "mean_y_wspsnr": -18.70526288090418,
+        "mean_y_spsnr": -18.7106179753549,
+        "mean_y_cpppsnr": -18.899367641506537
+      }
+    },
+    "joint": {
+      "vs_legacy_anchor": {
+        "mean_y_wspsnr": -0.2995965884607966,
+        "mean_y_spsnr": -0.24792762927141856,
+        "mean_y_cpppsnr": -0.494913606214417
+      },
+      "vs_legacy_sibrc": {
+        "mean_y_wspsnr": -18.302500490795094,
+        "mean_y_spsnr": -18.31888075834754,
+        "mean_y_cpppsnr": -18.599996622700818
+      },
+      "vs_legacy_joint": {
+        "mean_y_wspsnr": -18.648124342160962,
+        "mean_y_spsnr": -18.629026397067,
+        "mean_y_cpppsnr": -18.916271408676486
+      },
+      "vs_repaired_sibrc": {
+        "mean_y_wspsnr": 0.0741508503257821,
+        "mean_y_spsnr": 0.10480333196430142,
+        "mean_y_cpppsnr": -0.018380114893480494
+      }
+    },
+    "rate_errors_percent": {
+      "sibrc": [
+        0.21423100324300393,
+        0.1807400300117612,
+        0.12479293208171871,
+        40.17552518078236
+      ],
+      "joint": [
+        0.11636996591599669,
+        0.11603063655076795,
+        0.12589729431253804,
+        40.17552518078236
+      ]
+    }
+  },
+  "driving_ablations": {
+    "bias": {
+      "vs_anchor": {
+        "mean_y_wspsnr": 0.5256049860238222,
+        "mean_y_spsnr": 0.48266371213193304,
+        "mean_y_cpppsnr": 0.6119184411044901
+      },
+      "vs_sibrc": {
+        "mean_y_wspsnr": 0.2297639164760896,
+        "mean_y_spsnr": 0.15389008901150347,
+        "mean_y_cpppsnr": 0.2996486231667578
+      }
+    },
+    "intra": {
+      "vs_anchor": {
+        "mean_y_wspsnr": 0.9143646390655445,
+        "mean_y_spsnr": 0.9019409189160185,
+        "mean_y_cpppsnr": 0.9979762769947852
+      },
+      "vs_sibrc": {
+        "mean_y_wspsnr": 0.5974502326353058,
+        "mean_y_spsnr": 0.5536991044040899,
+        "mean_y_cpppsnr": 0.6611250503895851
+      }
+    },
+    "both": {
+      "vs_anchor": {
+        "mean_y_wspsnr": 0.2779492363920816,
+        "mean_y_spsnr": 0.3323727006435417,
+        "mean_y_cpppsnr": 0.3486671387929803
+      },
+      "vs_sibrc": {
+        "mean_y_wspsnr": -0.04317838221458315,
+        "mean_y_spsnr": -0.019550887655531042,
+        "mean_y_cpppsnr": 0.009309086525642859
+      }
+    }
+  },
+  "decision": "keep repairs opt-in; do not adopt joint candidate; no stable temporal gain"
+}

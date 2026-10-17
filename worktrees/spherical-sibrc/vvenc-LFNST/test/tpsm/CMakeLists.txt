@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.15)
+project(tpsm_test LANGUAGES CXX)
+enable_testing()
+add_executable(tpsm_test tpsm_test.cpp ../../source/Lib/EncoderLib/Tpsm/Model.cpp)
+target_include_directories(tpsm_test PRIVATE ../../source/Lib/EncoderLib)
+target_compile_features(tpsm_test PRIVATE cxx_std_11)
+add_test(NAME tpsm COMMAND tpsm_test)
+
+add_executable(replay_test replay_test.cpp)
+target_include_directories(replay_test PRIVATE ../../source/Lib/EncoderLib)
+target_compile_features(replay_test PRIVATE cxx_std_11)
+add_test(NAME replay COMMAND replay_test)

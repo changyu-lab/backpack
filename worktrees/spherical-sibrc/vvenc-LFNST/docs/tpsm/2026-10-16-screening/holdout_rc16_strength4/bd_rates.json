@@ -1,0 +1,32 @@
+{
+  "sibrc_vs_anchor": {
+    "mean_y_wspsnr": 22.02152886246459,
+    "mean_y_spsnr": 22.106364110731274,
+    "mean_y_cpppsnr": 22.235539088993225
+  },
+  "paper_ad_vs_anchor": {
+    "mean_y_wspsnr": -3.559992824808331,
+    "mean_y_spsnr": -3.6612340887859793,
+    "mean_y_cpppsnr": -3.4397465235244304
+  },
+  "joint_vs_anchor": {
+    "mean_y_wspsnr": 22.529304915727806,
+    "mean_y_spsnr": 22.56103934932852,
+    "mean_y_cpppsnr": 22.704547259295875
+  },
+  "anchor_vs_sibrc": {
+    "mean_y_wspsnr": -18.047248766474603,
+    "mean_y_spsnr": -18.10418668324632,
+    "mean_y_cpppsnr": -18.190731807387625
+  },
+  "paper_ad_vs_sibrc": {
+    "mean_y_wspsnr": -20.204813097468307,
+    "mean_y_spsnr": -20.354342555674965,
+    "mean_y_cpppsnr": -20.234219811823042
+  },
+  "joint_vs_sibrc": {
+    "mean_y_wspsnr": 0.3818837995147172,
+    "mean_y_spsnr": 0.3389615358849763,
+    "mean_y_cpppsnr": 0.35192760871558565
+  }
+}

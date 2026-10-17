@@ -1,0 +1,59 @@
+{
+  "source": "I:\\Sequences360\\low\\DrivingInCity_half_960x480_30Hz_8b_420.yuv",
+  "source_prefix_sha256": "92a010b8dada2309023aae5cd34421d9034ec345b6eb21f25509038213b60ea4",
+  "frames": 16,
+  "width": 960,
+  "height": 480,
+  "fps": 30,
+  "stage": "rc",
+  "temporal_strength": 4.0,
+  "assets": {
+    "encoder": {
+      "path": "C:\\Users\\hitxi\\.codex\\worktrees\\spherical-sibrc\\vvenc-LFNST\\bin\\release-static\\vvencFFapp.exe",
+      "sha256": "6f7c88aa9dff6889ad0db20e6fb0167c287cb607ecd9910992400ce3304527ef"
+    },
+    "decoder": {
+      "path": "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+      "sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8"
+    },
+    "metrics": {
+      "path": "C:\\Users\\hitxi\\.codex\\worktrees\\vtm23-rc-anchor\\vvenc-LFNST\\build-vtmrc\\metrics360-parallel\\Release\\metrics360.exe",
+      "sha256": "680188720d4645545df032675e176c0cc46ffdde6887cefb931392e0ecf7faab"
+    },
+    "sphere": {
+      "path": "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\cfg-360Lib\\360Lib\\sphere_655362.txt",
+      "sha256": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7"
+    },
+    "config": {
+      "path": "C:\\Users\\hitxi\\.codex\\worktrees\\spherical-sibrc\\vvenc-LFNST\\docs\\vtm23-rc\\aerialcity16_ldp.cfg",
+      "sha256": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463"
+    },
+    "stats": {
+      "path": "C:\\Users\\hitxi\\.codex\\worktrees\\spherical-sibrc\\vvenc-LFNST\\docs\\sibrc\\calibration-v1\\stats.txt",
+      "sha256": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882"
+    },
+    "model_I": {
+      "path": "C:\\Users\\hitxi\\.codex\\worktrees\\spherical-sibrc\\vvenc-LFNST\\docs\\sibrc\\calibration-v1\\model.I",
+      "sha256": "28bd600b512a0b81bef99ad69800e20a957ab79aeca75060106a60af838f266b"
+    },
+    "model_P": {
+      "path": "C:\\Users\\hitxi\\.codex\\worktrees\\spherical-sibrc\\vvenc-LFNST\\docs\\sibrc\\calibration-v1\\model.P",
+      "sha256": "3723841f2f0cafc1f0d2320e6dc58b7007603f295ada05d6a9ef26f5c003302e"
+    }
+  },
+  "interpretation": "short screening; not 300-frame paper replication",
+  "frozen_targets": {
+    "path": "I:\\vvenc-LFNST\\.tmp\\tpsm-driving-low-cqp16-01\\targets.json",
+    "sha256": "297e076828a43dee7c90dde7a7db4f3fcb7a5cc7dc620cac366ed6ad174f4fec",
+    "values_bps": [
+      2634570,
+      1147200,
+      537255,
+      262185
+    ],
+    "cqp_manifest": {
+      "path": "I:\\vvenc-LFNST\\.tmp\\tpsm-driving-low-cqp16-01\\manifest.json",
+      "sha256": "e9bf7637600b81448c47f2cea21504219c978c270e67a459a0e3bd32dc1cb614"
+    }
+  }
+}

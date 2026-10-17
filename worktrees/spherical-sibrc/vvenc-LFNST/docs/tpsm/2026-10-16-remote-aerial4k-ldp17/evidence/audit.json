@@ -1,0 +1,143 @@
+{
+  "state": "passed",
+  "points": [
+    {
+      "method": "anchor",
+      "point": 1,
+      "actual_bps": 1189581.1764705882,
+      "target_bps": 359510,
+      "rate_error_percent": 230.88959318811385,
+      "bitstream_sha256": "b0ee5a0fbe5ddf4e07d044599cf7689d6e7292e80c8d95473aa2b1c3944c6244"
+    },
+    {
+      "method": "anchor",
+      "point": 2,
+      "actual_bps": 1679802.3529411764,
+      "target_bps": 792057,
+      "rate_error_percent": 112.0809932796726,
+      "bitstream_sha256": "e901e3302c7598e6120229b6585bd3c5a1ccb827712baecc2a2c480ee336b022"
+    },
+    {
+      "method": "anchor",
+      "point": 3,
+      "actual_bps": 2628352.9411764704,
+      "target_bps": 2196112,
+      "rate_error_percent": 19.682099145055922,
+      "bitstream_sha256": "57090ec563e508be2697eb40e9dcc5dfe1b23c9fe76dbb20efe797d7435cfa06"
+    },
+    {
+      "method": "anchor",
+      "point": 4,
+      "actual_bps": 11772649.411764706,
+      "target_bps": 11820750,
+      "rate_error_percent": -0.4069165512788464,
+      "bitstream_sha256": "2e8186d183319f5b44f14e9704080016423faa195d46b37d7c91c585a45c5bef"
+    },
+    {
+      "method": "paper_ad",
+      "point": 1,
+      "actual_bps": 1003284.7058823529,
+      "target_bps": 359510,
+      "rate_error_percent": 179.07004141257627,
+      "bitstream_sha256": "f6527e7c14bf6fbb26deb59a8fcc81ea7a40a795a6b6e3bdfdf3e8f3a14fd2f6"
+    },
+    {
+      "method": "paper_ad",
+      "point": 2,
+      "actual_bps": 1388654.1176470588,
+      "target_bps": 792057,
+      "rate_error_percent": 75.32249795747765,
+      "bitstream_sha256": "18be4fbcbfc13faa12deff5621ef866461a157f19687d87d4f256eed1a5d7570"
+    },
+    {
+      "method": "paper_ad",
+      "point": 3,
+      "actual_bps": 2198174.117647059,
+      "target_bps": 2196112,
+      "rate_error_percent": 0.09389856469337321,
+      "bitstream_sha256": "2c172e181890d6e678432ba2712f1353c9173d337ab394f3bcec5fffaad5adee"
+    },
+    {
+      "method": "paper_ad",
+      "point": 4,
+      "actual_bps": 11281228.235294119,
+      "target_bps": 11820750,
+      "rate_error_percent": -4.564192328793704,
+      "bitstream_sha256": "d29a01aac189fad513c6d74df5c5e9ae2b965be9803d8c8f8da795cc62a3ce3c"
+    },
+    {
+      "method": "sibrc",
+      "point": 1,
+      "actual_bps": 1189581.1764705882,
+      "target_bps": 359510,
+      "rate_error_percent": 230.88959318811385,
+      "bitstream_sha256": "b0ee5a0fbe5ddf4e07d044599cf7689d6e7292e80c8d95473aa2b1c3944c6244"
+    },
+    {
+      "method": "sibrc",
+      "point": 2,
+      "actual_bps": 1679802.3529411764,
+      "target_bps": 792057,
+      "rate_error_percent": 112.0809932796726,
+      "bitstream_sha256": "e901e3302c7598e6120229b6585bd3c5a1ccb827712baecc2a2c480ee336b022"
+    },
+    {
+      "method": "sibrc",
+      "point": 3,
+      "actual_bps": 2628352.9411764704,
+      "target_bps": 2196112,
+      "rate_error_percent": 19.682099145055922,
+      "bitstream_sha256": "57090ec563e508be2697eb40e9dcc5dfe1b23c9fe76dbb20efe797d7435cfa06"
+    },
+    {
+      "method": "sibrc",
+      "point": 4,
+      "actual_bps": 11869849.411764706,
+      "target_bps": 11820750,
+      "rate_error_percent": 0.41536629879410647,
+      "bitstream_sha256": "6efc3e44645c72adfb79b144755635c0cd50469f4b6b366c794689862b20a550"
+    },
+    {
+      "method": "joint",
+      "point": 1,
+      "actual_bps": 1189581.1764705882,
+      "target_bps": 359510,
+      "rate_error_percent": 230.88959318811385,
+      "bitstream_sha256": "b0ee5a0fbe5ddf4e07d044599cf7689d6e7292e80c8d95473aa2b1c3944c6244"
+    },
+    {
+      "method": "joint",
+      "point": 2,
+      "actual_bps": 1679802.3529411764,
+      "target_bps": 792057,
+      "rate_error_percent": 112.0809932796726,
+      "bitstream_sha256": "e901e3302c7598e6120229b6585bd3c5a1ccb827712baecc2a2c480ee336b022"
+    },
+    {
+      "method": "joint",
+      "point": 3,
+      "actual_bps": 2628352.9411764704,
+      "target_bps": 2196112,
+      "rate_error_percent": 19.682099145055922,
+      "bitstream_sha256": "57090ec563e508be2697eb40e9dcc5dfe1b23c9fe76dbb20efe797d7435cfa06"
+    },
+    {
+      "method": "joint",
+      "point": 4,
+      "actual_bps": 11866503.529411765,
+      "target_bps": 11820750,
+      "rate_error_percent": 0.387061137506195,
+      "bitstream_sha256": "57bb8c74ee28c94938932e5b47cfd7859bf9651a101d00313269b8295a927276"
+    }
+  ],
+  "checks": [
+    "historical anchor bitstream identity at all 4 points",
+    "all 16 bitstream SHA256 hashes",
+    "independent decoder reconstruction hashes",
+    "decoder POC 0..16 for every bitstream",
+    "all metrics finite and cover 17 frames",
+    "actual Annex-B rate",
+    "source prefix and frozen assets unchanged",
+    "4 Linux CTests and 24 Python tests"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sibrc_vs_anchor": {
+    "mean_y_wspsnr": 0.30770325709667273,
+    "mean_y_spsnr": 0.3392315656095296,
+    "mean_y_cpppsnr": 0.32611427787162517
+  },
+  "joint_vs_anchor": {
+    "mean_y_wspsnr": 0.2991596206048785,
+    "mean_y_spsnr": 0.28496513928101264,
+    "mean_y_cpppsnr": 0.3534537712214709
+  },
+  "anchor_vs_sibrc": {
+    "mean_y_wspsnr": -0.30675934858961396,
+    "mean_y_spsnr": -0.3380846756711644,
+    "mean_y_cpppsnr": -0.3250542296180152
+  },
+  "joint_vs_sibrc": {
+    "mean_y_wspsnr": -0.013941305182584005,
+    "mean_y_spsnr": -0.058553808576219134,
+    "mean_y_cpppsnr": 0.022245714013839214
+  }
+}

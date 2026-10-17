@@ -1,0 +1,17 @@
+{
+  "scope": "single AerialCity 4K LDP GOP16 65-frame regression experiment; targets computed from 300-frame CQP logs",
+  "best_measured_method": "repaired_sibrc",
+  "joint_has_additional_gain": false,
+  "joint_vs_repaired_sibrc": {
+    "mean_y_wspsnr": 0.45017898447199695,
+    "mean_y_spsnr": 0.40024194239643646,
+    "mean_y_cpppsnr": 0.527194248274706
+  },
+  "standalone_tpsm_vs_anchor": {
+    "mean_y_wspsnr": 22.55898869093264,
+    "mean_y_spsnr": 22.49831231970082,
+    "mean_y_cpppsnr": 21.10519902435362
+  },
+  "default_settings_changed": false,
+  "interpretation": "17-frame GOP8 results do not establish stable gain; GOP size and targets also differ, so the change cannot be attributed solely to frame count"
+}

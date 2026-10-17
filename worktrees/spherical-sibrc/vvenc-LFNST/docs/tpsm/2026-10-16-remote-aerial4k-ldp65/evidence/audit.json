@@ -1,0 +1,147 @@
+{
+  "state": "passed",
+  "points": [
+    {
+      "method": "anchor",
+      "point": 1,
+      "actual_bps": 366428.3076923077,
+      "target_bps": 365298,
+      "rate_error_percent": 0.30942071741637545,
+      "bitstream_sha256": "19ef28201c354b6813ea728705c55db0bcdba9081c74aac7d3decf8168d82bb1"
+    },
+    {
+      "method": "anchor",
+      "point": 2,
+      "actual_bps": 820286.7692307692,
+      "target_bps": 818855,
+      "rate_error_percent": 0.17485015427263217,
+      "bitstream_sha256": "ba41b527b49e4fd97dfa1261d11b25a82765294b0bc68abc2cc93919908b388a"
+    },
+    {
+      "method": "anchor",
+      "point": 3,
+      "actual_bps": 2263473.230769231,
+      "target_bps": 2261497,
+      "rate_error_percent": 0.08738595581736508,
+      "bitstream_sha256": "61670911f118b8d946bf163a7bb4e1b6f3d2c54b46b90b31ac660207c9134551"
+    },
+    {
+      "method": "anchor",
+      "point": 4,
+      "actual_bps": 11862288.0,
+      "target_bps": 11859158,
+      "rate_error_percent": 0.026393104805588763,
+      "bitstream_sha256": "4d10aee415d41c4991ea26056718772eefc1136fb73a8fb8b21894fc0ccf5efa"
+    },
+    {
+      "method": "paper_ad",
+      "point": 1,
+      "actual_bps": 366816.0,
+      "target_bps": 365298,
+      "rate_error_percent": 0.41555113907001395,
+      "bitstream_sha256": "a0d0d8db11532afc39ce11fb00f282ce21bfcf79a285dc032a77a5310d83b1f0"
+    },
+    {
+      "method": "paper_ad",
+      "point": 2,
+      "actual_bps": 822524.3076923077,
+      "target_bps": 818855,
+      "rate_error_percent": 0.4481022515961719,
+      "bitstream_sha256": "0a252fefa026f2128758ccaae4ebd7a02c5debe310a37dd6414c432c08c4596a"
+    },
+    {
+      "method": "paper_ad",
+      "point": 3,
+      "actual_bps": 2320467.6923076925,
+      "target_bps": 2261497,
+      "rate_error_percent": 2.60759542496376,
+      "bitstream_sha256": "8a7423f65cc2ecfa63bf33e5151519c4c7cdec3f58f52e4406bf2affa3f5fd6f"
+    },
+    {
+      "method": "paper_ad",
+      "point": 4,
+      "actual_bps": 12025170.461538462,
+      "target_bps": 11859158,
+      "rate_error_percent": 1.3998671873539648,
+      "bitstream_sha256": "e8445fb1f141b4961ca6a504861fc23124397c6913f020a6bace259b9ba5a320"
+    },
+    {
+      "method": "sibrc",
+      "point": 1,
+      "actual_bps": 366723.6923076923,
+      "target_bps": 365298,
+      "rate_error_percent": 0.3902819910572397,
+      "bitstream_sha256": "24d3ea07822f8cd637331db9de7b0a4f6014968ec18032e801ae7d31f675292f"
+    },
+    {
+      "method": "sibrc",
+      "point": 2,
+      "actual_bps": 820198.1538461539,
+      "target_bps": 818855,
+      "rate_error_percent": 0.1640282890321032,
+      "bitstream_sha256": "adf87f21575af859165eedc3a9e45447842372508fcafda7a8522775b2b8dccb"
+    },
+    {
+      "method": "sibrc",
+      "point": 3,
+      "actual_bps": 2264411.076923077,
+      "target_bps": 2261497,
+      "rate_error_percent": 0.1288561038585101,
+      "bitstream_sha256": "c8beb7353cb488d157ad6345a2bc4665888ce31d95f91f24ead2e4eb837ee675"
+    },
+    {
+      "method": "sibrc",
+      "point": 4,
+      "actual_bps": 11869104.0,
+      "target_bps": 11859158,
+      "rate_error_percent": 0.08386767424803931,
+      "bitstream_sha256": "6bc247f8bbafb9b613972159cbf611d55411a5cd3dc2d3d5878c1520a5472c3e"
+    },
+    {
+      "method": "joint",
+      "point": 1,
+      "actual_bps": 366768.0,
+      "target_bps": 365298,
+      "rate_error_percent": 0.40241118210337934,
+      "bitstream_sha256": "2d1445c1391051aef9009c1ed66da685ff0fbcf424e35e2d96dce5308060e864"
+    },
+    {
+      "method": "joint",
+      "point": 2,
+      "actual_bps": 820375.3846153846,
+      "target_bps": 818855,
+      "rate_error_percent": 0.18567201951318335,
+      "bitstream_sha256": "2be95c820a1829f8604ee4d5c97b85722780a2f1e876cfe8fc9187c7926c8e64"
+    },
+    {
+      "method": "joint",
+      "point": 3,
+      "actual_bps": 2264843.076923077,
+      "target_bps": 2261497,
+      "rate_error_percent": 0.1479584948853363,
+      "bitstream_sha256": "feeaec6ce6359717fc1038c246f632894eaa73ff512cbe34bbe9e82c10e18a96"
+    },
+    {
+      "method": "joint",
+      "point": 4,
+      "actual_bps": 11867176.615384616,
+      "target_bps": 11859158,
+      "rate_error_percent": 0.06761538538078149,
+      "bitstream_sha256": "d0229a6cc2a6641a0754d23dc0d59ddf7a3d2d6399355744f0bf19e13b8bff83"
+    }
+  ],
+  "checks": [
+    "targets independently recomputed from the four 300-frame CQP logs",
+    "GOP16 and 65 frames",
+    "local and remote source prefix identity",
+    "all 16 bitstream hashes",
+    "all independent decoder reconstruction hashes",
+    "decoder POCs exactly0..64",
+    "all quality arrays contain65 finite values",
+    "actual complete Annex-B rates",
+    "same frozen assets",
+    "R2 anchor bit-identical to historical encoder",
+    "P CTU count450x64",
+    "own temporary reconstructions reclaimed"
+  ]
+}

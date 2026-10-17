@@ -1,0 +1,62 @@
+{
+  "sibrc": [
+    {
+      "point": 1,
+      "ctus": 512,
+      "fallback_percent": 28.90625,
+      "nonzero_action_percent": 56.25,
+      "zero_information_percent": 0.0
+    },
+    {
+      "point": 2,
+      "ctus": 512,
+      "fallback_percent": 41.6015625,
+      "nonzero_action_percent": 45.8984375,
+      "zero_information_percent": 0.0
+    },
+    {
+      "point": 3,
+      "ctus": 512,
+      "fallback_percent": 62.5,
+      "nonzero_action_percent": 25.78125,
+      "zero_information_percent": 0.0
+    },
+    {
+      "point": 4,
+      "ctus": 512,
+      "fallback_percent": 94.53125,
+      "nonzero_action_percent": 4.1015625,
+      "zero_information_percent": 0.0
+    }
+  ],
+  "joint": [
+    {
+      "point": 1,
+      "ctus": 512,
+      "fallback_percent": 22.8515625,
+      "nonzero_action_percent": 59.1796875,
+      "zero_information_percent": 0.0
+    },
+    {
+      "point": 2,
+      "ctus": 512,
+      "fallback_percent": 43.9453125,
+      "nonzero_action_percent": 45.1171875,
+      "zero_information_percent": 0.0
+    },
+    {
+      "point": 3,
+      "ctus": 512,
+      "fallback_percent": 64.84375,
+      "nonzero_action_percent": 23.2421875,
+      "zero_information_percent": 0.0
+    },
+    {
+      "point": 4,
+      "ctus": 512,
+      "fallback_percent": 94.53125,
+      "nonzero_action_percent": 4.1015625,
+      "zero_information_percent": 0.0
+    }
+  ]
+}

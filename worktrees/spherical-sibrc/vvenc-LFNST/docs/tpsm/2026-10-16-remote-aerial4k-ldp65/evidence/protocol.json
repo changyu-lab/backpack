@@ -1,0 +1,85 @@
+{
+  "algorithm_revision": "36c604e8",
+  "source": "/dev/shm/sibrc-ldp16-300-input-20261015/AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+  "source_prefix_65_sha256": "3ee22fe710ba457828398d6298c0f7a74400605913430183efd67c9cfd810ee5",
+  "source_prefix_300_sha256": "03e34c364a2a2c7bd78d164871456b1433ae278bbf8d26fb91cf8a70ebd96d87",
+  "width": 3840,
+  "height": 1920,
+  "fps": 30,
+  "frames": 65,
+  "coding": "LDP",
+  "GOPSize": 16,
+  "preset": "faster",
+  "targets_from_300_cqp_logs": [
+    {
+      "point": 1,
+      "qp": 37,
+      "frames": 300,
+      "log_kbps": "365.2984",
+      "target_bps": 365298,
+      "log": "/root/sibrc-ldp16-300-20261015/runs/AerialCity/cqp/R1.log",
+      "log_sha256": "2d401539e5016f97550b9d836d59cd5516b543fa5bcbebcac78acf7f7f5e4a3e",
+      "cqp_bitstream_sha256": "b38196c2d8b2f2ffae8458e1c5731d92a8b9f150e19e26bc7f266f8d30eaf37a"
+    },
+    {
+      "point": 2,
+      "qp": 32,
+      "frames": 300,
+      "log_kbps": "818.8552",
+      "target_bps": 818855,
+      "log": "/root/sibrc-ldp16-300-20261015/runs/AerialCity/cqp/R2.log",
+      "log_sha256": "cbd1ca8679ca9e1a5bdb455cf75337465bccf44486f88c56971126a1de986c56",
+      "cqp_bitstream_sha256": "bc0029d7f1a05673f0820216e026d4130577375a2850984f484d01574d9ac6ed"
+    },
+    {
+      "point": 3,
+      "qp": 27,
+      "frames": 300,
+      "log_kbps": "2261.4968",
+      "target_bps": 2261497,
+      "log": "/root/sibrc-ldp16-300-20261015/runs/AerialCity/cqp/R3.log",
+      "log_sha256": "24d5a1af0bce39f765832a638001151a00af1c9ed3c1639ac752458c03f74f22",
+      "cqp_bitstream_sha256": "e3bce00fe0698d2c358d064fcb157afe32f6435dc523ff89ce3274a3d4130749"
+    },
+    {
+      "point": 4,
+      "qp": 22,
+      "frames": 300,
+      "log_kbps": "11859.1576",
+      "target_bps": 11859158,
+      "log": "/root/sibrc-ldp16-300-20261015/runs/AerialCity/cqp/R4.log",
+      "log_sha256": "48fb31dc60120dfe8eb40b3c5944afa6ab89e0021336dc7ae2656635444af847",
+      "cqp_bitstream_sha256": "ba1d4d66e49ae4d0aa55b06ca09953d0d38974e22d5794b05c35e3d0e4b1ba97"
+    }
+  ],
+  "rounding": "decimal kbps times1000, round half up to integer bps",
+  "methods": [
+    "anchor",
+    "paper_ad",
+    "sibrc",
+    "joint"
+  ],
+  "temporal_strength_joint": 4,
+  "bias_repair": true,
+  "intra_anchor": true,
+  "qp_bounds": [
+    -2,
+    2
+  ],
+  "model": "unchanged v1 I/P",
+  "parallel_jobs": 3,
+  "metric_workers_per_job": 2,
+  "assets": {
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/bin/release-static/vvencFFapp": "10d0a0904ac58c031ac31cd664136cb6766324dfef06871e776f693083827875",
+    "/data/ibrc_st_direct_wref/VTM-23.0/bin/umake/gcc-11.4/x86_64/release/DecoderApp": "d42fb69d8fd6dd541b9a15fe5e2355098d73e720a15c2d514e9fe84786a92e63",
+    "/data/vtmrc-vvenc-tune-20261014/metrics-build/metrics360": "fe029626fdb5bf4bd0bcbc25ca9a1adf96ecb412c01f172879e981c1879d79a3",
+    "/root/VTM-23.0-paper-scc-rc-anchor-fit/cfg-360Lib/360Lib/sphere_655362.txt": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp65/ldp16.cfg": "3492d46b6c4e3f75ece758c938400b6e1f3ab11ab0ffad050b44609313ee1ca8",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/docs/sibrc/calibration-v1/stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/docs/sibrc/calibration-v1/model.I": "28bd600b512a0b81bef99ad69800e20a957ab79aeca75060106a60af838f266b",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/docs/sibrc/calibration-v1/model.P": "3723841f2f0cafc1f0d2320e6dc58b7007603f295ada05d6a9ef26f5c003302e",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp65/remote_aerial65.py": "71a9548ccf8db214238f8991ea576184565dd9c00ee0e3fccb3096d4961824c1"
+  },
+  "anchor_policy": "fresh 65-frame anchor at the same frozen targets; R2 also compared with the existing historical encoder",
+  "previous_17_frame_protocol": "/root/spherical_sibrc_20261016_aerial4k_ldp17/protocol.json"
+}

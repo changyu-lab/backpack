@@ -1,0 +1,32 @@
+{
+  "state": "complete",
+  "experiment_complete": true,
+  "source_commit": "11b9236d",
+  "approved_remote_payload_files": 12,
+  "payload_raw_sha256": "acf5d558aa2a46f4ba3014bad7f9834ccd18e186590abd123617f8244ce5313f",
+  "remote": "rycpu2.9gpu.com:36016",
+  "directory": "/root/spherical_sibrc_20261016_marginal",
+  "probe_poc": 8,
+  "frames": 65,
+  "completed_perturbations": 24,
+  "completed_baseline_gates": 2,
+  "all26_independent_decodes": true,
+  "independent_audit": "passed",
+  "rank_tests": {
+    "future_per_current_error": {
+      "spearman": -0.05521888072258639,
+      "permutation_two_sided_p": 0.8914,
+      "n": 10,
+      "permutations": 19999,
+      "interpretation": "descriptive stratified one-frame sample; no population inference"
+    },
+    "raw_future_reduction": {
+      "spearman": -0.29186115364847715,
+      "permutation_two_sided_p": 0.362,
+      "n": 12,
+      "permutations": 19999,
+      "interpretation": "descriptive stratified one-frame sample; no population inference"
+    }
+  },
+  "scope": "single sequence, bitrate and frame; mechanism diagnostic, not BDBR or population proof"
+}

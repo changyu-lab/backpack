@@ -1,0 +1,47 @@
+{
+  "revision": "36c604e8",
+  "source": "/data/360seqFull_17f/AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+  "source_prefix_sha256": "5c93310067fe94f9017e1741afdc15569e0fac2b77a82f9957e5c00efd7a0ca9",
+  "frames": 17,
+  "width": 3840,
+  "height": 1920,
+  "fps": 30,
+  "coding": "LDP",
+  "preset": "faster",
+  "targets_bps": [
+    359510,
+    792057,
+    2196112,
+    11820750
+  ],
+  "target_origin": "existing historical 300-frame CQP targets, reused unchanged for 17 frames",
+  "historical_anchor": "/data/vtmrc-vvenc-tune-20261014/baseline/AerialCity",
+  "strength": 4,
+  "bias_repair": true,
+  "intra_anchor": true,
+  "model": "v1",
+  "offset": [
+    -2,
+    2
+  ],
+  "assets": {
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/bin/release-static/vvencFFapp": "10d0a0904ac58c031ac31cd664136cb6766324dfef06871e776f693083827875",
+    "/data/ibrc_st_direct_wref/VTM-23.0/bin/umake/gcc-11.4/x86_64/release/DecoderApp": "d42fb69d8fd6dd541b9a15fe5e2355098d73e720a15c2d514e9fe84786a92e63",
+    "/data/vtmrc-vvenc-tune-20261014/metrics-build/metrics360": "fe029626fdb5bf4bd0bcbc25ca9a1adf96ecb412c01f172879e981c1879d79a3",
+    "/root/VTM-23.0-paper-scc-rc-anchor-fit/cfg-360Lib/360Lib/sphere_655362.txt": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/docs/vtm23-rc/aerialcity16_ldp.cfg": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/docs/sibrc/calibration-v1/stats.txt": "34130914d219348289cccd90b141871cbe25291d5a1c22d53e84996b3f9fe882",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/docs/sibrc/calibration-v1/model.I": "28bd600b512a0b81bef99ad69800e20a957ab79aeca75060106a60af838f266b",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/src/docs/sibrc/calibration-v1/model.P": "3723841f2f0cafc1f0d2320e6dc58b7007603f295ada05d6a9ef26f5c003302e",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/source-36c604e8.tar.gz": "bce136312c06f0cb6005f6fb495424245340c355874ca67c85a1caca0cf8a664",
+    "/root/spherical_sibrc_20261016_aerial4k_ldp17/remote_aerial17.py": "a604bae38835b5b435524db8606b99e154ca4885eea50b95386c2eb0ddcf1011"
+  },
+  "linux_build": {
+    "type": "Release",
+    "jobs": 4,
+    "LTO": false,
+    "CXX_FLAGS": "-Wno-error=misleading-indentation",
+    "reason": "frozen Windows-tested source contains single-line clauses; keep warnings while allowing Linux build, no algorithm source edits"
+  },
+  "storage": "sequential encode/decode/metric; temporary reconstruction in /dev/shm; own temporary recon deleted only after quality and hash checks"
+}

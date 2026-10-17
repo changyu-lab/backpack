@@ -1,0 +1,77 @@
+{
+  "interpretation": "post-hoc frame-window diagnostics within the65-frame runs at the same target; not a causal comparison of17-frame and65-frame encodes",
+  "values": {
+    "paper_ad_R1": {
+      "I_POC0_delta_db": -0.3070384579777965,
+      "P_POC1_16_mean_delta_db": 0.3156703778065535,
+      "P_POC17_64_mean_delta_db": 1.0520727457687498,
+      "all_65_mean_delta_db": 0.849895067443493
+    },
+    "paper_ad_R2": {
+      "I_POC0_delta_db": -0.3937664493800668,
+      "P_POC1_16_mean_delta_db": 0.06786047445132315,
+      "P_POC17_64_mean_delta_db": -1.124762786324269,
+      "all_65_mean_delta_db": -0.8199478861803663
+    },
+    "paper_ad_R3": {
+      "I_POC0_delta_db": -0.5032445540369324,
+      "P_POC1_16_mean_delta_db": 0.05951439453641605,
+      "P_POC17_64_mean_delta_db": -0.5953569260040922,
+      "all_65_mean_delta_db": -0.4327407183023184
+    },
+    "paper_ad_R4": {
+      "I_POC0_delta_db": -0.4228629609802894,
+      "P_POC1_16_mean_delta_db": -0.11461924934510037,
+      "P_POC17_64_mean_delta_db": 0.20539650695185552,
+      "all_65_mean_delta_db": 0.11695786743364876
+    },
+    "sibrc_R1": {
+      "I_POC0_delta_db": 0.0,
+      "P_POC1_16_mean_delta_db": 0.16266167291456002,
+      "P_POC17_64_mean_delta_db": -0.011389199296143238,
+      "all_65_mean_delta_db": 0.03162931077566285
+    },
+    "sibrc_R2": {
+      "I_POC0_delta_db": 0.0,
+      "P_POC1_16_mean_delta_db": 0.13384864772970584,
+      "P_POC17_64_mean_delta_db": 0.08452160061929999,
+      "all_65_mean_delta_db": 0.09536331066771836
+    },
+    "sibrc_R3": {
+      "I_POC0_delta_db": 0.0,
+      "P_POC1_16_mean_delta_db": 0.10016114866044346,
+      "P_POC17_64_mean_delta_db": 0.07177044278563516,
+      "all_65_mean_delta_db": 0.07765476357350128
+    },
+    "sibrc_R4": {
+      "I_POC0_delta_db": 0.0,
+      "P_POC1_16_mean_delta_db": 0.16336464500738668,
+      "P_POC17_64_mean_delta_db": 0.11637281576540974,
+      "all_65_mean_delta_db": 0.1261496842593516
+    },
+    "joint_R1": {
+      "I_POC0_delta_db": 0.0,
+      "P_POC1_16_mean_delta_db": 0.14259219920008182,
+      "P_POC17_64_mean_delta_db": -0.007861187085004051,
+      "all_65_mean_delta_db": 0.029294433955709454
+    },
+    "joint_R2": {
+      "I_POC0_delta_db": 0.0,
+      "P_POC1_16_mean_delta_db": 0.13806771904851312,
+      "P_POC17_64_mean_delta_db": 0.10189141326713269,
+      "all_65_mean_delta_db": 0.10922878987074737
+    },
+    "joint_R3": {
+      "I_POC0_delta_db": 0.0,
+      "P_POC1_16_mean_delta_db": 0.08869841155785219,
+      "P_POC17_64_mean_delta_db": 0.05174870489155081,
+      "all_65_mean_delta_db": 0.06004788338030883
+    },
+    "joint_R4": {
+      "I_POC0_delta_db": 0.0,
+      "P_POC1_16_mean_delta_db": 0.1336965564954129,
+      "P_POC17_64_mean_delta_db": 0.08223517887880287,
+      "all_65_mean_delta_db": 0.09363743830937145
+    }
+  }
+}

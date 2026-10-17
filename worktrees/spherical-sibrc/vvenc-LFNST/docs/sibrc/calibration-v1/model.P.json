@@ -1,0 +1,78 @@
+{
+  "source_sha256": "4cbf518df4712118d970fc9ea748b7b287655663380401f5f24cca97e29d35ff",
+  "source_metadata": {
+    "sequences": [
+      "DrivingInCity",
+      "DrivingInCountry"
+    ],
+    "frames": 4,
+    "run_records": [
+      "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCity.run.json",
+      "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCountry.run.json"
+    ],
+    "dump_stride": 16,
+    "residual_normalization": "8bit",
+    "prediction": "first L0, integer SAD stride4 coarse4 +/-8 refine1 +/-2; intra128",
+    "evaluation_excluded": [
+      "AerialCity"
+    ]
+  },
+  "arguments": {
+    "command": "model",
+    "input": "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\development_samples.csv",
+    "metadata": "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\development_metadata.json",
+    "output": "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\model.P",
+    "kind": "P",
+    "ridge": 1e-06,
+    "holdout_fraction": 0.25,
+    "equator_degrees": 15.0
+  },
+  "train_samples": 7918,
+  "holdout_samples": 2880,
+  "holdout_groups": [
+    [
+      "DrivingInCountry",
+      8
+    ],
+    [
+      "DrivingInCountry",
+      9
+    ],
+    [
+      "DrivingInCountry",
+      10
+    ],
+    [
+      "DrivingInCountry",
+      11
+    ],
+    [
+      "DrivingInCountry",
+      12
+    ],
+    [
+      "DrivingInCountry",
+      13
+    ],
+    [
+      "DrivingInCountry",
+      14
+    ],
+    [
+      "DrivingInCountry",
+      15
+    ]
+  ],
+  "qp_domain": [
+    22.0,
+    37.0
+  ],
+  "information_domain": [
+    8.961661332303773,
+    10027.815792583471
+  ],
+  "holdout_log_rmse": {
+    "bits": 1.4699597440627767,
+    "weighted_mse": 0.4667393655212629
+  }
+}

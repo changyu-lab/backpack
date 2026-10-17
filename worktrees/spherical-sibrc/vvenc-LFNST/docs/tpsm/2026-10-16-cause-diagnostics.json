@@ -1,0 +1,63 @@
+{
+  "source": "Archived holdout_rc16_strength4; no new encoding or fitting",
+  "P_model_training_QP_domain": [
+    22,
+    37
+  ],
+  "P_requested_QP_observed_range": [
+    20,
+    59
+  ],
+  "P_requested_QP_outside_training_domain_fraction": 0.5394444444444444,
+  "points": [
+    {
+      "point": 1,
+      "target_total_bits": 4062904.0,
+      "first_I_picture_bits": 1906072,
+      "I_to_total_target_budget": 0.4691402996477396,
+      "P_nonpositive_D_QP_slope_fraction": 0.045,
+      "P_no_positive_QP_rate_saving_action_fraction": 0.055,
+      "P_fallback_fraction": 0.27555555555555555,
+      "valid_beta_equals1_fraction": 0.15370483772198407,
+      "changed_requested_CTU_QP_fraction": 0.2125,
+      "P_mean_WSPSNR_delta_joint_minus_sibrc": -0.015142389264951817
+    },
+    {
+      "point": 2,
+      "target_total_bits": 1434104.0,
+      "first_I_picture_bits": 1254336,
+      "I_to_total_target_budget": 0.8746478637532564,
+      "P_nonpositive_D_QP_slope_fraction": 0.33111111111111113,
+      "P_no_positive_QP_rate_saving_action_fraction": 0.3527777777777778,
+      "P_fallback_fraction": 0.32555555555555554,
+      "valid_beta_equals1_fraction": 0.7620670073821693,
+      "changed_requested_CTU_QP_fraction": 0.3411458333333333,
+      "P_mean_WSPSNR_delta_joint_minus_sibrc": -0.01386615036766159
+    },
+    {
+      "point": 3,
+      "target_total_bits": 724400.0,
+      "first_I_picture_bits": 800056,
+      "I_to_total_target_budget": 1.1044395361678632,
+      "P_nonpositive_D_QP_slope_fraction": 0.7605555555555555,
+      "P_no_positive_QP_rate_saving_action_fraction": 0.7794444444444445,
+      "P_fallback_fraction": 0.8244444444444444,
+      "valid_beta_equals1_fraction": 0.9988888888888889,
+      "changed_requested_CTU_QP_fraction": 0.0,
+      "P_mean_WSPSNR_delta_joint_minus_sibrc": 0.0
+    },
+    {
+      "point": 4,
+      "target_total_bits": 372824.0,
+      "first_I_picture_bits": 600944,
+      "I_to_total_target_budget": 1.6118704804411734,
+      "P_nonpositive_D_QP_slope_fraction": 0.7738888888888888,
+      "P_no_positive_QP_rate_saving_action_fraction": 0.7955555555555556,
+      "P_fallback_fraction": 0.7638888888888888,
+      "valid_beta_equals1_fraction": 1.0,
+      "changed_requested_CTU_QP_fraction": 0.05625,
+      "P_mean_WSPSNR_delta_joint_minus_sibrc": 0.07097986585343108
+    }
+  ],
+  "constant_bias_fixed_point": "delta_next=.9*delta+.1*(e-delta); delta_star=e/2; actual/raw=4 implies correction=2"
+}

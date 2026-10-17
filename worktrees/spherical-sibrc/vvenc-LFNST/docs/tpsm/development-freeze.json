@@ -1,0 +1,36 @@
+{
+  "stage": "development selection before held-out candidate evaluation",
+  "development_source": "DrivingInCity_half_960x480_30Hz_8b_420.yuv",
+  "frames": 16,
+  "candidate_strengths": [
+    1,
+    2,
+    4
+  ],
+  "selected_strength": 4,
+  "selection_rule": "Only strength4 improves all three development BD rates; preserve default1 as original proposed objective. No held-out candidate quality was available during selection.",
+  "development_bd_rates_percent": {
+    "1": {
+      "mean_y_wspsnr": -0.015762649621037232,
+      "mean_y_spsnr": -0.0723748887203812,
+      "mean_y_cpppsnr": 0.024334194922990084
+    },
+    "2": {
+      "mean_y_wspsnr": -0.013941305182584005,
+      "mean_y_spsnr": -0.058553808576219134,
+      "mean_y_cpppsnr": 0.022245714013839214
+    },
+    "4": {
+      "mean_y_wspsnr": -0.06734025193410821,
+      "mean_y_spsnr": -0.12912548001366236,
+      "mean_y_cpppsnr": -0.034430798643790755
+    }
+  },
+  "frozen_encoder_sha256": "6f7c88aa9dff6889ad0db20e6fb0167c287cb607ecd9910992400ce3304527ef",
+  "models": "unchanged committed calibration-v1",
+  "qp_action_bounds": [
+    -2,
+    2
+  ],
+  "timestamp_utc": "2026-10-15T19:06:20.105305Z"
+}

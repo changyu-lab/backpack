@@ -1,0 +1,516 @@
+{
+  "samples": [
+    {
+      "ctu": 262,
+      "wt": 0.9801327103019547,
+      "stratum": "low",
+      "baseline_ctu_bits": 94,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 90434.55377702415,
+        "future_sse_reduction": 13150417.84882532,
+        "current_extra_bits": 584.0,
+        "future_extra_bits": -1280.0,
+        "total_extra_bits": -696.0,
+        "amplification": 145.4136422373361,
+        "future_benefit_per_current_bit": 22517.83878223514,
+        "all_frame_sse_reduction": 13240852.402602345
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": -22697.18168632686,
+        "future_sse_reduction": 6755399.029710144,
+        "current_extra_bits": -120.0,
+        "future_extra_bits": -352.0,
+        "total_extra_bits": -472.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": 6732701.848023817
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 67737.37209069729,
+        "future_sse_reduction": 19905816.878535464,
+        "current_extra_bits": 464.0,
+        "future_extra_bits": -1632.0,
+        "total_extra_bits": -1168.0,
+        "amplification": 293.86756917411077,
+        "future_benefit_per_current_bit": 42900.467410636775,
+        "all_frame_sse_reduction": 19973554.25062616
+      },
+      "central_annexb_extra_bits": -1168,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": 0.9492729949221115
+    },
+    {
+      "ctu": 265,
+      "wt": 0.9828931390774704,
+      "stratum": "low",
+      "baseline_ctu_bits": 129,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 97899.27485640347,
+        "future_sse_reduction": 9829447.31119676,
+        "current_extra_bits": 872.0,
+        "future_extra_bits": -2176.0,
+        "total_extra_bits": -1304.0,
+        "amplification": 100.40367842983903,
+        "future_benefit_per_current_bit": 11272.301962381605,
+        "all_frame_sse_reduction": 9927346.586053163
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": -23170.406802669168,
+        "future_sse_reduction": -1590215.6538696736,
+        "current_extra_bits": 24.0,
+        "future_extra_bits": 1544.0,
+        "total_extra_bits": 1568.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": -66258.98557790306,
+        "all_frame_sse_reduction": -1613386.0606723428
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 74728.8680537343,
+        "future_sse_reduction": 8239231.657327086,
+        "current_extra_bits": 896.0,
+        "future_extra_bits": -632.0,
+        "total_extra_bits": 264.0,
+        "amplification": 110.25500414916776,
+        "future_benefit_per_current_bit": 9195.57104612398,
+        "all_frame_sse_reduction": 8313960.52538082
+      },
+      "central_annexb_extra_bits": 264,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": 0.4041465346098647
+    },
+    {
+      "ctu": 281,
+      "wt": 0.9968502739384184,
+      "stratum": "low",
+      "baseline_ctu_bits": 94,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": -33196.405489102006,
+        "future_sse_reduction": 8658029.735393837,
+        "current_extra_bits": -176.0,
+        "future_extra_bits": -2632.0,
+        "total_extra_bits": -2808.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": 8624833.329904735
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": 1772.941572368145,
+        "future_sse_reduction": 3939266.365405008,
+        "current_extra_bits": 0.0,
+        "future_extra_bits": 864.0,
+        "total_extra_bits": 864.0,
+        "amplification": 2221.8816608509383,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": 3941039.3069773763
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": -31423.46391673386,
+        "future_sse_reduction": 12597296.100798845,
+        "current_extra_bits": -176.0,
+        "future_extra_bits": -1768.0,
+        "total_extra_bits": -1944.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": 12565872.636882111
+      },
+      "central_annexb_extra_bits": -1944,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": 0.6646785676624987
+    },
+    {
+      "ctu": 294,
+      "wt": 0.9921441733808024,
+      "stratum": "low",
+      "baseline_ctu_bits": 95,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 83297.12877966464,
+        "future_sse_reduction": 9005248.809458375,
+        "current_extra_bits": 568.0,
+        "future_extra_bits": 3360.0,
+        "total_extra_bits": 3928.0,
+        "amplification": 108.10995458533536,
+        "future_benefit_per_current_bit": 15854.311284257703,
+        "all_frame_sse_reduction": 9088545.93823804
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": -871.9807945638895,
+        "future_sse_reduction": -4011120.675838813,
+        "current_extra_bits": -56.0,
+        "future_extra_bits": -1944.0,
+        "total_extra_bits": -2000.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": -4011992.656633377
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 82425.14798510075,
+        "future_sse_reduction": 4994128.133619562,
+        "current_extra_bits": 512.0,
+        "future_extra_bits": 1416.0,
+        "total_extra_bits": 1928.0,
+        "amplification": 60.58985947495424,
+        "future_benefit_per_current_bit": 9754.156510975707,
+        "all_frame_sse_reduction": 5076553.281604663
+      },
+      "central_annexb_extra_bits": 1928,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": 0.26976167949552377
+    },
+    {
+      "ctu": 219,
+      "wt": 1.0,
+      "stratum": "neutral",
+      "baseline_ctu_bits": 32,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 314.57153226435184,
+        "future_sse_reduction": 1080257.6539487094,
+        "current_extra_bits": 8.0,
+        "future_extra_bits": -3696.0,
+        "total_extra_bits": -3688.0,
+        "amplification": 3434.0604382500487,
+        "future_benefit_per_current_bit": 135032.20674358867,
+        "all_frame_sse_reduction": 1080572.2254809737
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": 56.21673457324505,
+        "future_sse_reduction": -3774469.331050828,
+        "current_extra_bits": -8.0,
+        "future_extra_bits": 1768.0,
+        "total_extra_bits": 1760.0,
+        "amplification": -67141.38342797293,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": -3774413.114316255
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 370.7882668375969,
+        "future_sse_reduction": -2694211.6771021187,
+        "current_extra_bits": 0.0,
+        "future_extra_bits": -1928.0,
+        "total_extra_bits": -1928.0,
+        "amplification": -7266.172956551961,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": -2693840.888835281
+      },
+      "central_annexb_extra_bits": -1928,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": -0.1520970692815382
+    },
+    {
+      "ctu": 266,
+      "wt": 1.0,
+      "stratum": "neutral",
+      "baseline_ctu_bits": 222,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 18441.696868911386,
+        "future_sse_reduction": -2679766.0838117003,
+        "current_extra_bits": 176.0,
+        "future_extra_bits": -768.0,
+        "total_extra_bits": -592.0,
+        "amplification": -145.310168736652,
+        "future_benefit_per_current_bit": -15225.943658021024,
+        "all_frame_sse_reduction": -2661324.386942789
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": -57973.880056753755,
+        "future_sse_reduction": -8601947.58035776,
+        "current_extra_bits": -208.0,
+        "future_extra_bits": 4048.0,
+        "total_extra_bits": 3840.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": -8659921.460414514
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": -39532.18318784237,
+        "future_sse_reduction": -11281713.66416946,
+        "current_extra_bits": -32.0,
+        "future_extra_bits": 3280.0,
+        "total_extra_bits": 3248.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": -11321245.847357303
+      },
+      "central_annexb_extra_bits": 3248,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": -0.60441410641846
+    },
+    {
+      "ctu": 320,
+      "wt": 1.0,
+      "stratum": "neutral",
+      "baseline_ctu_bits": 67,
+      "baseline_qp": 37,
+      "minus_vs_baseline": {
+        "current_sse_reduction": -207.60901974141598,
+        "future_sse_reduction": -4956081.081872091,
+        "current_extra_bits": -8.0,
+        "future_extra_bits": -616.0,
+        "total_extra_bits": -624.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": -4956288.690891832
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": 6242.696605414152,
+        "future_sse_reduction": -6044842.940923959,
+        "current_extra_bits": 24.0,
+        "future_extra_bits": 544.0,
+        "total_extra_bits": 568.0,
+        "amplification": -968.3063783175688,
+        "future_benefit_per_current_bit": -251868.45587183163,
+        "all_frame_sse_reduction": -6038600.244318545
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 6035.087585672736,
+        "future_sse_reduction": -11000924.02279605,
+        "current_extra_bits": 16.0,
+        "future_extra_bits": -72.0,
+        "total_extra_bits": -56.0,
+        "amplification": -1822.8275673930866,
+        "future_benefit_per_current_bit": -687557.7514247531,
+        "all_frame_sse_reduction": -10994888.935210377
+      },
+      "central_annexb_extra_bits": -56,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": -0.5188781942115028
+    },
+    {
+      "ctu": 414,
+      "wt": 1.0,
+      "stratum": "neutral",
+      "baseline_ctu_bits": 56,
+      "baseline_qp": 37,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 0.0,
+        "future_sse_reduction": 0.0,
+        "current_extra_bits": 0.0,
+        "future_extra_bits": 0.0,
+        "total_extra_bits": 0.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": 0.0
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": 50532.65216805041,
+        "future_sse_reduction": -9287664.678500548,
+        "current_extra_bits": 56.0,
+        "future_extra_bits": 2288.0,
+        "total_extra_bits": 2344.0,
+        "amplification": -183.79531411914954,
+        "future_benefit_per_current_bit": -165851.15497322407,
+        "all_frame_sse_reduction": -9237132.026332498
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 50532.65216805041,
+        "future_sse_reduction": -9287664.678500548,
+        "current_extra_bits": 56.0,
+        "future_extra_bits": 2288.0,
+        "total_extra_bits": 2344.0,
+        "amplification": -183.79531411914954,
+        "future_benefit_per_current_bit": -165851.15497322407,
+        "all_frame_sse_reduction": -9237132.026332498
+      },
+      "central_annexb_extra_bits": 2344,
+      "minus_bitstream_unchanged": true,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": -0.4473149303594326
+    },
+    {
+      "ctu": 223,
+      "wt": 3.9540740007658775,
+      "stratum": "high",
+      "baseline_ctu_bits": 162,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 348704.0776104033,
+        "future_sse_reduction": -4636654.8928210735,
+        "current_extra_bits": 1936.0,
+        "future_extra_bits": -2176.0,
+        "total_extra_bits": -240.0,
+        "amplification": -13.29681867959534,
+        "future_benefit_per_current_bit": -2394.966370258819,
+        "all_frame_sse_reduction": -4287950.81521067
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": -145197.0397835374,
+        "future_sse_reduction": -835782.9082910866,
+        "current_extra_bits": -1064.0,
+        "future_extra_bits": 2256.0,
+        "total_extra_bits": 1192.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": -980979.948074624
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 203507.0378268659,
+        "future_sse_reduction": -5472437.80111216,
+        "current_extra_bits": 872.0,
+        "future_extra_bits": 80.0,
+        "total_extra_bits": 952.0,
+        "amplification": -26.890656262059345,
+        "future_benefit_per_current_bit": -6275.7314232937615,
+        "all_frame_sse_reduction": -5268930.763285294
+      },
+      "central_annexb_extra_bits": 952,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": -0.214310396141407
+    },
+    {
+      "ctu": 253,
+      "wt": 3.8764166491087475,
+      "stratum": "high",
+      "baseline_ctu_bits": 184,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 33725.92611299455,
+        "future_sse_reduction": 6695237.808701068,
+        "current_extra_bits": 984.0,
+        "future_extra_bits": 1808.0,
+        "total_extra_bits": 2792.0,
+        "amplification": 198.51902024186083,
+        "future_benefit_per_current_bit": 6804.103464127102,
+        "all_frame_sse_reduction": 6728963.734814063
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": -13764.610429897904,
+        "future_sse_reduction": 1563707.0084405988,
+        "current_extra_bits": 88.0,
+        "future_extra_bits": -5024.0,
+        "total_extra_bits": -4936.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": 17769.397823188625,
+        "all_frame_sse_reduction": 1549942.398010701
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 19961.315683096647,
+        "future_sse_reduction": 8258944.817141667,
+        "current_extra_bits": 1072.0,
+        "future_extra_bits": -3216.0,
+        "total_extra_bits": -2144.0,
+        "amplification": 413.74751786203086,
+        "future_benefit_per_current_bit": 7704.239568229167,
+        "all_frame_sse_reduction": 8278906.132824764
+      },
+      "central_annexb_extra_bits": -2144,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": 0.4006514855493464
+    },
+    {
+      "ctu": 264,
+      "wt": 3.958291044798265,
+      "stratum": "high",
+      "baseline_ctu_bits": 171,
+      "baseline_qp": 33,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 66158.69031916559,
+        "future_sse_reduction": 7739633.420959964,
+        "current_extra_bits": 640.0,
+        "future_extra_bits": 1600.0,
+        "total_extra_bits": 2240.0,
+        "amplification": 116.9858923086611,
+        "future_benefit_per_current_bit": 12093.177220249945,
+        "all_frame_sse_reduction": 7805792.11127913
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": -10420.51259958744,
+        "future_sse_reduction": 1533781.4366931021,
+        "current_extra_bits": -88.0,
+        "future_extra_bits": -1216.0,
+        "total_extra_bits": -1304.0,
+        "amplification": null,
+        "future_benefit_per_current_bit": null,
+        "all_frame_sse_reduction": 1523360.9240935147
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 55738.17771957815,
+        "future_sse_reduction": 9273414.857653067,
+        "current_extra_bits": 552.0,
+        "future_extra_bits": 384.0,
+        "total_extra_bits": 936.0,
+        "amplification": 166.3745611546206,
+        "future_benefit_per_current_bit": 16799.664597197585,
+        "all_frame_sse_reduction": 9329153.035372645
+      },
+      "central_annexb_extra_bits": 936,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": 0.4454549831853569
+    },
+    {
+      "ctu": 283,
+      "wt": 3.917768591108219,
+      "stratum": "high",
+      "baseline_ctu_bits": 41,
+      "baseline_qp": 34,
+      "minus_vs_baseline": {
+        "current_sse_reduction": 26378.665039673448,
+        "future_sse_reduction": -1995439.3914387822,
+        "current_extra_bits": 104.0,
+        "future_extra_bits": -4032.0,
+        "total_extra_bits": -3928.0,
+        "amplification": -75.6459581422201,
+        "future_benefit_per_current_bit": -19186.917225372905,
+        "all_frame_sse_reduction": -1969060.7263991088
+      },
+      "baseline_vs_plus": {
+        "current_sse_reduction": 3485.6529279351234,
+        "future_sse_reduction": -914909.2527452111,
+        "current_extra_bits": 8.0,
+        "future_extra_bits": -2112.0,
+        "total_extra_bits": -2104.0,
+        "amplification": -262.47858626796705,
+        "future_benefit_per_current_bit": -114363.65659315139,
+        "all_frame_sse_reduction": -911423.599817276
+      },
+      "central_minus_vs_plus": {
+        "current_sse_reduction": 29864.31796760857,
+        "future_sse_reduction": -2910348.6441839933,
+        "current_extra_bits": 112.0,
+        "future_extra_bits": -6144.0,
+        "total_extra_bits": -6032.0,
+        "amplification": -97.452372672318,
+        "future_benefit_per_current_bit": -25985.2557516428,
+        "all_frame_sse_reduction": -2880484.326216385
+      },
+      "central_annexb_extra_bits": -6032,
+      "minus_bitstream_unchanged": false,
+      "plus_bitstream_unchanged": false,
+      "central_future_psnr_gain_sum_db": -0.12471782267271436
+    }
+  ],
+  "rank_tests": {
+    "future_per_current_error": {
+      "spearman": -0.05521888072258639,
+      "permutation_two_sided_p": 0.8914,
+      "n": 10,
+      "permutations": 19999,
+      "interpretation": "descriptive stratified one-frame sample; no population inference"
+    },
+    "raw_future_reduction": {
+      "spearman": -0.29186115364847715,
+      "permutation_two_sided_p": 0.362,
+      "n": 12,
+      "permutations": 19999,
+      "interpretation": "descriptive stratified one-frame sample; no population inference"
+    }
+  },
+  "invalid_amplification_samples": 2,
+  "interpretation": "finite one-frame stratified diagnostic; response per current error is primary, raw future benefit is content-confounded; no population inference",
+  "baseline_and_zero_identity": true,
+  "all_26_decodes_hash_verified": true
+}

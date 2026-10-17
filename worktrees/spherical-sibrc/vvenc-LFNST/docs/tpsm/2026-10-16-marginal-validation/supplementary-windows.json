@@ -1,0 +1,480 @@
+{
+  "scope": "post-hoc supplementary sensitivity; primary horizon remains56; report every window, no best-window selection; configured-chain window varies by stratum and is mechanically confounded by window length",
+  "windows": {
+    "1": {
+      "rank_test": {
+        "spearman": -0.17792750455055617,
+        "permutation_two_sided_p": 0.63185,
+        "n": 10,
+        "permutations": 19999,
+        "interpretation": "descriptive stratified one-frame sample; no population inference"
+      },
+      "samples": [
+        {
+          "ctu": 262,
+          "wt": 0.9801327103019547,
+          "horizon": 1,
+          "future_sse_reduction": 234564.79822155833,
+          "amplification": 3.4628564850063364
+        },
+        {
+          "ctu": 265,
+          "wt": 0.9828931390774704,
+          "horizon": 1,
+          "future_sse_reduction": 100779.59555201232,
+          "amplification": 1.3486032664049732
+        },
+        {
+          "ctu": 281,
+          "wt": 0.9968502739384184,
+          "horizon": 1,
+          "future_sse_reduction": 101920.95574471354,
+          "amplification": null
+        },
+        {
+          "ctu": 294,
+          "wt": 0.9921441733808024,
+          "horizon": 1,
+          "future_sse_reduction": 30750.991332873702,
+          "amplification": 0.373077781291121
+        },
+        {
+          "ctu": 219,
+          "wt": 1.0,
+          "horizon": 1,
+          "future_sse_reduction": 378.2443948239088,
+          "amplification": 1.0201088563289886
+        },
+        {
+          "ctu": 266,
+          "wt": 1.0,
+          "horizon": 1,
+          "future_sse_reduction": 421499.10868157446,
+          "amplification": null
+        },
+        {
+          "ctu": 320,
+          "wt": 1.0,
+          "horizon": 1,
+          "future_sse_reduction": 7041.583994835615,
+          "amplification": 1.1667741180015838
+        },
+        {
+          "ctu": 414,
+          "wt": 1.0,
+          "horizon": 1,
+          "future_sse_reduction": 9950.097598224878,
+          "amplification": 0.19690432168758978
+        },
+        {
+          "ctu": 223,
+          "wt": 3.9540740007658775,
+          "horizon": 1,
+          "future_sse_reduction": 133848.48731772602,
+          "amplification": 0.65770937824567
+        },
+        {
+          "ctu": 253,
+          "wt": 3.8764166491087475,
+          "horizon": 1,
+          "future_sse_reduction": 31722.485969901085,
+          "amplification": 1.5891981507393254
+        },
+        {
+          "ctu": 264,
+          "wt": 3.958291044798265,
+          "horizon": 1,
+          "future_sse_reduction": 109315.53648740053,
+          "amplification": 1.9612326947137209
+        },
+        {
+          "ctu": 283,
+          "wt": 3.917768591108219,
+          "horizon": 1,
+          "future_sse_reduction": -91900.49544516206,
+          "amplification": -3.077267511846048
+        }
+      ]
+    },
+    "4": {
+      "rank_test": {
+        "spearman": 0.27609440361293197,
+        "permutation_two_sided_p": 0.44675,
+        "n": 10,
+        "permutations": 19999,
+        "interpretation": "descriptive stratified one-frame sample; no population inference"
+      },
+      "samples": [
+        {
+          "ctu": 262,
+          "wt": 0.9801327103019547,
+          "horizon": 4,
+          "future_sse_reduction": -126730.75840206444,
+          "amplification": -1.8709134188491645
+        },
+        {
+          "ctu": 265,
+          "wt": 0.9828931390774704,
+          "horizon": 4,
+          "future_sse_reduction": -206877.70707684755,
+          "amplification": -2.768377368276082
+        },
+        {
+          "ctu": 281,
+          "wt": 0.9968502739384184,
+          "horizon": 4,
+          "future_sse_reduction": -185594.69128637016,
+          "amplification": null
+        },
+        {
+          "ctu": 294,
+          "wt": 0.9921441733808024,
+          "horizon": 4,
+          "future_sse_reduction": 429623.8317961097,
+          "amplification": 5.212290694021792
+        },
+        {
+          "ctu": 219,
+          "wt": 1.0,
+          "horizon": 4,
+          "future_sse_reduction": -165703.3770544231,
+          "amplification": -446.89487741261297
+        },
+        {
+          "ctu": 266,
+          "wt": 1.0,
+          "horizon": 4,
+          "future_sse_reduction": 168989.61449874938,
+          "amplification": null
+        },
+        {
+          "ctu": 320,
+          "wt": 1.0,
+          "horizon": 4,
+          "future_sse_reduction": -39254.844970583916,
+          "amplification": -6.504436665306183
+        },
+        {
+          "ctu": 414,
+          "wt": 1.0,
+          "horizon": 4,
+          "future_sse_reduction": -9089.607608929276,
+          "amplification": -0.17987592613783765
+        },
+        {
+          "ctu": 223,
+          "wt": 3.9540740007658775,
+          "horizon": 4,
+          "future_sse_reduction": 1130212.678508848,
+          "amplification": 5.553678588110447
+        },
+        {
+          "ctu": 253,
+          "wt": 3.8764166491087475,
+          "horizon": 4,
+          "future_sse_reduction": 82416.86289742589,
+          "amplification": 4.128829191715902
+        },
+        {
+          "ctu": 264,
+          "wt": 3.958291044798265,
+          "horizon": 4,
+          "future_sse_reduction": 101092.90834702551,
+          "amplification": 1.813710323570848
+        },
+        {
+          "ctu": 283,
+          "wt": 3.917768591108219,
+          "horizon": 4,
+          "future_sse_reduction": -168206.5418755263,
+          "amplification": -5.63235839030265
+        }
+      ]
+    },
+    "16": {
+      "rank_test": {
+        "spearman": -0.03067715595699244,
+        "permutation_two_sided_p": 0.9457,
+        "n": 10,
+        "permutations": 19999,
+        "interpretation": "descriptive stratified one-frame sample; no population inference"
+      },
+      "samples": [
+        {
+          "ctu": 262,
+          "wt": 0.9801327103019547,
+          "horizon": 16,
+          "future_sse_reduction": 495226.9009282887,
+          "amplification": 7.310984846964571
+        },
+        {
+          "ctu": 265,
+          "wt": 0.9828931390774704,
+          "horizon": 16,
+          "future_sse_reduction": -772116.0927417278,
+          "amplification": -10.332233216573446
+        },
+        {
+          "ctu": 281,
+          "wt": 0.9968502739384184,
+          "horizon": 16,
+          "future_sse_reduction": 2334090.77128835,
+          "amplification": null
+        },
+        {
+          "ctu": 294,
+          "wt": 0.9921441733808024,
+          "horizon": 16,
+          "future_sse_reduction": 3107564.8047891855,
+          "amplification": 37.70165878684151
+        },
+        {
+          "ctu": 219,
+          "wt": 1.0,
+          "horizon": 16,
+          "future_sse_reduction": -13906.989438518882,
+          "amplification": -37.506552073855296
+        },
+        {
+          "ctu": 266,
+          "wt": 1.0,
+          "horizon": 16,
+          "future_sse_reduction": -3160503.3392458856,
+          "amplification": null
+        },
+        {
+          "ctu": 320,
+          "wt": 1.0,
+          "horizon": 16,
+          "future_sse_reduction": -233562.4262405783,
+          "amplification": -38.70075171652093
+        },
+        {
+          "ctu": 414,
+          "wt": 1.0,
+          "horizon": 16,
+          "future_sse_reduction": -1573188.7970919013,
+          "amplification": -31.132124074155758
+        },
+        {
+          "ctu": 223,
+          "wt": 3.9540740007658775,
+          "horizon": 16,
+          "future_sse_reduction": 4120618.410847515,
+          "amplification": 20.24803886317259
+        },
+        {
+          "ctu": 253,
+          "wt": 3.8764166491087475,
+          "horizon": 16,
+          "future_sse_reduction": 688151.4390045851,
+          "amplification": 34.474252595850466
+        },
+        {
+          "ctu": 264,
+          "wt": 3.958291044798265,
+          "horizon": 16,
+          "future_sse_reduction": -1499653.7545910627,
+          "amplification": -26.90532442836405
+        },
+        {
+          "ctu": 283,
+          "wt": 3.917768591108219,
+          "horizon": 16,
+          "future_sse_reduction": -194841.82146149874,
+          "amplification": -6.524234763131976
+        }
+      ]
+    },
+    "56": {
+      "rank_test": {
+        "spearman": -0.05521888072258639,
+        "permutation_two_sided_p": 0.8914,
+        "n": 10,
+        "permutations": 19999,
+        "interpretation": "descriptive stratified one-frame sample; no population inference"
+      },
+      "samples": [
+        {
+          "ctu": 262,
+          "wt": 0.9801327103019547,
+          "horizon": 56,
+          "future_sse_reduction": 19905816.878535464,
+          "amplification": 293.86756917411077
+        },
+        {
+          "ctu": 265,
+          "wt": 0.9828931390774704,
+          "horizon": 56,
+          "future_sse_reduction": 8239231.657327086,
+          "amplification": 110.25500414916776
+        },
+        {
+          "ctu": 281,
+          "wt": 0.9968502739384184,
+          "horizon": 56,
+          "future_sse_reduction": 12597296.100798845,
+          "amplification": null
+        },
+        {
+          "ctu": 294,
+          "wt": 0.9921441733808024,
+          "horizon": 56,
+          "future_sse_reduction": 4994128.133619562,
+          "amplification": 60.58985947495424
+        },
+        {
+          "ctu": 219,
+          "wt": 1.0,
+          "horizon": 56,
+          "future_sse_reduction": -2694211.6771021187,
+          "amplification": -7266.172956551961
+        },
+        {
+          "ctu": 266,
+          "wt": 1.0,
+          "horizon": 56,
+          "future_sse_reduction": -11281713.66416946,
+          "amplification": null
+        },
+        {
+          "ctu": 320,
+          "wt": 1.0,
+          "horizon": 56,
+          "future_sse_reduction": -11000924.02279605,
+          "amplification": -1822.8275673930866
+        },
+        {
+          "ctu": 414,
+          "wt": 1.0,
+          "horizon": 56,
+          "future_sse_reduction": -9287664.678500548,
+          "amplification": -183.79531411914954
+        },
+        {
+          "ctu": 223,
+          "wt": 3.9540740007658775,
+          "horizon": 56,
+          "future_sse_reduction": -5472437.80111216,
+          "amplification": -26.890656262059345
+        },
+        {
+          "ctu": 253,
+          "wt": 3.8764166491087475,
+          "horizon": 56,
+          "future_sse_reduction": 8258944.817141667,
+          "amplification": 413.74751786203086
+        },
+        {
+          "ctu": 264,
+          "wt": 3.958291044798265,
+          "horizon": 56,
+          "future_sse_reduction": 9273414.857653067,
+          "amplification": 166.3745611546206
+        },
+        {
+          "ctu": 283,
+          "wt": 3.917768591108219,
+          "horizon": 56,
+          "future_sse_reduction": -2910348.6441839933,
+          "amplification": -97.452372672318
+        }
+      ]
+    },
+    "configured_chain": {
+      "rank_test": {
+        "spearman": 0.1533857797849622,
+        "permutation_two_sided_p": 0.6781,
+        "n": 10,
+        "permutations": 19999,
+        "interpretation": "descriptive stratified one-frame sample; no population inference"
+      },
+      "samples": [
+        {
+          "ctu": 262,
+          "wt": 0.9801327103019547,
+          "horizon": 1,
+          "future_sse_reduction": 234564.79822155833,
+          "amplification": 3.4628564850063364
+        },
+        {
+          "ctu": 265,
+          "wt": 0.9828931390774704,
+          "horizon": 1,
+          "future_sse_reduction": 100779.59555201232,
+          "amplification": 1.3486032664049732
+        },
+        {
+          "ctu": 281,
+          "wt": 0.9968502739384184,
+          "horizon": 1,
+          "future_sse_reduction": 101920.95574471354,
+          "amplification": null
+        },
+        {
+          "ctu": 294,
+          "wt": 0.9921441733808024,
+          "horizon": 1,
+          "future_sse_reduction": 30750.991332873702,
+          "amplification": 0.373077781291121
+        },
+        {
+          "ctu": 219,
+          "wt": 1.0,
+          "horizon": 1,
+          "future_sse_reduction": 378.2443948239088,
+          "amplification": 1.0201088563289886
+        },
+        {
+          "ctu": 266,
+          "wt": 1.0,
+          "horizon": 1,
+          "future_sse_reduction": 421499.10868157446,
+          "amplification": null
+        },
+        {
+          "ctu": 320,
+          "wt": 1.0,
+          "horizon": 1,
+          "future_sse_reduction": 7041.583994835615,
+          "amplification": 1.1667741180015838
+        },
+        {
+          "ctu": 414,
+          "wt": 1.0,
+          "horizon": 1,
+          "future_sse_reduction": 9950.097598224878,
+          "amplification": 0.19690432168758978
+        },
+        {
+          "ctu": 223,
+          "wt": 3.9540740007658775,
+          "horizon": 4,
+          "future_sse_reduction": 1130212.678508848,
+          "amplification": 5.553678588110447
+        },
+        {
+          "ctu": 253,
+          "wt": 3.8764166491087475,
+          "horizon": 4,
+          "future_sse_reduction": 82416.86289742589,
+          "amplification": 4.128829191715902
+        },
+        {
+          "ctu": 264,
+          "wt": 3.958291044798265,
+          "horizon": 4,
+          "future_sse_reduction": 101092.90834702551,
+          "amplification": 1.813710323570848
+        },
+        {
+          "ctu": 283,
+          "wt": 3.917768591108219,
+          "horizon": 4,
+          "future_sse_reduction": -168206.5418755263,
+          "amplification": -5.63235839030265
+        }
+      ]
+    }
+  }
+}

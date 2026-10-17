@@ -1,0 +1,129 @@
+{
+  "source_sha256": "89659c289f10a6c442d04897752e7fe1798a3f5235a06dcfe86454436c8dae2a",
+  "source_metadata": {
+    "sequences": [
+      "DrivingInCity",
+      "DrivingInCountry"
+    ],
+    "frames": 4,
+    "run_records": [
+      "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCity.run.json",
+      "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCountry.run.json"
+    ],
+    "dump_stride": 16,
+    "residual_normalization": "8bit",
+    "prediction": "first L0, integer SAD stride4 coarse4 +/-8 refine1 +/-2; intra128",
+    "evaluation_excluded": [
+      "AerialCity"
+    ]
+  },
+  "arguments": {
+    "command": "model",
+    "refit_all": true,
+    "monotonic": true,
+    "monotonic_domain": [
+      -12.0,
+      63.0,
+      1e-12,
+      100000.0
+    ],
+    "input": "I:/vvenc-LFNST/.worktrees/sibrc-experiment-data-20261009-v2/extended_development_samples.csv",
+    "metadata": "I:/vvenc-LFNST/.worktrees/sibrc-experiment-data-20261009-v2/development_metadata.json",
+    "output": "I:/vvenc-LFNST/.worktrees/sibrc-experiment-data-20261009-v2/extended-calibration/final.P",
+    "kind": "P",
+    "ridge": 1e-06,
+    "holdout_fraction": 0.25,
+    "equator_degrees": 15.0
+  },
+  "monotonic_constraint": {
+    "domain_qp_information": [
+      -12.0,
+      63.0,
+      1e-12,
+      100000.0
+    ],
+    "derivative_margin": 1e-06,
+    "domain_source": "explicit CLI",
+    "method": "convex ridge least squares; exhaustive four-constraint KKT active sets"
+  },
+  "train_samples": 14877,
+  "holdout_samples": 5222,
+  "holdout_groups": [
+    [
+      "DrivingInCountry",
+      8
+    ],
+    [
+      "DrivingInCountry",
+      9
+    ],
+    [
+      "DrivingInCountry",
+      10
+    ],
+    [
+      "DrivingInCountry",
+      11
+    ],
+    [
+      "DrivingInCountry",
+      12
+    ],
+    [
+      "DrivingInCountry",
+      13
+    ],
+    [
+      "DrivingInCountry",
+      14
+    ],
+    [
+      "DrivingInCountry",
+      15
+    ]
+  ],
+  "qp_domain": [
+    17.0,
+    52.0
+  ],
+  "information_domain": [
+    6.282720204450493,
+    10027.815792583471
+  ],
+  "holdout_log_rmse": {
+    "bits": 1.618167205111958,
+    "weighted_mse": 0.5578115431564775
+  },
+  "holdout_metrics_before_refit": {
+    "bits": 1.618167205111958,
+    "weighted_mse": 0.5578115431564775
+  },
+  "holdout_coefficients_before_refit": {
+    "rate": [
+      12.127885697043222,
+      -4.55426342386645,
+      0.5846848855805199,
+      0.37726648627352183,
+      -0.06248806886201269,
+      -0.025001464416048877
+    ],
+    "distortion": [
+      -3.0501024963624106,
+      1.424020607453664,
+      0.41308749060688826,
+      0.01673514816861906,
+      -0.019220604902663984,
+      -0.07054121284681972
+    ]
+  },
+  "final_fit_samples": 20099,
+  "final_qp_domain": [
+    17.0,
+    52.0
+  ],
+  "final_information_domain": [
+    6.282720204450493,
+    10027.815792583471
+  ],
+  "final_model_validation": "held-out metrics apply to pre-refit model only; final coefficients use all latitude-selected development samples"
+}

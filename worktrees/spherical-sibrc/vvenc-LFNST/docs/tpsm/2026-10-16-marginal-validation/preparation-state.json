@@ -1,0 +1,29 @@
+{
+  "state": "awaiting_exact_12_file_remote_transfer_authorization",
+  "experiment_complete": false,
+  "baseline_real_4k65_bitstream_identity": true,
+  "zero_replay_real_4k65_bitstream_identity": true,
+  "expected_baseline_sha256": "adf87f21575af859165eedc3a9e45447842372508fcafda7a8522775b2b8dccb",
+  "probe_cases_completed": 0,
+  "planned_probe_cases": 24,
+  "sample_poc": 8,
+  "reason_poc16_rejected": "only1 eligible high-weight CTU, requires4",
+  "sample_selection_before_probe_outcomes": true,
+  "local_checks": {
+    "encoder_release_build": true,
+    "ctest_passed": 5,
+    "python_tests_passed": 31,
+    "probe_smoke_valid_encodes": 4,
+    "all_probe_smoke_decode_hashes_match": true,
+    "picture_init_schedule_fixed": true,
+    "only_target_ctu_requested_action_changes": true
+  },
+  "remote_checks": {
+    "authorized_nine_source_files_uploaded": true,
+    "linux_build": true,
+    "replay_ctests_passed": 2,
+    "statistical_scripts_uploaded": false
+  },
+  "review": "No remaining actionable findings after correcting prefix/row/offset checks, P-only guard, full prior beta chain eligibility, and atomic completed-checkpoint ordering",
+  "protocol_note": "local baseline-only run originally configuredPOC16; both identity gates passed, then stopped at insufficient high-weight diversity. No probe executed. Baseline-only audit selectedPOC8; no scientific response has been observed."
+}

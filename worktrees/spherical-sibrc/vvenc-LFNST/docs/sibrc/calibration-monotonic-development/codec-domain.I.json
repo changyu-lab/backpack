@@ -1,0 +1,68 @@
+{
+  "source_sha256": "4cbf518df4712118d970fc9ea748b7b287655663380401f5f24cca97e29d35ff",
+  "source_metadata": {
+    "sequences": [
+      "DrivingInCity",
+      "DrivingInCountry"
+    ],
+    "frames": 4,
+    "run_records": [
+      "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCity.run.json",
+      "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCountry.run.json"
+    ],
+    "dump_stride": 16,
+    "residual_normalization": "8bit",
+    "prediction": "first L0, integer SAD stride4 coarse4 +/-8 refine1 +/-2; intra128",
+    "evaluation_excluded": [
+      "AerialCity"
+    ]
+  },
+  "arguments": {
+    "command": "model",
+    "monotonic": true,
+    "monotonic_domain": [
+      -12.0,
+      63.0,
+      1e-12,
+      36459.0
+    ],
+    "input": "I:/vvenc-LFNST/.worktrees/sibrc-experiment-data-20261009-v2/development_samples.csv",
+    "metadata": "I:/vvenc-LFNST/.worktrees/sibrc-experiment-data-20261009-v2/development_metadata.json",
+    "output": "I:/vvenc-LFNST/.worktrees/sibrc-monotonic-20261010/codec-domain.I",
+    "kind": "I",
+    "ridge": 1e-06,
+    "holdout_fraction": 0.25,
+    "equator_degrees": 15.0
+  },
+  "monotonic_constraint": {
+    "domain_qp_information": [
+      -12.0,
+      63.0,
+      1e-12,
+      36459.0
+    ],
+    "derivative_margin": 1e-06,
+    "domain_source": "explicit CLI",
+    "method": "SLSQP scaled ridge least squares; four corner affine derivative constraints"
+  },
+  "train_samples": 360,
+  "holdout_samples": 360,
+  "holdout_groups": [
+    [
+      "DrivingInCountry",
+      0
+    ]
+  ],
+  "qp_domain": [
+    22.0,
+    37.0
+  ],
+  "information_domain": [
+    81.19871354254214,
+    18251.45035590327
+  ],
+  "holdout_log_rmse": {
+    "bits": 0.9539149395306188,
+    "weighted_mse": 0.8307851544601195
+  }
+}

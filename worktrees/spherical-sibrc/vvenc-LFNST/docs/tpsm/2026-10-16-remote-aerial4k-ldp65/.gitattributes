@@ -1,0 +1,2 @@
+# Preserve original evidence bytes and original formatting.
+evidence/** -text whitespace=cr-at-eol,-blank-at-eof

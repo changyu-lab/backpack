@@ -1,0 +1,20 @@
+{
+  "adopt_joint": false,
+  "reason": "Selected candidate regresses all three held-out BD rates vs SIBRC; it also regresses vs the common VTM anchor. Do not promote it or start formal300frame joint runs.",
+  "selected_candidate": {
+    "model": "calibration-v1",
+    "strength": 4,
+    "qp_offsets": [
+      -2,
+      2
+    ]
+  },
+  "additional_development_candidates_rejected": [
+    "expanded model radius2",
+    "expanded model radius12"
+  ],
+  "formal_paper_replication": false,
+  "formal_300frame_evaluation": false,
+  "promising_short_screen": "paper-only TPSM-AD, requiring longer/full-resolution validation",
+  "timestamp_utc": "2026-10-15T19:17:01.344490Z"
+}
