@@ -1,0 +1,17 @@
+{
+  "bd": {
+    "AerialCity": {
+      "wspsnr": -3.5434726646024233,
+      "spsnr": -3.478710558135484,
+      "cpppsnr": -3.5652686920558527,
+      "psnr": -0.5562617760716011
+    },
+    "DrivingInCountry": {
+      "wspsnr": -1.0188318498721785,
+      "spsnr": -0.8755359127616534,
+      "cpppsnr": -1.0615303056262138,
+      "psnr": 5.3380943891377814
+    }
+  },
+  "scope": "RA GOP32 Intra32 300frames;5 streams recomputed deterministic nonpositive intra-budget protection;19 original valid streams hash-reused after4 byte-identical regression runs; Country development; not unmodified native VTM"
+}

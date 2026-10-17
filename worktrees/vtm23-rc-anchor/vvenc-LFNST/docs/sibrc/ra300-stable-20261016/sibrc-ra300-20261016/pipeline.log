@@ -1,0 +1,87 @@
+RA65 SMOKE PASS
+START AerialCity cqp 2
+START AerialCity STARTcqp  AerialCity1START AerialCity
+  cqp 4
+STARTcqp  DrivingInCountry 3
+cqp 2START
+ DrivingInCountry cqpSTART DrivingInCountry  3cqp 4
+
+START DrivingInCountry cqp 1
+PASS AerialCity cqp 1
+PASS AerialCity cqp 2
+PASS AerialCity cqp 3
+PASS DrivingInCountry cqp 1
+PASS DrivingInCountry cqp 2
+PASS DrivingInCountry cqp 3
+PASS AerialCity cqp 4
+PASS DrivingInCountry cqp 4
+START AerialCity anchorSTART 1
+ AerialCity anchor 2
+START AerialCity C4 1
+START AerialCity anchor 4
+START AerialCity C4 3
+START AerialCity C4START  AerialCity2
+ anchor START3 DrivingInCountry
+ anchor 1
+START AerialCitySTART C4  4
+DrivingInCountry anchor 2
+PASS DrivingInCountry anchor 1
+START DrivingInCountry C4 2
+PASS AerialCity anchor 3
+START DrivingInCountry C4 3
+PASS DrivingInCountry anchor 2
+START DrivingInCountry anchor 3
+PASS AerialCity C4 3
+START DrivingInCountry anchor 4
+PASS AerialCity anchor 4
+PASS DrivingInCountry C4 2
+PASS AerialCity C4 4
+START DrivingInCountry C4 1
+PASS DrivingInCountry anchor 3
+START DrivingInCountry C4 4
+PASS DrivingInCountry C4 3
+PASS DrivingInCountry anchor 4
+PASS DrivingInCountry C4 4
+Traceback (most recent call last):
+  File "/root/sibrc-ra300-20261016/remote_ra300.py", line 176, in <module>
+    if __name__=='__main__':main()
+  File "/root/sibrc-ra300-20261016/remote_ra300.py", line 168, in main
+    with ThreadPoolExecutor(max_workers=28) as pool:records=list(pool.map(encode,jobs))
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 621, in result_iterator
+    yield _result_or_cancel(fs.pop())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 319, in _result_or_cancel
+    return fut.result(timeout)
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/sibrc-ra300-20261016/remote_ra300.py", line 76, in encode
+    save(record,r);assert r['verified'],text[-2000:]
+AssertionError:  ]
+POC   252 TId: 3 (      RASL, B-SLICE, QP 40)             4328 bits [Y 35.4003 dB    U 42.8221 dB    V 41.9085 dB] [ET     0 ] [L0 248 ] [L1 256 ]
+POC   250 TId: 4 (      RASL, B-SLICE, QP 40)             2184 bits [Y 35.4728 dB    U 42.7944 dB    V 41.8866 dB] [ET     0 ] [L0 248 ] [L1 252 ]
+POC   249 TId: 5 (      RASL, B-SLICE, QP 41)             1336 bits [Y 35.5898 dB    U 42.8779 dB    V 41.9507 dB] [ET     0 ] [L0 248 ] [L1 250 ]
+POC   251 TId: 5 (      RASL, B-SLICE, QP 40)             2112 bits [Y 35.5454 dB    U 42.8467 dB    V 41.9223 dB] [ET     0 ] [L0 250 ] [L1 252 ]
+POC   254 TId: 4 (      RASL, B-SLICE, QP 40)             3240 bits [Y 35.3363 dB    U 42.7621 dB    V 41.8861 dB] [ET     0 ] [L0 252 ] [L1 256 ]
+POC   253 TId: 5 (      RASL, B-SLICE, QP 43)             1376 bits [Y 35.3563 dB    U 42.6756 dB    V 41.7643 dB] [ET     0 ] [L0 252 ] [L1 254 ]
+POC   255 TId: 5 (      RASL, B-SLICE, QP 43)             1848 bits [Y 35.4739 dB    U 42.8364 dB    V 41.9665 dB] [ET     0 ] [L0 254 ] [L1 256 ]
+
+VTM23 RC unsupported nonpositive remaining intra budget (upstream numerical domain)
+
+encoding failed: err code -1: VTM23 RC unsupported nonpositive remaining intra budget (upstream numerical domain)
+vvenc [info]: stats:  85.7% frame= 257/300 fps=   1.6 avg_fps=   1.6 bitrate=   963.12 kbps avg_bitrate=   963.12 kbps elapsed= 00h:02m:38s left= 00h:00m:27s    
+
+vvenc [info]: stats summary: frame= 257/300 avg_fps= 1.6 avg_bitrate= 963.12 kbps
+vvenc [info]: stats summary: frame I:   9, kbps: 22033.12, AvgQP: 34.06
+vvenc [info]: stats summary: frame P:   0, kbps:      nan, AvgQP: nan
+vvenc [info]: stats summary: frame B: 248, kbps:   198.48, AvgQP: 39.96
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	      257    a     963.1209   36.9066   43.5980   42.5753   38.1213
+
+vvencFFapp [info]: finished @ Fri Oct 16 09:44:41 2026
+vvencFFapp [info]: Total Time:      158.138 sec. [user]      158.146 sec. [elapsed]
+

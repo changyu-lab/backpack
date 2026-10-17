@@ -1,0 +1,67 @@
+[
+  {
+    "sequence": "DrivingInCountry",
+    "method": "C4",
+    "point": 1,
+    "activations": [
+      {
+        "poc": 288,
+        "remaining_bits": -284476,
+        "remaining_frames": 43,
+        "target_bits": 200
+      }
+    ]
+  },
+  {
+    "sequence": "AerialCity",
+    "method": "anchor",
+    "point": 2,
+    "activations": [
+      {
+        "poc": 288,
+        "remaining_bits": -94652,
+        "remaining_frames": 43,
+        "target_bits": 200
+      }
+    ]
+  },
+  {
+    "sequence": "AerialCity",
+    "method": "anchor",
+    "point": 1,
+    "activations": [
+      {
+        "poc": 288,
+        "remaining_bits": -255402,
+        "remaining_frames": 43,
+        "target_bits": 200
+      }
+    ]
+  },
+  {
+    "sequence": "AerialCity",
+    "method": "C4",
+    "point": 2,
+    "activations": [
+      {
+        "poc": 288,
+        "remaining_bits": -129764,
+        "remaining_frames": 43,
+        "target_bits": 200
+      }
+    ]
+  },
+  {
+    "sequence": "AerialCity",
+    "method": "C4",
+    "point": 1,
+    "activations": [
+      {
+        "poc": 288,
+        "remaining_bits": -292762,
+        "remaining_frames": 43,
+        "target_bits": 200
+      }
+    ]
+  }
+]

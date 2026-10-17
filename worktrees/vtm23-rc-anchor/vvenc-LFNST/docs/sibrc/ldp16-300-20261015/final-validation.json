@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "all_streams": 24,
+  "comparison_streams": 16,
+  "cqp_streams": 8,
+  "frames_per_stream": 300,
+  "frame_rows": 4800,
+  "intra_contracts": 8,
+  "gopsize": 16,
+  "source_full_300_sha_rechecked": true,
+  "compressed_and_original_trace_hashes_verified": true,
+  "development_sequences": [
+    "DrivingInCountry"
+  ]
+}

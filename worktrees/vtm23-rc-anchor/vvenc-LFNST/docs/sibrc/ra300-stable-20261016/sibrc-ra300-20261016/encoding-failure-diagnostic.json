@@ -1,0 +1,56 @@
+{
+  "verified_streams": 19,
+  "failed": [
+    {
+      "sequence": "DrivingInCountry",
+      "label": "C4",
+      "point": 1,
+      "target_bps": 2179322,
+      "actual_bps": 2208755.2,
+      "poc_count": 257,
+      "returncode": 255,
+      "prefix": "/root/sibrc-ra300-20261016/runs/DrivingInCountry/C4/R1"
+    },
+    {
+      "sequence": "AerialCity",
+      "label": "anchor",
+      "point": 2,
+      "target_bps": 1463742,
+      "actual_bps": 1474161.6,
+      "poc_count": 257,
+      "returncode": 255,
+      "prefix": "/root/sibrc-ra300-20261016/runs/AerialCity/anchor/R2"
+    },
+    {
+      "sequence": "AerialCity",
+      "label": "anchor",
+      "point": 1,
+      "target_bps": 798591,
+      "actual_bps": 825073.6,
+      "poc_count": 257,
+      "returncode": 255,
+      "prefix": "/root/sibrc-ra300-20261016/runs/AerialCity/anchor/R1"
+    },
+    {
+      "sequence": "AerialCity",
+      "label": "C4",
+      "point": 2,
+      "target_bps": 1463742,
+      "actual_bps": 1477684.8,
+      "poc_count": 257,
+      "returncode": 255,
+      "prefix": "/root/sibrc-ra300-20261016/runs/AerialCity/C4/R2"
+    },
+    {
+      "sequence": "AerialCity",
+      "label": "C4",
+      "point": 1,
+      "target_bps": 798591,
+      "actual_bps": 828807.2,
+      "poc_count": 257,
+      "returncode": 255,
+      "prefix": "/root/sibrc-ra300-20261016/runs/AerialCity/C4/R1"
+    }
+  ],
+  "reason": "VTM23 RC unsupported nonpositive remaining intra budget; no clipping or RC arithmetic changes made; incomplete stream excluded from quality and BD"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "streams": 24,
+  "comparison_streams": 16,
+  "cqp_streams": 8,
+  "frames": 300,
+  "frame_rows": 4800,
+  "contracts": 8,
+  "original_valid_streams_reused": 19,
+  "stable_streams": 5,
+  "full_source_sha_checked": true,
+  "guard_scope": "Deterministic nonpositive intra-budget200bits extension;4 full300 regression vvc/trace byte-identical; not original unmodified VTM",
+  "development_sequences": [
+    "DrivingInCountry"
+  ]
+}
