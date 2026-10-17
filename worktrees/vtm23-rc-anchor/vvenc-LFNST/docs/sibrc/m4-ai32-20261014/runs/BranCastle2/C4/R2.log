@@ -1,0 +1,95 @@
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Linux][GCC 11.4.0][64 bit][SIMD=AVX2]
+Configuration warning: ALFSpeed would disable ALF for the given GOP configuration, disabling ALFSpeed!
+
+vvencFFapp [info]: started @ Wed Oct 14 17:21:58 2026
+
+ hierarchical bit allocation is not support for the specified coding structure currently.
+vvenc [verbose]: Input File                             : /data/360seqFull_32f/BranCastle2_6144x3072_30fps_8bit_420_erp.yuv
+vvenc [verbose]: Bitstream File                         : /data/vtmrc-vvenc-ai32-20261014/runs/BranCastle2/C4/R2.vvc
+vvenc [verbose]: Real Format                            : 6144x3072  yuv420p  30 Hz  SDR  32 frames
+vvenc [verbose]: Frames                                 : encode 32 frames 
+vvenc [verbose]: Internal format                        : 6144x3072  30 Hz  SDR
+vvenc [verbose]: Threads                                : 0  (parallel frames: 0)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Disabled
+vvenc [verbose]: Intra period (keyframe)                : 1
+vvenc [verbose]: Decoding refresh type                  : none with POC 0 IDR
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 32 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 5.2
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 128
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 0
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 1
+vvenc [verbose]: PicReordering                          : 0
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin55BTT00 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:1x1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:0 SDH:1 CST:1 BDOF:0 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:0 CabacInitPresent:1 AMVR:0 SMVD:0 LMCS:0 CIIP:0 MIP:0 AFFINE:0 MMVD:0 SbTMVP:0 GPM:0 LFNST:0 MTS:0 ISP:0 TS:2 TSLog2MaxSize:3 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:0 HAD:1 (fast) RDQ:2 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:0 MCTF:0 BIM:0 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:0 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:2 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:3 PBIntraFast:2 AMaxBT:1 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastIntraTools:0 IntraEstDecBit:3 FastLocalDualTree:1 IntegerET:1 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:7 FastTTSplit:0 IBCFastMethod:6 FIM:4 (24) ALFSpeed:0 QuantThr:4 SelectiveRDQO:2 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:1 VTMTargetBitrate:204444780 RateControl:0 QP:32 LookAhead:0 FirstPassMode:4 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:0 MaxParallelFrames:0 IFP:0 (IFPLines:0) WppBitEqual:0 WF:0 
+
+POC     0 TId: 0 (  IDR_N_LP, I-SLICE, QP 29)          6847880 bits [Y 37.3838 dB    U 43.2813 dB    V 45.0128 dB] [ET    10 ] [L0 ] [L1 ]
+POC     1 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)          6810632 bits [Y 37.7124 dB    U 43.5324 dB    V 45.1634 dB] [ET    10 ] [L0 ] [L1 ]
+POC     2 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)          6807328 bits [Y 37.8991 dB    U 43.5067 dB    V 45.2385 dB] [ET    10 ] [L0 ] [L1 ]
+POC     3 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)          6795600 bits [Y 38.0978 dB    U 43.6179 dB    V 45.2980 dB] [ET    10 ] [L0 ] [L1 ]
+POC     4 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)          6797496 bits [Y 38.2624 dB    U 43.7172 dB    V 45.3803 dB] [ET    10 ] [L0 ] [L1 ]
+POC     5 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)          6796232 bits [Y 38.4026 dB    U 43.8175 dB    V 45.5054 dB] [ET    10 ] [L0 ] [L1 ]
+POC     6 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)          6798136 bits [Y 38.5161 dB    U 43.8995 dB    V 45.5656 dB] [ET    10 ] [L0 ] [L1 ]
+POC     7 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6805008 bits [Y 38.6637 dB    U 44.0092 dB    V 45.6497 dB] [ET     9 ] [L0 ] [L1 ]
+POC     8 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6805048 bits [Y 38.7334 dB    U 44.0588 dB    V 45.7224 dB] [ET     9 ] [L0 ] [L1 ]
+POC     9 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6805384 bits [Y 38.8425 dB    U 44.1265 dB    V 45.7829 dB] [ET     9 ] [L0 ] [L1 ]
+POC    10 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6808008 bits [Y 39.0033 dB    U 44.3192 dB    V 45.9512 dB] [ET    10 ] [L0 ] [L1 ]
+POC    11 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6808616 bits [Y 39.1772 dB    U 44.3971 dB    V 45.9904 dB] [ET    10 ] [L0 ] [L1 ]
+POC    12 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6810512 bits [Y 39.2627 dB    U 44.4555 dB    V 46.0993 dB] [ET    10 ] [L0 ] [L1 ]
+POC    13 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6811256 bits [Y 39.3026 dB    U 44.5022 dB    V 46.1489 dB] [ET    10 ] [L0 ] [L1 ]
+POC    14 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6811880 bits [Y 39.3886 dB    U 44.5284 dB    V 46.1818 dB] [ET    10 ] [L0 ] [L1 ]
+POC    15 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)          6830336 bits [Y 37.8062 dB    U 44.2707 dB    V 45.9088 dB] [ET    10 ] [L0 ] [L1 ]
+POC    16 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)          6814424 bits [Y 38.2276 dB    U 44.4389 dB    V 45.9538 dB] [ET    10 ] [L0 ] [L1 ]
+POC    17 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6843624 bits [Y 38.5307 dB    U 44.5360 dB    V 46.0852 dB] [ET     9 ] [L0 ] [L1 ]
+POC    18 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6828512 bits [Y 38.6737 dB    U 44.5764 dB    V 46.1285 dB] [ET     9 ] [L0 ] [L1 ]
+POC    19 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6809856 bits [Y 38.8136 dB    U 44.6066 dB    V 46.2538 dB] [ET     9 ] [L0 ] [L1 ]
+POC    20 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6809728 bits [Y 38.9466 dB    U 44.6724 dB    V 46.2905 dB] [ET     9 ] [L0 ] [L1 ]
+POC    21 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6809944 bits [Y 39.0745 dB    U 44.7433 dB    V 46.3565 dB] [ET     9 ] [L0 ] [L1 ]
+POC    22 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6808480 bits [Y 39.1889 dB    U 44.7947 dB    V 46.4181 dB] [ET     9 ] [L0 ] [L1 ]
+POC    23 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6807800 bits [Y 39.2807 dB    U 44.8062 dB    V 46.3858 dB] [ET     9 ] [L0 ] [L1 ]
+POC    24 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6808384 bits [Y 39.3531 dB    U 44.8266 dB    V 46.4464 dB] [ET     9 ] [L0 ] [L1 ]
+POC    25 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6813664 bits [Y 39.3879 dB    U 44.8235 dB    V 46.4527 dB] [ET     9 ] [L0 ] [L1 ]
+POC    26 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6807336 bits [Y 39.4555 dB    U 44.8435 dB    V 46.4944 dB] [ET     9 ] [L0 ] [L1 ]
+POC    27 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6801736 bits [Y 39.4993 dB    U 44.8258 dB    V 46.4767 dB] [ET     9 ] [L0 ] [L1 ]
+POC    28 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6811944 bits [Y 39.5159 dB    U 44.7971 dB    V 46.4806 dB] [ET    10 ] [L0 ] [L1 ]
+POC    29 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6846072 bits [Y 39.5673 dB    U 44.8449 dB    V 46.5399 dB] [ET    10 ] [L0 ] [L1 ]
+vvenc [info]: stats:  93.8% frame= 30/32 fps=   0.1 avg_fps=   0.1 bitrate= 204370.86 kbps avg_bitrate= 204370.86 kbps elapsed= 00h:05m:15s left= 00h:00m:21s    
+POC    30 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6953320 bits [Y 38.3158 dB    U 44.4677 dB    V 46.0891 dB] [ET    10 ] [L0 ] [L1 ]
+POC    31 TId: 0 (IDR_W_RADL, I-SLICE, QP 28)          6835864 bits [Y 38.6825 dB    U 44.6270 dB    V 46.1640 dB] [ET     9 ] [L0 ] [L1 ]
+vvenc [info]: stats: 100.0% frame= 32/32 fps=   0.1 avg_fps=   0.1 bitrate= 204525.04 kbps avg_bitrate= 204525.04 kbps elapsed= 00h:05m:36s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 32/32 avg_fps= 0.1 avg_bitrate= 204525.04 kbps
+vvenc [info]: stats summary: frame I: 32, kbps: 204525.04, AvgQP: 28.30
+vvenc [info]: stats summary: frame P:  0, kbps:       nan, AvgQP: nan
+vvenc [info]: stats summary: frame B:  0, kbps:       nan, AvgQP: nan
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       32    a  204525.0375   38.7802   44.3522   45.9880   40.0230
+
+vvencFFapp [info]: finished @ Wed Oct 14 17:27:34 2026
+vvencFFapp [info]: Total Time:      335.867 sec. [user]      335.877 sec. [elapsed]

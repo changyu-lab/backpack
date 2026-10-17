@@ -1,0 +1,21 @@
+{
+  "pass_test": true,
+  "sequences": 14,
+  "streams": 168,
+  "comparison_streams": 112,
+  "cqp_streams": 56,
+  "frames": 32,
+  "frame_rows": 3584,
+  "intra_contracts": 56,
+  "checks": [
+    "assets_SHA",
+    "source32prefix_SHA",
+    "outputs_SHA",
+    "POC0_31",
+    "frame_types",
+    "all4metric_counts",
+    "actual_rate_nativefps",
+    "intra_contract"
+  ],
+  "reconstruction_hash_scope": "recorded during evaluation, disposable reconstructions removed"
+}

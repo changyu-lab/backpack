@@ -1,0 +1,99 @@
+START AerialCity cqp 3
+STARTSTART  AerialCityAerialCity cqp  cqp 42
+
+START AerialCity cqp 1
+PASS AerialCity cqp 1
+PASS AerialCity cqp 2
+PASS AerialCity cqp 3
+PASS AerialCity cqp 4
+START AerialCity anchor 1
+STARTSTART AerialCity STARTanchor  AerialCity3
+START C4 AerialCity  AerialCityanchor 2 START
+4 anchor 2
+
+START  AerialCity C4 4
+AerialCity C4 START1
+ AerialCity C4 3
+PASS AerialCity anchor 1
+PASS AerialCity C4 1
+PASS AerialCity anchor 2
+PASS AerialCity C4 2
+PASS AerialCity anchor 3
+PASS AerialCity C4 3
+PASS AerialCity C4 4
+PASS AerialCity anchor 4
+PROGRESS 1/32 POC 0 36.2101 36.4715
+PROGRESS 10/32 POC 9 35.9431 36.2346
+PROGRESS 20/32 POC 19 35.9011 36.2039
+PROGRESS 30/32 POC 29 36.3335 36.6183
+QUALITY AerialCity anchor 1 36.00355508984577
+PROGRESS 1/32 POC 0 38.5423 39.0034
+PROGRESS 10/32 POC 9 38.2643 38.7779
+PROGRESS 20/32 POC 19 38.2563 38.7642
+PROGRESS 30/32 POC 29 38.4973 38.974
+QUALITY AerialCity anchor 2 38.310546995385835
+PROGRESS 2/32 POC 0 40.6501 41.3855
+PROGRESS 10/32 POC 9 40.4045 41.1988
+PROGRESS 20/32 POC 19 40.4038 41.2136
+PROGRESS 30/32 POC 29 40.6028 41.3467
+QUALITY AerialCity anchor 3 40.438618316894875
+PROGRESS 2/32 POC 0 44.1108 44.9263
+PROGRESS 10/32 POC 9 43.724 44.5725
+PROGRESS 20/32 POC 19 43.6545 44.4907
+PROGRESS 30/32 POC 29 43.9843 44.8013
+QUALITY AerialCity anchor 4 43.78346881231412
+PROGRESS 1/32 POC 0 36.4425 36.7235
+PROGRESS 10/32 POC 9 36.215 36.5391
+PROGRESS 20/32 POC 19 36.1895 36.4924
+PROGRESS 30/32 POC 29 36.3784 36.6689
+QUALITY AerialCity C4 1 36.23961883272976
+PROGRESS 2/32 POC 0 38.7111 39.1917
+PROGRESS 10/32 POC 9 38.4294 38.9692
+PROGRESS 20/32 POC 19 38.4108 38.9606
+PROGRESS 30/32 POC 29 38.6252 39.12
+QUALITY AerialCity C4 2 38.472193501509224
+PROGRESS 1/32 POC 0 40.7313 41.4736
+PROGRESS 10/32 POC 9 40.4046 41.1971
+PROGRESS 20/32 POC 19 40.3889 41.2129
+PROGRESS 30/32 POC 29 40.7395 41.4868
+QUALITY AerialCity C4 3 40.49532695471907
+PROGRESS 1/32 POC 0 44.294 45.1075
+PROGRESS 10/32 POC 9 43.7415 44.5755
+PROGRESS 20/32 POC 19 43.5687 44.4106
+PROGRESS 30/32 POC 29 43.9036 44.7393
+QUALITY AerialCity C4 4 43.77064091124746
+COMPLETE SEQUENCE AerialCity
+START Balboa cqp 1
+START STARTBalboa Balboa cqp 4 cqp
+ 2
+START Balboa cqp 3
+PASS Balboa cqp 1
+PASS Balboa cqp 2
+PASS Balboa cqp 3
+PASS Balboa cqp 4
+START Balboa anchorSTART  1
+Balboa anchor 2
+START Balboa anchor 3
+START START Balboa C4 1Balboa anchor 4
+START 
+Balboa C4 START Balboa C42
+ 4START 
+Balboa C4 3
+PASS Balboa anchor 1
+PASS Balboa C4 1
+PASS Balboa anchor 2
+PASS Balboa C4 2
+PASS Balboa anchor 3
+PASS Balboa C4 3
+PASS Balboa anchor 4
+PASS Balboa C4 4
+Traceback (most recent call last):
+  File "/data/vtmrc-vvenc-ai32-20261014/remote_ai32.py", line 136, in <module>
+    print('COMPLETE AI32 ALL14',flush=True)
+  File "/data/vtmrc-vvenc-ai32-20261014/remote_ai32.py", line 131, in main
+    with ThreadPoolExecutor(max_workers=28) as pool:records=list(pool.map(encode,jobs))
+  File "/data/vtmrc-vvenc-ai32-20261014/remote_ai32.py", line 131, in <listcomp>
+    with ThreadPoolExecutor(max_workers=28) as pool:records=list(pool.map(encode,jobs))
+  File "/data/vtmrc-vvenc-ai32-20261014/remote_ai32.py", line 86, in quality
+    while shutil.disk_usage(BASE).free<expected+700_000_000:
+AssertionError: Insufficient reconstruction disk
