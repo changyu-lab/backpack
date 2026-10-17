@@ -1,0 +1,134 @@
+[
+  {
+    "sequence": "DrivingInCity",
+    "preset": "fast",
+    "total_anchor_sec": 673.55,
+    "total_proposed_sec": 662.036,
+    "total_time_delta_pct": -1.70944992947814,
+    "bd_rate_y_pct": 0.07279304975269518,
+    "bd_rate_yuv_pct": 0.07077818648439926,
+    "bd_rate_u_pct": 0.5642730525841966,
+    "bd_rate_v_pct": -0.5671873632019375
+  },
+  {
+    "sequence": "DrivingInCity",
+    "preset": "faster",
+    "total_anchor_sec": 295.106,
+    "total_proposed_sec": 303.24600000000004,
+    "total_time_delta_pct": 2.7583309048274325,
+    "bd_rate_y_pct": 0.052577426542188554,
+    "bd_rate_yuv_pct": 0.07281832617913597,
+    "bd_rate_u_pct": 1.0011008004210398,
+    "bd_rate_v_pct": 0.2895849943289619
+  },
+  {
+    "sequence": "DrivingInCity",
+    "preset": "medium",
+    "total_anchor_sec": 1643.676,
+    "total_proposed_sec": 1660.775,
+    "total_time_delta_pct": 1.040290178843042,
+    "bd_rate_y_pct": -0.10579289059957642,
+    "bd_rate_yuv_pct": -0.10168869118507562,
+    "bd_rate_u_pct": 0.3639280128116207,
+    "bd_rate_v_pct": -0.5362971617645651
+  },
+  {
+    "sequence": "DrivingInCity",
+    "preset": "slow",
+    "total_anchor_sec": 5159.491,
+    "total_proposed_sec": 5022.9130000000005,
+    "total_time_delta_pct": -2.647121586218476,
+    "bd_rate_y_pct": 0.041262813758313754,
+    "bd_rate_yuv_pct": 0.08527659571162527,
+    "bd_rate_u_pct": 0.4993921752682873,
+    "bd_rate_v_pct": 0.9517381519234869
+  },
+  {
+    "sequence": "DrivingInCountry",
+    "preset": "fast",
+    "total_anchor_sec": 798.998,
+    "total_proposed_sec": 795.2289999999999,
+    "total_time_delta_pct": -0.47171582406966217,
+    "bd_rate_y_pct": -0.008077771094028297,
+    "bd_rate_yuv_pct": -0.024685286726155997,
+    "bd_rate_u_pct": 0.4035090202296088,
+    "bd_rate_v_pct": -1.3429251397252706
+  },
+  {
+    "sequence": "DrivingInCountry",
+    "preset": "faster",
+    "total_anchor_sec": 333.556,
+    "total_proposed_sec": 345.645,
+    "total_time_delta_pct": 3.6242789816402636,
+    "bd_rate_y_pct": 0.025910386895233728,
+    "bd_rate_yuv_pct": 0.050681354883463925,
+    "bd_rate_u_pct": 0.9708164811413456,
+    "bd_rate_v_pct": 0.7313910831465487
+  },
+  {
+    "sequence": "DrivingInCountry",
+    "preset": "medium",
+    "total_anchor_sec": 2109.43,
+    "total_proposed_sec": 2104.0629999999996,
+    "total_time_delta_pct": -0.2544289215570173,
+    "bd_rate_y_pct": 0.08054400399588602,
+    "bd_rate_yuv_pct": 0.056380183419735275,
+    "bd_rate_u_pct": 0.14364285733940996,
+    "bd_rate_v_pct": -2.0811024030219394
+  },
+  {
+    "sequence": "DrivingInCountry",
+    "preset": "slow",
+    "total_anchor_sec": 7140.611,
+    "total_proposed_sec": 7220.222999999999,
+    "total_time_delta_pct": 1.1149185973020959,
+    "bd_rate_y_pct": 0.021581602212172868,
+    "bd_rate_yuv_pct": 0.02797017919606848,
+    "bd_rate_u_pct": 0.14005074492908776,
+    "bd_rate_v_pct": 0.626659755790282
+  },
+  {
+    "sequence": "PoleVault_le",
+    "preset": "fast",
+    "total_anchor_sec": 814.262,
+    "total_proposed_sec": 819.2990000000001,
+    "total_time_delta_pct": 0.6185969626484041,
+    "bd_rate_y_pct": -0.05289526122974619,
+    "bd_rate_yuv_pct": -0.03351161043370077,
+    "bd_rate_u_pct": 0.45633681044221497,
+    "bd_rate_v_pct": -0.2758080452707312
+  },
+  {
+    "sequence": "PoleVault_le",
+    "preset": "faster",
+    "total_anchor_sec": 356.305,
+    "total_proposed_sec": 359.723,
+    "total_time_delta_pct": 0.9592904955024505,
+    "bd_rate_y_pct": 0.06082516026966189,
+    "bd_rate_yuv_pct": 0.06216821899682756,
+    "bd_rate_u_pct": 0.008100178126579927,
+    "bd_rate_v_pct": 0.3814436475373828
+  },
+  {
+    "sequence": "PoleVault_le",
+    "preset": "medium",
+    "total_anchor_sec": 2138.6059999999998,
+    "total_proposed_sec": 2127.377,
+    "total_time_delta_pct": -0.525061652309954,
+    "bd_rate_y_pct": 0.10500856621116217,
+    "bd_rate_yuv_pct": 0.13053734426815566,
+    "bd_rate_u_pct": 0.29337017467974125,
+    "bd_rate_v_pct": 0.2490229102776187
+  },
+  {
+    "sequence": "PoleVault_le",
+    "preset": "slow",
+    "total_anchor_sec": 6671.795,
+    "total_proposed_sec": 6564.344,
+    "total_time_delta_pct": -1.610526102795425,
+    "bd_rate_y_pct": 0.015452699100615419,
+    "bd_rate_yuv_pct": -0.00891281214246975,
+    "bd_rate_u_pct": -0.06585495205697622,
+    "bd_rate_v_pct": -0.050504095907255575
+  }
+]

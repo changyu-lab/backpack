@@ -1,0 +1,85 @@
+{
+  "expected_sequences": 14,
+  "completed_sequences": 14,
+  "missing": [],
+  "per_sequence": {
+    "AerialCity": {
+      "psnr_bd_rate_percent": 6.388409723106145,
+      "ws_psnr_bd_rate_percent": 6.720025650990144,
+      "s_psnr_nn_bd_rate_percent": 6.771661837669574
+    },
+    "Balboa": {
+      "psnr_bd_rate_percent": -2.9104269220627104,
+      "ws_psnr_bd_rate_percent": -3.4108508021260824,
+      "s_psnr_nn_bd_rate_percent": -3.4030811674266963
+    },
+    "BranCastle2": {
+      "psnr_bd_rate_percent": 0.17665574609716592,
+      "ws_psnr_bd_rate_percent": -1.459625285496264,
+      "s_psnr_nn_bd_rate_percent": -1.4718187180813804
+    },
+    "Broadway": {
+      "psnr_bd_rate_percent": -5.71644625044497,
+      "ws_psnr_bd_rate_percent": -6.4005926484230935,
+      "s_psnr_nn_bd_rate_percent": -6.494824864983642
+    },
+    "ChairliftRide": {
+      "psnr_bd_rate_percent": 4.745994813491412,
+      "ws_psnr_bd_rate_percent": 3.6669297566827677,
+      "s_psnr_nn_bd_rate_percent": 3.6271879972524124
+    },
+    "DrivingInCity": {
+      "psnr_bd_rate_percent": 1.1091528344288861,
+      "ws_psnr_bd_rate_percent": 0.3735313872089988,
+      "s_psnr_nn_bd_rate_percent": 0.35716512113059606
+    },
+    "DrivingInCountry": {
+      "psnr_bd_rate_percent": 40.77599841100576,
+      "ws_psnr_bd_rate_percent": 36.98129390567345,
+      "s_psnr_nn_bd_rate_percent": 36.5699180421098
+    },
+    "Gaslamp": {
+      "psnr_bd_rate_percent": 3.7850270265956,
+      "ws_psnr_bd_rate_percent": 0.7903840585321685,
+      "s_psnr_nn_bd_rate_percent": 1.0106174331565825
+    },
+    "Harbor": {
+      "psnr_bd_rate_percent": 1.9409345429597107,
+      "ws_psnr_bd_rate_percent": -0.03106385938264884,
+      "s_psnr_nn_bd_rate_percent": -0.18941183261086578
+    },
+    "KiteFlite": {
+      "psnr_bd_rate_percent": 0.25318872792064456,
+      "ws_psnr_bd_rate_percent": -1.5851114199392706,
+      "s_psnr_nn_bd_rate_percent": -1.4878740987219294
+    },
+    "Landing2": {
+      "psnr_bd_rate_percent": -3.3367212905573247,
+      "ws_psnr_bd_rate_percent": -7.1032033898147855,
+      "s_psnr_nn_bd_rate_percent": -7.082248193916463
+    },
+    "PoleVault_le": {
+      "psnr_bd_rate_percent": 10.763540910711347,
+      "ws_psnr_bd_rate_percent": 7.867482795903309,
+      "s_psnr_nn_bd_rate_percent": 7.621834852005898
+    },
+    "SkateboardInLot": {
+      "psnr_bd_rate_percent": 1.8287432719277474,
+      "ws_psnr_bd_rate_percent": 0.5672256805812778,
+      "s_psnr_nn_bd_rate_percent": 0.44407110491808865
+    },
+    "Trolley": {
+      "psnr_bd_rate_percent": 4.290656188036637,
+      "ws_psnr_bd_rate_percent": 0.20567099906474606,
+      "s_psnr_nn_bd_rate_percent": 0.47141592021407486
+    }
+  },
+  "average": {
+    "psnr_bd_rate_percent": 4.578193409515433,
+    "ws_psnr_bd_rate_percent": 2.655864059246766,
+    "s_psnr_nn_bd_rate_percent": 2.6246152451940032
+  },
+  "average_basis": "equal-weight arithmetic mean of every expected sequence BD-rate; no selective exclusions",
+  "sibrc_acceptance": "not evaluated: requires matched SIBRC results",
+  "failures": {}
+}

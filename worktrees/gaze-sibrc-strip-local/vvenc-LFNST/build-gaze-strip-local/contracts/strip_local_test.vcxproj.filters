@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\gaze-sibrc-strip-local\vvenc-LFNST\test\striplocal\controller_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\gaze-sibrc-strip-local\vvenc-LFNST\source\Lib\EncoderLib\Sibrc\Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\gaze-sibrc-strip-local\vvenc-LFNST\source\Lib\EncoderLib\VtmRcCompat\VisualGaze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\gaze-sibrc-strip-local\vvenc-LFNST\test\striplocal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{09E232A4-998D-3A14-8BC1-1D289C849E13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

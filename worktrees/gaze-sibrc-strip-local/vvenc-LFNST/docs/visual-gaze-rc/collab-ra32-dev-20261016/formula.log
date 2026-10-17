@@ -1,0 +1,21 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/gaze_sibrc_collab_20261016/src/build-visualgaze
+[ 33%] Building CXX object CMakeFiles/visual_gaze_test.dir/controller_test.cpp.o
+[ 66%] Building CXX object CMakeFiles/visual_gaze_test.dir/root/gaze_sibrc_collab_20261016/src/source/Lib/EncoderLib/VtmRcCompat/VisualGaze.cpp.o
+[100%] Linking CXX executable visual_gaze_test
+[100%] Built target visual_gaze_test
+Internal ctest changing into directory: /root/gaze_sibrc_collab_20261016/src/build-visualgaze
+Test project /root/gaze_sibrc_collab_20261016/src/build-visualgaze
+    Start 1: visual_gaze_formulas
+1/1 Test #1: visual_gaze_formulas .............   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.00 sec

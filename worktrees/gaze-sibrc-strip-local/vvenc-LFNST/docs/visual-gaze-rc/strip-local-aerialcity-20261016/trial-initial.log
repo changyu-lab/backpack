@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/dev/shm/gaze_sibrc_strip_local_20261016/src/tools/visual_gaze/strip_local_trial.py", line 382, in <module>
+    if __name__=='__main__':main()
+  File "/dev/shm/gaze_sibrc_strip_local_20261016/src/tools/visual_gaze/strip_local_trial.py", line 370, in main
+    resources=Resources(capacity,a.scratch_root);gates(a,case,identity,resources)
+  File "/dev/shm/gaze_sibrc_strip_local_20261016/src/tools/visual_gaze/strip_local_trial.py", line 275, in gates
+    save(prefix.with_suffix('.command.json'),cmd);seconds=run(cmd,prefix.with_suffix('.log'))
+  File "/dev/shm/gaze_sibrc_strip_local_20261016/src/tools/visual_gaze/run_experiment.py", line 22, in run
+    result = subprocess.run(list(map(str, command)), stdout=output, stderr=subprocess.STDOUT, text=True)
+  File "/usr/lib/python3.10/subprocess.py", line 505, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1146, in communicate
+    self.wait()
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8B318283-565B-3CE7-AB54-11E097B3A2C2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao --check-stamp-file C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeCCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeCXXCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeRCCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeSystem.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnv.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnvMingw.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnvVersion.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCCompilerABI.c;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;F:\cmake\Cmake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao --check-stamp-file C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeCCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeCXXCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeRCCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeSystem.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnv.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnvMingw.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnvVersion.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCCompilerABI.c;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;F:\cmake\Cmake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao --check-stamp-file C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeCCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeCXXCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeRCCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeSystem.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnv.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnvMingw.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnvVersion.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCCompilerABI.c;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;F:\cmake\Cmake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao --check-stamp-file C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeCCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeCXXCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeRCCompiler.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\3.21.3\CMakeSystem.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnv.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnvMingw.cmake;C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\cmake\CMakeBuild\cmake\modules\BBuildEnvVersion.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCCompilerABI.c;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;F:\cmake\Cmake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;F:\cmake\Cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\ZERO_CHECK.vcxproj">
+      <Project>{0D1FCB76-EF06-3A4C-8E94-D675AEFDDB05}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\utils\360ConvertApp\360ConvertApp.vcxproj">
+      <Project>{EE89046F-F0D5-30E6-A8FB-E3547BBD847E}</Project>
+      <Name>360ConvertApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\Lib\AppEncHelper360\AppEncHelper360.vcxproj">
+      <Project>{B43E7635-08E0-338F-AA2A-B7DF6764EAF7}</Project>
+      <Name>AppEncHelper360</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\BitstreamExtractorApp\BitstreamExtractorApp.vcxproj">
+      <Project>{7724A481-B51E-345A-87C1-773A488DF9D9}</Project>
+      <Name>BitstreamExtractorApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\Lib\CommonAnalyserLib\CommonAnalyserLib.vcxproj">
+      <Project>{892A3171-CC3F-3D76-80C6-AC5DDC3396A0}</Project>
+      <Name>CommonAnalyserLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\Lib\CommonLib\CommonLib.vcxproj">
+      <Project>{B883BE1B-4775-368C-B41F-C6C106C9B709}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\DecoderAnalyserApp\DecoderAnalyserApp.vcxproj">
+      <Project>{98B7E4DC-133B-3479-9BF3-9D3CC13E49A3}</Project>
+      <Name>DecoderAnalyserApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\Lib\DecoderAnalyserLib\DecoderAnalyserLib.vcxproj">
+      <Project>{E58EE2B9-E35F-3813-8E66-8CBF0B99405F}</Project>
+      <Name>DecoderAnalyserLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\DecoderApp\DecoderApp.vcxproj">
+      <Project>{5C072BF8-C17E-3209-9B01-998843B4B5BA}</Project>
+      <Name>DecoderApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\Lib\DecoderLib\DecoderLib.vcxproj">
+      <Project>{3CC1E219-0981-374A-A78E-9A19091400D9}</Project>
+      <Name>DecoderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\EncoderApp\EncoderApp.vcxproj">
+      <Project>{1119EFEE-6E17-3514-BDC5-43821042EA06}</Project>
+      <Name>EncoderApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\Lib\EncoderLib\EncoderLib.vcxproj">
+      <Project>{AD7EF399-CBED-389C-BFFE-92E1262614BB}</Project>
+      <Name>EncoderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\Lib\Lib360\Lib360.vcxproj">
+      <Project>{BDC62EFB-AD90-30AC-A25A-13991398E7BF}</Project>
+      <Name>Lib360</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\SEIFilmGrainApp\SEIFilmGrainApp.vcxproj">
+      <Project>{5DB4401B-AB35-3B5D-BDF0-D6F5BBAC2465}</Project>
+      <Name>SEIFilmGrainApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\SEIRemovalApp\SEIRemovalApp.vcxproj">
+      <Project>{6674B7BE-421F-3A7E-A269-F76E98DC8E14}</Project>
+      <Name>SEIRemovalApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\StreamMergeApp\StreamMergeApp.vcxproj">
+      <Project>{E5F14A9A-E64F-3827-830E-A061536EEFB7}</Project>
+      <Name>StreamMergeApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\SubpicMergeApp\SubpicMergeApp.vcxproj">
+      <Project>{84D24939-D714-3DF7-9879-EA09AAEB7BD8}</Project>
+      <Name>SubpicMergeApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\Lib\Utilities\Utilities.vcxproj">
+      <Project>{FEE2E2CB-4321-325A-ABE6-F1A5DC44FE6F}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\build_zhao\source\App\Parcat\parcat.vcxproj">
+      <Project>{71E199E1-7C78-3F55-8719-EB75DA6DAF34}</Project>
+      <Name>parcat</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

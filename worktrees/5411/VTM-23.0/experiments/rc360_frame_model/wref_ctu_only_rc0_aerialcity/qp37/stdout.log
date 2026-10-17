@@ -1,0 +1,245 @@
+
+VVCSoftware: VTM Encoder Version 23.0 [Windows][VS 1929][64 bit] [SIMD=AVX2] 
+
+TOOL CFG: IBD:1 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 LQP:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 ESD:0 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:5 ChromaTS:1 BDPCM:0 Tiles: 1x1 Slices: 1 MCTS:0 SAO:1 ALF:1 CCALF:1 MaxNumALFAPS 8 AlfapsIDShift 0 ConstantJointCbCrSignFlagWPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1  DQ:1  SignBitHidingFlag:0 RecalQP:0 
+TOOL CFG: LFNST:0 MMVD:1 Affine:1 AffineType:1 AdaptBypassAffineMe:0 PROF:1 SbTMVP:1 DualITree:1 IMV:1 BIO:0 LMChroma:1 HorCollocatedChroma:1 VerCollocatedChroma:0 MTS:1(explicit intra) SBT:1 ISP:1 SMVD:0 CompositeLTReference:0 Bcw:0 BcwFast:0 LADF:0 CIIP:1 Geo:0 AllowDisFracMMVD:1 AffineAmvr:0 AffineAmvrEncOpt:0 AffineAmvp:1 DMVR:0 MmvdDisNum:6 JointCbCr:1 ACT:0 PLT:0 IBC:0 HashME:0 WrapAround:0 VirtualBoundariesEnabledFlag:0 VirtualBoundariesPresentInSPSFlag:1 vertical virtual boundaries:[ ] horizontal virtual boundaries:[ ] Reshape:1 (Signal:SDR Opt:0 CSoffset:1) MRL:1 MIP:0 EncDbOpt:1 AlfLambdaOpt:0 
+FAST TOOL CFG: LCTUFast:1 FastMrg:1 MaxMergeRdCandNumTotal:5 MergeRdCandQuotaRegular:4 MergeRdCandQuotaRegularSmallBlk:4 MergeRdCandQuotaSubBlk:2 MergeRdCandQuotaCiip:1 MergeRdCandQuotaGpm:8 PBIntraFast:1 IMV4PelFast:1 MTSMaxCand: 3(intra) 4(inter) ISPFast:0 AMaxBT:1 E0023FastEnc:1 ContentBasedFastQtbt:0 UseNonLinearAlfLuma:1 UseNonLinearAlfChroma:1 MaxNumAlfAlternativesChroma:8 TTFastSkip:31 TTFastSkipThr:1.075 FastLocalDualTree:2 RPR:0 TemporalFilter:4/0 SEI CTI:0 BIM:0 SEI FGC:0 SEI processing Order:0 
+
+
+ started @ Fri May 15 11:06:49 2026
+[RC360FbTc] preAnalyzePicture POC=0 intra=1 refsWithDrec={} frameLambda=2473.549676 frameQP=36
+POC    0 LId:  0 TId: 0 ( IDR_N_LP, I-SLICE, QP 36 )      88776 bits [Y 33.7977 dB    U 40.5118 dB    V 39.3754 dB] [ET    63 ] [L0] [L1]
+[RC360FbTc] preAnalyzePicture POC=1 intra=0 refsWithDrec={0} frameLambda=19788.397405 frameQP=45
+[RC360FbTc][Cand] POC=1 ctu=0 refPoc=0 list=0 refIdx=0 intraCost=943299.000000000 interCost=243399.000000000 q=0.258029533 rx=0 ry=0 mvx=0 mvy=0 refDist=9.414134979 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000004108 invCostSum=0.000004108
+[RC360FbTc][DrefStep] POC=1 ctu=0 cand=0 refPoc=0 list=0 refIdx=0 interCost=243399.000000000 invCostSum=0.000004108 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=9.414134979 contribution=9.414134979 drefPartial=9.414134979
+[RC360FbTc][IeffRef] POC=1 ctu=0 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=145.925353765 meanBlockVar=0.570020913 sumBlockIeff=2259.722821265 refMeanIeff=35.308169082
+[RC360FbTc][IeffCTU] POC=1 ctu=0 numRefs=1 meanBlockVarRaw=145.925353765 meanBlockVar=0.570020913 sumRefIeff=35.308169082 ctuIeff=35.308169082
+[RC360FbTc][Cand] POC=1 ctu=1 refPoc=0 list=0 refIdx=0 intraCost=872073.000000000 interCost=227956.000000000 q=0.261395548 rx=128 ry=0 mvx=0 mvy=0 refDist=8.196674347 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000004387 invCostSum=0.000004387
+[RC360FbTc][DrefStep] POC=1 ctu=1 cand=0 refPoc=0 list=0 refIdx=0 interCost=227956.000000000 invCostSum=0.000004387 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=8.196674347 contribution=8.196674347 drefPartial=8.196674347
+[RC360FbTc][IeffRef] POC=1 ctu=1 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=127.499284983 meanBlockVar=0.498044082 sumBlockIeff=1990.815598143 refMeanIeff=31.106493721
+[RC360FbTc][IeffCTU] POC=1 ctu=1 numRefs=1 meanBlockVarRaw=127.499284983 meanBlockVar=0.498044082 sumRefIeff=31.106493721 ctuIeff=31.106493721
+[RC360FbTc][Cand] POC=1 ctu=2 refPoc=0 list=0 refIdx=0 intraCost=883101.000000000 interCost=248613.000000000 q=0.281522725 rx=256 ry=0 mvx=0 mvy=0 refDist=9.496253967 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000004022 invCostSum=0.000004022
+[RC360FbTc][DrefStep] POC=1 ctu=2 cand=0 refPoc=0 list=0 refIdx=0 interCost=248613.000000000 invCostSum=0.000004022 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=9.496253967 contribution=9.496253967 drefPartial=9.496253967
+[RC360FbTc][IeffRef] POC=1 ctu=2 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=146.932965279 meanBlockVar=0.573956896 sumBlockIeff=2188.531840846 refMeanIeff=34.195810013
+[RC360FbTc][IeffCTU] POC=1 ctu=2 numRefs=1 meanBlockVarRaw=146.932965279 meanBlockVar=0.573956896 sumRefIeff=34.195810013 ctuIeff=34.195810013
+[RC360FbTc][Cand] POC=1 ctu=3 refPoc=0 list=0 refIdx=0 intraCost=959733.000000000 interCost=226410.000000000 q=0.235909362 rx=384 ry=0 mvx=0 mvy=0 refDist=8.084465027 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000004417 invCostSum=0.000004417
+[RC360FbTc][DrefStep] POC=1 ctu=3 cand=0 refPoc=0 list=0 refIdx=0 interCost=226410.000000000 invCostSum=0.000004417 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=8.084465027 contribution=8.084465027 drefPartial=8.084465027
+[RC360FbTc][IeffRef] POC=1 ctu=3 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=125.161092758 meanBlockVar=0.488910519 sumBlockIeff=1774.039660048 refMeanIeff=27.719369688
+[RC360FbTc][IeffCTU] POC=1 ctu=3 numRefs=1 meanBlockVarRaw=125.161092758 meanBlockVar=0.488910519 sumRefIeff=27.719369688 ctuIeff=27.719369688
+[RC360FbTc][Cand] POC=1 ctu=4 refPoc=0 list=0 refIdx=0 intraCost=1470639.000000000 interCost=299229.000000000 q=0.203468696 rx=512 ry=0 mvx=0 mvy=0 refDist=14.191036224 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003342 invCostSum=0.000003342
+[RC360FbTc][DrefStep] POC=1 ctu=4 cand=0 refPoc=0 list=0 refIdx=0 interCost=299229.000000000 invCostSum=0.000003342 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=14.191036224 contribution=14.191036224 drefPartial=14.191036224
+[RC360FbTc][IeffRef] POC=1 ctu=4 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=223.947704077 meanBlockVar=0.874795719 sumBlockIeff=3371.967114665 refMeanIeff=52.686986167
+[RC360FbTc][IeffCTU] POC=1 ctu=4 numRefs=1 meanBlockVarRaw=223.947704077 meanBlockVar=0.874795719 sumRefIeff=52.686986167 ctuIeff=52.686986167
+[RC360FbTc][Cand] POC=1 ctu=5 refPoc=0 list=0 refIdx=0 intraCost=1806645.000000000 interCost=293568.000000000 q=0.162493462 rx=640 ry=0 mvx=0 mvy=0 refDist=13.393249512 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003406 invCostSum=0.000003406
+[RC360FbTc][DrefStep] POC=1 ctu=5 cand=0 refPoc=0 list=0 refIdx=0 interCost=293568.000000000 invCostSum=0.000003406 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=13.393249512 contribution=13.393249512 drefPartial=13.393249512
+[RC360FbTc][IeffRef] POC=1 ctu=5 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=213.582572460 meanBlockVar=0.834306924 sumBlockIeff=3366.184684529 refMeanIeff=52.596635696
+[RC360FbTc][IeffCTU] POC=1 ctu=5 numRefs=1 meanBlockVarRaw=213.582572460 meanBlockVar=0.834306924 sumRefIeff=52.596635696 ctuIeff=52.596635696
+[RC360FbTc][Cand] POC=1 ctu=6 refPoc=0 list=0 refIdx=0 intraCost=1228897.000000000 interCost=315877.000000000 q=0.257041070 rx=768 ry=0 mvx=0 mvy=0 refDist=14.614513397 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003166 invCostSum=0.000003166
+[RC360FbTc][DrefStep] POC=1 ctu=6 cand=0 refPoc=0 list=0 refIdx=0 interCost=315877.000000000 invCostSum=0.000003166 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=14.614513397 contribution=14.614513397 drefPartial=14.614513397
+[RC360FbTc][IeffRef] POC=1 ctu=6 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=232.022276163 meanBlockVar=0.906337016 sumBlockIeff=3771.763882166 refMeanIeff=58.933810659
+[RC360FbTc][IeffCTU] POC=1 ctu=6 numRefs=1 meanBlockVarRaw=232.022276163 meanBlockVar=0.906337016 sumRefIeff=58.933810659 ctuIeff=58.933810659
+[RC360FbTc][Cand] POC=1 ctu=7 refPoc=0 list=0 refIdx=0 intraCost=551553.000000000 interCost=141325.000000000 q=0.256231042 rx=896 ry=0 mvx=0 mvy=0 refDist=12.394065857 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000007076 invCostSum=0.000007076
+[RC360FbTc][DrefStep] POC=1 ctu=7 cand=0 refPoc=0 list=0 refIdx=0 interCost=141325.000000000 invCostSum=0.000007076 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=12.394065857 contribution=12.394065857 drefPartial=12.394065857
+[RC360FbTc][IeffRef] POC=1 ctu=7 refPoc=0 list=0 refIdx=0 blockCount=32 meanBlockVarRaw=192.468108654 meanBlockVar=0.751828549 sumBlockIeff=1489.406555791 refMeanIeff=46.543954868
+[RC360FbTc][IeffCTU] POC=1 ctu=7 numRefs=1 meanBlockVarRaw=192.468108654 meanBlockVar=0.751828549 sumRefIeff=46.543954868 ctuIeff=46.543954868
+[RC360FbTc][Cand] POC=1 ctu=8 refPoc=0 list=0 refIdx=0 intraCost=2021917.000000000 interCost=441779.000000000 q=0.218495121 rx=0 ry=128 mvx=0 mvy=0 refDist=29.421020508 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000002264 invCostSum=0.000002264
+[RC360FbTc][DrefStep] POC=1 ctu=8 cand=0 refPoc=0 list=0 refIdx=0 interCost=441779.000000000 invCostSum=0.000002264 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=29.421020508 contribution=29.421020508 drefPartial=29.421020508
+[RC360FbTc][IeffRef] POC=1 ctu=8 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=490.169561863 meanBlockVar=1.914724851 sumBlockIeff=23534.353246727 refMeanIeff=367.724269480
+[RC360FbTc][IeffCTU] POC=1 ctu=8 numRefs=1 meanBlockVarRaw=490.169561863 meanBlockVar=1.914724851 sumRefIeff=367.724269480 ctuIeff=367.724269480
+[RC360FbTc][Cand] POC=1 ctu=9 refPoc=0 list=0 refIdx=0 intraCost=2101979.000000000 interCost=471313.000000000 q=0.224223458 rx=128 ry=128 mvx=0 mvy=0 refDist=32.329189301 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000002122 invCostSum=0.000002122
+[RC360FbTc][DrefStep] POC=1 ctu=9 cand=0 refPoc=0 list=0 refIdx=0 interCost=471313.000000000 invCostSum=0.000002122 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=32.329189301 contribution=32.329189301 drefPartial=32.329189301
+[RC360FbTc][IeffRef] POC=1 ctu=9 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=535.946221590 meanBlockVar=2.093539928 sumBlockIeff=25712.949511549 refMeanIeff=401.764836118
+[RC360FbTc][IeffCTU] POC=1 ctu=9 numRefs=1 meanBlockVarRaw=535.946221590 meanBlockVar=2.093539928 sumRefIeff=401.764836118 ctuIeff=401.764836118
+[RC360FbTc][Cand] POC=1 ctu=10 refPoc=0 list=0 refIdx=0 intraCost=1409365.000000000 interCost=415867.000000000 q=0.295074023 rx=256 ry=128 mvx=0 mvy=0 refDist=24.798187256 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000002405 invCostSum=0.000002405
+[RC360FbTc][DrefStep] POC=1 ctu=10 cand=0 refPoc=0 list=0 refIdx=0 interCost=415867.000000000 invCostSum=0.000002405 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=24.798187256 contribution=24.798187256 drefPartial=24.798187256
+[RC360FbTc][IeffRef] POC=1 ctu=10 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=398.235332966 meanBlockVar=1.555606769 sumBlockIeff=18774.709482917 refMeanIeff=293.354835671
+[RC360FbTc][IeffCTU] POC=1 ctu=10 numRefs=1 meanBlockVarRaw=398.235332966 meanBlockVar=1.555606769 sumRefIeff=293.354835671 ctuIeff=293.354835671
+[RC360FbTc][Cand] POC=1 ctu=11 refPoc=0 list=0 refIdx=0 intraCost=1661601.000000000 interCost=439354.000000000 q=0.264416066 rx=384 ry=128 mvx=0 mvy=0 refDist=27.784740448 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000002276 invCostSum=0.000002276
+[RC360FbTc][DrefStep] POC=1 ctu=11 cand=0 refPoc=0 list=0 refIdx=0 interCost=439354.000000000 invCostSum=0.000002276 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=27.784740448 contribution=27.784740448 drefPartial=27.784740448
+[RC360FbTc][IeffRef] POC=1 ctu=11 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=446.809095144 meanBlockVar=1.745348028 sumBlockIeff=21420.407468053 refMeanIeff=334.693866688
+[RC360FbTc][IeffCTU] POC=1 ctu=11 numRefs=1 meanBlockVarRaw=446.809095144 meanBlockVar=1.745348028 sumRefIeff=334.693866688 ctuIeff=334.693866688
+[RC360FbTc][Cand] POC=1 ctu=12 refPoc=0 list=0 refIdx=0 intraCost=3352697.000000000 interCost=526600.000000000 q=0.157067579 rx=512 ry=128 mvx=0 mvy=0 refDist=36.571941376 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000001899 invCostSum=0.000001899
+[RC360FbTc][DrefStep] POC=1 ctu=12 cand=0 refPoc=0 list=0 refIdx=0 interCost=526600.000000000 invCostSum=0.000001899 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=36.571941376 contribution=36.571941376 drefPartial=36.571941376
+[RC360FbTc][IeffRef] POC=1 ctu=12 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=602.784517050 meanBlockVar=2.354627020 sumBlockIeff=28982.487449935 refMeanIeff=452.851366405
+[RC360FbTc][IeffCTU] POC=1 ctu=12 numRefs=1 meanBlockVarRaw=602.784517050 meanBlockVar=2.354627020 sumRefIeff=452.851366405 ctuIeff=452.851366405
+[RC360FbTc][Cand] POC=1 ctu=13 refPoc=0 list=0 refIdx=0 intraCost=4954769.000000000 interCost=463154.000000000 q=0.093476406 rx=640 ry=128 mvx=0 mvy=0 refDist=34.333969116 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000002159 invCostSum=0.000002159
+[RC360FbTc][DrefStep] POC=1 ctu=13 cand=0 refPoc=0 list=0 refIdx=0 interCost=463154.000000000 invCostSum=0.000002159 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=34.333969116 contribution=34.333969116 drefPartial=34.333969116
+[RC360FbTc][IeffRef] POC=1 ctu=13 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=560.420526981 meanBlockVar=2.189142684 sumBlockIeff=27224.337952089 refMeanIeff=425.380280501
+[RC360FbTc][IeffCTU] POC=1 ctu=13 numRefs=1 meanBlockVarRaw=560.420526981 meanBlockVar=2.189142684 sumRefIeff=425.380280501 ctuIeff=425.380280501
+[RC360FbTc][Cand] POC=1 ctu=14 refPoc=0 list=0 refIdx=0 intraCost=2853151.000000000 interCost=508511.000000000 q=0.178227861 rx=768 ry=128 mvx=0 mvy=0 refDist=34.980682373 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000001967 invCostSum=0.000001967
+[RC360FbTc][DrefStep] POC=1 ctu=14 cand=0 refPoc=0 list=0 refIdx=0 interCost=508511.000000000 invCostSum=0.000001967 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=34.980682373 contribution=34.980682373 drefPartial=34.980682373
+[RC360FbTc][IeffRef] POC=1 ctu=14 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=560.808216095 meanBlockVar=2.190657094 sumBlockIeff=26236.253319063 refMeanIeff=409.941458110
+[RC360FbTc][IeffCTU] POC=1 ctu=14 numRefs=1 meanBlockVarRaw=560.808216095 meanBlockVar=2.190657094 sumRefIeff=409.941458110 ctuIeff=409.941458110
+[RC360FbTc][Cand] POC=1 ctu=15 refPoc=0 list=0 refIdx=0 intraCost=806727.000000000 interCost=211375.000000000 q=0.262015527 rx=896 ry=128 mvx=0 mvy=0 refDist=25.103836060 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000004731 invCostSum=0.000004731
+[RC360FbTc][DrefStep] POC=1 ctu=15 cand=0 refPoc=0 list=0 refIdx=0 interCost=211375.000000000 invCostSum=0.000004731 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=25.103836060 contribution=25.103836060 drefPartial=25.103836060
+[RC360FbTc][IeffRef] POC=1 ctu=15 refPoc=0 list=0 refIdx=0 blockCount=32 meanBlockVarRaw=401.397175789 meanBlockVar=1.567957718 sumBlockIeff=9409.190477957 refMeanIeff=294.037202436
+[RC360FbTc][IeffCTU] POC=1 ctu=15 numRefs=1 meanBlockVarRaw=401.397175789 meanBlockVar=1.567957718 sumRefIeff=294.037202436 ctuIeff=294.037202436
+[RC360FbTc][Cand] POC=1 ctu=16 refPoc=0 list=0 refIdx=0 intraCost=2080393.000000000 interCost=450661.000000000 q=0.216623013 rx=0 ry=256 mvx=0 mvy=0 refDist=28.819591522 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000002219 invCostSum=0.000002219
+[RC360FbTc][DrefStep] POC=1 ctu=16 cand=0 refPoc=0 list=0 refIdx=0 interCost=450661.000000000 invCostSum=0.000002219 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=28.819591522 contribution=28.819591522 drefPartial=28.819591522
+[RC360FbTc][IeffRef] POC=1 ctu=16 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=494.454672098 meanBlockVar=1.931463563 sumBlockIeff=22683.756604197 refMeanIeff=354.433696941
+[RC360FbTc][IeffCTU] POC=1 ctu=16 numRefs=1 meanBlockVarRaw=494.454672098 meanBlockVar=1.931463563 sumRefIeff=354.433696941 ctuIeff=354.433696941
+[RC360FbTc][Cand] POC=1 ctu=17 refPoc=0 list=0 refIdx=0 intraCost=1927077.000000000 interCost=494721.000000000 q=0.256720930 rx=128 ry=256 mvx=0 mvy=0 refDist=25.950290680 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000002021 invCostSum=0.000002021
+[RC360FbTc][DrefStep] POC=1 ctu=17 cand=0 refPoc=0 list=0 refIdx=0 interCost=494721.000000000 invCostSum=0.000002021 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=25.950290680 contribution=25.950290680 drefPartial=25.950290680
+[RC360FbTc][IeffRef] POC=1 ctu=17 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=659.755894423 meanBlockVar=2.577171463 sumBlockIeff=23041.310369022 refMeanIeff=360.020474516
+[RC360FbTc][IeffCTU] POC=1 ctu=17 numRefs=1 meanBlockVarRaw=659.755894423 meanBlockVar=2.577171463 sumRefIeff=360.020474516 ctuIeff=360.020474516
+[RC360FbTc][Cand] POC=1 ctu=18 refPoc=0 list=0 refIdx=0 intraCost=1417311.000000000 interCost=514921.000000000 q=0.363308406 rx=256 ry=256 mvx=0 mvy=0 refDist=33.710750580 delta=0.984343051 eta=1.000000000 dep=0.984343051 invCostTerm=0.000001942 invCostSum=0.000001942
+[RC360FbTc][DrefStep] POC=1 ctu=18 cand=0 refPoc=0 list=0 refIdx=0 interCost=514921.000000000 invCostSum=0.000001942 alpha=1.000000000 alpha2=1.000000000 dep=0.984343051 refDist=33.710750580 contribution=33.182943070 drefPartial=33.182943070
+[RC360FbTc][IeffRef] POC=1 ctu=18 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=581.031451464 meanBlockVar=2.269654107 sumBlockIeff=21456.465028476 refMeanIeff=335.257266070
+[RC360FbTc][IeffCTU] POC=1 ctu=18 numRefs=1 meanBlockVarRaw=581.031451464 meanBlockVar=2.269654107 sumRefIeff=335.257266070 ctuIeff=335.257266070
+[RC360FbTc][Cand] POC=1 ctu=19 refPoc=0 list=0 refIdx=0 intraCost=1406757.000000000 interCost=765333.000000000 q=0.544040655 rx=384 ry=256 mvx=0 mvy=0 refDist=57.044357300 delta=0.771716875 eta=1.000000000 dep=0.771716875 invCostTerm=0.000001307 invCostSum=0.000001307
+[RC360FbTc][DrefStep] POC=1 ctu=19 cand=0 refPoc=0 list=0 refIdx=0 interCost=765333.000000000 invCostSum=0.000001307 alpha=1.000000000 alpha2=1.000000000 dep=0.771716875 refDist=57.044357300 contribution=44.022093170 drefPartial=44.022093170
+[RC360FbTc][IeffRef] POC=1 ctu=19 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=1088.528708935 meanBlockVar=4.252065269 sumBlockIeff=43221.254836515 refMeanIeff=675.332106821
+[RC360FbTc][IeffCTU] POC=1 ctu=19 numRefs=1 meanBlockVarRaw=1088.528708935 meanBlockVar=4.252065269 sumRefIeff=675.332106821 ctuIeff=675.332106821
+[RC360FbTc][Cand] POC=1 ctu=20 refPoc=0 list=0 refIdx=0 intraCost=1505781.000000000 interCost=913499.000000000 q=0.606661261 rx=512 ry=256 mvx=0 mvy=0 refDist=57.426963806 delta=0.698045575 eta=1.000000000 dep=0.698045575 invCostTerm=0.000001095 invCostSum=0.000001095
+[RC360FbTc][DrefStep] POC=1 ctu=20 cand=0 refPoc=0 list=0 refIdx=0 interCost=913499.000000000 invCostSum=0.000001095 alpha=1.000000000 alpha2=1.000000000 dep=0.698045575 refDist=57.426963806 contribution=40.086637952 drefPartial=40.086637952
+[RC360FbTc][IeffRef] POC=1 ctu=20 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=1755.416182041 meanBlockVar=6.857094461 sumBlockIeff=62627.915172567 refMeanIeff=978.561174571
+[RC360FbTc][IeffCTU] POC=1 ctu=20 numRefs=1 meanBlockVarRaw=1755.416182041 meanBlockVar=6.857094461 sumRefIeff=978.561174571 ctuIeff=978.561174571
+[RC360FbTc][Cand] POC=1 ctu=21 refPoc=0 list=0 refIdx=0 intraCost=1808729.000000000 interCost=848884.000000000 q=0.469326251 rx=640 ry=256 mvx=0 mvy=0 refDist=59.261104584 delta=0.859616175 eta=1.000000000 dep=0.859616175 invCostTerm=0.000001178 invCostSum=0.000001178
+[RC360FbTc][DrefStep] POC=1 ctu=21 cand=0 refPoc=0 list=0 refIdx=0 interCost=848884.000000000 invCostSum=0.000001178 alpha=1.000000000 alpha2=1.000000000 dep=0.859616175 refDist=59.261104584 contribution=50.941804031 drefPartial=50.941804031
+[RC360FbTc][IeffRef] POC=1 ctu=21 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=1459.105861902 meanBlockVar=5.699632273 sumBlockIeff=56977.224415011 refMeanIeff=890.269131485
+[RC360FbTc][IeffCTU] POC=1 ctu=21 numRefs=1 meanBlockVarRaw=1459.105861902 meanBlockVar=5.699632273 sumRefIeff=890.269131485 ctuIeff=890.269131485
+[RC360FbTc][Cand] POC=1 ctu=22 refPoc=0 list=0 refIdx=0 intraCost=1060707.000000000 interCost=722425.000000000 q=0.681078752 rx=768 ry=256 mvx=0 mvy=0 refDist=55.499805450 delta=0.610495585 eta=1.000000000 dep=0.610495585 invCostTerm=0.000001384 invCostSum=0.000001384
+[RC360FbTc][DrefStep] POC=1 ctu=22 cand=0 refPoc=0 list=0 refIdx=0 interCost=722425.000000000 invCostSum=0.000001384 alpha=1.000000000 alpha2=1.000000000 dep=0.610495585 refDist=55.499805450 contribution=33.882386193 drefPartial=33.882386193
+[RC360FbTc][IeffRef] POC=1 ctu=22 refPoc=0 list=0 refIdx=0 blockCount=64 meanBlockVarRaw=929.813246965 meanBlockVar=3.632082996 sumBlockIeff=38298.971645705 refMeanIeff=598.421431964
+[RC360FbTc][IeffCTU] POC=1 ctu=22 numRefs=1 meanBlockVarRaw=929.813246965 meanBlockVar=3.632082996 sumRefIeff=598.421431964 ctuIeff=598.421431964
+[RC360FbTc][Cand] POC=1 ctu=23 refPoc=0 list=0 refIdx=0 intraCost=884625.000000000 interCost=333627.000000000 q=0.377139466 rx=896 ry=256 mvx=0 mvy=0 refDist=51.714309692 delta=0.968071215 eta=1.000000000 dep=0.968071215 invCostTerm=0.000002997 invCostSum=0.000002997
+[RC360FbTc][DrefStep] POC=1 ctu=23 cand=0 refPoc=0 list=0 refIdx=0 interCost=333627.000000000 invCostSum=0.000002997 alpha=1.000000000 alpha2=1.000000000 dep=0.968071215 refDist=51.714309692 contribution=50.063134642 drefPartial=50.063134642
+[RC360FbTc][IeffRef] POC=1 ctu=23 refPoc=0 list=0 refIdx=0 blockCount=32 meanBlockVarRaw=886.423795700 meanBlockVar=3.462592952 sumBlockIeff=18027.460247239 refMeanIeff=563.358132726
+[RC360FbTc][IeffCTU] POC=1 ctu=23 numRefs=1 meanBlockVarRaw=886.423795700 meanBlockVar=3.462592952 sumRefIeff=563.358132726 ctuIeff=563.358132726
+[RC360FbTc][Cand] POC=1 ctu=24 refPoc=0 list=0 refIdx=0 intraCost=1372121.000000000 interCost=257402.000000000 q=0.187594243 rx=0 ry=384 mvx=0 mvy=0 refDist=17.575647990 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003885 invCostSum=0.000003885
+[RC360FbTc][DrefStep] POC=1 ctu=24 cand=0 refPoc=0 list=0 refIdx=0 interCost=257402.000000000 invCostSum=0.000003885 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=17.575647990 contribution=17.575647990 drefPartial=17.575647990
+[RC360FbTc][IeffRef] POC=1 ctu=24 refPoc=0 list=0 refIdx=0 blockCount=48 meanBlockVarRaw=365.510729154 meanBlockVar=1.427776286 sumBlockIeff=3306.679429706 refMeanIeff=68.889154786
+[RC360FbTc][IeffCTU] POC=1 ctu=24 numRefs=1 meanBlockVarRaw=365.510729154 meanBlockVar=1.427776286 sumRefIeff=68.889154786 ctuIeff=68.889154786
+[RC360FbTc][Cand] POC=1 ctu=25 refPoc=0 list=0 refIdx=0 intraCost=1037885.000000000 interCost=306027.000000000 q=0.294856367 rx=128 ry=384 mvx=0 mvy=0 refDist=22.882095337 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003268 invCostSum=0.000003268
+[RC360FbTc][DrefStep] POC=1 ctu=25 cand=0 refPoc=0 list=0 refIdx=0 interCost=306027.000000000 invCostSum=0.000003268 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=22.882095337 contribution=22.882095337 drefPartial=22.882095337
+[RC360FbTc][IeffRef] POC=1 ctu=25 refPoc=0 list=0 refIdx=0 blockCount=48 meanBlockVarRaw=506.384412448 meanBlockVar=1.978064111 sumBlockIeff=4944.767963298 refMeanIeff=103.015999235
+[RC360FbTc][IeffCTU] POC=1 ctu=25 numRefs=1 meanBlockVarRaw=506.384412448 meanBlockVar=1.978064111 sumRefIeff=103.015999235 ctuIeff=103.015999235
+[RC360FbTc][Cand] POC=1 ctu=26 refPoc=0 list=0 refIdx=0 intraCost=1293833.000000000 interCost=201808.000000000 q=0.155976853 rx=256 ry=384 mvx=0 mvy=0 refDist=8.897410075 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000004955 invCostSum=0.000004955
+[RC360FbTc][DrefStep] POC=1 ctu=26 cand=0 refPoc=0 list=0 refIdx=0 interCost=201808.000000000 invCostSum=0.000004955 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=8.897410075 contribution=8.897410075 drefPartial=8.897410075
+[RC360FbTc][IeffRef] POC=1 ctu=26 refPoc=0 list=0 refIdx=0 blockCount=48 meanBlockVarRaw=262.501366297 meanBlockVar=1.025395962 sumBlockIeff=1323.729212485 refMeanIeff=27.577691927
+[RC360FbTc][IeffCTU] POC=1 ctu=26 numRefs=1 meanBlockVarRaw=262.501366297 meanBlockVar=1.025395962 sumRefIeff=27.577691927 ctuIeff=27.577691927
+[RC360FbTc][Cand] POC=1 ctu=27 refPoc=0 list=0 refIdx=0 intraCost=1180181.000000000 interCost=274813.000000000 q=0.232856655 rx=384 ry=384 mvx=0 mvy=0 refDist=21.602411906 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003639 invCostSum=0.000003639
+[RC360FbTc][DrefStep] POC=1 ctu=27 cand=0 refPoc=0 list=0 refIdx=0 interCost=274813.000000000 invCostSum=0.000003639 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=21.602411906 contribution=21.602411906 drefPartial=21.602411906
+[RC360FbTc][IeffRef] POC=1 ctu=27 refPoc=0 list=0 refIdx=0 blockCount=48 meanBlockVarRaw=384.234911919 meanBlockVar=1.500917625 sumBlockIeff=2829.540080915 refMeanIeff=58.948751686
+[RC360FbTc][IeffCTU] POC=1 ctu=27 numRefs=1 meanBlockVarRaw=384.234911919 meanBlockVar=1.500917625 sumRefIeff=58.948751686 ctuIeff=58.948751686
+[RC360FbTc][Cand] POC=1 ctu=28 refPoc=0 list=0 refIdx=0 intraCost=919417.000000000 interCost=266189.000000000 q=0.289519337 rx=512 ry=384 mvx=0 mvy=0 refDist=18.471689860 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003757 invCostSum=0.000003757
+[RC360FbTc][DrefStep] POC=1 ctu=28 cand=0 refPoc=0 list=0 refIdx=0 interCost=266189.000000000 invCostSum=0.000003757 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=18.471689860 contribution=18.471689860 drefPartial=18.471689860
+[RC360FbTc][IeffRef] POC=1 ctu=28 refPoc=0 list=0 refIdx=0 blockCount=48 meanBlockVarRaw=359.231714249 meanBlockVar=1.403248884 sumBlockIeff=3100.407832775 refMeanIeff=64.591829849
+[RC360FbTc][IeffCTU] POC=1 ctu=28 numRefs=1 meanBlockVarRaw=359.231714249 meanBlockVar=1.403248884 sumRefIeff=64.591829849 ctuIeff=64.591829849
+[RC360FbTc][Cand] POC=1 ctu=29 refPoc=0 list=0 refIdx=0 intraCost=934007.000000000 interCost=294754.000000000 q=0.315580076 rx=640 ry=384 mvx=0 mvy=0 refDist=22.908513387 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003393 invCostSum=0.000003393
+[RC360FbTc][DrefStep] POC=1 ctu=29 cand=0 refPoc=0 list=0 refIdx=0 interCost=294754.000000000 invCostSum=0.000003393 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=22.908513387 contribution=22.908513387 drefPartial=22.908513387
+[RC360FbTc][IeffRef] POC=1 ctu=29 refPoc=0 list=0 refIdx=0 blockCount=48 meanBlockVarRaw=424.087912560 meanBlockVar=1.656593408 sumBlockIeff=3561.805307392 refMeanIeff=74.204277237
+[RC360FbTc][IeffCTU] POC=1 ctu=29 numRefs=1 meanBlockVarRaw=424.087912560 meanBlockVar=1.656593408 sumRefIeff=74.204277237 ctuIeff=74.204277237
+[RC360FbTc][Cand] POC=1 ctu=30 refPoc=0 list=0 refIdx=0 intraCost=1054669.000000000 interCost=264407.000000000 q=0.250701405 rx=768 ry=384 mvx=0 mvy=0 refDist=16.830540975 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000003782 invCostSum=0.000003782
+[RC360FbTc][DrefStep] POC=1 ctu=30 cand=0 refPoc=0 list=0 refIdx=0 interCost=264407.000000000 invCostSum=0.000003782 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=16.830540975 contribution=16.830540975 drefPartial=16.830540975
+[RC360FbTc][IeffRef] POC=1 ctu=30 refPoc=0 list=0 refIdx=0 blockCount=48 meanBlockVarRaw=362.497499148 meanBlockVar=1.416005856 sumBlockIeff=2982.890769123 refMeanIeff=62.143557690
+[RC360FbTc][IeffCTU] POC=1 ctu=30 numRefs=1 meanBlockVarRaw=362.497499148 meanBlockVar=1.416005856 sumRefIeff=62.143557690 ctuIeff=62.143557690
+[RC360FbTc][Cand] POC=1 ctu=31 refPoc=0 list=0 refIdx=0 intraCost=441477.000000000 interCost=130839.000000000 q=0.296366515 rx=896 ry=384 mvx=0 mvy=0 refDist=15.938710531 delta=1.000000000 eta=1.000000000 dep=1.000000000 invCostTerm=0.000007643 invCostSum=0.000007643
+[RC360FbTc][DrefStep] POC=1 ctu=31 cand=0 refPoc=0 list=0 refIdx=0 interCost=130839.000000000 invCostSum=0.000007643 alpha=1.000000000 alpha2=1.000000000 dep=1.000000000 refDist=15.938710531 contribution=15.938710531 drefPartial=15.938710531
+[RC360FbTc][IeffRef] POC=1 ctu=31 refPoc=0 list=0 refIdx=0 blockCount=24 meanBlockVarRaw=371.851875941 meanBlockVar=1.452546390 sumBlockIeff=1698.300469518 refMeanIeff=70.762519563
+[RC360FbTc][IeffCTU] POC=1 ctu=31 numRefs=1 meanBlockVarRaw=371.851875941 meanBlockVar=1.452546390 sumRefIeff=70.762519563 ctuIeff=70.762519563
+[RC360FbTc][IeffNorm] POC=1 ctu=0 rawIeff=35.308169082 meanPositiveIeff=268.894579449 normIeff=0.131308594
+[RC360FbTc][IeffNorm] POC=1 ctu=1 rawIeff=31.106493721 meanPositiveIeff=268.894579449 normIeff=0.115682859
+[RC360FbTc][IeffNorm] POC=1 ctu=2 rawIeff=34.195810013 meanPositiveIeff=268.894579449 normIeff=0.127171809
+[RC360FbTc][IeffNorm] POC=1 ctu=3 rawIeff=27.719369688 meanPositiveIeff=268.894579449 normIeff=0.103086383
+[RC360FbTc][IeffNorm] POC=1 ctu=4 rawIeff=52.686986167 meanPositiveIeff=268.894579449 normIeff=0.195939190
+[RC360FbTc][IeffNorm] POC=1 ctu=5 rawIeff=52.596635696 meanPositiveIeff=268.894579449 normIeff=0.195603183
+[RC360FbTc][IeffNorm] POC=1 ctu=6 rawIeff=58.933810659 meanPositiveIeff=268.894579449 normIeff=0.219170691
+[RC360FbTc][IeffNorm] POC=1 ctu=7 rawIeff=46.543954868 meanPositiveIeff=268.894579449 normIeff=0.173093690
+[RC360FbTc][IeffNorm] POC=1 ctu=8 rawIeff=367.724269480 meanPositiveIeff=268.894579449 normIeff=1.367540656
+[RC360FbTc][IeffNorm] POC=1 ctu=9 rawIeff=401.764836118 meanPositiveIeff=268.894579449 normIeff=1.494135125
+[RC360FbTc][IeffNorm] POC=1 ctu=10 rawIeff=293.354835671 meanPositiveIeff=268.894579449 normIeff=1.090965970
+[RC360FbTc][IeffNorm] POC=1 ctu=11 rawIeff=334.693866688 meanPositiveIeff=268.894579449 normIeff=1.244702914
+[RC360FbTc][IeffNorm] POC=1 ctu=12 rawIeff=452.851366405 meanPositiveIeff=268.894579449 normIeff=1.684122333
+[RC360FbTc][IeffNorm] POC=1 ctu=13 rawIeff=425.380280501 meanPositiveIeff=268.894579449 normIeff=1.581959299
+[RC360FbTc][IeffNorm] POC=1 ctu=14 rawIeff=409.941458110 meanPositiveIeff=268.894579449 normIeff=1.524543406
+[RC360FbTc][IeffNorm] POC=1 ctu=15 rawIeff=294.037202436 meanPositiveIeff=268.894579449 normIeff=1.093503644
+[RC360FbTc][IeffNorm] POC=1 ctu=16 rawIeff=354.433696941 meanPositiveIeff=268.894579449 normIeff=1.318113953
+[RC360FbTc][IeffNorm] POC=1 ctu=17 rawIeff=360.020474516 meanPositiveIeff=268.894579449 normIeff=1.338890785
+[RC360FbTc][IeffNorm] POC=1 ctu=18 rawIeff=335.257266070 meanPositiveIeff=268.894579449 normIeff=1.246798157
+[RC360FbTc][IeffNorm] POC=1 ctu=19 rawIeff=675.332106821 meanPositiveIeff=268.894579449 normIeff=2.511512535
+[RC360FbTc][IeffNorm] POC=1 ctu=20 rawIeff=978.561174571 meanPositiveIeff=268.894579449 normIeff=3.639200078
+[RC360FbTc][IeffNorm] POC=1 ctu=21 rawIeff=890.269131485 meanPositiveIeff=268.894579449 normIeff=3.310848189
+[RC360FbTc][IeffNorm] POC=1 ctu=22 rawIeff=598.421431964 meanPositiveIeff=268.894579449 normIeff=2.225487153
+[RC360FbTc][IeffNorm] POC=1 ctu=23 rawIeff=563.358132726 meanPositiveIeff=268.894579449 normIeff=2.095089213
+[RC360FbTc][IeffNorm] POC=1 ctu=24 rawIeff=68.889154786 meanPositiveIeff=268.894579449 normIeff=0.256193914
+[RC360FbTc][IeffNorm] POC=1 ctu=25 rawIeff=103.015999235 meanPositiveIeff=268.894579449 normIeff=0.383109245
+[RC360FbTc][IeffNorm] POC=1 ctu=26 rawIeff=27.577691927 meanPositiveIeff=268.894579449 normIeff=0.102559494
+[RC360FbTc][IeffNorm] POC=1 ctu=27 rawIeff=58.948751686 meanPositiveIeff=268.894579449 normIeff=0.219226255
+[RC360FbTc][IeffNorm] POC=1 ctu=28 rawIeff=64.591829849 meanPositiveIeff=268.894579449 normIeff=0.240212465
+[RC360FbTc][IeffNorm] POC=1 ctu=29 rawIeff=74.204277237 meanPositiveIeff=268.894579449 normIeff=0.275960480
+[RC360FbTc][IeffNorm] POC=1 ctu=30 rawIeff=62.143557690 meanPositiveIeff=268.894579449 normIeff=0.231107514
+[RC360FbTc][IeffNorm] POC=1 ctu=31 rawIeff=70.762519563 meanPositiveIeff=268.894579449 normIeff=0.263160826
+[RC360FbTc][WrefRaw] POC=1 ctu=0 ctuX=0 ctuY=0 x=0 y=0 w=128 h=128 ieff=0.131308594 rawIeff=35.308169082 dref=9.414134979 dtar=51.700979283 ratio=0.182088137 wRef1=0.182088137 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=1 ctuX=1 ctuY=0 x=128 y=0 w=128 h=128 ieff=0.115682859 rawIeff=31.106493721 dref=8.196674347 dtar=51.599052761 ratio=0.158853194 wRef1=0.158853194 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=2 ctuX=2 ctuY=0 x=256 y=0 w=128 h=128 ieff=0.127171809 rawIeff=34.195810013 dref=9.496253967 dtar=51.674132745 ratio=0.183771908 wRef1=0.183771908 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=3 ctuX=3 ctuY=0 x=384 y=0 w=128 h=128 ieff=0.103086383 rawIeff=27.719369688 dref=8.084465027 dtar=51.515841375 ratio=0.156931631 wRef1=0.156931631 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=4 ctuX=4 ctuY=0 x=512 y=0 w=128 h=128 ieff=0.195939190 rawIeff=52.686986167 dref=14.191036224 dtar=52.108123623 ratio=0.272338270 wRef1=0.272338270 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=5 ctuX=5 ctuY=0 x=640 y=0 w=128 h=128 ieff=0.195603183 rawIeff=52.596635696 dref=13.393249512 dtar=52.106064362 ratio=0.257038210 wRef1=0.257038210 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=6 ctuX=6 ctuY=0 x=768 y=0 w=128 h=128 ieff=0.219170691 rawIeff=58.933810659 dref=14.614513397 dtar=52.249115774 ratio=0.279708339 wRef1=0.279708339 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=7 ctuX=7 ctuY=0 x=896 y=0 w=64 h=128 ieff=0.173093690 rawIeff=46.543954868 dref=12.394065857 dtar=51.966777393 ratio=0.238499797 wRef1=0.238499797 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=8 ctuX=0 ctuY=1 x=0 y=128 w=128 h=128 ieff=1.367540656 rawIeff=367.724269480 dref=29.421020508 dtar=57.112857100 ratio=0.515138307 wRef1=0.515138307 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=9 ctuX=1 ctuY=1 x=128 y=128 w=128 h=128 ieff=1.494135125 rawIeff=401.764836118 dref=32.329189301 dtar=57.494597481 ratio=0.562299602 wRef1=0.562299602 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=10 ctuX=2 ctuY=1 x=256 y=128 w=128 h=128 ieff=1.090965970 rawIeff=293.354835671 dref=24.798187256 dtar=56.202478190 ratio=0.441229427 wRef1=0.441229427 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=11 ctuX=3 ctuY=1 x=384 y=128 w=128 h=128 ieff=1.244702914 rawIeff=334.693866688 dref=27.784740448 dtar=56.722408850 ratio=0.489837103 wRef1=0.489837103 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=12 ctuX=4 ctuY=1 x=512 y=128 w=128 h=128 ieff=1.684122333 rawIeff=452.851366405 dref=36.571941376 dtar=58.032590798 ratio=0.630196599 wRef1=0.630196599 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=13 ctuX=5 ctuY=1 x=640 y=128 w=128 h=128 ieff=1.581959299 rawIeff=425.380280501 dref=34.333969116 dtar=57.748208956 ratio=0.594546043 wRef1=0.594546043 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=14 ctuX=6 ctuY=1 x=768 y=128 w=128 h=128 ieff=1.524543406 rawIeff=409.941458110 dref=34.980682373 dtar=57.583404847 ratio=0.607478534 wRef1=0.607478534 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=15 ctuX=7 ctuY=1 x=896 y=128 w=64 h=128 ieff=1.093503644 rawIeff=294.037202436 dref=25.103836060 dtar=56.211366857 ratio=0.446597147 wRef1=0.446597147 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=16 ctuX=0 ctuY=2 x=0 y=256 w=128 h=128 ieff=1.318113953 rawIeff=354.433696941 dref=28.819591522 dtar=56.958243157 ratio=0.505977536 wRef1=0.505977536 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=17 ctuX=1 ctuY=2 x=128 y=256 w=128 h=128 ieff=1.338890785 rawIeff=360.020474516 dref=25.950290680 dtar=57.023633966 ratio=0.455079567 wRef1=0.455079567 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=18 ctuX=2 ctuY=2 x=256 y=256 w=128 h=128 ieff=1.246798157 rawIeff=335.257266070 dref=33.182943070 dtar=56.729246141 ratio=0.584935379 wRef1=0.584935379 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=19 ctuX=3 ctuY=2 x=384 y=256 w=128 h=128 ieff=2.511512535 rawIeff=675.332106821 dref=44.022093170 dtar=60.001690225 ratio=0.733680885 wRef1=0.733680885 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=20 ctuX=4 ctuY=2 x=512 y=256 w=128 h=128 ieff=3.639200078 rawIeff=978.561174571 dref=40.086637952 dtar=62.042623099 ratio=0.646114493 wRef1=0.646114493 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=21 ctuX=5 ctuY=2 x=640 y=256 w=128 h=128 ieff=3.310848189 rawIeff=890.269131485 dref=50.941804031 dtar=61.504662736 ratio=0.828259221 wRef1=0.828259221 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=22 ctuX=6 ctuY=2 x=768 y=256 w=128 h=128 ieff=2.225487153 rawIeff=598.421431964 dref=33.882386193 dtar=59.379045423 ratio=0.570611837 wRef1=0.570611837 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=23 ctuX=7 ctuY=2 x=896 y=256 w=64 h=128 ieff=2.095089213 rawIeff=563.358132726 dref=50.063134642 dtar=59.076621006 ratio=0.847427185 wRef1=0.847427185 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=24 ctuX=0 ctuY=3 x=0 y=384 w=128 h=96 ieff=0.256193914 rawIeff=68.889154786 dref=17.575647990 dtar=52.468350132 ratio=0.334976189 wRef1=0.334976189 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=25 ctuX=1 ctuY=3 x=128 y=384 w=128 h=96 ieff=0.383109245 rawIeff=103.015999235 dref=22.882095337 dtar=53.173694275 ratio=0.430327357 wRef1=0.430327357 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=26 ctuX=2 ctuY=3 x=256 y=384 w=128 h=96 ieff=0.102559494 rawIeff=27.577691927 dref=8.897410075 dtar=51.512340109 ratio=0.172723857 wRef1=0.172723857 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=27 ctuX=3 ctuY=3 x=384 y=384 w=128 h=96 ieff=0.219226255 rawIeff=58.948751686 dref=21.602411906 dtar=52.249449765 ratio=0.413447644 wRef1=0.413447644 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=28 ctuX=4 ctuY=3 x=512 y=384 w=128 h=96 ieff=0.240212465 rawIeff=64.591829849 dref=18.471689860 dtar=52.374518780 ratio=0.352684670 wRef1=0.352684670 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=29 ctuX=5 ctuY=3 x=640 y=384 w=128 h=96 ieff=0.275960480 rawIeff=74.204277237 dref=22.908513387 dtar=52.582767260 ratio=0.435665800 wRef1=0.435665800 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=30 ctuX=6 ctuY=3 x=768 y=384 w=128 h=96 ieff=0.231107514 rawIeff=62.143557690 dref=16.830540975 dtar=52.320519023 ratio=0.321681461 wRef1=0.321681461 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefRaw] POC=1 ctu=31 ctuX=7 ctuY=3 x=896 y=384 w=64 h=96 ieff=0.263160826 rawIeff=70.762519563 dref=15.938710531 dtar=52.508881686 ratio=0.303543134 wRef1=0.303543134 beta=0.200000000 wrefRawUnclipped=1.000000000 wrefRawClipped=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=0 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=1 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=2 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=3 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=4 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=5 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=6 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=7 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=8 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=9 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=10 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=11 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=12 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=13 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=14 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=15 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=16 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=17 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=18 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=19 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=20 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=21 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=22 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=23 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=24 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=25 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=26 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=27 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=28 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=29 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=30 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc][WrefNorm] POC=1 ctu=31 rawUnclipped=1.000000000 frameWrefRawUnclipped=1.000000000 normUnclipped=1.000000000 rawClipped=1.000000000 frameWrefRawClipped=1.000000000 normFromClipped=1.000000000 finalClippedNorm=1.000000000
+[RC360FbTc] WrefStats POC=1 ctus=32 modulated=0 rawUnclippedMin=1.000000 rawUnclippedMean=1.000000 rawUnclippedMax=1.000000 rawClippedMin=1.000000 rawClippedMean=1.000000 rawClippedMax=1.000000 normUnclippedMean=1.000000 normFromClippedMean=1.000000 finalMin=1.000000 finalMean=1.000000 finalMax=1.000000 meanIeff=1.000000 meanDref=24.598871 meanDtar=55.122946
+POC    1 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 45 )        360 bits [Y 33.3864 dB    U 40.4345 dB    V 39.3498 dB] [ET     6 ] [L0 0c] [L1]
+
+LayerId  0
+	Total Frames |  Bitrate      Y-PSNR   U-PSNR   V-PSNR   YUV-PSNR 
+	2            a  1337.0400    33.5921  40.4732  39.3626  34.8663  
+
+ finished @ Fri May 15 11:08:00 2026
+ Total Time:       70.317 sec. [user]       70.318 sec. [elapsed]

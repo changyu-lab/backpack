@@ -1,0 +1,94 @@
+
+REPTree
+============
+
+currFracBits < 2496130
+|   absSumCoeffs < 1.5
+|   |   currCost < 1043722.65
+|   |   |   currCost < 711775.01 : 0 (219/7) [117/6]
+|   |   |   currCost >= 711775.01
+|   |   |   |   area < 96
+|   |   |   |   |   currIntraMode < 0.5
+|   |   |   |   |   |   currFracBits < 288632 : 0 (30/11) [15/4]
+|   |   |   |   |   |   currFracBits >= 288632 : 1 (7/1) [1/0]
+|   |   |   |   |   currIntraMode >= 0.5 : 0 (182/39) [77/21]
+|   |   |   |   area >= 96 : 0 (75/5) [31/5]
+|   |   currCost >= 1043722.65
+|   |   |   currFracBits < 440631.5
+|   |   |   |   currCost < 2584588.58
+|   |   |   |   |   currIntraMode < 12.5
+|   |   |   |   |   |   area < 24 : 1 (2/0) [1/0]
+|   |   |   |   |   |   area >= 24 : 0 (165/37) [85/23]
+|   |   |   |   |   currIntraMode >= 12.5
+|   |   |   |   |   |   currDistortion < 3089.5 : 1 (25/6) [10/3]
+|   |   |   |   |   |   currDistortion >= 3089.5 : 0 (278/112) [140/67]
+|   |   |   |   currCost >= 2584588.58
+|   |   |   |   |   currDistortion < 10073.5 : 1 (21/2) [9/1]
+|   |   |   |   |   currDistortion >= 10073.5
+|   |   |   |   |   |   currFracBits < 311773.5 : 0 (68/31) [36/13]
+|   |   |   |   |   |   currFracBits >= 311773.5 : 1 (34/7) [30/8]
+|   |   |   currFracBits >= 440631.5 : 1 (145/38) [61/16]
+|   absSumCoeffs >= 1.5
+|   |   currFracBits < 1381258
+|   |   |   currCost < 3721027.41
+|   |   |   |   absSumCoeffs < 9.5 : 1 (4223/1049) [2102/547]
+|   |   |   |   absSumCoeffs >= 9.5
+|   |   |   |   |   currCost < 1711020.83
+|   |   |   |   |   |   currCost < 1054495.52 : 0 (9/0) [2/0]
+|   |   |   |   |   |   currCost >= 1054495.52
+|   |   |   |   |   |   |   currFracBits < 1005836 : 1 (163/74) [75/37]
+|   |   |   |   |   |   |   currFracBits >= 1005836 : 0 (162/63) [68/30]
+|   |   |   |   |   currCost >= 1711020.83
+|   |   |   |   |   |   numNonZeroCoeffs < 13.5 : 1 (1126/377) [545/182]
+|   |   |   |   |   |   numNonZeroCoeffs >= 13.5 : 0 (31/6) [29/14]
+|   |   |   currCost >= 3721027.41 : 1 (892/84) [439/43]
+|   |   currFracBits >= 1381258
+|   |   |   area < 192
+|   |   |   |   numNonZeroCoeffs < 13.5
+|   |   |   |   |   area < 24 : 0 (71/10) [35/8]
+|   |   |   |   |   area >= 24
+|   |   |   |   |   |   currCost < 4168739.42 : 0 (732/323) [362/166]
+|   |   |   |   |   |   currCost >= 4168739.42 : 1 (80/26) [48/22]
+|   |   |   |   numNonZeroCoeffs >= 13.5
+|   |   |   |   |   currDistortion < 8631.5
+|   |   |   |   |   |   area < 96
+|   |   |   |   |   |   |   ispMode < 0.5 : 0 (307/87) [173/43]
+|   |   |   |   |   |   |   ispMode >= 0.5 : 1 (10/2) [7/1]
+|   |   |   |   |   |   area >= 96 : 1 (99/38) [63/25]
+|   |   |   |   |   currDistortion >= 8631.5
+|   |   |   |   |   |   MTTD < 1.5 : 0 (178/55) [111/36]
+|   |   |   |   |   |   MTTD >= 1.5
+|   |   |   |   |   |   |   currFracBits < 1432565.5 : 1 (3/0) [3/1]
+|   |   |   |   |   |   |   currFracBits >= 1432565.5 : 0 (257/38) [137/33]
+|   |   |   area >= 192
+|   |   |   |   currDistortion < 12969.5 : 1 (58/1) [31/5]
+|   |   |   |   currDistortion >= 12969.5
+|   |   |   |   |   currFracBits < 1681193.5 : 1 (257/61) [140/40]
+|   |   |   |   |   currFracBits >= 1681193.5
+|   |   |   |   |   |   currCost < 10570628.19
+|   |   |   |   |   |   |   numNonZeroCoeffs < 18.5 : 1 (282/135) [153/76]
+|   |   |   |   |   |   |   numNonZeroCoeffs >= 18.5 : 0 (100/32) [36/14]
+|   |   |   |   |   |   currCost >= 10570628.19 : 1 (41/5) [25/5]
+currFracBits >= 2496130
+|   numNonZeroCoeffs < 39.5
+|   |   ispMode < 0.5
+|   |   |   currFracBits < 3721245
+|   |   |   |   currCost < 6389087.5 : 0 (702/74) [359/51]
+|   |   |   |   currCost >= 6389087.5
+|   |   |   |   |   currCost < 10401632.52 : 0 (250/54) [128/18]
+|   |   |   |   |   currCost >= 10401632.52
+|   |   |   |   |   |   currDistortion < 139860.5
+|   |   |   |   |   |   |   currDistortion < 43860.5 : 1 (47/22) [15/5]
+|   |   |   |   |   |   |   currDistortion >= 43860.5 : 0 (16/2) [7/2]
+|   |   |   |   |   |   currDistortion >= 139860.5 : 1 (6/0) [3/0]
+|   |   |   currFracBits >= 3721245 : 0 (417/10) [211/13]
+|   |   ispMode >= 0.5
+|   |   |   currCost < 9573888.41
+|   |   |   |   absSumCoeffs < 47.5
+|   |   |   |   |   currDistortion < 8381.5 : 1 (23/3) [11/4]
+|   |   |   |   |   currDistortion >= 8381.5 : 0 (67/31) [17/6]
+|   |   |   |   absSumCoeffs >= 47.5 : 0 (29/6) [19/5]
+|   |   |   currCost >= 9573888.41 : 1 (14/1) [5/2]
+|   numNonZeroCoeffs >= 39.5 : 0 (1430/7) [695/2]
+
+Size of the tree : 89

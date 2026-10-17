@@ -1,0 +1,3 @@
+# Saldanha2022-LFNST-only-retrained-VVenC
+
+Genuine WEKA REPTree3.8.6, seed2022, maximum depth8; node count learned. First-frame only adaptation. Kimono/ParkScene are retained and BasketballPass/BQMall/BasketballDrill/RaceHorses are disclosed training substitutions. FourPeople/BQSquare are disjoint held-out validation substitutions. See manifest for exact collection plan, source file hashes, sampling and metrics. Recorded CU QP (which may differ from encoder command-line QP) defines sampling strata. ERP14 is excluded from all training and tuning. This is a retrained VVenC adaptation, not the original author model.

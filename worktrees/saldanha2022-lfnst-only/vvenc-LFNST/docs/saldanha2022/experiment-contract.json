@@ -1,0 +1,154 @@
+{
+  "status": "model_provenance_pending",
+  "branch": "codex/saldanha2022-lfnst-only",
+  "source_commit": "43de127",
+  "source_commit_is_verified_formal_anchor": false,
+  "preset": "medium",
+  "qps": [
+    22,
+    27,
+    32,
+    37
+  ],
+  "repeats": 2,
+  "threads": 32,
+  "qpa": 0,
+  "mtprofile": 0,
+  "frames": {
+    "AI": 1,
+    "RA": 32,
+    "LD": 16
+  },
+  "learned_mts_pruning": false,
+  "sequences": [
+    {
+      "name": "AerialCity",
+      "path": "I:\\Sequences360\\AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+      "width": 3840,
+      "height": 1920,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 3328819200
+    },
+    {
+      "name": "Balboa",
+      "path": "I:\\Sequences360\\Balboa_6144x3072_60fps_8bit_420_erp.yuv",
+      "width": 6144,
+      "height": 3072,
+      "fps": 60,
+      "bitdepth": 8,
+      "bytes": 16986931200
+    },
+    {
+      "name": "BranCastle2",
+      "path": "I:\\Sequences360\\BranCastle2_6144x3072_30fps_8bit_420_erp.yuv",
+      "width": 6144,
+      "height": 3072,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 8493465600
+    },
+    {
+      "name": "Broadway",
+      "path": "I:\\Sequences360\\Broadway_6144x3072_60fps_8bit_420_erp.yuv",
+      "width": 6144,
+      "height": 3072,
+      "fps": 60,
+      "bitdepth": 8,
+      "bytes": 16986931200
+    },
+    {
+      "name": "ChairliftRide",
+      "path": "I:\\Sequences360\\ChairliftRide_8192x4096_30fps_10bit_420_erp.yuv",
+      "width": 8192,
+      "height": 4096,
+      "fps": 30,
+      "bitdepth": 10,
+      "bytes": 30198988800
+    },
+    {
+      "name": "DrivingInCity",
+      "path": "I:\\Sequences360\\DrivingInCity_3840x1920_30fps_8bit_420_erp.yuv",
+      "width": 3840,
+      "height": 1920,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 3328819200
+    },
+    {
+      "name": "DrivingInCountry",
+      "path": "I:\\Sequences360\\DrivingInCountry_3840x1920_30fps_8bit_420_erp.yuv",
+      "width": 3840,
+      "height": 1920,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 3328819200
+    },
+    {
+      "name": "Gaslamp",
+      "path": "I:\\Sequences360\\Gaslamp_8192x4096_30fps_8bit_420_erp.yuv",
+      "width": 8192,
+      "height": 4096,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 15099494400
+    },
+    {
+      "name": "Harbor",
+      "path": "I:\\Sequences360\\Harbor_8192x4096_30fps_8bit_420_erp.yuv",
+      "width": 8192,
+      "height": 4096,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 15099494400
+    },
+    {
+      "name": "KiteFlite",
+      "path": "I:\\Sequences360\\KiteFlite_8192x4096_30fps_8bit_420_erp.yuv",
+      "width": 8192,
+      "height": 4096,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 15099494400
+    },
+    {
+      "name": "Landing2",
+      "path": "I:\\Sequences360\\Landing2_6144x3072_30fps_8bit_420_erp.yuv",
+      "width": 6144,
+      "height": 3072,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 8493465600
+    },
+    {
+      "name": "PoleVault_le",
+      "path": "I:\\Sequences360\\PoleVault_le_3840x1920_30fps_8bit_420_erp.yuv",
+      "width": 3840,
+      "height": 1920,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 3317760000
+    },
+    {
+      "name": "SkateboardInLot",
+      "path": "I:\\Sequences360\\SkateboardInLot_8192x4096_30fps_10bit_420_erp.yuv",
+      "width": 8192,
+      "height": 4096,
+      "fps": 30,
+      "bitdepth": 10,
+      "bytes": 30198988800
+    },
+    {
+      "name": "Trolley",
+      "path": "I:\\Sequences360\\Trolley_8192x4096_30fps_8bit_420_erp.yuv",
+      "width": 8192,
+      "height": 4096,
+      "fps": 30,
+      "bitdepth": 8,
+      "bytes": 15099494400
+    }
+  ],
+  "reference_runner": "I:/vvenc-LFNST/backups/S123AB_formal_20261005/run_queue.py",
+  "reference_runner_sha256": "2e36e88c72d1b5855ac3aaa379da744553965e019dc389bafbcf9c58160e94a7",
+  "paper_sha256": "fcd7d336ce58d8c1d7bacfea8ae207f42c18d17f7ff7c7e86a7394fbd85783bb"
+}

@@ -1,0 +1,102 @@
+{
+  "scope": "same frozen Anchor stream identities,32 frames,targets,source prefixes,sphere and metrics identities checked at all 56 points",
+  "method_average": {
+    "psnr_bd_rate_percent": 6.101653265437991,
+    "ws_psnr_bd_rate_percent": 2.9609715011709947,
+    "s_psnr_nn_bd_rate_percent": 2.9887579600454033,
+    "cpp_psnr_bd_rate_percent": 2.939317134652586
+  },
+  "sibrc_C4_average": {
+    "psnr_bd_rate_percent": -3.789060910818096,
+    "ws_psnr_bd_rate_percent": -5.775391933254893,
+    "s_psnr_nn_bd_rate_percent": -5.7699773116263176,
+    "cpp_psnr_bd_rate_percent": -5.799760483383148
+  },
+  "sibrc_C4_per_sequence": {
+    "DrivingInCity": {
+      "psnr_bd_rate_percent": -6.507298565797062,
+      "ws_psnr_bd_rate_percent": -6.628788291055493,
+      "s_psnr_nn_bd_rate_percent": -6.651142239523475,
+      "cpp_psnr_bd_rate_percent": -6.700867741447718
+    },
+    "AerialCity": {
+      "psnr_bd_rate_percent": -6.021605720526262,
+      "ws_psnr_bd_rate_percent": -8.100019540610043,
+      "s_psnr_nn_bd_rate_percent": -7.983753740931421,
+      "cpp_psnr_bd_rate_percent": -8.229621935290131
+    },
+    "DrivingInCountry": {
+      "psnr_bd_rate_percent": -1.6491735577845783,
+      "ws_psnr_bd_rate_percent": -5.368965942057952,
+      "s_psnr_nn_bd_rate_percent": -5.353592662908397,
+      "cpp_psnr_bd_rate_percent": -5.411329243149055
+    },
+    "Balboa": {
+      "psnr_bd_rate_percent": -7.193107823740709,
+      "ws_psnr_bd_rate_percent": -7.27209298151575,
+      "s_psnr_nn_bd_rate_percent": -7.304310366261177,
+      "cpp_psnr_bd_rate_percent": -7.271700099962174
+    },
+    "Broadway": {
+      "psnr_bd_rate_percent": -6.093927544305854,
+      "ws_psnr_bd_rate_percent": -6.570191451078053,
+      "s_psnr_nn_bd_rate_percent": -6.59648941644463,
+      "cpp_psnr_bd_rate_percent": -6.588500747220551
+    },
+    "BranCastle2": {
+      "psnr_bd_rate_percent": 1.2018103558920323,
+      "ws_psnr_bd_rate_percent": -0.19329986618601955,
+      "s_psnr_nn_bd_rate_percent": -0.18616590786908702,
+      "cpp_psnr_bd_rate_percent": -0.23882599793071135
+    },
+    "Landing2": {
+      "psnr_bd_rate_percent": -0.19574113639451357,
+      "ws_psnr_bd_rate_percent": -3.3286270042823243,
+      "s_psnr_nn_bd_rate_percent": -3.285583323024594,
+      "cpp_psnr_bd_rate_percent": -3.3428036036288016
+    },
+    "PoleVault": {
+      "psnr_bd_rate_percent": -0.3020568100445728,
+      "ws_psnr_bd_rate_percent": -4.218846317909816,
+      "s_psnr_nn_bd_rate_percent": -4.248800431083056,
+      "cpp_psnr_bd_rate_percent": -4.071686458503582
+    },
+    "ChairliftRide": {
+      "psnr_bd_rate_percent": -5.494872649226101,
+      "ws_psnr_bd_rate_percent": -6.181001462839746,
+      "s_psnr_nn_bd_rate_percent": -6.254306403080716,
+      "cpp_psnr_bd_rate_percent": -6.195182461704871
+    },
+    "Gaslamp": {
+      "psnr_bd_rate_percent": -4.890698936132793,
+      "ws_psnr_bd_rate_percent": -6.933631413442076,
+      "s_psnr_nn_bd_rate_percent": -6.874894467843973,
+      "cpp_psnr_bd_rate_percent": -6.9409777393666685
+    },
+    "Harbor": {
+      "psnr_bd_rate_percent": -6.427305334526682,
+      "ws_psnr_bd_rate_percent": -6.392047865596563,
+      "s_psnr_nn_bd_rate_percent": -6.4304642852989105,
+      "cpp_psnr_bd_rate_percent": -6.389690494162201
+    },
+    "KiteFlite": {
+      "psnr_bd_rate_percent": -7.459564967870294,
+      "ws_psnr_bd_rate_percent": -8.134413525413512,
+      "s_psnr_nn_bd_rate_percent": -8.155966979596077,
+      "cpp_psnr_bd_rate_percent": -8.170597675232848
+    },
+    "Trolley": {
+      "psnr_bd_rate_percent": -0.19098784611463338,
+      "ws_psnr_bd_rate_percent": -7.489391923554467,
+      "s_psnr_nn_bd_rate_percent": -7.330741732018868,
+      "cpp_psnr_bd_rate_percent": -7.594701701619686
+    },
+    "SkateboardInLot": {
+      "psnr_bd_rate_percent": -1.8223222148813236,
+      "ws_psnr_bd_rate_percent": -4.0441694800266745,
+      "s_psnr_nn_bd_rate_percent": -4.1234704068840635,
+      "cpp_psnr_bd_rate_percent": -4.050160868145076
+    }
+  },
+  "passes_all_average_constraints": false
+}

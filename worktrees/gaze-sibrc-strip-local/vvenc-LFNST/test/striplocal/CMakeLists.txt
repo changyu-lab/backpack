@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.13)
+project(strip_local_test LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 14)
+enable_testing()
+add_executable(strip_local_test controller_test.cpp ../../source/Lib/EncoderLib/Sibrc/Controller.cpp ../../source/Lib/EncoderLib/VtmRcCompat/VisualGaze.cpp)
+target_include_directories(strip_local_test PRIVATE ../../source/Lib)
+add_test(NAME strip_local_contract COMMAND strip_local_test)

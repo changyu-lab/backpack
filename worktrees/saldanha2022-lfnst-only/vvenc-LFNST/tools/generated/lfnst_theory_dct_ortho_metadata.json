@@ -1,0 +1,52 @@
+{
+  "rho_h": 0.6,
+  "rho_v": 0.6,
+  "model": "dct_ortho",
+  "phis_deg_abs": [
+    15.0,
+    40.0,
+    60.0,
+    80.0
+  ],
+  "sizes": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "qp_list": [
+    22
+  ],
+  "a_bin_log2_values": [
+    -12.0,
+    -11.0,
+    -10.0,
+    -9.0,
+    -8.0,
+    -7.0,
+    -6.0,
+    -5.0,
+    -4.0,
+    -3.0,
+    -2.0,
+    -1.0,
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0
+  ],
+  "kappa": 1.0,
+  "r_idx": 1.0,
+  "has_rom_lfnst": true,
+  "notes": "Sigma_x and variances are unit-residual-variance templates. Online uses a=sigma_r^2/qStep^2 and lambda*DeltaR. LFNST matrices are scaled by 1/128 if Rom.cpp is provided."
+}

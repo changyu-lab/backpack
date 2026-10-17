@@ -1,0 +1,33 @@
+# Reproduction report — 2026-10-04
+
+Status: BLOCKED_BY_REMOTE_AUTH_AND_SHARED_RESOURCE_ADMISSION for the requested first-sequence four-point performance result. Implementation/build/2-frame functional checks exist; formal Zhao points0/4. No gain claimed.
+
+## Paper evidence vs engineering conventions
+Author PDF was downloaded from https://research.edgehill.ac.uk/ws/files/58143530/An_Optimized_Rate_Control_Algorithm_in_Versatile_Video_Coding_for_360_Videos.pdf and fully text-extracted to paper.txt. DOI10.1109/LSP.2022.3219359. Original platformVTM10+360Lib11; this is an adaptation to VTM23+360Lib13.6, not a numerically exact original-platform reproduction. Paper reports11.77% average savings in its own experiment, not a guaranteed result here.
+
+Confirmed from paper: global sign(DCT) then squared IDCT (1–2); local nonoverlapping4×4 DC absolute difference plus15-AC Euclidean distance (3–4); neighborhood includes center and available surrounding blocks, NL9 inside and reduced at boundaries; spatial and temporal CTU fusion each0.5; normalize global/local before fusion and CTU SS/ST before SST; demand requires vertical distance<0.6H/2 and SST>frame average; region budgets use SST, within-region weights use SS.
+
+Engineering conventions, not verified author-code parameters: gammaDC=gammaAC=.5 (paper refers to[25] without numbers; one bounded search did not provide full reference); DCT-II orthonormal float64; minmax0..255 with constant→0; previous original selected frame as temporal reference, firstST0; edge replicate incomplete4×4 blocks and clipped actual CTU centers; area allocation for zero-saliency/empty/exhausted cases. No weight search was performed.
+
+Important equation difference: printed paper(11) is ratioSST×frameTarget−Bitcoded, while attachment simplifies ratioSST×remaining. Our explicitly authorized online adaptation initializes each region from ratioSST×native payload, deducts that region's actual CTU bits once, removes coded SS from denominator and reconciles nonnegative regional balances to native remaining bits. This is an engineering adaptation, not a claim about undocumented author behavior. Native m_bitsLeft is never debited a second time; header was already removed in native create().
+
+## Integration
+EncAppCfg/EncApp/EncCfg carry ZhaoRC/FeatureDir/diagnostic path. EncGOP initializes after native frame lambda/QP estimation. RateCtrl substitutes P-picture CTU target bpp and records native candidate, then existing lambda/QP/clipping/RDO/chroma/model updates run. updateAfterCTU updates separate regional balances from the original actual-bit value. Native GOP and frame budgets unchanged. IRAP uses native independent model; features still strictly validated. Multiple tiles/slices, nonraster CTUs and concurrent RC360 methods rejected. Missing/count/geometry/POC/malformed features fail explicitly. CMake glob discovers new files.
+
+## Feature identity and preprocessing cost
+AerialCity original8bit3840×1920 first16 prefixSHA25698f007bbc53d8014c82509e4c278a2ba251ca1dc9a8378f8ecde19b5d7d71448. 360Lib13.6 Y5/C4 zero-rotation ERP conversion creates10bit4432×2216 coding original,471422976 bytes, then16×630 features. Features intentionally use pre-TF originals, not filtered pictures; formal encoder retains TF1,past4,future0,strength.2. Original and coding dimensions must not be interchanged.
+
+Conversion reported33.967 CPU seconds. Extraction wall112.593sec,CPU108.656sec. Combined reported conversionCPU+extractionCPU142.623sec; conversion wall was not separately instrumented. This one-time cost is not hidden inside encoding speed; reused across4rates, report total and amortized separately. Offline RSS was not measured. NumPy1.24.4/SciPy1.6.2 emitted a declared-version-range warning; focused numerical tests and complete extraction passed; environment was not changed.
+
+## Validation and discovered baseline limitation
+MSVC19.29 x64 Release +360Lib build succeeded. Focused allocator/loader tests passed, including conservation/actual feedback/partial-area fallback/malformed input and huge-finite-SS regression. Feature tests cover constant first frame, center-inclusive denominator and temporal/partial CTU aggregation. Native aggregate parser verified against original log.
+
+Initial SphereVideo0 smoke revealed preexisting 360Lib null dereference: EncGOP calls calculatePSNRs while disabled helper has null input reader. Both ZhaoON/OFF fail, raw Windows exit3221225477. No unrelated library fix applied. Valid ERP smoke uses SphereVideo1 and960×480→same geometry,TFunchanged. Completed2frames with32CTUs/frame; both regions present (POC1 demand12/non-demand20). P targets differ from native candidates; low payload triggers11 documented fallback events. Native IRAP preserved. ON/OFF/base happen to produce identical smoke bitstreams under clipping/low budget; this is not performance evidence. OFF matches existing non360 native base bit-for-bit. Decoder succeeds and reconstruction SHA256matches85001afc67d4d24091bb6e772321383f0a5803f26c8039d4501369777774ad62. Diagnostic correction separates estimated QP from native actual skip sentinel−999; final rerun status recorded in smoke_validation.json.
+
+## Formal comparison limitations
+Existing Native targets QP22/27/32/37 actual rates21461085/5430375/3236115/2470380bps, signed errors+0.0543/+0.0376/+28.8914/+80.4270%. Keep these measured errors. Do not replace with fixedQP anchors or retune to improve them. Shared metrics are codingY_WS,Y_E2E_S,Y_CF_CPP. CF_CPP is not E2E_CPP. Full historical invocation/override and input prefix remain not hash-proven; candidate matches recoverable log settings and records exact limitations. Cross-host elapsed times do not establish a comparable speedup without hardware/control evidence.
+
+Only AerialCity4rates prepared. No formal point started, no other sequence released. Current blocker: old36016 current key rejected; local RAM insufficient; new11045 reserved. MASTER_HANDOFF.md provides the task/resource request. Once authorized capacity is restored, remote script builds isolated source, verifies inputs, launches explicit4rate jobs with PID/resource receipts; analysis uses actual-rate canonical BD-rate with order/common-overlap/no-extrapolation checks.
+
+Final verification: smoke_final exit0;2frames/64rows, estimated lambda/QP valid, actual skip sentinel preserved. CPU157.707s, encoder elapsed157.709s, observed peakRSS200142848bytes. Decoder and reconstruction hashes agree. Newly rebuilt source-matched360ConvertApp reproduced all16converted frames byte-for-byte (conversion_parity.json). No additional saliency extraction needed.
+

@@ -1,0 +1,10 @@
+^C:\USERS\HITXI\.CODEX\WORKTREES\ZHAO2022-SPL-REPRO\VTM-23.0\SOURCE\LIB\ENCODERLIB\CMAKELISTS.TXT
+setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao --check-stamp-file C:/Users/hitxi/.codex/worktrees/zhao2022-spl-repro/VTM-23.0/build_zhao/source/Lib/EncoderLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

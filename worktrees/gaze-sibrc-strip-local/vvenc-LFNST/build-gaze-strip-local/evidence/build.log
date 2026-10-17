@@ -1,0 +1,159 @@
+[  0%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/AdaptiveLoopFilter_sse41.cpp.o
+[  2%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/AffineGradientSearch_sse41.cpp.o
+[  2%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/InterPred_sse41.cpp.o
+[  3%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/Buffer_sse41.cpp.o
+[  4%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/InterpolationFilter_sse41.cpp.o
+[  5%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/DepQuant_sse41.cpp.o
+[  5%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/IntraPred_sse41.cpp.o
+[  6%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/MCTF_avx41.cpp.o
+[  7%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/LoopFilter_sse41.cpp.o
+[  8%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/SampleAdaptiveOffset_sse41.cpp.o
+[  9%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/Trafo_sse41.cpp.o
+[ 10%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/RdCost_sse41.cpp.o
+[ 11%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/InterPred_avx2.cpp.o
+[ 12%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/Quant_sse41.cpp.o
+[ 12%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse42/DepQuant_sse42.cpp.o
+[ 13%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/AdaptiveLoopFilter_avx2.cpp.o
+[ 14%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/AffineGradientSearch_avx2.cpp.o
+[ 15%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/Buffer_avx2.cpp.o
+[ 16%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/DepQuant_avx2.cpp.o
+[ 16%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/InterpolationFilter_avx2.cpp.o
+[ 17%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/IntraPred_avx2.cpp.o
+[ 18%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/LoopFilter_avx2.cpp.o
+[ 19%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/MCTF_avx2.cpp.o
+[ 20%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/Quant_avx2.cpp.o
+[ 21%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/RdCost_avx2.cpp.o
+[ 22%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/SampleAdaptiveOffset_avx2.cpp.o
+[ 22%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/Trafo_avx2.cpp.o
+[ 22%] Built target vvenc_x86_simd
+[ 22%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/Sibrc/Controller.cpp.o
+[ 23%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/Sibrc/Preanalysis.cpp.o
+[ 24%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VtmRcCompat/IntraCost.cpp.o
+[ 25%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VtmRcCompat/RateCtrl.cpp.o
+[ 26%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/BitStream.cpp.o
+[ 27%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/Sibrc/Statistics.cpp.o
+[ 28%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VtmRcCompat/Adapter.cpp.o
+[ 29%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/DepQuant.cpp.o
+[ 30%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VtmRcCompat/VisualGazeRuntime.cpp.o
+[ 30%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VtmRcCompat/VisualGaze.cpp.o
+[ 31%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/InterpolationFilter.cpp.o
+[ 32%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/InterPrediction.cpp.o
+[ 33%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/AdaptiveLoopFilter.cpp.o
+[ 34%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/AffineGradientSearch.cpp.o
+[ 36%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/CodingStructure.cpp.o
+[ 36%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Buffer.cpp.o
+[ 37%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Contexts.cpp.o
+[ 37%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/ContextModelling.cpp.o
+[ 38%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/IntraPrediction.cpp.o
+[ 39%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/LoopFilter.cpp.o
+/dev/shm/gaze_sibrc_strip_local_20261016/src/source/Lib/EncoderLib/Sibrc/Statistics.cpp: In lambda function:
+/dev/shm/gaze_sibrc_strip_local_20261016/src/source/Lib/EncoderLib/Sibrc/Statistics.cpp:24:2: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   24 |  for(int r=0;r<100;++r)for(int u=0;u<32;++u){double d=0;for(int x=0;x<32;++x)for(int y=0;y<32;++y)d+=basis[u][x]*basis[u][y]*std::pow(r*.01,std::abs(x-y));result[r][u]=std::max(0.0,d);}return result;}();return table;
+      |  ^~~
+/dev/shm/gaze_sibrc_strip_local_20261016/src/source/Lib/EncoderLib/Sibrc/Statistics.cpp:24:186: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   24 |  for(int r=0;r<100;++r)for(int u=0;u<32;++u){double d=0;for(int x=0;x<32;++x)for(int y=0;y<32;++y)d+=basis[u][x]*basis[u][y]*std::pow(r*.01,std::abs(x-y));result[r][u]=std::max(0.0,d);}return result;}();return table;
+      |                                                                                                                                                                                          ^~~~~~
+[ 39%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/MCTF.cpp.o
+[ 40%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/MatrixIntraPrediction.cpp.o
+/dev/shm/gaze_sibrc_strip_local_20261016/src/source/Lib/EncoderLib/Sibrc/Preanalysis.cpp: In function ‘vvenc::sibrc::Features vvenc::sibrc::analysePicture(const vvenc::Picture&, int, const vvenc::sibrc::Statistics*, std::ofstream*, int, bool)’:
+/dev/shm/gaze_sibrc_strip_local_20261016/src/source/Lib/EncoderLib/Sibrc/Preanalysis.cpp:29:2: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   29 |  if(dump&&!(*dump))throw std::runtime_error("SIBRC residual dump write failed");return f;
+      |  ^~
+/dev/shm/gaze_sibrc_strip_local_20261016/src/source/Lib/EncoderLib/Sibrc/Preanalysis.cpp:29:81: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   29 |  if(dump&&!(*dump))throw std::runtime_error("SIBRC residual dump write failed");return f;
+      |                                                                                 ^~~~~~
+[ 41%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Mv.cpp.o
+[ 42%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/PicYuvMD5.cpp.o
+[ 43%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Picture.cpp.o
+[ 44%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/ProfileLevelTier.cpp.o
+[ 44%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Quant.cpp.o
+[ 45%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/QuantRDOQ.cpp.o
+[ 46%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/QuantRDOQ2.cpp.o
+[ 47%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/RdCost.cpp.o
+[ 48%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Reshape.cpp.o
+[ 49%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Rom.cpp.o
+[ 50%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/RomTr.cpp.o
+[ 50%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/SEI.cpp.o
+[ 51%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/SearchSpaceCounter.cpp.o
+[ 52%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/SampleAdaptiveOffset.cpp.o
+[ 53%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Slice.cpp.o
+[ 54%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/StatCounter.cpp.o
+[ 55%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/TimeProfiler.cpp.o
+[ 55%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/TrQuant.cpp.o
+[ 56%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/TrQuant_EMT.cpp.o
+[ 57%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Unit.cpp.o
+[ 58%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/UnitPartitioner.cpp.o
+[ 59%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/UnitTools.cpp.o
+[ 60%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/dtrace.cpp.o
+[ 61%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/DecoderLib/DecCu.cpp.o
+[ 61%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/BinEncoder.cpp.o
+[ 62%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/BitAllocation.cpp.o
+[ 63%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/CABACWriter.cpp.o
+[ 64%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncAdaptiveLoopFilter.cpp.o
+[ 65%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncCfg.cpp.o
+[ 66%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncCu.cpp.o
+[ 67%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncGOP.cpp.o
+[ 67%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncHRD.cpp.o
+[ 68%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncLib.cpp.o
+[ 69%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncModeCtrl.cpp.o
+[ 70%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncPicture.cpp.o
+[ 71%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncReshape.cpp.o
+[ 72%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncSampleAdaptiveOffset.cpp.o
+[ 72%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/EncSlice.cpp.o
+[ 73%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/GOPCfg.cpp.o
+[ 74%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/InterSearch.cpp.o
+[ 75%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/IntraSearch.cpp.o
+[ 76%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/NALwrite.cpp.o
+[ 77%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/PreProcess.cpp.o
+[ 78%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/RateCtrl.cpp.o
+[ 78%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/SEIEncoder.cpp.o
+[ 79%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/SEIwrite.cpp.o
+[ 80%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VLCWriter.cpp.o
+[ 81%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/Utilities/NoMallocThreadPool.cpp.o
+[ 82%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/vvenc.cpp.o
+[ 83%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/vvencCfg.cpp.o
+[ 83%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/vvencimpl.cpp.o
+[ 84%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/x86/CommonDefX86.cpp.o
+[ 85%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/x86/InitX86.cpp.o
+[ 86%] Linking CXX static library ../../../../lib/release-static/libvvenc.a
+[ 86%] Built target vvenc
+[ 87%] Building CXX object CMakeFiles/vtmrc_adapter_test.dir/test/vtmadapter/adapter_test.cpp.o
+[ 88%] Building CXX object source/App/vvencFFapp/CMakeFiles/vvencFFapp.dir/EncApp.cpp.o
+[ 88%] Building CXX object CMakeFiles/strip_local_test.dir/test/striplocal/controller_test.cpp.o
+[ 89%] Building CXX object CMakeFiles/visual_gaze_test.dir/test/visualgaze/controller_test.cpp.o
+[ 90%] Building CXX object source/App/vvencapp/CMakeFiles/vvencapp.dir/vvencapp.cpp.o
+[ 91%] Building CXX object source/App/vvencFFapp/CMakeFiles/vvencFFapp.dir/encmain.cpp.o
+[ 92%] Building C object test/vvencinterfacetest/CMakeFiles/vvencinterfacetest.dir/vvencinterfacetest.c.o
+[ 93%] Building CXX object test/vvenclibtest/CMakeFiles/vvenclibtest.dir/vvenclibtest.cpp.o
+[ 94%] Linking CXX executable ../../../bin/release-static/vvencinterfacetest
+[ 95%] Linking CXX executable ../bin/release-static/strip_local_test
+[ 95%] Built target vvencinterfacetest
+[ 95%] Built target strip_local_test
+[ 96%] Linking CXX executable ../bin/release-static/visual_gaze_test
+[ 96%] Built target visual_gaze_test
+[ 97%] Linking CXX executable ../bin/release-static/vtmrc_adapter_test
+[ 97%] Built target vtmrc_adapter_test
+[ 98%] Linking CXX executable ../../../bin/release-static/vvenclibtest
+[ 98%] Built target vvenclibtest
+[ 99%] Linking CXX executable ../../../../bin/release-static/vvencapp
+[ 99%] Built target vvencapp
+[100%] Linking CXX executable ../../../../bin/release-static/vvencFFapp
+[100%] Built target vvencFFapp
+Consolidate compiler generated dependencies of target vvenc_x86_simd
+[ 22%] Built target vvenc_x86_simd
+Consolidate compiler generated dependencies of target vvenc
+[ 86%] Built target vvenc
+Consolidate compiler generated dependencies of target visual_gaze_test
+Consolidate compiler generated dependencies of target strip_local_test
+Consolidate compiler generated dependencies of target vvencinterfacetest
+Consolidate compiler generated dependencies of target vtmrc_adapter_test
+Consolidate compiler generated dependencies of target vvenclibtest
+Consolidate compiler generated dependencies of target vvencapp
+Consolidate compiler generated dependencies of target vvencFFapp
+[ 88%] Built target visual_gaze_test
+[ 93%] Built target vvencinterfacetest
+[ 93%] Built target strip_local_test
+[ 93%] Built target vtmrc_adapter_test
+[ 95%] Built target vvenclibtest
+[ 97%] Built target vvencapp
+[100%] Built target vvencFFapp

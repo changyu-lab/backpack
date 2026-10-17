@@ -1,0 +1,353 @@
+diff --git a/include/vvenc/vvencCfg.h b/include/vvenc/vvencCfg.h
+index 85d7fb7..43fbead 100644
+--- a/include/vvenc/vvencCfg.h
++++ b/include/vvenc/vvencCfg.h
+@@ -638,6 +638,18 @@ typedef struct vvenc_config
+   int                 m_MTS;
+   int                 m_MTSIntraMaxCand;
+   int                 m_ISP;
++
++  // LARD-LFNST: latitude-aware sparse prediction for fast LFNST decision.
++  // Encoder-only research option. It does not change the bitstream syntax.
++  // 0: off; 1: conservative; 2: aggressive.
++  int                 m_LardLfnstSkip;
++  double              m_LardLfnstPsi;
++  double              m_LardLfnstThetaBaseDeg;
++  double              m_LardLfnstThetaQpSlopeDeg;
++  double              m_LardLfnstNzThr;
++  double              m_LardLfnstMeanAbsQThr;
++  double              m_LardLfnstMaxHorzRatio;
++
+   int                 m_TS;
+   int                 m_TSsize;
+   int                 m_useChromaTS;
+diff --git a/source/Lib/EncoderLib/IntraSearch.cpp b/source/Lib/EncoderLib/IntraSearch.cpp
+index 72e22bc..2df7c08 100644
+--- a/source/Lib/EncoderLib/IntraSearch.cpp
++++ b/source/Lib/EncoderLib/IntraSearch.cpp
+@@ -55,8 +55,13 @@ POSSIBILITY OF SUCH DAMAGE.
+ #include "CommonLib/dtrace_buffer.h"
+ #include "CommonLib/Reshape.h"
+ #include <math.h>
++#include <cmath>
+ #include "vvenc/vvencCfg.h"
+ 
++#ifndef M_PI
++#define M_PI 3.14159265358979323846
++#endif
++
+ //! \ingroup EncoderLib
+ //! \{
+ 
+@@ -169,6 +174,176 @@ double IntraSearch::xFindInterCUCost( CodingUnit &cu )
+   return COST_UNKNOWN;
+ }
+ 
++double IntraSearch::xLardLfnstClipD( double minVal, double maxVal, double val ) const
++{
++  return val < minVal ? minVal : ( val > maxVal ? maxVal : val );
++}
++
++double IntraSearch::xLardLfnstAbsLatitudeRad( const CodingUnit& cu ) const
++{
++  const double picH = std::max( 1.0, (double)m_pcEncCfg->m_SourceHeight );
++  const double cy = (double)cu.Y().y + 0.5 * (double)cu.Y().height;
++  const double yNorm = xLardLfnstClipD( 0.0, 1.0, cy / picH );
++  const double theta = ( 0.5 - yNorm ) * M_PI;
++  return std::fabs( theta );
++}
++
++double IntraSearch::xLardLfnstQStepApprox( const CodingUnit& cu ) const
++{
++  const int qp = std::max( 0, std::min( 63, (int)cu.qp ) );
++  return std::pow( 2.0, ( (double)qp - 4.0 ) / 6.0 );
++}
++
++double IntraSearch::xLardLfnstThetaSkipRad( const CodingUnit& cu ) const
++{
++  const int qp = std::max( 0, std::min( 63, (int)cu.qp ) );
++  const double qpNorm = xLardLfnstClipD( 0.0, 1.0, ( (double)qp - 22.0 ) / 20.0 );
++
++  double thetaDeg = m_pcEncCfg->m_LardLfnstThetaBaseDeg
++                  - m_pcEncCfg->m_LardLfnstThetaQpSlopeDeg * qpNorm;
++
++  if( m_pcEncCfg->m_LardLfnstSkip >= 2 )
++  {
++    thetaDeg -= 5.0;
++  }
++
++  thetaDeg = xLardLfnstClipD( 35.0, 80.0, thetaDeg );
++  return thetaDeg * M_PI / 180.0;
++}
++
++double IntraSearch::xLardLfnstPredNz( const CodingUnit& cu, const PelUnitBuf& predBuf, double absThetaRad, double& horzRatio, double& meanAbsQ ) const
++{
++  const CPelBuf org  = cu.cs->getOrgBuf( COMP_Y );
++  const CPelBuf pred = predBuf.Y();
++  const int w = (int)cu.Y().width;
++  const int h = (int)cu.Y().height;
++
++  if( w <= 0 || h <= 0 || org.buf == nullptr || pred.buf == nullptr )
++  {
++    horzRatio = 1.0;
++    meanAbsQ  = 999.0;
++    return 999.0;
++  }
++
++  const int stepX = ( w >= 32 ) ? 2 : 1;
++  const int stepY = ( h >= 32 ) ? 2 : 1;
++
++  double sumAbs = 0.0;
++  double sumH   = 0.0;
++  double sumV   = 0.0;
++  int    cnt    = 0;
++
++  for( int y = 0; y < h; y += stepY )
++  {
++    const Pel* orgLine  = org.buf  + y * org.stride;
++    const Pel* predLine = pred.buf + y * pred.stride;
++
++    const Pel* orgLinePrev  = ( y >= stepY ) ? ( org.buf  + ( y - stepY ) * org.stride  ) : nullptr;
++    const Pel* predLinePrev = ( y >= stepY ) ? ( pred.buf + ( y - stepY ) * pred.stride ) : nullptr;
++
++    int prevRes = 0;
++
++    for( int x = 0; x < w; x += stepX )
++    {
++      const int curRes = (int)orgLine[x] - (int)predLine[x];
++      sumAbs += std::fabs( (double)curRes );
++
++      if( x >= stepX )
++      {
++        sumH += std::fabs( (double)( curRes - prevRes ) );
++      }
++
++      if( orgLinePrev && predLinePrev )
++      {
++        const int upRes = (int)orgLinePrev[x] - (int)predLinePrev[x];
++        sumV += std::fabs( (double)( curRes - upRes ) );
++      }
++
++      prevRes = curRes;
++      cnt++;
++    }
++  }
++
++  if( cnt <= 0 )
++  {
++    horzRatio = 1.0;
++    meanAbsQ  = 999.0;
++    return 999.0;
++  }
++
++  const double qStep = std::max( 1e-6, xLardLfnstQStepApprox( cu ) );
++  const double meanAbs = sumAbs / (double)cnt;
++
++  meanAbsQ  = meanAbs / qStep;
++  horzRatio = sumH / ( sumH + sumV + 1e-9 );
++
++  const int roiSize = ( w >= 8 && h >= 8 ) ? 48 : 16;
++  const double b = std::max( 1e-6, meanAbs );
++  const double tanTheta = std::tan( std::min( absThetaRad, 1.45 ) );
++  const double psi = std::max( 0.0, m_pcEncCfg->m_LardLfnstPsi );
++  const double activityGuard = xLardLfnstClipD( 0.25, 1.0, 1.0 - 0.5 * horzRatio );
++  const double latDecay = std::exp( -psi * tanTheta * tanTheta * activityGuard );
++  const double bEff = std::max( 1e-6, b * std::sqrt( latDecay ) );
++  const double tq = 0.65 * qStep;
++  const double pNz = std::exp( -tq / bEff );
++  return (double)roiSize * xLardLfnstClipD( 0.0, 1.0, pNz );
++}
++
++bool IntraSearch::xLardLfnstShouldSkip( const CodingUnit& cu, const PelUnitBuf& predBuf ) const
++{
++  if( !m_pcEncCfg || m_pcEncCfg->m_LardLfnstSkip <= 0 )
++  {
++    return false;
++  }
++
++  if( !cu.cs || !cu.cs->sps || !cu.cs->sps->LFNST )
++  {
++    return false;
++  }
++
++  if( cu.bdpcmM[CH_L] != 0 )
++  {
++    return false;
++  }
++
++  if( cu.ispMode || cu.mipFlag || cu.multiRefIdx )
++  {
++    return false;
++  }
++
++  if( cu.Y().width < 4 || cu.Y().height < 4 )
++  {
++    return false;
++  }
++
++  const double absTheta = xLardLfnstAbsLatitudeRad( cu );
++  const double thetaThr = xLardLfnstThetaSkipRad( cu );
++
++  if( absTheta < thetaThr )
++  {
++    return false;
++  }
++
++  double horzRatio = 1.0;
++  double meanAbsQ  = 999.0;
++  const double predNz = xLardLfnstPredNz( cu, predBuf, absTheta, horzRatio, meanAbsQ );
++
++  double nzThr       = m_pcEncCfg->m_LardLfnstNzThr;
++  double meanAbsQThr = m_pcEncCfg->m_LardLfnstMeanAbsQThr;
++  double horzThr     = m_pcEncCfg->m_LardLfnstMaxHorzRatio;
++
++  if( m_pcEncCfg->m_LardLfnstSkip >= 2 )
++  {
++    nzThr       += 1.5;
++    meanAbsQThr += 0.35;
++    horzThr     += 0.05;
++  }
++
++  return ( predNz <= nzThr )
++      && ( meanAbsQ <= meanAbsQThr )
++      && ( horzRatio <= horzThr );
++}
++
+ void IntraSearch::xEstimateLumaRdModeList(int& numModesForFullRD,
+   static_vector<ModeInfo, FAST_UDI_MAX_RDMODE_NUM>& RdModeList,
+   static_vector<ModeInfo, FAST_UDI_MAX_RDMODE_NUM>& HadModeList,
+@@ -628,8 +803,24 @@ bool IntraSearch::estIntraPredLumaQT(CodingUnit &cu, Partitioner &partitioner, d
+ 
+       // determine residual for partition
+       cs.initSubStructure(*csTemp, partitioner.chType, cs.area, true);
+-      int doISP = (((cu.ispMode == 0) && noLFNST) || (useISPlfnst && mode && cu.ispMode && (bestLfnstIdx == 0)) || disableLFNST) ? -mode : mode;
+-      xIntraCodingLumaQT(*csTemp, partitioner, m_SortedPelUnitBufs->getBufFromSortedList(mode), bestCost, doISP, disableMTS);
++
++      PelUnitBuf* predForMode = m_SortedPelUnitBufs->getBufFromSortedList( mode );
++
++      const bool lardSkipLfnst =
++          ( mode >= 0 )
++       && ( predForMode != nullptr )
++       && xLardLfnstShouldSkip( cu, *predForMode );
++
++      if( lardSkipLfnst )
++      {
++        useISPlfnst = false;
++      }
++
++      int doISP = (((cu.ispMode == 0) && noLFNST)
++                || (useISPlfnst && mode && cu.ispMode && (bestLfnstIdx == 0))
++                || disableLFNST) ? -mode : mode;
++
++      xIntraCodingLumaQT(*csTemp, partitioner, predForMode, bestCost, doISP, disableMTS, lardSkipLfnst);
+ 
+       DTRACE(g_trace_ctx, D_INTRA_COST, "IntraCost T [x=%d,y=%d,w=%d,h=%d] %f (%d,%d,%d,%d,%d,%d) \n", cu.blocks[0].x,
+         cu.blocks[0].y, width, height, csTemp->cost, testMode.modeId, testMode.ispMod,
+@@ -1498,7 +1689,7 @@ void IntraSearch::xIntraCodingTUBlock(TransformUnit &tu, const ComponentID compI
+   }
+ }
+ 
+-void IntraSearch::xIntraCodingLumaQT(CodingStructure& cs, Partitioner& partitioner, PelUnitBuf* predBuf, const double bestCostSoFar, int numMode, bool disableMTS)
++void IntraSearch::xIntraCodingLumaQT(CodingStructure& cs, Partitioner& partitioner, PelUnitBuf* predBuf, const double bestCostSoFar, int numMode, bool disableMTS, bool forceDisableLFNST)
+ {
+   PROFILER_SCOPE_AND_STAGE_EXT( 0, _TPROF, P_INTRA_RD_SEARCH_LUMA, &cs, partitioner.chType );
+   const UnitArea& currArea  = partitioner.currArea();
+@@ -1507,13 +1698,14 @@ void IntraSearch::xIntraCodingLumaQT(CodingStructure& cs, Partitioner& partition
+   uint32_t   numSig         = 0;
+   const SPS &sps            = *cs.sps;
+   CodingUnit &cu            = *cs.cus[0];
++  const bool noLFNSTByCaller = ( numMode < 0 ) || forceDisableLFNST;
+   bool mtsAllowed = (numMode < 0) || disableMTS ? false : CU::isMTSAllowed(cu, COMP_Y);
+   uint64_t singleFracBits   = 0;
+   bool   splitCbfLumaSum    = false;
+   double bestCostForISP     = bestCostSoFar;
+   double dSingleCost        = MAX_DOUBLE;
+   int endLfnstIdx           = (partitioner.isSepTree(cs) && partitioner.chType == CH_C && (currArea.lwidth() < 8 || currArea.lheight() < 8))
+-                           || (currArea.lwidth() > sps.getMaxTbSize() || currArea.lheight() > sps.getMaxTbSize()) || !sps.LFNST || (numMode < 0) ? 0 : 2;
++                           || (currArea.lwidth() > sps.getMaxTbSize() || currArea.lheight() > sps.getMaxTbSize()) || !sps.LFNST || noLFNSTByCaller ? 0 : 2;
+   const bool useTS          = cs.picture->useTS;
+   numMode                   = (numMode < 0) ? -numMode : numMode;
+ 
+diff --git a/source/Lib/EncoderLib/IntraSearch.h b/source/Lib/EncoderLib/IntraSearch.h
+index ab06337..d2d6758 100644
+--- a/source/Lib/EncoderLib/IntraSearch.h
++++ b/source/Lib/EncoderLib/IntraSearch.h
+@@ -179,6 +179,19 @@ public:
+ 
+ private:
+   double    xFindInterCUCost          ( CodingUnit &cu );
++
++  double    xLardLfnstClipD           ( double minVal, double maxVal, double val ) const;
++  double    xLardLfnstAbsLatitudeRad  ( const CodingUnit& cu ) const;
++  double    xLardLfnstThetaSkipRad    ( const CodingUnit& cu ) const;
++  double    xLardLfnstQStepApprox     ( const CodingUnit& cu ) const;
++  double    xLardLfnstPredNz          ( const CodingUnit& cu,
++                                        const PelUnitBuf& predBuf,
++                                        double absThetaRad,
++                                        double& horzRatio,
++                                        double& meanAbsQ ) const;
++  bool      xLardLfnstShouldSkip      ( const CodingUnit& cu,
++                                        const PelUnitBuf& predBuf ) const;
++
+   void      xPreCheckMTS              ( TransformUnit &tu, std::vector<TrMode> *trModes, const int maxCand, PelUnitBuf *pPred, const ComponentID& compID = COMP_Y);
+   void      xEstimateLumaRdModeList   ( int& numModesForFullRD,
+                                         static_vector<ModeInfo, FAST_UDI_MAX_RDMODE_NUM>& RdModeList,
+@@ -201,7 +214,7 @@ private:
+ 
+   void      xIntraCodingTUBlock       ( TransformUnit &tu, const ComponentID compID, const bool checkCrossCPrediction, Distortion &ruiDist, uint32_t *numSig = nullptr, PelUnitBuf *pPred = nullptr, const bool loadTr = false);
+   ChromaCbfs xIntraChromaCodingQT     ( CodingStructure& cs, Partitioner& pm );
+-  void     xIntraCodingLumaQT         ( CodingStructure& cs, Partitioner& pm, PelUnitBuf* pPred, const double bestCostSoFar, int numMode, bool disableMTS);
++  void     xIntraCodingLumaQT         ( CodingStructure& cs, Partitioner& pm, PelUnitBuf* pPred, const double bestCostSoFar, int numMode, bool disableMTS, bool forceDisableLFNST = false);
+   double   xTestISP                   ( CodingStructure& cs, Partitioner& pm, double bestCostSoFar, PartSplit ispType, bool& splitcbf, uint64_t& singleFracBits, Distortion& singleDistLuma, CUCtx& cuCtx);
+   int      xSpeedUpISP                ( int speed, bool& testISP, int mode, int& noISP, int& endISP, CodingUnit& cu, static_vector<ModeInfo, FAST_UDI_MAX_RDMODE_NUM>& RdModeList,const ModeInfo& bestPUMode, int bestISP, int bestLfnstIdx);
+   void     xSpeedUpIntra              ( double bestcost, int& EndMode, int& speedIntra, CodingUnit& cu);
+diff --git a/source/Lib/apputils/VVEncAppCfg.h b/source/Lib/apputils/VVEncAppCfg.h
+index eaea36a..878cc44 100644
+--- a/source/Lib/apputils/VVEncAppCfg.h
++++ b/source/Lib/apputils/VVEncAppCfg.h
+@@ -1118,6 +1118,13 @@ int parse( int argc, char* argv[], vvenc_config* c, std::ostream& rcOstr )
+     ("MTS",                                             c->m_MTS,                                            "Multiple Transform Set (MTS)" )
+     ("MTSIntraMaxCand",                                 c->m_MTSIntraMaxCand,                                "Number of additional candidates to test for MTS in intra slices")
+     ("ISP",                                             c->m_ISP,                                            "Intra Sub-Partitions Mode (0: off, 1: vtm, 2: fast, 3: faster)")
++    ("LardLfnstSkip",                                   c->m_LardLfnstSkip,                                  "LARD-LFNST fast decision. 0: off, 1: conservative, 2: aggressive")
++    ("LardLfnstPsi",                                    c->m_LardLfnstPsi,                                   "LARD-LFNST latitude redundancy strength psi")
++    ("LardLfnstThetaBaseDeg",                           c->m_LardLfnstThetaBaseDeg,                          "LARD-LFNST base latitude threshold in degrees")
++    ("LardLfnstThetaQpSlopeDeg",                        c->m_LardLfnstThetaQpSlopeDeg,                       "LARD-LFNST QP-dependent threshold slope in degrees")
++    ("LardLfnstNzThr",                                  c->m_LardLfnstNzThr,                                 "LARD-LFNST predicted quantized nonzero threshold in LFNST ROI")
++    ("LardLfnstMeanAbsQThr",                            c->m_LardLfnstMeanAbsQThr,                           "LARD-LFNST normalized mean absolute residual threshold")
++    ("LardLfnstMaxHorzRatio",                           c->m_LardLfnstMaxHorzRatio,                          "LARD-LFNST maximum horizontal residual-activity ratio for safe skip")
+     ("TransformSkip",                                   c->m_TS,                                             "Transform skipping, 0: off, 1: TS, 2: TS with SCC detection ")
+     ("TransformSkipLog2MaxSize",                        c->m_TSsize,                                         "Specify transform-skip maximum log2-size. Minimum 2, Maximum 5")
+     ("ChromaTS",                                        c->m_useChromaTS,                                    "Transform skipping for chroma, 0:off, 1:on (requires transform skipping)")
+diff --git a/source/Lib/vvenc/vvencCfg.cpp b/source/Lib/vvenc/vvencCfg.cpp
+index 33ecaac..51b54ed 100644
+--- a/source/Lib/vvenc/vvencCfg.cpp
++++ b/source/Lib/vvenc/vvencCfg.cpp
+@@ -584,6 +584,13 @@ VVENC_DECL void vvenc_config_default(vvenc_config *c )
+   c->m_MTS                                     = 0;
+   c->m_MTSIntraMaxCand                         = 3;
+   c->m_ISP                                     = 0;
++  c->m_LardLfnstSkip                           = 0;
++  c->m_LardLfnstPsi                            = 0.70;
++  c->m_LardLfnstThetaBaseDeg                   = 62.0;
++  c->m_LardLfnstThetaQpSlopeDeg                = 8.0;
++  c->m_LardLfnstNzThr                          = 5.0;
++  c->m_LardLfnstMeanAbsQThr                    = 1.25;
++  c->m_LardLfnstMaxHorzRatio                   = 0.62;
+   c->m_TS                                      = 0;
+   c->m_TSsize                                  = 3;
+   c->m_useChromaTS                             = 0;
+@@ -1948,6 +1955,13 @@ static bool checkCfgParameter( vvenc_config *c )
+   vvenc_confirmParameter( c, c->m_CIIP < 0 || c->m_CIIP > 3,                  "CIIP out of range [0..3]" );
+   vvenc_confirmParameter( c, c->m_SBT  < 0 || c->m_SBT  > 3,                  "SBT out of range [0..3]" );
+   vvenc_confirmParameter( c, c->m_LFNST< 0 || c->m_LFNST> 3,                  "LFNST out of range [0..3]" );
++  vvenc_confirmParameter( c, c->m_LardLfnstSkip < 0 || c->m_LardLfnstSkip > 2, "LardLfnstSkip out of range [0..2]" );
++  vvenc_confirmParameter( c, c->m_LardLfnstPsi < 0.0 || c->m_LardLfnstPsi > 4.0, "LardLfnstPsi out of range [0..4]" );
++  vvenc_confirmParameter( c, c->m_LardLfnstThetaBaseDeg < 0.0 || c->m_LardLfnstThetaBaseDeg > 90.0, "LardLfnstThetaBaseDeg out of range [0..90]" );
++  vvenc_confirmParameter( c, c->m_LardLfnstThetaQpSlopeDeg < 0.0 || c->m_LardLfnstThetaQpSlopeDeg > 30.0, "LardLfnstThetaQpSlopeDeg out of range [0..30]" );
++  vvenc_confirmParameter( c, c->m_LardLfnstNzThr < 0.0 || c->m_LardLfnstNzThr > 48.0, "LardLfnstNzThr out of range [0..48]" );
++  vvenc_confirmParameter( c, c->m_LardLfnstMeanAbsQThr < 0.0 || c->m_LardLfnstMeanAbsQThr > 16.0, "LardLfnstMeanAbsQThr out of range [0..16]" );
++  vvenc_confirmParameter( c, c->m_LardLfnstMaxHorzRatio < 0.0 || c->m_LardLfnstMaxHorzRatio > 1.0, "LardLfnstMaxHorzRatio out of range [0..1]" );
+   vvenc_confirmParameter( c, c->m_vvencMCTF.MCTF < 0 || c->m_vvencMCTF.MCTF > 2,  "MCTF out of range [0..2]" );
+   vvenc_confirmParameter( c, c->m_ISP  < 0 || c->m_ISP > 3,                    "ISP out of range [0..3]" );
+   vvenc_confirmParameter( c, c->m_TS   < 0 || c->m_TS > 2,                     "TS out of range [0..2]" );

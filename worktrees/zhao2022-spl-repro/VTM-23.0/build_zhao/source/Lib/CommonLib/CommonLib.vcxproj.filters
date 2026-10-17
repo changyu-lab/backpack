@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\AdaptiveLoopFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\AffineGradientSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\BitStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\CacheModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ChromaFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\CodingStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ConstraintInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ContextModelling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Contexts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\DeblockingFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\DepQuant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\HRD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\IbcHashMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\InterPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\InterpolationFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\IntraPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\MCTS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\MatrixIntraPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Mv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ParameterSetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\PicYuvMD5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Picture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\PictureParameterSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ProfileTierLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Quant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\QuantRDOQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\RdCost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\RdCostWeightPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Reshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Rom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\RomLFNST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\RomTr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SEI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SEIColourTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SEIFilmGrainSynthesizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SEINeuralNetworkPostFiltering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SampleAdaptiveOffset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SequenceParameterSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Slice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\TrQuant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\TrQuant_EMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\UnitPartitioner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\UnitTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\VideoParameterSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\WeightPrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\dtrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\dtrace_blockstatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\CommonDefX86.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\InitX86.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\sse41\AdaptiveLoopFilter_sse41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\sse41\AffineGradientSearch_sse41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\sse41\Buffer_sse41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\sse41\InterpolationFilter_sse41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\sse41\RdCost_sse41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\sse41\TrQuantX86_sse41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\sse42\IbcHashmap_sse42.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx\AdaptiveLoopFilter_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx\AffineGradientSearch_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx\Buffer_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx\InterpolationFilter_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx\RdCost_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx\TrQuantX86_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx2\AdaptiveLoopFilter_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx2\AffineGradientSearch_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx2\Buffer_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx2\InterpolationFilter_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx2\RdCost_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\avx2\TrQuantX86_avx2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\libmd5\libmd5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\AdaptiveLoopFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\AffineGradientSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\AlfParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\BitStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\CacheModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ChromaFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\CodingStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\CodingStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\CommonDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\CommonSimdCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ConstraintInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ContextModelling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Contexts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\DeblockingFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\DepQuant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\HRD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\IbcHashMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\InterPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\InterpolationFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\IntraPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\MCTS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\MatrixIntraPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\MipData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\MotionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Mv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\NAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ParameterSetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Picture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\PictureParameterSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\ProfileTierLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Quant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\QuantRDOQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\RdCost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\RdCostWeightPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Reshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Rom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SEI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SEIColourTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SEIFilmGrainSynthesizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SEINeuralNetworkPostFiltering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SampleAdaptiveOffset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\SequenceParameterSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\TrQuant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\TrQuant_EMT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\TypeDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\UnitPartitioner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\UnitTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\VideoParameterSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\WeightPrediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\b1_coeff_rho_n32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\dtrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\dtrace_blockstatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\dtrace_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\dtrace_codingstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\dtrace_next.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\AdaptiveLoopFilterX86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\AffineGradientSearchX86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\BufferX86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\CommonDefX86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\IbcHashMapX86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\InterpolationFilterX86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\RdCostX86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\x86\TrQuantX86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\libmd5\MD5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\libmd5\libmd5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\Lib\CommonLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\VisualStudio\common.natvis">
+      <Filter>Natvis Files</Filter>
+    </Natvis>
+    <Natvis Include="C:\Users\hitxi\.codex\worktrees\zhao2022-spl-repro\VTM-23.0\source\VisualStudio\static_vector.natvis">
+      <Filter>Natvis Files</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3A8B52D1-A0DD-3082-B392-F9AAED25E96B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Natvis Files">
+      <UniqueIdentifier>{F9E45189-A88E-3718-B927-420AE9ADFD56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5BDE6263-4A61-303B-AE8B-A81E738C9D43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

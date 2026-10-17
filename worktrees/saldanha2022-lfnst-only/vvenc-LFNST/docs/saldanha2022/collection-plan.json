@@ -1,0 +1,88 @@
+{
+  "sequences": [
+    [
+      "BasketballPass",
+      "BasketballPass_416x240_50.yuv",
+      416,
+      240,
+      50,
+      "train",
+      "substitute"
+    ],
+    [
+      "BQMall",
+      "BQMall_832x480_60.yuv",
+      832,
+      480,
+      60,
+      "train",
+      "substitute"
+    ],
+    [
+      "BasketballDrill",
+      "BasketballDrill_832x480_50.yuv",
+      832,
+      480,
+      50,
+      "train",
+      "substitute"
+    ],
+    [
+      "RaceHorses",
+      "RaceHorses_416x240_30.yuv",
+      416,
+      240,
+      30,
+      "train",
+      "substitute"
+    ],
+    [
+      "Kimono",
+      "Kimono_1920x1080_24.yuv",
+      1920,
+      1080,
+      24,
+      "train",
+      "paper-source-name-Kimono1"
+    ],
+    [
+      "ParkScene",
+      "ParkScene_1920x1080_24.yuv",
+      1920,
+      1080,
+      24,
+      "train",
+      "paper-source"
+    ],
+    [
+      "FourPeople",
+      "FourPeople_1280x720_60.yuv",
+      1280,
+      720,
+      60,
+      "validation",
+      "substitute"
+    ],
+    [
+      "BQSquare",
+      "BQSquare_416x240_60.yuv",
+      416,
+      240,
+      60,
+      "validation",
+      "substitute"
+    ]
+  ],
+  "frames": 1,
+  "qps": [
+    22,
+    27,
+    32,
+    37
+  ],
+  "sampling_stride": 8,
+  "max_rows_per_case": 500000,
+  "threads_per_encoder": 1,
+  "concurrency": 4,
+  "scope": "Retrained adaptation with disclosed training substitutions; ERP14 entirely held out"
+}

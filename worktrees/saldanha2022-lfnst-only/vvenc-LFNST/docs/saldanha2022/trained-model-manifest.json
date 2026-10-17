@@ -1,0 +1,305 @@
+{
+  "model": "WEKA REPTree",
+  "weka_version": "3.8.6",
+  "weka_sha256": "932ea2f342b58fe45736389e9c426d5b5955e610d1f5f6485117f532068915e9",
+  "seed": 2022,
+  "max_depth": 8,
+  "pruning": "WEKA default reduced-error pruning, 3 folds",
+  "features": [
+    "width",
+    "height",
+    "area",
+    "blockRatio",
+    "MTTD",
+    "mipFlag",
+    "ispMode",
+    "currCost",
+    "currDistortion",
+    "currFracBits",
+    "currIntraMode",
+    "numNonZeroCoeffs",
+    "absSumCoeffs"
+  ],
+  "class_meaning": {
+    "0": "nonzero LFNST does not improve RD cost",
+    "1": "nonzero LFNST improves RD cost"
+  },
+  "training_sequences": [
+    "BQMall",
+    "BasketballDrill",
+    "BasketballPass",
+    "Kimono",
+    "ParkScene",
+    "RaceHorses"
+  ],
+  "validation_sequences": [
+    "BQSquare",
+    "FourPeople"
+  ],
+  "excluded_corpus": "I:/Sequences360 ERP14 (all Sequences360/ERP14 paths and metadata rejected)",
+  "inputs": [
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BQMall\\QP22\\features.csv",
+      "sha256": "dc9ceefb7021f3dfe889638af869f7d2b701f99208fbe14d5740ec535dd176bc"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BQMall\\QP27\\features.csv",
+      "sha256": "3b050c7e6af39bb523d77f29e1cc84e6fed35a7547a9e8a8a477037633f2a2f4"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BQMall\\QP32\\features.csv",
+      "sha256": "450e081e48fa497cba434fdd811fa265697eec04448fb2608d98e4f297a5b4db"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BQMall\\QP37\\features.csv",
+      "sha256": "95a16ba8ced8dfbbd112fdc02afe9c927ab393dcd807b48041ef3aec02c96c70"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BQSquare\\QP22\\features.csv",
+      "sha256": "ff64e8529c3a883393ed8177059f17ce368afe824298de1fd91ffea6566c5eab"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BQSquare\\QP27\\features.csv",
+      "sha256": "443411c0f4ed6a01eecbfa20603e549978a8ca7da429fc803294884e0b834d8f"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BQSquare\\QP32\\features.csv",
+      "sha256": "ff3c4d910c371d490d892ba3375aa68b83242e2a7963ec2821e7109ebc0b252a"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BQSquare\\QP37\\features.csv",
+      "sha256": "136a122274a7ff0bb4ee4f6c73e049320640a632bf85cb1951d4b40debdf1f3b"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BasketballDrill\\QP22\\features.csv",
+      "sha256": "5f9993ca45edd8da9d93cc3ac38383705dcb9281affd21103d9e2bce58e38145"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BasketballDrill\\QP27\\features.csv",
+      "sha256": "d5b1d6751906715c00ec3c39b4235a6c6616bfdc8be8602091f82fc4c8df8b04"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BasketballDrill\\QP32\\features.csv",
+      "sha256": "6c42e09ab34728b6563a89172bd5876c984dcd03c15ba64ccf304db7cca1fd72"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BasketballDrill\\QP37\\features.csv",
+      "sha256": "057ca0144fbb2a8cd1186f561a0383f2756ed0690d894bbcde8e00777aaa550d"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BasketballPass\\QP22\\features.csv",
+      "sha256": "bed15883a734802ace96f2df9dceae267ea8bb7a459bcaff16d5596c9552edd5"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BasketballPass\\QP27\\features.csv",
+      "sha256": "d42fa78e9efdb93e00b202d4dec20d685663ec74c0e590045f7ef3eed5ddda90"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BasketballPass\\QP32\\features.csv",
+      "sha256": "bfbeab1b7beb8991a370edfd5f859e729faad23face50941f20f82d4a97b3fc5"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\BasketballPass\\QP37\\features.csv",
+      "sha256": "d7b09516126edf53da22210f72af73f03adc21959f6d387538cf48e6f8130e03"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\FourPeople\\QP22\\features.csv",
+      "sha256": "87bff3fd8cec1ad60b97ab02a75632961ee0d73dcec4197dc6c5b7212cf424a3"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\FourPeople\\QP27\\features.csv",
+      "sha256": "e9c73d495122881aee691eb2b3e189ae0545b7e8d942bdf520f126ec3ac99da8"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\FourPeople\\QP32\\features.csv",
+      "sha256": "a39a176919e1c45d01d6f6be809312be29cad81d59e01237dd04f6c900f268f5"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\FourPeople\\QP37\\features.csv",
+      "sha256": "0e4b322e5381445fdc0ca901312d0e6c59dd506fd1d004988938f803457b0ddc"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\Kimono\\QP22\\features.csv",
+      "sha256": "34015f99142e1bf1ffca971a193ba56b421673f495ac09ca62a4685854aef6cd"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\Kimono\\QP27\\features.csv",
+      "sha256": "7385441b409f0797221fec3ebe2957d4b3161bd28ddc7c5fd79b03f9da240550"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\Kimono\\QP32\\features.csv",
+      "sha256": "b4f4a7efab3417f7c654793710548767f5d9a0e008c1a73f4170779cfadb4c67"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\Kimono\\QP37\\features.csv",
+      "sha256": "f862c7202df74c84b2e62978aa7281798e734ac81b84bdeea577f638dee98e7e"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\ParkScene\\QP22\\features.csv",
+      "sha256": "3cbfa98962c7eecfddede6a0c245b9fca986a6e3b27f4887c7c7283d20b6c2d1"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\ParkScene\\QP27\\features.csv",
+      "sha256": "f4d9610af6b769bd3d14f5ad49df3d64748f30bd66a29438b9e9e6e5912d45cd"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\ParkScene\\QP32\\features.csv",
+      "sha256": "49d88dc2ea61604a13a9490c331ac8f8288c38e7c0cf37bdf18d896ee51a50c7"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\ParkScene\\QP37\\features.csv",
+      "sha256": "9fd6c875e1202be26ec787ff499bcc142e06af1f00629579cad56675346635b3"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\RaceHorses\\QP22\\features.csv",
+      "sha256": "3284030e6a39cf27f9614808d0dd4bbcb449524cdb3c0c8d500b19b0ee7053de"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\RaceHorses\\QP27\\features.csv",
+      "sha256": "41260897ccd29776930101df9f48ed770d0c1d6ad8f32a8cea42dc9cf5df51ac"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\RaceHorses\\QP32\\features.csv",
+      "sha256": "15373f9a9ac2720676dc83a262f2db1e9030770f3671fad52b54232b19ff70ff"
+    },
+    {
+      "path": "I:\\vvenc-LFNST\\.tmp\\saldanha2022\\collection\\data\\RaceHorses\\QP37\\features.csv",
+      "sha256": "956d6580376b7ff8b42ed2b9e353b02d4bc96f61346996f3fadc52b5702ecba5"
+    }
+  ],
+  "training_rows_available": 1085689,
+  "training_rows_sampled": 20000,
+  "validation_rows": 227494,
+  "sampling": "equal class pairs within sequence/POC/width/height/QP; deterministic round robin",
+  "node_count": 89,
+  "max_prediction_error": 0,
+  "model_sha256": "50f88b4c2ce7e2d850fbd107839422423b70ba15cf9b28395b9674c67782c61f",
+  "train_arff_sha256": "1f0c371e548c57b4c9c9eaa568cb27271c21a72e3dfe5050774dc649092e0aa9",
+  "validation_arff_sha256": "1be8c2a284adfe95da0a93e18635b63aee165ff57164a8e27ac3acad0329a107",
+  "tool_sha256": "abf960dfc01abf2ccc103862a4812cb05ad9695c0b29a4be544b352660110419",
+  "exporter_sha256": "f4cc11d1ad4c0ec200d45ff572c72c0575da534b31592317372d5972a954d24c",
+  "validation_confusion_matrix_actual_by_predicted": [
+    [
+      135185,
+      49706
+    ],
+    [
+      9098,
+      33505
+    ]
+  ],
+  "validation_accuracy": 0.7415140619093251,
+  "explicit_excluded_sequence_names": [
+    "aerialcity",
+    "balboa",
+    "brancastle2",
+    "broadway",
+    "chairliftride",
+    "drivingincity",
+    "drivingincountry",
+    "gaslamp",
+    "harbor",
+    "kiteflite",
+    "landing2",
+    "polevault_le",
+    "skateboardinlot",
+    "trolley"
+  ],
+  "collection_plan": {
+    "sequences": [
+      [
+        "BasketballPass",
+        "BasketballPass_416x240_50.yuv",
+        416,
+        240,
+        50,
+        "train",
+        "substitute"
+      ],
+      [
+        "BQMall",
+        "BQMall_832x480_60.yuv",
+        832,
+        480,
+        60,
+        "train",
+        "substitute"
+      ],
+      [
+        "BasketballDrill",
+        "BasketballDrill_832x480_50.yuv",
+        832,
+        480,
+        50,
+        "train",
+        "substitute"
+      ],
+      [
+        "RaceHorses",
+        "RaceHorses_416x240_30.yuv",
+        416,
+        240,
+        30,
+        "train",
+        "substitute"
+      ],
+      [
+        "Kimono",
+        "Kimono_1920x1080_24.yuv",
+        1920,
+        1080,
+        24,
+        "train",
+        "paper-source-name-Kimono1"
+      ],
+      [
+        "ParkScene",
+        "ParkScene_1920x1080_24.yuv",
+        1920,
+        1080,
+        24,
+        "train",
+        "paper-source"
+      ],
+      [
+        "FourPeople",
+        "FourPeople_1280x720_60.yuv",
+        1280,
+        720,
+        60,
+        "validation",
+        "substitute"
+      ],
+      [
+        "BQSquare",
+        "BQSquare_416x240_60.yuv",
+        416,
+        240,
+        60,
+        "validation",
+        "substitute"
+      ]
+    ],
+    "frames": 1,
+    "qps": [
+      22,
+      27,
+      32,
+      37
+    ],
+    "sampling_stride": 8,
+    "max_rows_per_case": 500000,
+    "threads_per_encoder": 1,
+    "concurrency": 4,
+    "scope": "Retrained adaptation with disclosed training substitutions; ERP14 entirely held out"
+  },
+  "collection_plan_sha256": "ffd363a9904601d65626173bbefe5261787a6f1522da8e44be7b17b782258c13",
+  "collection_results_sha256": "8d13a95e57745edf900e94b1937925dcd259cbaa4dafb4e783d4a569ce552d22",
+  "adaptation": "Saldanha2022-LFNST-only-retrained-VVenC; first frame only; Kimono/ParkScene plus disclosed available HEVC substitutions; strata use recorded CU QP, not command-line QP; no ERP14 training or tuning",
+  "equivalence": {
+    "probe_count": 247758,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  "boundary_probes_sha256": "96bff657013234972850ef179b4eb0818309a6c81981c27c842269be7e2c0b9f"
+}

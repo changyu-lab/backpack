@@ -1,0 +1,32 @@
+[
+  {
+    "alpha": "-0.1",
+    "rejected": true,
+    "output": "Parameter Check Error: GazeSibrcAlpha must be finite and in [0,1]\nvvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Linux][GCC 11.4.0][64 bit][SIMD=AVX2]\n"
+  },
+  {
+    "alpha": "1.1",
+    "rejected": true,
+    "output": "Parameter Check Error: GazeSibrcAlpha must be finite and in [0,1]\nvvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Linux][GCC 11.4.0][64 bit][SIMD=AVX2]\n"
+  },
+  {
+    "alpha": "nan",
+    "rejected": true,
+    "output": "Error parsing option \"GazeSibrcAlpha\" with argument \"nan\".\nvvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Linux][GCC 11.4.0][64 bit][SIMD=AVX2]\n"
+  },
+  {
+    "alpha": "inf",
+    "rejected": true,
+    "output": "Error parsing option \"GazeSibrcAlpha\" with argument \"inf\".\nvvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Linux][GCC 11.4.0][64 bit][SIMD=AVX2]\n"
+  },
+  {
+    "mode": 2,
+    "rejected": true,
+    "output": "Parameter Check Error: Combined VisualGaze and SIBRC require VisualGazeMode=1 and SIBRCMode=3\nvvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Linux][GCC 11.4.0][64 bit][SIMD=AVX2]\n"
+  },
+  {
+    "mode": 3,
+    "rejected": true,
+    "output": "Parameter Check Error: Combined VisualGaze and SIBRC require VisualGazeMode=1 and SIBRCMode=3\nvvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Linux][GCC 11.4.0][64 bit][SIMD=AVX2]\n"
+  }
+]

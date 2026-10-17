@@ -1,0 +1,384 @@
+{
+  "status": "PASS",
+  "source_mismatches": [],
+  "checks": [
+    {
+      "preset": "fast",
+      "config": "AI",
+      "hashes": {
+        "original": {
+          "bit": "3fdc059997b89301d21e95a290d4a1ca56ba24efa299e4c7ed18fc1f2dcee615",
+          "rec": "444f1146f8e47a3f77c1fcaf0ed7c773a60aae3a1c1477a58a44f481424a31d6"
+        },
+        "off": {
+          "bit": "3fdc059997b89301d21e95a290d4a1ca56ba24efa299e4c7ed18fc1f2dcee615",
+          "rec": "444f1146f8e47a3f77c1fcaf0ed7c773a60aae3a1c1477a58a44f481424a31d6"
+        },
+        "shadow": {
+          "bit": "3fdc059997b89301d21e95a290d4a1ca56ba24efa299e4c7ed18fc1f2dcee615",
+          "rec": "444f1146f8e47a3f77c1fcaf0ed7c773a60aae3a1c1477a58a44f481424a31d6"
+        },
+        "on": {
+          "bit": "3fdc059997b89301d21e95a290d4a1ca56ba24efa299e4c7ed18fc1f2dcee615",
+          "rec": "444f1146f8e47a3f77c1fcaf0ed7c773a60aae3a1c1477a58a44f481424a31d6"
+        }
+      },
+      "audits": {
+        "shadow": {
+          "mode": "shadow",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 5640,
+              "would_skip": 5631,
+              "skipped": 0,
+              "isp_considered": 0,
+              "mip_considered": 0,
+              "large_border_nonzero": 288
+            },
+            {
+              "index": 2,
+              "considered": 5640,
+              "would_skip": 5640,
+              "skipped": 0,
+              "isp_considered": 0,
+              "mip_considered": 0,
+              "large_border_nonzero": 288
+            }
+          ]
+        },
+        "on": {
+          "mode": "on",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 5640,
+              "would_skip": 5631,
+              "skipped": 5631,
+              "isp_considered": 0,
+              "mip_considered": 0,
+              "large_border_nonzero": 288
+            },
+            {
+              "index": 2,
+              "considered": 5640,
+              "would_skip": 5640,
+              "skipped": 5640,
+              "isp_considered": 0,
+              "mip_considered": 0,
+              "large_border_nonzero": 288
+            }
+          ]
+        }
+      }
+    },
+    {
+      "preset": "medium",
+      "config": "AI",
+      "hashes": {
+        "original": {
+          "bit": "9eef8c7843bfad189c355188cfa31727e4e41cb797b6ea77b995fcf27547a71a",
+          "rec": "b08b4d838e2c576a6b1bc55d4231b40fd5e2993d6330d10528a11fbcf3d7bea4"
+        },
+        "off": {
+          "bit": "9eef8c7843bfad189c355188cfa31727e4e41cb797b6ea77b995fcf27547a71a",
+          "rec": "b08b4d838e2c576a6b1bc55d4231b40fd5e2993d6330d10528a11fbcf3d7bea4"
+        },
+        "shadow": {
+          "bit": "9eef8c7843bfad189c355188cfa31727e4e41cb797b6ea77b995fcf27547a71a",
+          "rec": "b08b4d838e2c576a6b1bc55d4231b40fd5e2993d6330d10528a11fbcf3d7bea4"
+        },
+        "on": {
+          "bit": "9eef8c7843bfad189c355188cfa31727e4e41cb797b6ea77b995fcf27547a71a",
+          "rec": "b08b4d838e2c576a6b1bc55d4231b40fd5e2993d6330d10528a11fbcf3d7bea4"
+        }
+      },
+      "audits": {
+        "shadow": {
+          "mode": "shadow",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 11298,
+              "would_skip": 11282,
+              "skipped": 0,
+              "isp_considered": 1503,
+              "mip_considered": 391,
+              "large_border_nonzero": 1174
+            },
+            {
+              "index": 2,
+              "considered": 11298,
+              "would_skip": 11293,
+              "skipped": 0,
+              "isp_considered": 1503,
+              "mip_considered": 391,
+              "large_border_nonzero": 1174
+            }
+          ]
+        },
+        "on": {
+          "mode": "on",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 11288,
+              "would_skip": 11272,
+              "skipped": 11272,
+              "isp_considered": 1493,
+              "mip_considered": 391,
+              "large_border_nonzero": 1174
+            },
+            {
+              "index": 2,
+              "considered": 11288,
+              "would_skip": 11283,
+              "skipped": 11283,
+              "isp_considered": 1493,
+              "mip_considered": 391,
+              "large_border_nonzero": 1174
+            }
+          ]
+        }
+      }
+    },
+    {
+      "preset": "slow",
+      "config": "AI",
+      "hashes": {
+        "original": {
+          "bit": "867f30c5ef9c959cfd22e464e99fc327ee19340939d85da8b8c2ee0f7042bb6b",
+          "rec": "382724880205e6293c521f7b303ab96cd29facd447e57eb8b185ad5e1fc8e312"
+        },
+        "off": {
+          "bit": "867f30c5ef9c959cfd22e464e99fc327ee19340939d85da8b8c2ee0f7042bb6b",
+          "rec": "382724880205e6293c521f7b303ab96cd29facd447e57eb8b185ad5e1fc8e312"
+        },
+        "shadow": {
+          "bit": "867f30c5ef9c959cfd22e464e99fc327ee19340939d85da8b8c2ee0f7042bb6b",
+          "rec": "382724880205e6293c521f7b303ab96cd29facd447e57eb8b185ad5e1fc8e312"
+        },
+        "on": {
+          "bit": "867f30c5ef9c959cfd22e464e99fc327ee19340939d85da8b8c2ee0f7042bb6b",
+          "rec": "382724880205e6293c521f7b303ab96cd29facd447e57eb8b185ad5e1fc8e312"
+        }
+      },
+      "audits": {
+        "shadow": {
+          "mode": "shadow",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 33368,
+              "would_skip": 33341,
+              "skipped": 0,
+              "isp_considered": 4837,
+              "mip_considered": 761,
+              "large_border_nonzero": 1653
+            },
+            {
+              "index": 2,
+              "considered": 33367,
+              "would_skip": 33361,
+              "skipped": 0,
+              "isp_considered": 4836,
+              "mip_considered": 761,
+              "large_border_nonzero": 1653
+            }
+          ]
+        },
+        "on": {
+          "mode": "on",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 33339,
+              "would_skip": 33312,
+              "skipped": 33312,
+              "isp_considered": 4808,
+              "mip_considered": 761,
+              "large_border_nonzero": 1653
+            },
+            {
+              "index": 2,
+              "considered": 33339,
+              "would_skip": 33333,
+              "skipped": 33333,
+              "isp_considered": 4808,
+              "mip_considered": 761,
+              "large_border_nonzero": 1653
+            }
+          ]
+        }
+      }
+    },
+    {
+      "preset": "medium",
+      "config": "RA",
+      "hashes": {
+        "original": {
+          "bit": "10ac1b0499340abf4f336aafb26cef471808b97d00ce78390ef90ea1936d9fe0",
+          "rec": "14838e40772296da80e0e489dd78cf6a4e23d1c60b2330651ef56c3bdb132b18"
+        },
+        "off": {
+          "bit": "10ac1b0499340abf4f336aafb26cef471808b97d00ce78390ef90ea1936d9fe0",
+          "rec": "14838e40772296da80e0e489dd78cf6a4e23d1c60b2330651ef56c3bdb132b18"
+        },
+        "shadow": {
+          "bit": "10ac1b0499340abf4f336aafb26cef471808b97d00ce78390ef90ea1936d9fe0",
+          "rec": "14838e40772296da80e0e489dd78cf6a4e23d1c60b2330651ef56c3bdb132b18"
+        },
+        "on": {
+          "bit": "10ac1b0499340abf4f336aafb26cef471808b97d00ce78390ef90ea1936d9fe0",
+          "rec": "14838e40772296da80e0e489dd78cf6a4e23d1c60b2330651ef56c3bdb132b18"
+        }
+      },
+      "audits": {
+        "shadow": {
+          "mode": "shadow",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 6482,
+              "would_skip": 6473,
+              "skipped": 0,
+              "isp_considered": 1050,
+              "mip_considered": 454,
+              "large_border_nonzero": 1371
+            },
+            {
+              "index": 2,
+              "considered": 6484,
+              "would_skip": 6479,
+              "skipped": 0,
+              "isp_considered": 1052,
+              "mip_considered": 454,
+              "large_border_nonzero": 1371
+            }
+          ]
+        },
+        "on": {
+          "mode": "on",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 6481,
+              "would_skip": 6472,
+              "skipped": 6472,
+              "isp_considered": 1049,
+              "mip_considered": 454,
+              "large_border_nonzero": 1371
+            },
+            {
+              "index": 2,
+              "considered": 6481,
+              "would_skip": 6476,
+              "skipped": 6476,
+              "isp_considered": 1049,
+              "mip_considered": 454,
+              "large_border_nonzero": 1371
+            }
+          ]
+        }
+      }
+    },
+    {
+      "preset": "medium",
+      "config": "LDP",
+      "hashes": {
+        "original": {
+          "bit": "ffcb31798ec76c0f2f3dbce15b6835f54e873d601a4c12570ec9c3d63a7cf7a9",
+          "rec": "9108a8c71f376508dc0dea56f4a034c2899eff6e2826e8157bd00279d082d35e"
+        },
+        "off": {
+          "bit": "ffcb31798ec76c0f2f3dbce15b6835f54e873d601a4c12570ec9c3d63a7cf7a9",
+          "rec": "9108a8c71f376508dc0dea56f4a034c2899eff6e2826e8157bd00279d082d35e"
+        },
+        "shadow": {
+          "bit": "ffcb31798ec76c0f2f3dbce15b6835f54e873d601a4c12570ec9c3d63a7cf7a9",
+          "rec": "9108a8c71f376508dc0dea56f4a034c2899eff6e2826e8157bd00279d082d35e"
+        },
+        "on": {
+          "bit": "ffcb31798ec76c0f2f3dbce15b6835f54e873d601a4c12570ec9c3d63a7cf7a9",
+          "rec": "9108a8c71f376508dc0dea56f4a034c2899eff6e2826e8157bd00279d082d35e"
+        }
+      },
+      "audits": {
+        "shadow": {
+          "mode": "shadow",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 16335,
+              "would_skip": 16320,
+              "skipped": 0,
+              "isp_considered": 2168,
+              "mip_considered": 542,
+              "large_border_nonzero": 1642
+            },
+            {
+              "index": 2,
+              "considered": 16333,
+              "would_skip": 16328,
+              "skipped": 0,
+              "isp_considered": 2166,
+              "mip_considered": 542,
+              "large_border_nonzero": 1642
+            }
+          ]
+        },
+        "on": {
+          "mode": "on",
+          "kernels": [
+            {
+              "index": 1,
+              "considered": 16316,
+              "would_skip": 16301,
+              "skipped": 16301,
+              "isp_considered": 2149,
+              "mip_considered": 542,
+              "large_border_nonzero": 1642
+            },
+            {
+              "index": 2,
+              "considered": 16316,
+              "would_skip": 16311,
+              "skipped": 16311,
+              "isp_considered": 2149,
+              "mip_considered": 542,
+              "large_border_nonzero": 1642
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "quality": {
+    "backend": "360Lib13_6",
+    "executable_sha256": "0d1b9774dcca9dbf43e257eb71d6c2e3c15a44faac27fe644b119ff9716a6712",
+    "sphere_sha256": "575554c853d5fe9c1306d645580aa4e496a2456bb936f7cbff90b93c00097278",
+    "config_path": "/data/wang2024_lfnst_only_20261007/smoke/medium/AI/quality.cfg",
+    "config_sha256": "4ea717461a8d1101714f83cf8f29ebcaccc54e549f5a5297364ae028bf6e51f5",
+    "config": "# Generated by official_360lib_metrics.py\nInputFile                    : /data/wang2024_lfnst_only_20261007/smoke/medium/AI/on.yuv\nRefFile                      : /data/wang2024_lfnst_only_20261007/smoke/input.yuv\nSphFile                      : /data/ibrc_st_direct_wref/VTM-23.0/cfg-360Lib/360Lib/sphere_655362.txt\nSourceWidth                  : 128\nSourceHeight                 : 128\nInputBitDepth                : 10\nOutputBitDepth               : 10\nInternalBitDepth             : 10\nReferenceBitDepth            : 8\nInputChromaFormat            : 420\nOutputChromaFormat           : 420\nReferenceChromaFormat        : 420\nInputGeometryType            : 0\nCodingGeometryType           : 0\nReferenceGeometryType        : 0\nSourceFPStructure            : 1 1 0 0\nCodingFPStructure            : 1 1 0 0\nReferenceFPStructure         : 1 1 0 0\nCodingFaceWidth              : 128\nCodingFaceHeight             : 128\nReferenceFaceWidth           : 128\nReferenceFaceHeight          : 128\nCPP_Width                    : 128\nCPP_Height                   : 128\nPSNR                         : 1\nSPSNR_NN                     : 1\nSPSNR_I                      : 0\nWSPSNR                       : 1\nCPP_PSNR                     : 1\nInterpolationMethodY         : 5\nInterpolationMethodC         : 4\nChromaSampleLocType          : 0\nOutputChromaSampleLocType    : 0\nReferenceChromaSampleLocType : 0\nFramesToBeEncoded            : 1\nFrameRate                    : 30\n",
+    "command": [
+      "/data/ibrc_st_direct_wref/VTM-23.0/bin/360ConvertAppStatic",
+      "-c",
+      "/data/wang2024_lfnst_only_20261007/smoke/medium/AI/quality.cfg"
+    ],
+    "frame_count": 1,
+    "360Lib13_6_PSNR_Y": 44.0765,
+    "360Lib13_6_PSNR_U": 999.99,
+    "360Lib13_6_PSNR_V": 999.99,
+    "360Lib13_6_S_Y": 44.0938,
+    "360Lib13_6_S_U": 999.99,
+    "360Lib13_6_S_V": 999.99,
+    "360Lib13_6_WS_Y": 44.0915,
+    "360Lib13_6_WS_U": 999.99,
+    "360Lib13_6_WS_V": 999.99,
+    "360Lib13_6_CPP_Y": 44.626,
+    "360Lib13_6_CPP_U": 999.99,
+    "360Lib13_6_CPP_V": 999.99
+  },
+  "independent_decode": true,
+  "encoder_sha256": "d93e6ddbdb1fcb3b5634dce70f4920fe5ae53765c785246f28158297e7c81b02"
+}

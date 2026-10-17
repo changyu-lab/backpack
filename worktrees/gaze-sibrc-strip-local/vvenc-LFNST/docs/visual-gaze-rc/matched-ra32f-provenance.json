@@ -1,0 +1,59 @@
+{
+  "configuration": "RA32,32 frames,NumRefPics=1",
+  "scope": "four representative R1 streams only; not a proof for all source/target combinations",
+  "encoder_sha256": "7bc8d9409f47eb19f6070dc7500ddfeccb39dffb9805ddc2c33654f79888b748",
+  "gates": [
+    {
+      "sequence": "DrivingInCity",
+      "point": 1,
+      "bitstream_identical": true,
+      "sha256": "d2e2c1fd34b5f2ed7c401da7a523c5a831b5466fb2bc79b8930ab6b6c60a8eb9"
+    },
+    {
+      "sequence": "AerialCity",
+      "point": 1,
+      "bitstream_identical": true,
+      "sha256": "510b197cb7baf57112a5da02ec6964163b69b8e229a9c532ffa4f6807a5e0ff5"
+    },
+    {
+      "sequence": "Balboa",
+      "point": 1,
+      "bitstream_identical": true,
+      "sha256": "2244c13c9d0495c82dd13cf60f8b33e6e5a5904f66332b8d8694cb16a4eebbe9"
+    },
+    {
+      "sequence": "ChairliftRide",
+      "point": 1,
+      "bitstream_identical": true,
+      "sha256": "7e193482eca632a3a641c7618c49d8a18e263e56d1ee3198089b988f84157a62"
+    }
+  ],
+  "tests": "17 remote Python tests passed",
+  "formal_anchor_reused": 56,
+  "new_method_points": 56,
+  "launch": {
+    "pid": 1966319,
+    "command": [
+      "python3",
+      "-u",
+      "tools/visual_gaze/matched_ra32.py",
+      "--reference",
+      "/data/vtmrc-vvenc-ra32-20261014",
+      "--encoder",
+      "/root/visual_gaze_ra17_20261014/src/bin/release-static/vvencFFapp",
+      "--decoder",
+      "/data/ibrc_st_direct_wref/VTM-23.0/bin/umake/gcc-11.4/x86_64/release/DecoderApp",
+      "--metric",
+      "/data/vtmrc-vvenc-tune-20261014/metrics-build/metrics360",
+      "--sphere",
+      "/root/VTM-23.0-paper-scc-rc-anchor-fit/cfg-360Lib/360Lib/sphere_655362.txt",
+      "--output",
+      "/root/visual_gaze_ra32f_matched_20261015/results",
+      "--scratch-root",
+      "/dev/shm/visual_gaze_matched32_20261015",
+      "--workers",
+      "6"
+    ]
+  },
+  "manifest_sha256": "c13251cac15fa54de70d11e6dadf41e23a32e139ac509179ded4a5a869d84c62"
+}

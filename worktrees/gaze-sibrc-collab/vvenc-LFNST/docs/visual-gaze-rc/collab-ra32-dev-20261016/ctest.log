@@ -1,0 +1,86 @@
+Internal ctest changing into directory: /root/gaze_sibrc_collab_20261016/src/build
+Test project /root/gaze_sibrc_collab_20261016/src/build
+      Start  1: Test_vvencinterfacetest
+ 1/40 Test  #1: Test_vvencinterfacetest ..........................   Passed    1.19 sec
+      Start  2: Test_vvenclibtest-parameter_range
+ 2/40 Test  #2: Test_vvenclibtest-parameter_range ................   Passed    0.00 sec
+      Start  3: Test_vvenclibtest-calling_order
+ 3/40 Test  #3: Test_vvenclibtest-calling_order ..................   Passed    0.06 sec
+      Start  4: Test_vvenclibtest-input_params
+ 4/40 Test  #4: Test_vvenclibtest-input_params ...................   Passed    0.03 sec
+      Start  5: Test_vvenclibtest-sdk_default
+ 5/40 Test  #5: Test_vvenclibtest-sdk_default ....................   Passed    0.20 sec
+      Start  6: Test_vvenclibtest-sdk_stringapi_interface
+ 6/40 Test  #6: Test_vvenclibtest-sdk_stringapi_interface ........   Passed    0.04 sec
+      Start  7: Test_vvenclibtest-timestamps
+ 7/40 Test  #7: Test_vvenclibtest-timestamps .....................   Passed    7.97 sec
+      Start  8: Test_vvencapp-tooltest
+ 8/40 Test  #8: Test_vvencapp-tooltest ...........................   Passed    1.94 sec
+      Start  9: Test_vvencFFapp-tooltest
+ 9/40 Test  #9: Test_vvencFFapp-tooltest .........................   Passed    2.08 sec
+      Start 10: Test_compare_output-tooltest
+10/40 Test #10: Test_compare_output-tooltest .....................   Passed    0.01 sec
+      Start 11: Test_vvencFFapp-tooltest-Scalar
+11/40 Test #11: Test_vvencFFapp-tooltest-Scalar ..................   Passed    2.17 sec
+      Start 12: Test_compare_output-tooltest-Scalar
+12/40 Test #12: Test_compare_output-tooltest-Scalar ..............   Passed    0.01 sec
+      Start 13: Test_vvencapp-faster
+13/40 Test #13: Test_vvencapp-faster .............................   Passed    0.18 sec
+      Start 14: Test_vvencFFapp-faster
+14/40 Test #14: Test_vvencFFapp-faster ...........................   Passed    0.18 sec
+      Start 15: Test_compare_output-faster
+15/40 Test #15: Test_compare_output-faster .......................   Passed    0.01 sec
+      Start 16: Test_vvencapp-fast
+16/40 Test #16: Test_vvencapp-fast ...............................   Passed    0.19 sec
+      Start 17: Test_vvencFFapp-fast
+17/40 Test #17: Test_vvencFFapp-fast .............................   Passed    0.20 sec
+      Start 18: Test_compare_output-fast
+18/40 Test #18: Test_compare_output-fast .........................   Passed    0.01 sec
+      Start 19: Test_vvencapp-medium
+19/40 Test #19: Test_vvencapp-medium .............................   Passed    0.34 sec
+      Start 20: Test_vvencFFapp-medium
+20/40 Test #20: Test_vvencFFapp-medium ...........................   Passed    0.35 sec
+      Start 21: Test_compare_output-medium
+21/40 Test #21: Test_compare_output-medium .......................   Passed    0.01 sec
+      Start 22: Test_vvencapp-slow
+22/40 Test #22: Test_vvencapp-slow ...............................   Passed    0.44 sec
+      Start 23: Test_vvencFFapp-slow
+23/40 Test #23: Test_vvencFFapp-slow .............................   Passed    0.45 sec
+      Start 24: Test_compare_output-slow
+24/40 Test #24: Test_compare_output-slow .........................   Passed    0.01 sec
+      Start 25: Test_vvencapp-medium_noqpa_0thr
+25/40 Test #25: Test_vvencapp-medium_noqpa_0thr ..................   Passed    0.27 sec
+      Start 26: Test_vvencFFapp-medium_noqpa_0thr
+26/40 Test #26: Test_vvencFFapp-medium_noqpa_0thr ................   Passed    0.29 sec
+      Start 27: Test_compare_output-medium_noqpa_0thr
+27/40 Test #27: Test_compare_output-medium_noqpa_0thr ............   Passed    0.01 sec
+      Start 28: Test_vvencFFapp-lowdelay_medium
+28/40 Test #28: Test_vvencFFapp-lowdelay_medium ..................   Passed    0.52 sec
+      Start 29: Test_vvencapp-medium_rc2p
+29/40 Test #29: Test_vvencapp-medium_rc2p ........................   Passed    0.41 sec
+      Start 30: Test_vvencFFapp-medium_rc2p
+30/40 Test #30: Test_vvencFFapp-medium_rc2p ......................   Passed    0.42 sec
+      Start 31: Test_compare_output-medium_rc2p
+31/40 Test #31: Test_compare_output-medium_rc2p ..................   Passed    0.01 sec
+      Start 32: Test_vvencFFapp-medium_rc2p_statsFile1_exp
+32/40 Test #32: Test_vvencFFapp-medium_rc2p_statsFile1_exp .......   Passed    0.11 sec
+      Start 33: Test_vvencFFapp-medium_rc2p_statsFile2_exp
+33/40 Test #33: Test_vvencFFapp-medium_rc2p_statsFile2_exp .......   Passed    0.40 sec
+      Start 34: Test_compare_output-medium_rc2p_statsFile_exp
+34/40 Test #34: Test_compare_output-medium_rc2p_statsFile_exp ....   Passed    0.01 sec
+      Start 35: Test_vvencapp-medium_rc2p_statsFile1_easy
+35/40 Test #35: Test_vvencapp-medium_rc2p_statsFile1_easy ........   Passed    0.11 sec
+      Start 36: Test_vvencapp-medium_rc2p_statsFile2_easy
+36/40 Test #36: Test_vvencapp-medium_rc2p_statsFile2_easy ........   Passed    0.40 sec
+      Start 37: Test_compare_output-medium_rc2p_statsFile_easy
+37/40 Test #37: Test_compare_output-medium_rc2p_statsFile_easy ...   Passed    0.01 sec
+      Start 38: Cleanup_remove_temp_files
+38/40 Test #38: Cleanup_remove_temp_files ........................   Passed    0.01 sec
+      Start 39: Test_vtmrc_adapter_order
+39/40 Test #39: Test_vtmrc_adapter_order .........................   Passed    0.00 sec
+      Start 40: Test_visual_gaze_formulas
+40/40 Test #40: Test_visual_gaze_formulas ........................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 40
+
+Total Test time (real) =  21.06 sec

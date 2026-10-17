@@ -1,0 +1,21 @@
+...........................QP22 mode0: 100.0 bps, error 0.000%
+QP22 mode1: 100.0 bps, error 0.000%
+QP27 mode0: 100.0 bps, error 0.000%
+QP27 mode1: 100.0 bps, error 0.000%
+QP32 mode0: 100.0 bps, error 0.000%
+QP32 mode1: 100.0 bps, error 0.000%
+QP37 mode0: 100.0 bps, error 0.000%
+QP37 mode1: 100.0 bps, error 0.000%
+.......F.....
+======================================================================
+FAIL: test_clone (test_strip_local_trial.Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/dev/shm/gaze_sibrc_strip_local_20261016/src/tools/visual_gaze/test_strip_local_trial.py", line 44, in test_clone
+    self.assertEqual(cmd[cmd.index('-o')+1],str(Path('scratch/rec')));self.assertIn('--GazeSibrcStripLocal=1',cmd);self.assertIn('--GazeSibrcAlpha=1',cmd);self.assertIn('--GazeSibrcStripTrace='+str(Path('owned/R1'))+'.strip.csv',cmd);self.assertEqual(len([v for v in cmd if v.startswith('--GazeSibrcAlpha=')]),1);self.assertNotIn('--VisualGazeMode=0',cmd);self.assertFalse(any('frozen' in v for v in cmd if 'Trace=' in v));self.assertEqual(old[0],'old');self.assertFalse(any('frozen' in v for v in cmd if 'Residual=' in v or 'Filename=' in v))
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 40 tests in 12.094s
+
+FAILED (failures=1)

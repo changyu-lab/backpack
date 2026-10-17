@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{00828692-B18B-3FB7-B9E6-AAACEC2A20CF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>StreamMergeApp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\bin\vs16\msvc-19.29\x86_64\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StreamMergeApp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">StreamMergeApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\bin\vs16\msvc-19.29\x86_64\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StreamMergeApp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">StreamMergeApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\bin\vs16\msvc-19.29\x86_64\minsizerel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StreamMergeApp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">StreamMergeApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\bin\vs16\msvc-19.29\x86_64\relwithdebinfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StreamMergeApp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">StreamMergeApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\vs16\msvc-19.29\x86_64\debug\CommonLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\debug\EncoderLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\debug\DecoderLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\debug\Utilities.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\debug\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/lib/vs16/msvc-19.29/x86_64/debug/StreamMergeApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/bin/vs16/msvc-19.29/x86_64/debug/StreamMergeApp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\vs16\msvc-19.29\x86_64\release\CommonLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\release\EncoderLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\release\DecoderLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\release\Utilities.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\release\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/lib/vs16/msvc-19.29/x86_64/release/StreamMergeApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/bin/vs16/msvc-19.29/x86_64/release/StreamMergeApp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\vs16\msvc-19.29\x86_64\minsizerel\CommonLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\minsizerel\EncoderLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\minsizerel\DecoderLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\minsizerel\Utilities.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\minsizerel\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/lib/vs16/msvc-19.29/x86_64/minsizerel/StreamMergeApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/bin/vs16/msvc-19.29/x86_64/minsizerel/StreamMergeApp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\.\x86;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\CommonLib\..\libmd5;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\EncoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\DecoderLib\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\.;C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\Lib\Utilities\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\vs16\msvc-19.29\x86_64\relwithdebinfo\CommonLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\relwithdebinfo\EncoderLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\relwithdebinfo\DecoderLib.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\relwithdebinfo\Utilities.lib;..\..\..\..\lib\vs16\msvc-19.29\x86_64\relwithdebinfo\CommonLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/lib/vs16/msvc-19.29/x86_64/relwithdebinfo/StreamMergeApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/bin/vs16/msvc-19.29/x86_64/relwithdebinfo/StreamMergeApp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\App\StreamMergeApp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/source/App/StreamMergeApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/5411/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/build --check-stamp-file C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/build/source/App/StreamMergeApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/source/App/StreamMergeApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/5411/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/build --check-stamp-file C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/build/source/App/StreamMergeApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/source/App/StreamMergeApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/5411/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/build --check-stamp-file C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/build/source/App/StreamMergeApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/source/App/StreamMergeApp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/5411/VTM-23.0 -BC:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/build --check-stamp-file C:/Users/hitxi/.codex/worktrees/5411/VTM-23.0/build/source/App/StreamMergeApp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\App\StreamMergeApp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\App\StreamMergeApp\StreamMergeApp.cpp" />
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\App\StreamMergeApp\StreamMergeAppCfg.cpp" />
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\App\StreamMergeApp\StreamMergeMain.cpp" />
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\App\StreamMergeApp\StreamMergeApp.h" />
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\App\StreamMergeApp\StreamMergeAppCfg.h" />
+    <Natvis Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\VisualStudio\common.natvis">
+    </Natvis>
+    <Natvis Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\source\VisualStudio\static_vector.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\ZERO_CHECK.vcxproj">
+      <Project>{5C8D406B-3A8B-3665-86CE-2AAC11494A77}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\Lib\CommonLib\CommonLib.vcxproj">
+      <Project>{ED427DE8-36C1-39DE-9062-8D8EADB98155}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\Lib\DecoderLib\DecoderLib.vcxproj">
+      <Project>{568C2D2A-E522-3C57-9E2C-39749A54ED9C}</Project>
+      <Name>DecoderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\Lib\EncoderLib\EncoderLib.vcxproj">
+      <Project>{F90F3CA1-B46D-3C29-85AF-54B99918F956}</Project>
+      <Name>EncoderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\5411\VTM-23.0\build\source\Lib\Utilities\Utilities.vcxproj">
+      <Project>{A01AC05D-DB0E-3894-9C25-AF5AC11BF9B9}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

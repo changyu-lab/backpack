@@ -1,0 +1,10 @@
+^C:\USERS\HITXI\.CODEX\WORKTREES\GAZE-SIBRC-STRIP-LOCAL\VVENC-LFNST\BUILD-GAZE-STRIP-LOCAL\CONTRACTS\CMAKEFILES\09B342C46E6DF934FE17EED4198898EB\GENERATE.STAMP.RULE
+setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/gaze-sibrc-strip-local/vvenc-LFNST/test/striplocal -BC:/Users/hitxi/.codex/worktrees/gaze-sibrc-strip-local/vvenc-LFNST/build-gaze-strip-local/contracts --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hitxi/.codex/worktrees/gaze-sibrc-strip-local/vvenc-LFNST/build-gaze-strip-local/contracts/strip_local_test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,12 @@
+{
+  "source": "I:\\001-IBRC-exps\\VTM-23.0\\paper_evidence\\config.json",
+  "rates": {
+    "R1": 1600000.0,
+    "R2": 3200000.0,
+    "R3": 6400000.0,
+    "R4": 12800000.0
+  },
+  "input": "I:/Sequences360/AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+  "frames": 16,
+  "scope": "Current frozen ERP target grid; original frozen VTM table uses 32 frames and is not a direct 16-frame comparator"
+}
