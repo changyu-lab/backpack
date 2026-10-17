@@ -1,0 +1,10 @@
+^C:\USERS\HITXI\.CODEX\WORKTREES\VTM23-RC-ANCHOR\VVENC-LFNST\BUILD-ANCHOR-VS2019\CMAKEFILES\9C1E17126CA0DC1A14EB028D4B64203E\GENERATE.STAMP.RULE
+setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST -BC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019/vvenc.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

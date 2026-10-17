@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{474C34A6-5631-3F29-AAFF-4B5C14381235}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vvenc_x86_simd</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vvenc_x86_simd.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vvenc_x86_simd.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vvenc_x86_simd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vvenc_x86_simd.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vvenc_x86_simd.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vvenc_x86_simd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vvenc_x86_simd.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vvenc_x86_simd.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vvenc_x86_simd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vvenc_x86_simd.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vvenc_x86_simd.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vvenc_x86_simd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4245;4251;4310;4389;4456;4457;4458;4459;4505;4701;4702;4703;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VVENC_ENABLE_THIRDPARTY_JSON;TARGET_SIMD_X86;_WIN32_WINNT=0x0600;VVENC_SOURCE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;VVENC_ENABLE_THIRDPARTY_JSON;TARGET_SIMD_X86;_WIN32_WINNT=0x0600;VVENC_SOURCE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4100;4127;4244;4245;4251;4310;4389;4456;4457;4458;4459;4505;4701;4702;4703;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VVENC_ENABLE_THIRDPARTY_JSON;NDEBUG;TARGET_SIMD_X86;_WIN32_WINNT=0x0600;VVENC_SOURCE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VVENC_ENABLE_THIRDPARTY_JSON;NDEBUG;TARGET_SIMD_X86;_WIN32_WINNT=0x0600;VVENC_SOURCE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4100;4127;4244;4245;4251;4310;4389;4456;4457;4458;4459;4505;4701;4702;4703;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VVENC_ENABLE_THIRDPARTY_JSON;NDEBUG;TARGET_SIMD_X86;_WIN32_WINNT=0x0600;VVENC_SOURCE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VVENC_ENABLE_THIRDPARTY_JSON;NDEBUG;TARGET_SIMD_X86;_WIN32_WINNT=0x0600;VVENC_SOURCE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4245;4251;4310;4389;4456;4457;4458;4459;4505;4701;4702;4703;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VVENC_ENABLE_THIRDPARTY_JSON;NDEBUG;TARGET_SIMD_X86;_WIN32_WINNT=0x0600;VVENC_SOURCE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VVENC_ENABLE_THIRDPARTY_JSON;NDEBUG;TARGET_SIMD_X86;_WIN32_WINNT=0x0600;VVENC_SOURCE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\include;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\.;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\DecoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\EncoderLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\x86;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\CommonLib\arm;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\apputils;C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\..\..\..\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/source/Lib/vvenc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST -BC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019 --check-stamp-file C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019/source/Lib/vvenc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\source\Lib\vvenc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/source/Lib/vvenc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST -BC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019 --check-stamp-file C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019/source/Lib/vvenc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\source\Lib\vvenc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/source/Lib/vvenc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST -BC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019 --check-stamp-file C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019/source/Lib/vvenc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\source\Lib\vvenc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/source/Lib/vvenc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST -BC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019 --check-stamp-file C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019/source/Lib/vvenc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\vvenc\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\source\Lib\vvenc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\AdaptiveLoopFilter_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\AffineGradientSearch_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\Buffer_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\DepQuant_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\InterPred_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\InterpolationFilter_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\IntraPred_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\LoopFilter_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\MCTF_avx41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\Quant_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\RdCost_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\SampleAdaptiveOffset_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse41\Trafo_sse41.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE41</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\sse42\DepQuant_sse42.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_SSE42</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_SSE42</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_SSE42</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_SSE42</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\AdaptiveLoopFilter_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\AffineGradientSearch_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\Buffer_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\DepQuant_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\InterPred_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\InterpolationFilter_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\IntraPred_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\LoopFilter_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\MCTF_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\Quant_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\RdCost_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\SampleAdaptiveOffset_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\source\Lib\CommonLib\x86\avx2\Trafo_avx2.cpp">
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(PreprocessorDefinitions);USE_AVX2</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\ZERO_CHECK.vcxproj">
+      <Project>{CC734285-4776-3C74-984B-975585EFB12F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

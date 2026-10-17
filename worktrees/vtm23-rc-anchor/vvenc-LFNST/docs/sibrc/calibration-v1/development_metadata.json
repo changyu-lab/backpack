@@ -1,0 +1,17 @@
+{
+  "sequences": [
+    "DrivingInCity",
+    "DrivingInCountry"
+  ],
+  "frames": 4,
+  "run_records": [
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCity.run.json",
+    "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCountry.run.json"
+  ],
+  "dump_stride": 16,
+  "residual_normalization": "8bit",
+  "prediction": "first L0, integer SAD stride4 coarse4 +/-8 refine1 +/-2; intra128",
+  "evaluation_excluded": [
+    "AerialCity"
+  ]
+}

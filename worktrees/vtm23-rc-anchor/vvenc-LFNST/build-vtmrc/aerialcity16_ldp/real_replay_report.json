@@ -1,0 +1,38 @@
+{
+  "scope": "First IRAP only; actual feedback captured from VVenC, both kernels replay it; not a full16-frame real trace replay",
+  "intra_cost_total": 47908690,
+  "results": [
+    {
+      "rate": 1600000,
+      "ctus": 450,
+      "records": 1802,
+      "fields": 4056,
+      "original_vs_compat": true,
+      "compat_vs_live_trace": true
+    },
+    {
+      "rate": 3200000,
+      "ctus": 450,
+      "records": 1802,
+      "fields": 4056,
+      "original_vs_compat": true,
+      "compat_vs_live_trace": true
+    },
+    {
+      "rate": 6400000,
+      "ctus": 450,
+      "records": 1802,
+      "fields": 4056,
+      "original_vs_compat": true,
+      "compat_vs_live_trace": true
+    },
+    {
+      "rate": 12800000,
+      "ctus": 450,
+      "records": 1802,
+      "fields": 4056,
+      "original_vs_compat": true,
+      "compat_vs_live_trace": true
+    }
+  ]
+}

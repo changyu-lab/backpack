@@ -1,0 +1,33 @@
+{
+  "source_sha256": "90c67bf957e069c140d16abf4ae5232c1f1146dddbc020c98b43422cf2d1b3b9",
+  "source_metadata": {
+    "sequences": [
+      "DrivingInCity",
+      "DrivingInCountry"
+    ],
+    "frames": 4,
+    "run_records": [
+      "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCity.run.json",
+      "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\dump_DrivingInCountry.run.json"
+    ],
+    "dump_stride": 16,
+    "residual_normalization": "8bit",
+    "prediction": "first L0, integer SAD stride4 coarse4 +/-8 refine1 +/-2; intra128",
+    "evaluation_excluded": [
+      "AerialCity"
+    ]
+  },
+  "arguments": {
+    "command": "stats",
+    "input": "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\development_residual.bin",
+    "metadata": "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\development_metadata.json",
+    "output": "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\stats.txt",
+    "residual_scale": 1
+  },
+  "raw_samples": 3600,
+  "rho2_cap": 0.999999,
+  "gain_cap": 1000,
+  "normalization": "orthonormal DCT-II / sqrt(pixels)",
+  "holdout": "none: paired population statistics",
+  "equator_regularization": "perfect rho\u00b2 capped at 1-1e-6"
+}

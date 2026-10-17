@@ -1,0 +1,28 @@
+Performing C SOURCE FILE Test SUPPORTED_Werror_unused_command_line_argument failed with the following output:
+Change Dir: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/VS2019/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_cd1da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 鐢ㄤ簬 .NET Framework 鐨?Microsoft (R) 鐢熸垚寮曟搸鐗堟湰 16.11.0+0538acc04
+鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.29.30133 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUPPORTED_Werror_unused_command_line_argument /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd1da.dir\Debug\\" /Fd"cmTC_cd1da.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Werror=unused-command-line-argument "C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\CMakeFiles\CMakeTmp\src.c"
+cl : 鍛戒护琛?error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Werror=unused-command-line-argument鈥?[C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\CMakeFiles\CMakeTmp\cmTC_cd1da.vcxproj]
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-anchor-vs2019/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/VS2019/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_2f5d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 鐢ㄤ簬 .NET Framework 鐨?Microsoft (R) 鐢熸垚寮曟搸鐗堟湰 16.11.0+0538acc04
+鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+
+  鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.29.30133 鐗?
+  鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f5d6.dir\Debug\\" /Fd"cmTC_2f5d6.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\build-anchor-vs2019\CMakeFiles\CMakeTmp\cmTC_2f5d6.vcxproj]
+
+
+

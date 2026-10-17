@@ -1,0 +1,48 @@
+
+VVCSoftware: VTM Encoder Version 23.0 [Windows][VS 1929][64 bit] [SIMD=AVX2] 
+
+TOOL CFG: IBD:1 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 LQP:0 SQP:0 ASR:0 MinSearchWindow:8 RestrictMESampling:0 FEN:1 ECU:0 FDM:1 ESD:0 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:5 ChromaTS:1 BDPCM:0 Tiles: 1x1 Slices: 1 MCTS:0 SAO:1 ALF:1 CCALF:1 MaxNumALFAPS 8 AlfapsIDShift 0 ConstantJointCbCrSignFlagWPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1  DQ:1  SignBitHidingFlag:0 RecalQP:0 
+TOOL CFG: LFNST:0 MMVD:1 Affine:1 AffineType:1 AdaptBypassAffineMe:0 PROF:1 SbTMVP:1 DualITree:1 IMV:1 BIO:0 LMChroma:1 HorCollocatedChroma:1 VerCollocatedChroma:0 MTS:1(explicit intra) SBT:1 ISP:1 SMVD:0 CompositeLTReference:0 Bcw:0 BcwFast:0 LADF:0 CIIP:1 Geo:0 AllowDisFracMMVD:1 AffineAmvr:0 AffineAmvrEncOpt:0 AffineAmvp:1 DMVR:0 MmvdDisNum:6 JointCbCr:1 ACT:0 PLT:0 IBC:0 HashME:0 WrapAround:0 VirtualBoundariesEnabledFlag:0 VirtualBoundariesPresentInSPSFlag:1 vertical virtual boundaries:[ ] horizontal virtual boundaries:[ ] Reshape:1 (Signal:SDR Opt:0 CSoffset:1) MRL:1 MIP:0 EncDbOpt:1 AlfLambdaOpt:0 
+FAST TOOL CFG: LCTUFast:1 FastMrg:1 MaxMergeRdCandNumTotal:5 MergeRdCandQuotaRegular:4 MergeRdCandQuotaRegularSmallBlk:4 MergeRdCandQuotaSubBlk:2 MergeRdCandQuotaCiip:1 MergeRdCandQuotaGpm:8 PBIntraFast:1 IMV4PelFast:1 MTSMaxCand: 3(intra) 4(inter) ISPFast:0 AMaxBT:1 E0023FastEnc:1 ContentBasedFastQtbt:0 UseNonLinearAlfLuma:1 UseNonLinearAlfChroma:1 MaxNumAlfAlternativesChroma:8 TTFastSkip:31 TTFastSkipThr:1.075 FastLocalDualTree:2 RPR:0 TemporalFilter:4/0 SEI CTI:0 BIM:0 SEI FGC:0 SEI processing Order:0 
+
+
+ started @ Fri Oct  9 12:41:35 2026
+POC    0 LId:  0 TId: 0 ( IDR_N_LP, I-SLICE, QP 27 )    1726008 bits [Y 40.8573 dB    U 46.0493 dB    V 45.0735 dB] [ET  1546 ] [L0] [L1][RC360RC][FrameBits] POC=0 targetBits=1748232 actualBits=1725856 errorBits=-22376 errorPct=-1.279922 avgQP=25.411111 avgLambda=237.046345008
+
+POC    1 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 35 )       6864 bits [Y 39.2290 dB    U 45.0726 dB    V 43.8870 dB] [ET   172 ] [L0 0c] [L1][RC360RC][FrameBits] POC=1 targetBits=100 actualBits=6808 errorBits=6708 errorPct=6708.000000 avgQP=35.833333 avgLambda=3792.950465367
+
+POC    2 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 46 )       1272 bits [Y 38.6995 dB    U 45.1984 dB    V 44.0028 dB] [ET    80 ] [L0 1c 0] [L1][RC360RC][FrameBits] POC=2 targetBits=100 actualBits=1240 errorBits=1140 errorPct=1140.000000 avgQP=46.000000 avgLambda=60691.675658876
+
+POC    3 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 39 )       5736 bits [Y 38.7456 dB    U 45.2131 dB    V 44.0380 dB] [ET   164 ] [L0 2c 1 0] [L1][RC360RC][FrameBits] POC=3 targetBits=154 actualBits=5704 errorBits=5550 errorPct=3603.896104 avgQP=39.600000 avgLambda=11423.961018501
+
+POC    4 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 49 )        768 bits [Y 38.0125 dB    U 45.0956 dB    V 43.9356 dB] [ET    76 ] [L0 3c 2 1 0] [L1][RC360RC][FrameBits] POC=4 targetBits=150 actualBits=736 errorBits=586 errorPct=390.666667 avgQP=49.000000 avgLambda=72543.058177863
+
+POC    5 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 43 )       3184 bits [Y 37.9917 dB    U 44.9956 dB    V 43.8575 dB] [ET   131 ] [L0 4c 3 2 0] [L1][RC360RC][FrameBits] POC=5 targetBits=156 actualBits=3152 errorBits=2996 errorPct=1920.512821 avgQP=43.032787 avgLambda=32683.285937031
+
+POC    6 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 49 )       1160 bits [Y 37.3566 dB    U 44.7154 dB    V 43.6227 dB] [ET    85 ] [L0 5c 4 3 0] [L1][RC360RC][FrameBits] POC=6 targetBits=151 actualBits=1128 errorBits=977 errorPct=647.019868 avgQP=49.000000 avgLambda=78158.270328605
+
+POC    7 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 46 )       1848 bits [Y 36.9295 dB    U 44.8252 dB    V 43.6757 dB] [ET    95 ] [L0 6c 5 4 0] [L1][RC360RC][FrameBits] POC=7 targetBits=154 actualBits=1816 errorBits=1662 errorPct=1079.220779 avgQP=46.000000 avgLambda=91940.293556917
+
+POC    8 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 55 )        568 bits [Y 36.2284 dB    U 44.7845 dB    V 43.6343 dB] [ET    80 ] [L0 7c 6 5 0] [L1][RC360RC][FrameBits] POC=8 targetBits=100 actualBits=536 errorBits=436 errorPct=436.000000 avgQP=55.000000 avgLambda=512044.996748815
+
+POC    9 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 49 )       1168 bits [Y 35.8832 dB    U 44.6869 dB    V 43.5698 dB] [ET    81 ] [L0 8c 7 6 0] [L1][RC360RC][FrameBits] POC=9 targetBits=153 actualBits=1136 errorBits=983 errorPct=642.483660 avgQP=49.000000 avgLambda=242868.090935777
+
+POC   10 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 52 )       2008 bits [Y 35.8970 dB    U 44.6166 dB    V 43.4804 dB] [ET    98 ] [L0 9c 8 7 0] [L1][RC360RC][FrameBits] POC=10 targetBits=151 actualBits=1976 errorBits=1825 errorPct=1208.609272 avgQP=52.000000 avgLambda=131293.937458384
+
+POC   11 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 52 )        840 bits [Y 35.3483 dB    U 44.4468 dB    V 43.3192 dB] [ET    73 ] [L0 10c 9 8 0] [L1][RC360RC][FrameBits] POC=11 targetBits=152 actualBits=808 errorBits=656 errorPct=431.578947 avgQP=52.000000 avgLambda=226292.820642059
+
+POC   12 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 54 )       1072 bits [Y 35.0382 dB    U 44.3886 dB    V 43.3153 dB] [ET    75 ] [L0 11c 10 8 0] [L1][RC360RC][FrameBits] POC=12 targetBits=151 actualBits=1040 errorBits=889 errorPct=588.741722 avgQP=54.000000 avgLambda=315739.707887657
+
+POC   13 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 55 )       1016 bits [Y 34.5348 dB    U 44.4277 dB    V 43.2972 dB] [ET    78 ] [L0 12c 11 8 0] [L1][RC360RC][FrameBits] POC=13 targetBits=152 actualBits=984 errorBits=832 errorPct=547.368421 avgQP=55.000000 avgLambda=341866.459929392
+
+POC   14 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 55 )       1032 bits [Y 34.4097 dB    U 44.1801 dB    V 43.1599 dB] [ET    74 ] [L0 13c 12 8 0] [L1][RC360RC][FrameBits] POC=14 targetBits=151 actualBits=1000 errorBits=849 errorPct=562.251656 avgQP=55.000000 avgLambda=260435.186011482
+
+POC   15 LId:  0 TId: 0 ( TRAIL, P-SLICE, QP 55 )        872 bits [Y 34.1125 dB    U 44.0791 dB    V 43.0674 dB] [ET    76 ] [L0 14c 13 8 0] [L1][RC360RC][FrameBits] POC=15 targetBits=152 actualBits=840 errorBits=688 errorPct=452.631579 avgQP=55.000000 avgLambda=330766.591009864
+
+
+LayerId  0
+	Total Frames |  Bitrate      Y-PSNR   U-PSNR   V-PSNR   YUV-PSNR 
+	16           a  3291.4050    36.8296  44.7985  43.6835  37.8473  
+
+ finished @ Fri Oct  9 13:31:46 2026
+ Total Time:     3011.387 sec. [user]     3011.390 sec. [elapsed]

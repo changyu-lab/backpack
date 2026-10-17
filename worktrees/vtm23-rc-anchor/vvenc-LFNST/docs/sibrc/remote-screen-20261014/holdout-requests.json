@@ -1,0 +1,178 @@
+[
+  {
+    "sequence": "AerialCity",
+    "label": "offset_0_2",
+    "screen_bd": {
+      "wspsnr": -0.652034719499818,
+      "spsnr": -0.414172479067441,
+      "cpppsnr": -0.6277084354767682,
+      "psnr": -1.243641611448617
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "Balboa",
+    "label": "offset_0_1",
+    "screen_bd": {
+      "wspsnr": -0.28767312337548645,
+      "spsnr": -0.3009988653102498,
+      "cpppsnr": -0.2555007422574251,
+      "psnr": -0.292836565592789
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "Balboa",
+    "label": "offset_0_2",
+    "screen_bd": {
+      "wspsnr": -0.8121771368365363,
+      "spsnr": -0.7795030007483426,
+      "cpppsnr": -0.791509829096247,
+      "psnr": -0.7572918066789248
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "ChairliftRide",
+    "label": "offset_0_1",
+    "screen_bd": {
+      "wspsnr": -0.0745733747104351,
+      "spsnr": -0.04209045230992687,
+      "cpppsnr": -0.07508013240464154,
+      "psnr": -0.0725047576581418
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "ChairliftRide",
+    "label": "offset_0_2",
+    "screen_bd": {
+      "wspsnr": -0.4383505386485247,
+      "spsnr": -0.39134972733961715,
+      "cpppsnr": -0.44312123911294166,
+      "psnr": -0.36228722763690413
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "DrivingInCountry",
+    "label": "offset_-1_0",
+    "screen_bd": {
+      "wspsnr": -2.1494889658900145,
+      "spsnr": -2.1436934801428444,
+      "cpppsnr": -2.146433193242813,
+      "psnr": -0.7816357041310787
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "DrivingInCountry",
+    "label": "offset_-1_1",
+    "screen_bd": {
+      "wspsnr": -2.842065748718313,
+      "spsnr": -2.7857581630186123,
+      "cpppsnr": -2.835622994624467,
+      "psnr": -1.1503549648839282
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "DrivingInCountry",
+    "label": "offset_0_1",
+    "screen_bd": {
+      "wspsnr": -0.301689367169111,
+      "spsnr": -0.2900171647567466,
+      "cpppsnr": -0.2937452134249172,
+      "psnr": -0.2443858364844344
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "DrivingInCountry",
+    "label": "offset_0_2",
+    "screen_bd": {
+      "wspsnr": -0.317592900881271,
+      "spsnr": -0.3183761205194664,
+      "cpppsnr": -0.32741988036090375,
+      "psnr": -0.24228490441101364
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "Harbor",
+    "label": "offset_-1_0",
+    "screen_bd": {
+      "wspsnr": -0.7230833105767049,
+      "spsnr": -0.6383587846293958,
+      "cpppsnr": -0.7535718948172013,
+      "psnr": -0.6072374953089252
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "Harbor",
+    "label": "offset_-1_1",
+    "screen_bd": {
+      "wspsnr": -1.276509539111028,
+      "spsnr": -1.232617058598995,
+      "cpppsnr": -1.296113804817404,
+      "psnr": -1.178737231828015
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "Harbor",
+    "label": "offset_-2_0",
+    "screen_bd": {
+      "wspsnr": -0.36188740567709415,
+      "spsnr": -0.279466449053967,
+      "cpppsnr": -0.36495189904519243,
+      "psnr": -0.2358976628152125
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "Harbor",
+    "label": "offset_0_1",
+    "screen_bd": {
+      "wspsnr": -0.39486974396450747,
+      "spsnr": -0.38871501054086804,
+      "cpppsnr": -0.4049923099170763,
+      "psnr": -0.43253039892377093
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "Harbor",
+    "label": "offset_0_2",
+    "screen_bd": {
+      "wspsnr": -0.194303513599423,
+      "spsnr": -0.14160793173670208,
+      "cpppsnr": -0.1875116275975789,
+      "psnr": -0.5189924849460534
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "PoleVault",
+    "label": "offset_-1_0",
+    "screen_bd": {
+      "wspsnr": -2.910756347468156,
+      "spsnr": -2.838834806785329,
+      "cpppsnr": -2.9316627903068064,
+      "psnr": -0.22237344538622736
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  },
+  {
+    "sequence": "PoleVault",
+    "label": "offset_-1_1",
+    "screen_bd": {
+      "wspsnr": -0.9629467912020563,
+      "spsnr": -0.9787281265897594,
+      "cpppsnr": -0.9463627545142106,
+      "psnr": 2.362919865071508
+    },
+    "requires": "original independent window64 frames64..80 and same-window Anchor"
+  }
+]

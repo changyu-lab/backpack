@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc
+# Build directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(sibrc_controller "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build/Debug/sibrc_controller_test.exe")
+  set_tests_properties(sibrc_controller PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;7;add_test;C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(sibrc_controller "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build/Release/sibrc_controller_test.exe")
+  set_tests_properties(sibrc_controller PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;7;add_test;C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(sibrc_controller "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build/MinSizeRel/sibrc_controller_test.exe")
+  set_tests_properties(sibrc_controller PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;7;add_test;C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(sibrc_controller "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build/RelWithDebInfo/sibrc_controller_test.exe")
+  set_tests_properties(sibrc_controller PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;7;add_test;C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;0;")
+else()
+  add_test(sibrc_controller NOT_AVAILABLE)
+endif()
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(sibrc_feature "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build/Debug/sibrc_feature_test.exe")
+  set_tests_properties(sibrc_feature PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;11;add_test;C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(sibrc_feature "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build/Release/sibrc_feature_test.exe")
+  set_tests_properties(sibrc_feature PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;11;add_test;C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(sibrc_feature "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build/MinSizeRel/sibrc_feature_test.exe")
+  set_tests_properties(sibrc_feature PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;11;add_test;C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(sibrc_feature "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/build/RelWithDebInfo/sibrc_feature_test.exe")
+  set_tests_properties(sibrc_feature PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;11;add_test;C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc/CMakeLists.txt;0;")
+else()
+  add_test(sibrc_feature NOT_AVAILABLE)
+endif()

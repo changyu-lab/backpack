@@ -1,0 +1,21 @@
+{
+  "version": "23.0",
+  "source_path": "I:\\001-IBRC-exps\\VTM-23.0-anchor-clean",
+  "source_commit": "443099753b90c249df89e7e030746a8d41c37192",
+  "source_commit_subject": "Initial import",
+  "official_remote_verification": false,
+  "official_remote_status": "Unavailable; local import identity does not verify official tag",
+  "files": {
+    "h": "caaa8df1eae0e9a62d3d8b941dc514e5a758183bf683d1e5ba58ffafda34567e",
+    "cpp": "faab7f376fc1abb542900f3351747c516b4dab422306d9c878bc611ab3c503a5"
+  },
+  "adaptations": [
+    "namespace vvenc::vtmrc",
+    "class names renamed",
+    "dependency includes replaced by minimal dependency shim",
+    "no arithmetic changes",
+    "CHECK and distortion precision macro tokens privately prefixed; FULL_NBIT=1 adjustment retained as zero",
+    "ALPHA, BETA1, BETA2 and LAMBDA_PREC macro tokens privately prefixed VTMRC_"
+  ],
+  "checkout_caveat": "Local import contains RC360FbTc call-site customizations in EncSlice.cpp; EncGOP.cpp has uncommitted changes. Only the specifically hashed RateCtrl.cpp/h files are the extraction/replay reference; whole checkout is not claimed clean or official."
+}

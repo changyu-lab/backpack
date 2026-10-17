@@ -1,0 +1,14 @@
+{
+  "sequence": "AerialCity",
+  "configuration": "AI",
+  "frames": 2,
+  "bd_rate_percent": {
+    "C4": {
+      "wspsnr": -3.035756652025082,
+      "spsnr": -3.024993100988234,
+      "cpppsnr": -3.1115626741303375,
+      "psnr": 0.49114789231743716
+    }
+  },
+  "scope": "two-frame screening, frozen LDP-calibrated I model; no AI-specific recalibration"
+}

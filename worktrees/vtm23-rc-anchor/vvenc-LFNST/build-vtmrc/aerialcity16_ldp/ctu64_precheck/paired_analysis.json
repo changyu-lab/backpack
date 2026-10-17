@@ -1,0 +1,514 @@
+[
+  {
+    "engine": "vvenc",
+    "rate_id": "R1",
+    "target_bps": 1600000,
+    "actual_rc_bps": 2451225.0,
+    "error_pct": 53.20156250000001,
+    "annex_b_bps": 2452485.0,
+    "first_picture_bits_log": 1268088,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 29,
+        "bits_log": 1268088,
+        "psnr_y_log": 39.448
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 37,
+        "bits_log": 4408,
+        "psnr_y_log": 38.2392
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 47,
+        "bits_log": 1784,
+        "psnr_y_log": 37.5699
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 40,
+        "bits_log": 5864,
+        "psnr_y_log": 37.7111
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 50,
+        "bits_log": 1552,
+        "psnr_y_log": 37.0179
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 43,
+        "bits_log": 4440,
+        "psnr_y_log": 37.0225
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 53,
+        "bits_log": 1424,
+        "psnr_y_log": 36.3695
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 46,
+        "bits_log": 3408,
+        "psnr_y_log": 36.2035
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1208,
+        "psnr_y_log": 35.6199
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 49,
+        "bits_log": 2680,
+        "psnr_y_log": 35.6131
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 50,
+        "bits_log": 3928,
+        "psnr_y_log": 35.5656
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 52,
+        "bits_log": 1752,
+        "psnr_y_log": 35.1652
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 50,
+        "bits_log": 2328,
+        "psnr_y_log": 34.977
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1488,
+        "psnr_y_log": 34.3657
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 53,
+        "bits_log": 2216,
+        "psnr_y_log": 34.3743
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1424,
+        "psnr_y_log": 34.0275
+      }
+    ],
+    "stream_sha256": "7ddd5f0595dce1cf9709a34c49cc70b20b830ec303b4206f08c0a1955025ab64",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 36.205615293786735,
+    "psnr_y_global": 35.965568173948476,
+    "wspsnr_y_mean_picture": 35.40395206459368
+  },
+  {
+    "engine": "vvenc",
+    "rate_id": "R2",
+    "target_bps": 3200000,
+    "actual_rc_bps": 3314415.0,
+    "error_pct": 3.5754687500000104,
+    "annex_b_bps": 3315630.0,
+    "first_picture_bits_log": 1724920,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 27,
+        "bits_log": 1724920,
+        "psnr_y_log": 40.4489
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 35,
+        "bits_log": 5720,
+        "psnr_y_log": 38.8574
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 46,
+        "bits_log": 2088,
+        "psnr_y_log": 38.2435
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 39,
+        "bits_log": 7280,
+        "psnr_y_log": 38.3253
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 49,
+        "bits_log": 1784,
+        "psnr_y_log": 37.5653
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 42,
+        "bits_log": 5552,
+        "psnr_y_log": 37.5729
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 52,
+        "bits_log": 1512,
+        "psnr_y_log": 36.8095
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 45,
+        "bits_log": 3816,
+        "psnr_y_log": 36.6748
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1216,
+        "psnr_y_log": 36.1215
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 48,
+        "bits_log": 2912,
+        "psnr_y_log": 36.1423
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 52,
+        "bits_log": 1816,
+        "psnr_y_log": 35.5848
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 51,
+        "bits_log": 2304,
+        "psnr_y_log": 35.3542
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 54,
+        "bits_log": 1760,
+        "psnr_y_log": 34.8759
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 53,
+        "bits_log": 2152,
+        "psnr_y_log": 34.5817
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1616,
+        "psnr_y_log": 34.2799
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1888,
+        "psnr_y_log": 34.0574
+      }
+    ],
+    "stream_sha256": "09f4646ed60702dd497cb1cec7f79030e4420f506354293462e917314ee2bb93",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 36.5934664311564,
+    "psnr_y_global": 36.25978697596147,
+    "wspsnr_y_mean_picture": 35.84378646558234
+  },
+  {
+    "engine": "vvenc",
+    "rate_id": "R3",
+    "target_bps": 6400000,
+    "actual_rc_bps": 6402765.0,
+    "error_pct": 0.043203124999990905,
+    "annex_b_bps": 6404250.0,
+    "first_picture_bits_log": 2854496,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 23,
+        "bits_log": 2854496,
+        "psnr_y_log": 41.7985
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 20648,
+        "psnr_y_log": 39.5473
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 40,
+        "bits_log": 4712,
+        "psnr_y_log": 39.1807
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 28608,
+        "psnr_y_log": 39.1745
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 37,
+        "bits_log": 11808,
+        "psnr_y_log": 38.7966
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 33,
+        "bits_log": 23736,
+        "psnr_y_log": 38.8058
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 32,
+        "bits_log": 36056,
+        "psnr_y_log": 38.7799
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 33,
+        "bits_log": 22904,
+        "psnr_y_log": 38.5277
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 41,
+        "bits_log": 4608,
+        "psnr_y_log": 38.3379
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 69384,
+        "psnr_y_log": 38.7918
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 29,
+        "bits_log": 70536,
+        "psnr_y_log": 38.7835
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 33,
+        "bits_log": 41616,
+        "psnr_y_log": 38.799
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 30,
+        "bits_log": 67600,
+        "psnr_y_log": 38.8568
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 30,
+        "bits_log": 48456,
+        "psnr_y_log": 38.6037
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 65344,
+        "psnr_y_log": 38.8381
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 45088,
+        "psnr_y_log": 38.8458
+      }
+    ],
+    "stream_sha256": "321016de1ecf35f2e8803931e949a4135291b07fb259c3335d9b93d5b8cbc21d",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 39.029218923237195,
+    "psnr_y_global": 38.97226743154261,
+    "wspsnr_y_mean_picture": 38.33280150994218
+  },
+  {
+    "engine": "vvenc",
+    "rate_id": "R4",
+    "target_bps": 12800000,
+    "actual_rc_bps": 12806580.0,
+    "error_pct": 0.05140624999999677,
+    "annex_b_bps": 12808155.0,
+    "first_picture_bits_log": 3881552,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 21,
+        "bits_log": 3881552,
+        "psnr_y_log": 42.6879
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 30,
+        "bits_log": 95248,
+        "psnr_y_log": 40.039
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 37,
+        "bits_log": 6536,
+        "psnr_y_log": 39.564
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 27,
+        "bits_log": 126720,
+        "psnr_y_log": 39.7828
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 34,
+        "bits_log": 17912,
+        "psnr_y_log": 39.2446
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 28,
+        "bits_log": 142840,
+        "psnr_y_log": 39.5897
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 29,
+        "bits_log": 195048,
+        "psnr_y_log": 39.6327
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 28,
+        "bits_log": 144072,
+        "psnr_y_log": 39.4735
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 53656,
+        "psnr_y_log": 39.382
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 25,
+        "bits_log": 293200,
+        "psnr_y_log": 39.8626
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 24,
+        "bits_log": 357944,
+        "psnr_y_log": 39.9767
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 27,
+        "bits_log": 271936,
+        "psnr_y_log": 40.0141
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 26,
+        "bits_log": 354736,
+        "psnr_y_log": 40.1263
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 26,
+        "bits_log": 271152,
+        "psnr_y_log": 39.8032
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 26,
+        "bits_log": 352480,
+        "psnr_y_log": 40.1662
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 26,
+        "bits_log": 265984,
+        "psnr_y_log": 40.1572
+      }
+    ],
+    "stream_sha256": "06a68bbc5a6c521e7ddc3ba9b21ca62268e837b8086753d36287a0e327ea6810",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 39.968910615944914,
+    "psnr_y_global": 39.912809767314876,
+    "wspsnr_y_mean_picture": 39.31144237782131
+  }
+]

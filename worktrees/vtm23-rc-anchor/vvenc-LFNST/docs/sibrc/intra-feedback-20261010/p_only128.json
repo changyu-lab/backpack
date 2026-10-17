@@ -1,0 +1,341 @@
+{
+  "candidate": "v1 P model unchanged; I restricted to baseline action using QP-invariant model",
+  "identity_gates": [
+    {
+      "name": "main_full_R1",
+      "intra_vtm_trace_exact": true,
+      "intra_reconstruction_sha256": "c0718cdb9fad947ab6fad67eec94e2c1da18e4ac14ab3d1b737ff836afdc307a",
+      "intra_offsets_zero": true
+    },
+    {
+      "name": "main_full_R2",
+      "intra_vtm_trace_exact": true,
+      "intra_reconstruction_sha256": "64573e7a1e7c56f73b85a21c3643a6c13871d2a11131b2dc78befd4bb69beb10",
+      "intra_offsets_zero": true
+    },
+    {
+      "name": "main_full_R3",
+      "intra_vtm_trace_exact": true,
+      "intra_reconstruction_sha256": "f1cc81ac7d7dd06124d5db95e0192672423b8ec62aa726f4c532921e531243f2",
+      "intra_offsets_zero": true
+    },
+    {
+      "name": "main_full_R4",
+      "intra_vtm_trace_exact": true,
+      "intra_reconstruction_sha256": "8335cdabeb7d93e4683ace21e175edb39963a6a2557fdccd258949d4e059f8ce",
+      "intra_offsets_zero": true
+    }
+  ],
+  "points": [
+    {
+      "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+      "reconstruction_prefix_sha256": "3eff4cfc8ef3762078455f531a54a40be6231b176f81d195263ab98b7fb80ea8",
+      "frames": 128,
+      "mean_y_psnr": 35.14164484366372,
+      "mean_y_wspsnr": 34.22831385464305,
+      "name": "main_anchor_R1",
+      "actual_bps": 414969.375,
+      "target_bps": 413768,
+      "elapsed_seconds": 336.5627487,
+      "decoder_command": [
+        "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+        "-b",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\main_anchor_R1.vvc",
+        "-o",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\main_anchor_R1.decoded.yuv"
+      ],
+      "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+      "reconstruction_sha256": "3eff4cfc8ef3762078455f531a54a40be6231b176f81d195263ab98b7fb80ea8",
+      "decode_matches": true,
+      "bitstream_sha256": "76caac77de3362981d6bed5c51504d1c74c76485872f6622defc9ef7d621837b",
+      "evaluation_signature": {
+        "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+        "frames": 128,
+        "width": 3840,
+        "height": 1920,
+        "fps": 30,
+        "target_bps": 413768,
+        "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+        "trace_sha256": null,
+        "run_record_sha256": "9de8f8e197fd197dc2deac7d9a59b51f0767adae2f2179898fe5c7d84d1cafbe"
+      },
+      "rate_error_percent": 0.29034990622764933
+    },
+    {
+      "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+      "reconstruction_prefix_sha256": "30de9fe95d9b6d0cfc1d2de7d34729688a8793dfddc3fe14a4e79e5ae2ba862e",
+      "frames": 128,
+      "mean_y_psnr": 37.0679118220921,
+      "mean_y_wspsnr": 36.225450095589004,
+      "name": "main_anchor_R2",
+      "actual_bps": 881034.375,
+      "target_bps": 879622,
+      "elapsed_seconds": 689.0199515999999,
+      "decoder_command": [
+        "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+        "-b",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\main_anchor_R2.vvc",
+        "-o",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\main_anchor_R2.decoded.yuv"
+      ],
+      "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+      "reconstruction_sha256": "30de9fe95d9b6d0cfc1d2de7d34729688a8793dfddc3fe14a4e79e5ae2ba862e",
+      "decode_matches": true,
+      "bitstream_sha256": "cdefd6be38c1d247823c52157cc07d4bc5058303b3a5b58f63b62575830a8e33",
+      "evaluation_signature": {
+        "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+        "frames": 128,
+        "width": 3840,
+        "height": 1920,
+        "fps": 30,
+        "target_bps": 879622,
+        "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+        "trace_sha256": null,
+        "run_record_sha256": "94e88a654db0dfe026d7a255acefc7bd98e7a0e08a4fedb8f40322ae23f9c184"
+      },
+      "rate_error_percent": 0.16056612954200578
+    },
+    {
+      "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+      "reconstruction_prefix_sha256": "29430ff2494a8f8b6629e2e6b2e399783656ab53bf9cc7be322e1fef3ac45572",
+      "frames": 128,
+      "mean_y_psnr": 38.74582670080112,
+      "mean_y_wspsnr": 38.01232226811183,
+      "name": "main_anchor_R3",
+      "actual_bps": 2359914.375,
+      "target_bps": 2358218,
+      "elapsed_seconds": 531.4331262999999,
+      "decoder_command": [
+        "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+        "-b",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\main_anchor_R3.vvc",
+        "-o",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\main_anchor_R3.decoded.yuv"
+      ],
+      "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+      "reconstruction_sha256": "29430ff2494a8f8b6629e2e6b2e399783656ab53bf9cc7be322e1fef3ac45572",
+      "decode_matches": true,
+      "bitstream_sha256": "c2d2aa56ff8806623f696203b0703cbbe2cc3a342bc9faf95dd9248a7c075488",
+      "evaluation_signature": {
+        "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+        "frames": 128,
+        "width": 3840,
+        "height": 1920,
+        "fps": 30,
+        "target_bps": 2358218,
+        "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+        "trace_sha256": null,
+        "run_record_sha256": "f9fbb9cf9ac8b0c5defb576d89f82c1f4310e8b63ca781c533bd8c144e133918"
+      },
+      "rate_error_percent": 0.07193461333938611
+    },
+    {
+      "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+      "reconstruction_prefix_sha256": "ad53da4cd28483e5a5b262d72c52a0436025b81e28d32ad5f0982467c922334b",
+      "frames": 128,
+      "mean_y_psnr": 40.359302245789195,
+      "mean_y_wspsnr": 39.732486120569106,
+      "name": "main_anchor_R4",
+      "actual_bps": 12225459.375,
+      "target_bps": 12222900,
+      "elapsed_seconds": 1080.1652056000003,
+      "decoder_command": [
+        "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+        "-b",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\main_anchor_R4.vvc",
+        "-o",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-experiment-data-20261009-v2\\main_anchor_R4.decoded.yuv"
+      ],
+      "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+      "reconstruction_sha256": "ad53da4cd28483e5a5b262d72c52a0436025b81e28d32ad5f0982467c922334b",
+      "decode_matches": true,
+      "bitstream_sha256": "528295e01cff0d0188e3fd27837aadd16137786894ee83a9a0e3548cf2e9925f",
+      "evaluation_signature": {
+        "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+        "frames": 128,
+        "width": 3840,
+        "height": 1920,
+        "fps": 30,
+        "target_bps": 12222900,
+        "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+        "trace_sha256": null,
+        "run_record_sha256": "9e6facf42989aa4f6aefeb99e8f66b85f45d256d904140d189f47bd3d1c399cf"
+      },
+      "rate_error_percent": 0.020939179736401137
+    },
+    {
+      "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+      "reconstruction_prefix_sha256": "99d3785b60f7e8246b1a762ebbaa2c32eb6070cd98012bc397b9f3d8feff1ff9",
+      "frames": 128,
+      "mean_y_psnr": 35.15354084570402,
+      "mean_y_wspsnr": 34.41700163992888,
+      "name": "main_full_R1",
+      "actual_bps": 415111.875,
+      "target_bps": 413768,
+      "elapsed_seconds": 426.8230177,
+      "decoder_command": [
+        "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+        "-b",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-hold-20261010\\main_full_R1.vvc",
+        "-o",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-hold-20261010\\main_full_R1.decoded.yuv"
+      ],
+      "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+      "reconstruction_sha256": "99d3785b60f7e8246b1a762ebbaa2c32eb6070cd98012bc397b9f3d8feff1ff9",
+      "decode_matches": true,
+      "bitstream_sha256": "7a66a7b0418963ae64a92c77a526a6b6b9b1251addd91d603173b89bf395eb15",
+      "evaluation_signature": {
+        "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+        "frames": 128,
+        "width": 3840,
+        "height": 1920,
+        "fps": 30,
+        "target_bps": 413768,
+        "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+        "trace_sha256": "a8df0ac54179818ce4fafc5c8d75dc7846b53fa675919aedbd94b53c22fa92fd",
+        "run_record_sha256": "691d3a4941fa6dd5b0c6043e20bc809d4aba30152fc81fd658e2d97cb744162e"
+      },
+      "rate_error_percent": 0.3247894955627384,
+      "actions": {
+        "-2": 12070,
+        "-1": 1487,
+        "0": 42616,
+        "1": 675,
+        "2": 752
+      },
+      "fallback_ctus": 27259,
+      "ctus": 57600
+    },
+    {
+      "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+      "reconstruction_prefix_sha256": "fd8bd20e828e488cb53bd74206eb97346ba5599c2ce61ba54b01177092e810b7",
+      "frames": 128,
+      "mean_y_psnr": 37.02989008192409,
+      "mean_y_wspsnr": 36.317283453057144,
+      "name": "main_full_R2",
+      "actual_bps": 881101.875,
+      "target_bps": 879622,
+      "elapsed_seconds": 432.5658634,
+      "decoder_command": [
+        "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+        "-b",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-hold-20261010\\main_full_R2.vvc",
+        "-o",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-hold-20261010\\main_full_R2.decoded.yuv"
+      ],
+      "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+      "reconstruction_sha256": "fd8bd20e828e488cb53bd74206eb97346ba5599c2ce61ba54b01177092e810b7",
+      "decode_matches": true,
+      "bitstream_sha256": "d4e5aa8134e7632c46557abc5db18885724e3e3498d8ff473103d40dc28bead0",
+      "evaluation_signature": {
+        "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+        "frames": 128,
+        "width": 3840,
+        "height": 1920,
+        "fps": 30,
+        "target_bps": 879622,
+        "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+        "trace_sha256": "089b9544790604427fb6d5773717b29d45e8123aec5a2048f13bf462aa1bb0aa",
+        "run_record_sha256": "0bf58015863ac09218f83dec89983cc5b41ca7b63d059e6a51751811759cdc7e"
+      },
+      "rate_error_percent": 0.16823988031222648,
+      "actions": {
+        "-2": 13406,
+        "-1": 2513,
+        "0": 37601,
+        "1": 1803,
+        "2": 2277
+      },
+      "fallback_ctus": 19580,
+      "ctus": 57600
+    },
+    {
+      "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+      "reconstruction_prefix_sha256": "b8d610dc36ca249ca6d5e51eb66116966c894073e7fd5ca05a6fb71b0715776d",
+      "frames": 128,
+      "mean_y_psnr": 38.722195157189724,
+      "mean_y_wspsnr": 38.09800894564732,
+      "name": "main_full_R3",
+      "actual_bps": 2360081.25,
+      "target_bps": 2358218,
+      "elapsed_seconds": 926.4231642000001,
+      "decoder_command": [
+        "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+        "-b",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-hold-20261010\\main_full_R3.vvc",
+        "-o",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-hold-20261010\\main_full_R3.decoded.yuv"
+      ],
+      "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+      "reconstruction_sha256": "b8d610dc36ca249ca6d5e51eb66116966c894073e7fd5ca05a6fb71b0715776d",
+      "decode_matches": true,
+      "bitstream_sha256": "bb0ff28b3d4c30ee6308edf0abf15a419a8c7744037cc4dc055ff206fbaaa9c8",
+      "evaluation_signature": {
+        "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+        "frames": 128,
+        "width": 3840,
+        "height": 1920,
+        "fps": 30,
+        "target_bps": 2358218,
+        "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+        "trace_sha256": "74fb19db25b0f9032c2d4cf8a89a575264fd743d61014e1cd6ecaf7326cbfb27",
+        "run_record_sha256": "a357599183d4f5c11bc5c8540e56257befd31ba85ebfdb450ee10aa0dd9bbdaf"
+      },
+      "rate_error_percent": 0.07901093113529267,
+      "actions": {
+        "-2": 16895,
+        "-1": 5061,
+        "0": 28728,
+        "1": 2732,
+        "2": 4184
+      },
+      "fallback_ctus": 13985,
+      "ctus": 57600
+    },
+    {
+      "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+      "reconstruction_prefix_sha256": "3f151a018dc88bc4ecb392b1dd78dacca92d1a44cfb841bfe3334eb8e4a8c793",
+      "frames": 128,
+      "mean_y_psnr": 40.305696820837156,
+      "mean_y_wspsnr": 39.79806125784644,
+      "name": "main_full_R4",
+      "actual_bps": 12226638.75,
+      "target_bps": 12222900,
+      "elapsed_seconds": 1518.5950886,
+      "decoder_command": [
+        "I:\\001-IBRC-exps\\VTM-23.0-paper-scc-rc\\bin\\vs16\\msvc-19.29\\x86_64\\release\\DecoderApp.exe",
+        "-b",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-hold-20261010\\main_full_R4.vvc",
+        "-o",
+        "I:\\vvenc-LFNST\\.worktrees\\sibrc-intra-hold-20261010\\main_full_R4.decoded.yuv"
+      ],
+      "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+      "reconstruction_sha256": "3f151a018dc88bc4ecb392b1dd78dacca92d1a44cfb841bfe3334eb8e4a8c793",
+      "decode_matches": true,
+      "bitstream_sha256": "e251185d9e14ecd791d3bd804688c8c6b04ceee31d8cd51993bc69cb08f82b95",
+      "evaluation_signature": {
+        "source_prefix_sha256": "bb5434f515346a45332c64d8cadbb44771396321d01a16f8340fa05c68170f39",
+        "frames": 128,
+        "width": 3840,
+        "height": 1920,
+        "fps": 30,
+        "target_bps": 12222900,
+        "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+        "trace_sha256": "b1e7169ebe1e6a868dab0d2a6f736ce1d6e8b04905b49bbf94c7f98d0210f555",
+        "run_record_sha256": "b93bbea8cb6d09606b15d8249db9eaf9489eb7e6bf91b7e837c573b27da55166"
+      },
+      "rate_error_percent": 0.03058807647939865,
+      "actions": {
+        "-2": 17225,
+        "-1": 12201,
+        "0": 20534,
+        "1": 3537,
+        "2": 4103
+      },
+      "fallback_ctus": 11631,
+      "ctus": 57600
+    }
+  ],
+  "mean_y_wspsnr_bd_rate_percent": -5.417678852445081,
+  "mean_y_psnr_bd_rate_percent": 2.118061808113555
+}

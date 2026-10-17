@@ -1,0 +1,10 @@
+^C:\USERS\HITXI\.CODEX\WORKTREES\VTM23-RC-ANCHOR\VVENC-LFNST\BUILD-VTMRC\SIBRC-TESTS\CMAKEFILES\221A7FA7E5C5BFE7F7C0852F7B13D15A\GENERATE.STAMP.RULE
+setlocal
+F:\cmake\Cmake\bin\cmake.exe -SC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/sibrc -BC:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc/sibrc-tests --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc/sibrc-tests/sibrc_controller_test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

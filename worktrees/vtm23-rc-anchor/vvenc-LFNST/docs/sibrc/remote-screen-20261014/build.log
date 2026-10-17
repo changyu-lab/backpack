@@ -1,0 +1,132 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_MODULE_PATH: updating module path to: /data/vtmrc-vvenc-tune-20261014/vvenc/cmake/modules
+-- Performing Test SUPPORTED_Werror_unused_command_line_argument
+-- Performing Test SUPPORTED_Werror_unused_command_line_argument - Failed
+-- Performing Test SUPPORTED_msse4_1
+-- Performing Test SUPPORTED_msse4_1 - Success
+-- Performing Test SUPPORTED_mavx
+-- Performing Test SUPPORTED_mavx - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si16
+-- Performing Test HAVE_INTRIN_mm_storeu_si16 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si32
+-- Performing Test HAVE_INTRIN_mm_storeu_si32 - Success
+-- Performing Test HAVE_INTRIN_mm_storeu_si64
+-- Performing Test HAVE_INTRIN_mm_storeu_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_loadu_si32
+-- Performing Test HAVE_INTRIN_mm_loadu_si32 - Success
+-- Performing Test HAVE_INTRIN_mm_loadu_si64
+-- Performing Test HAVE_INTRIN_mm_loadu_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_cvtsi128_si64
+-- Performing Test HAVE_INTRIN_mm_cvtsi128_si64 - Success
+-- Performing Test HAVE_INTRIN_mm_cvtsi64_si128
+-- Performing Test HAVE_INTRIN_mm_cvtsi64_si128 - Success
+-- Performing Test HAVE_INTRIN_mm_extract_epi64
+-- Performing Test HAVE_INTRIN_mm_extract_epi64 - Success
+-- Performing Test HAVE_INTRIN_mm256_zeroupper
+-- Performing Test HAVE_INTRIN_mm256_zeroupper - Success
+-- Performing Test HAVE_INTRIN_mm256_loadu2_m128i
+-- Performing Test HAVE_INTRIN_mm256_loadu2_m128i - Success
+-- Performing Test HAVE_INTRIN_mm256_set_m128i
+-- Performing Test HAVE_INTRIN_mm256_set_m128i - Success
+-- x86 SIMD intrinsics enabled (using SIMDE for non-x86 targets)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test SUPPORTED_mxsave
+-- Performing Test SUPPORTED_mxsave - Success
+-- Performing Test SUPPORTED_msse4_2
+-- Performing Test SUPPORTED_msse4_2 - Success
+-- Performing Test SUPPORTED_mavx2
+-- Performing Test SUPPORTED_mavx2 - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /data/vtmrc-vvenc-tune-20261014/build
+[  4%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/AdaptiveLoopFilter_sse41.cpp.o
+[  4%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/Buffer_sse41.cpp.o
+[  4%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/AffineGradientSearch_sse41.cpp.o
+[  4%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/DepQuant_sse41.cpp.o
+[  6%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/IntraPred_sse41.cpp.o
+[  6%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/InterpolationFilter_sse41.cpp.o
+[  6%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/InterPred_sse41.cpp.o
+[  8%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/LoopFilter_sse41.cpp.o
+[  8%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/RdCost_sse41.cpp.o
+[  9%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/Trafo_sse41.cpp.o
+[ 10%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/MCTF_avx41.cpp.o
+[ 12%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/DepQuant_avx2.cpp.o
+[ 12%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/AffineGradientSearch_avx2.cpp.o
+[ 15%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/InterpolationFilter_avx2.cpp.o
+[ 15%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/InterPred_avx2.cpp.o
+[ 16%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/SampleAdaptiveOffset_sse41.cpp.o
+[ 17%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/AdaptiveLoopFilter_avx2.cpp.o
+[ 17%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse42/DepQuant_sse42.cpp.o
+[ 18%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/sse41/Quant_sse41.cpp.o
+[ 19%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/Buffer_avx2.cpp.o
+[ 19%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/Quant_avx2.cpp.o
+[ 20%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/IntraPred_avx2.cpp.o
+[ 21%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/LoopFilter_avx2.cpp.o
+[ 22%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/MCTF_avx2.cpp.o
+[ 23%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/RdCost_avx2.cpp.o
+[ 24%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/SampleAdaptiveOffset_avx2.cpp.o
+[ 25%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc_x86_simd.dir/__/CommonLib/x86/avx2/Trafo_avx2.cpp.o
+[ 25%] Built target vvenc_x86_simd
+[ 29%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VtmRcCompat/IntraCost.cpp.o
+[ 29%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VtmRcCompat/Adapter.cpp.o
+[ 29%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/AffineGradientSearch.cpp.o
+[ 29%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/Sibrc/Controller.cpp.o
+[ 30%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/VtmRcCompat/RateCtrl.cpp.o
+[ 34%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/ContextModelling.cpp.o
+[ 34%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/CodingStructure.cpp.o
+[ 34%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/Sibrc/Preanalysis.cpp.o
+[ 35%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Buffer.cpp.o
+[ 35%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/Sibrc/Statistics.cpp.o
+[ 36%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/DepQuant.cpp.o
+[ 37%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/InterPrediction.cpp.o
+[ 38%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/AdaptiveLoopFilter.cpp.o
+[ 40%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/BitStream.cpp.o
+[ 40%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/InterpolationFilter.cpp.o
+[ 40%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/IntraPrediction.cpp.o
+[ 41%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/LoopFilter.cpp.o
+[ 44%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Contexts.cpp.o
+[ 44%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/MatrixIntraPrediction.cpp.o
+[ 45%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Picture.cpp.o
+[ 46%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/ProfileLevelTier.cpp.o
+[ 47%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/MCTF.cpp.o
+[ 48%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Mv.cpp.o
+[ 49%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/PicYuvMD5.cpp.o
+/data/vtmrc-vvenc-tune-20261014/vvenc/source/Lib/EncoderLib/Sibrc/Statistics.cpp: In lambda function:
+/data/vtmrc-vvenc-tune-20261014/vvenc/source/Lib/EncoderLib/Sibrc/Statistics.cpp:24:2: error: this ‘for’ clause does not guard... [-Werror=misleading-indentation]
+   24 |  for(int r=0;r<100;++r)for(int u=0;u<32;++u){double d=0;for(int x=0;x<32;++x)for(int y=0;y<32;++y)d+=basis[u][x]*basis[u][y]*std::pow(r*.01,std::abs(x-y));result[r][u]=std::max(0.0,d);}return result;}();return table;
+      |  ^~~
+/data/vtmrc-vvenc-tune-20261014/vvenc/source/Lib/EncoderLib/Sibrc/Statistics.cpp:24:186: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   24 |  for(int r=0;r<100;++r)for(int u=0;u<32;++u){double d=0;for(int x=0;x<32;++x)for(int y=0;y<32;++y)d+=basis[u][x]*basis[u][y]*std::pow(r*.01,std::abs(x-y));result[r][u]=std::max(0.0,d);}return result;}();return table;
+      |                                                                                                                                                                                          ^~~~~~
+[ 50%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/Quant.cpp.o
+[ 51%] Building CXX object source/Lib/vvenc/CMakeFiles/vvenc.dir/__/CommonLib/QuantRDOQ.cpp.o
+cc1plus: all warnings being treated as errors
+gmake[3]: *** [source/Lib/vvenc/CMakeFiles/vvenc.dir/build.make:104: source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/Sibrc/Statistics.cpp.o] Error 1
+gmake[3]: *** Waiting for unfinished jobs....
+/data/vtmrc-vvenc-tune-20261014/vvenc/source/Lib/EncoderLib/Sibrc/Preanalysis.cpp: In function ‘vvenc::sibrc::Features vvenc::sibrc::analysePicture(const vvenc::Picture&, int, const vvenc::sibrc::Statistics*, std::ofstream*, int, bool)’:
+/data/vtmrc-vvenc-tune-20261014/vvenc/source/Lib/EncoderLib/Sibrc/Preanalysis.cpp:29:2: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+   29 |  if(dump&&!(*dump))throw std::runtime_error("SIBRC residual dump write failed");return f;
+      |  ^~
+/data/vtmrc-vvenc-tune-20261014/vvenc/source/Lib/EncoderLib/Sibrc/Preanalysis.cpp:29:81: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   29 |  if(dump&&!(*dump))throw std::runtime_error("SIBRC residual dump write failed");return f;
+      |                                                                                 ^~~~~~
+cc1plus: all warnings being treated as errors
+gmake[3]: *** [source/Lib/vvenc/CMakeFiles/vvenc.dir/build.make:90: source/Lib/vvenc/CMakeFiles/vvenc.dir/__/EncoderLib/Sibrc/Preanalysis.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:226: source/Lib/vvenc/CMakeFiles/vvenc.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:285: source/App/vvencFFapp/CMakeFiles/vvencFFapp.dir/rule] Error 2
+gmake: *** [Makefile:231: vvencFFapp] Error 2

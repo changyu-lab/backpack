@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "sequence_budget_replay": "integer exact",
+  "fields": 18340,
+  "feedback_rows": 4585,
+  "intra_negative_budget_probe": "official and compat same; sanitizer NaN-to-int detected",
+  "full_controller_equivalence": false,
+  "sha256": {
+    "audit.log": "8af5d1243428123185efa309ce910255b58506036c2f122fd9166713e64e460b",
+    "audit.py": "e02efbb640144d2accb53f0da2c4a194a38de79c5a168d416abbe8bc113a9fd8",
+    "budget-audit.json": "383f357a93e1e0b3bde315c6242f32635fba4930b2461f237dfbe69d3c88e79c",
+    "budget-ledger.csv": "b52885a1cd87ad3869047ed5c245ad5c67687f4c27f53bb7987f672d84c5736b",
+    "budget_replay.cpp": "26f08626d12a9cf8b333ac847732bf1bd1d6bda3043f797c54a83de4f0bbe4bd",
+    "diagnostic-report.md": "1495a9744d5136ad38966385a4400ef449b6af6245fc0612cbf69213999fcb8d",
+    "domain_compat.stderr": "f0f7c1036ef5db9790f9584a9186e19afddae32b3978e7201d287a629f0d9c27",
+    "domain_compat.txt": "901ab354e45f5acfc7be7f77859702cdaeeb4f158642cd150c8d1f4c27fc42ff",
+    "domain_official.stderr": "8bcd8ff988f33e0f787cfd0a6a2664e9adeccf83ac8fe7313169985b7202ba69",
+    "domain_official.txt": "901ab354e45f5acfc7be7f77859702cdaeeb4f158642cd150c8d1f4c27fc42ff",
+    "intra_domain_probe.cpp": "dac6b2db1b34e9c903c43ab5b0c9e50d9f150c81e80ce0af39490ef338386d27",
+    "official-EncGOP.cpp": "53eabaf961968c2bc3aff7dbf31428590f62de2b7e6448fa8f67973575bc7399",
+    "official-EncSlice.cpp": "eb966e15e7155edbd74806d7508c96297be7a5c4c6b0f09ec623541c5ffe8502"
+  }
+}

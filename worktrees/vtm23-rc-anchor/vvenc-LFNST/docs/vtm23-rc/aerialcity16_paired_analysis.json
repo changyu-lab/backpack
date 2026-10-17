@@ -1,0 +1,1479 @@
+[
+  {
+    "engine": "vvenc",
+    "rate_id": "R1",
+    "target_bps": 1600000,
+    "actual_rc_bps": 2417235.0,
+    "error_pct": 51.07718750000001,
+    "annex_b_bps": 2418495.0,
+    "poc_log_bps": 2418495.0,
+    "first_picture_bits_log": 1267976,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 29,
+        "bits_log": 1267976,
+        "psnr_y_log": 39.4557
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 37,
+        "bits_log": 3296,
+        "psnr_y_log": 38.1599
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 47,
+        "bits_log": 1032,
+        "psnr_y_log": 37.4953
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 40,
+        "bits_log": 4168,
+        "psnr_y_log": 37.4692
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 50,
+        "bits_log": 696,
+        "psnr_y_log": 36.6258
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 44,
+        "bits_log": 2616,
+        "psnr_y_log": 36.5627
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 53,
+        "bits_log": 664,
+        "psnr_y_log": 35.7684
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 47,
+        "bits_log": 1600,
+        "psnr_y_log": 35.3902
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 536,
+        "psnr_y_log": 34.8096
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 50,
+        "bits_log": 1328,
+        "psnr_y_log": 34.6495
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 824,
+        "psnr_y_log": 34.1566
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 53,
+        "bits_log": 816,
+        "psnr_y_log": 33.865
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1008,
+        "psnr_y_log": 33.5112
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1360,
+        "psnr_y_log": 33.3587
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1104,
+        "psnr_y_log": 33.2529
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 840,
+        "psnr_y_log": 32.9566
+      }
+    ],
+    "rc_pictures": [
+      {
+        "poc": 0,
+        "target_bits": 1287075,
+        "actual_bits": 1267856
+      },
+      {
+        "poc": 1,
+        "target_bits": 100,
+        "actual_bits": 3240
+      },
+      {
+        "poc": 2,
+        "target_bits": 100,
+        "actual_bits": 1000
+      },
+      {
+        "poc": 3,
+        "target_bits": 150,
+        "actual_bits": 4112
+      },
+      {
+        "poc": 4,
+        "target_bits": 144,
+        "actual_bits": 664
+      },
+      {
+        "poc": 5,
+        "target_bits": 153,
+        "actual_bits": 2584
+      },
+      {
+        "poc": 6,
+        "target_bits": 145,
+        "actual_bits": 632
+      },
+      {
+        "poc": 7,
+        "target_bits": 153,
+        "actual_bits": 1568
+      },
+      {
+        "poc": 8,
+        "target_bits": 100,
+        "actual_bits": 504
+      },
+      {
+        "poc": 9,
+        "target_bits": 153,
+        "actual_bits": 1296
+      },
+      {
+        "poc": 10,
+        "target_bits": 145,
+        "actual_bits": 792
+      },
+      {
+        "poc": 11,
+        "target_bits": 152,
+        "actual_bits": 784
+      },
+      {
+        "poc": 12,
+        "target_bits": 145,
+        "actual_bits": 952
+      },
+      {
+        "poc": 13,
+        "target_bits": 151,
+        "actual_bits": 1328
+      },
+      {
+        "poc": 14,
+        "target_bits": 147,
+        "actual_bits": 1072
+      },
+      {
+        "poc": 15,
+        "target_bits": 150,
+        "actual_bits": 808
+      }
+    ],
+    "stream_sha256": "d1b26b58f3427df427f62f32e3341b0c9a587e267cebe193b85994094fe5fb98",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 35.467962239534614,
+    "psnr_y_global": 35.07824587426064,
+    "wspsnr_y_mean_picture": 34.70142870751913
+  },
+  {
+    "engine": "vvenc",
+    "rate_id": "R2",
+    "target_bps": 3200000,
+    "actual_rc_bps": 3283140.0,
+    "error_pct": 2.5981250000000067,
+    "annex_b_bps": 3284355.0,
+    "poc_log_bps": 3284355.0,
+    "first_picture_bits_log": 1724448,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 27,
+        "bits_log": 1724448,
+        "psnr_y_log": 40.4677
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 35,
+        "bits_log": 4640,
+        "psnr_y_log": 38.7795
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 46,
+        "bits_log": 1400,
+        "psnr_y_log": 38.1173
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 39,
+        "bits_log": 5880,
+        "psnr_y_log": 38.1793
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 49,
+        "bits_log": 864,
+        "psnr_y_log": 37.3363
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 42,
+        "bits_log": 3296,
+        "psnr_y_log": 37.1857
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 52,
+        "bits_log": 656,
+        "psnr_y_log": 36.2749
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 45,
+        "bits_log": 2736,
+        "psnr_y_log": 36.135
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 528,
+        "psnr_y_log": 35.4755
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 48,
+        "bits_log": 1360,
+        "psnr_y_log": 35.2594
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 776,
+        "psnr_y_log": 34.639
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 51,
+        "bits_log": 984,
+        "psnr_y_log": 34.2855
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 904,
+        "psnr_y_log": 33.9284
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 54,
+        "bits_log": 1040,
+        "psnr_y_log": 33.6001
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1112,
+        "psnr_y_log": 33.3807
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1032,
+        "psnr_y_log": 33.2162
+      }
+    ],
+    "rc_pictures": [
+      {
+        "poc": 0,
+        "target_bits": 1748232,
+        "actual_bits": 1724328
+      },
+      {
+        "poc": 1,
+        "target_bits": 100,
+        "actual_bits": 4584
+      },
+      {
+        "poc": 2,
+        "target_bits": 100,
+        "actual_bits": 1368
+      },
+      {
+        "poc": 3,
+        "target_bits": 148,
+        "actual_bits": 5848
+      },
+      {
+        "poc": 4,
+        "target_bits": 144,
+        "actual_bits": 832
+      },
+      {
+        "poc": 5,
+        "target_bits": 150,
+        "actual_bits": 3264
+      },
+      {
+        "poc": 6,
+        "target_bits": 145,
+        "actual_bits": 624
+      },
+      {
+        "poc": 7,
+        "target_bits": 151,
+        "actual_bits": 2680
+      },
+      {
+        "poc": 8,
+        "target_bits": 100,
+        "actual_bits": 496
+      },
+      {
+        "poc": 9,
+        "target_bits": 152,
+        "actual_bits": 1328
+      },
+      {
+        "poc": 10,
+        "target_bits": 145,
+        "actual_bits": 744
+      },
+      {
+        "poc": 11,
+        "target_bits": 153,
+        "actual_bits": 952
+      },
+      {
+        "poc": 12,
+        "target_bits": 145,
+        "actual_bits": 872
+      },
+      {
+        "poc": 13,
+        "target_bits": 152,
+        "actual_bits": 1008
+      },
+      {
+        "poc": 14,
+        "target_bits": 145,
+        "actual_bits": 1080
+      },
+      {
+        "poc": 15,
+        "target_bits": 152,
+        "actual_bits": 1000
+      }
+    ],
+    "stream_sha256": "3a6cc38971de77941c4d33c89af8cf40bd29dd8eaa8b541f24b69bfcbd784c4d",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 36.016283365574964,
+    "psnr_y_global": 35.54917472154038,
+    "wspsnr_y_mean_picture": 35.28067112735745
+  },
+  {
+    "engine": "vvenc",
+    "rate_id": "R3",
+    "target_bps": 6400000,
+    "actual_rc_bps": 6404025.0,
+    "error_pct": 0.06289062500000053,
+    "annex_b_bps": 6405465.0,
+    "poc_log_bps": 6405465.0,
+    "first_picture_bits_log": 2855496,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 23,
+        "bits_log": 2855496,
+        "psnr_y_log": 41.8161
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 16568,
+        "psnr_y_log": 39.5238
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 42,
+        "bits_log": 3192,
+        "psnr_y_log": 39.0776
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 32,
+        "bits_log": 25576,
+        "psnr_y_log": 39.1491
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 39,
+        "bits_log": 5976,
+        "psnr_y_log": 38.6397
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 33,
+        "bits_log": 24696,
+        "psnr_y_log": 38.7587
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 35,
+        "bits_log": 36240,
+        "psnr_y_log": 38.7593
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 34,
+        "bits_log": 24320,
+        "psnr_y_log": 38.5306
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 41,
+        "bits_log": 3568,
+        "psnr_y_log": 38.2641
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 56792,
+        "psnr_y_log": 38.7396
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 30,
+        "bits_log": 74392,
+        "psnr_y_log": 38.7788
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 32,
+        "bits_log": 50544,
+        "psnr_y_log": 38.8417
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 70616,
+        "psnr_y_log": 38.903
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 50728,
+        "psnr_y_log": 38.6462
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 30,
+        "bits_log": 67888,
+        "psnr_y_log": 38.8903
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 49656,
+        "psnr_y_log": 38.9135
+      }
+    ],
+    "rc_pictures": [
+      {
+        "poc": 0,
+        "target_bits": 2849550,
+        "actual_bits": 2855376
+      },
+      {
+        "poc": 1,
+        "target_bits": 19198,
+        "actual_bits": 16512
+      },
+      {
+        "poc": 2,
+        "target_bits": 29075,
+        "actual_bits": 3160
+      },
+      {
+        "poc": 3,
+        "target_bits": 21377,
+        "actual_bits": 25520
+      },
+      {
+        "poc": 4,
+        "target_bits": 31548,
+        "actual_bits": 5944
+      },
+      {
+        "poc": 5,
+        "target_bits": 23470,
+        "actual_bits": 24664
+      },
+      {
+        "poc": 6,
+        "target_bits": 35017,
+        "actual_bits": 36184
+      },
+      {
+        "poc": 7,
+        "target_bits": 23199,
+        "actual_bits": 24288
+      },
+      {
+        "poc": 8,
+        "target_bits": 161304,
+        "actual_bits": 3536
+      },
+      {
+        "poc": 9,
+        "target_bits": 51224,
+        "actual_bits": 56736
+      },
+      {
+        "poc": 10,
+        "target_bits": 70014,
+        "actual_bits": 74336
+      },
+      {
+        "poc": 11,
+        "target_bits": 49707,
+        "actual_bits": 50488
+      },
+      {
+        "poc": 12,
+        "target_bits": 68748,
+        "actual_bits": 70584
+      },
+      {
+        "poc": 13,
+        "target_bits": 49002,
+        "actual_bits": 50696
+      },
+      {
+        "poc": 14,
+        "target_bits": 67012,
+        "actual_bits": 67856
+      },
+      {
+        "poc": 15,
+        "target_bits": 47449,
+        "actual_bits": 49600
+      }
+    ],
+    "stream_sha256": "2f9531a150c521a3a5f062804ee6c2faa61c4bcca53490d6d0286652d4a7aa06",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 39.01450606703273,
+    "psnr_y_global": 38.956375924442156,
+    "wspsnr_y_mean_picture": 38.31440437864011
+  },
+  {
+    "engine": "vvenc",
+    "rate_id": "R4",
+    "target_bps": 12800000,
+    "actual_rc_bps": 12805350.0,
+    "error_pct": 0.041796875000010836,
+    "annex_b_bps": 12807060.0,
+    "poc_log_bps": 12807060.0,
+    "first_picture_bits_log": 3880640,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 21,
+        "bits_log": 3880640,
+        "psnr_y_log": 42.717
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 30,
+        "bits_log": 90752,
+        "psnr_y_log": 40.0375
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 37,
+        "bits_log": 5072,
+        "psnr_y_log": 39.4624
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 27,
+        "bits_log": 127808,
+        "psnr_y_log": 39.7986
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 34,
+        "bits_log": 16832,
+        "psnr_y_log": 39.2266
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 28,
+        "bits_log": 143712,
+        "psnr_y_log": 39.6286
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 29,
+        "bits_log": 192528,
+        "psnr_y_log": 39.6634
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 28,
+        "bits_log": 144680,
+        "psnr_y_log": 39.5135
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 54352,
+        "psnr_y_log": 39.4147
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 25,
+        "bits_log": 279536,
+        "psnr_y_log": 39.8482
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 25,
+        "bits_log": 362896,
+        "psnr_y_log": 39.9783
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 27,
+        "bits_log": 274304,
+        "psnr_y_log": 40.0295
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 26,
+        "bits_log": 359584,
+        "psnr_y_log": 40.151
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 26,
+        "bits_log": 273312,
+        "psnr_y_log": 39.8329
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 26,
+        "bits_log": 356128,
+        "psnr_y_log": 40.1989
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 26,
+        "bits_log": 268296,
+        "psnr_y_log": 40.1924
+      }
+    ],
+    "rc_pictures": [
+      {
+        "poc": 0,
+        "target_bits": 3870538,
+        "actual_bits": 3880520
+      },
+      {
+        "poc": 1,
+        "target_bits": 108363,
+        "actual_bits": 90696
+      },
+      {
+        "poc": 2,
+        "target_bits": 164508,
+        "actual_bits": 5040
+      },
+      {
+        "poc": 3,
+        "target_bits": 122961,
+        "actual_bits": 127752
+      },
+      {
+        "poc": 4,
+        "target_bits": 183788,
+        "actual_bits": 16776
+      },
+      {
+        "poc": 5,
+        "target_bits": 140106,
+        "actual_bits": 143656
+      },
+      {
+        "poc": 6,
+        "target_bits": 209532,
+        "actual_bits": 192472
+      },
+      {
+        "poc": 7,
+        "target_bits": 142125,
+        "actual_bits": 144624
+      },
+      {
+        "poc": 8,
+        "target_bits": 850256,
+        "actual_bits": 54320
+      },
+      {
+        "poc": 9,
+        "target_bits": 273387,
+        "actual_bits": 279480
+      },
+      {
+        "poc": 10,
+        "target_bits": 357932,
+        "actual_bits": 362840
+      },
+      {
+        "poc": 11,
+        "target_bits": 271637,
+        "actual_bits": 274248
+      },
+      {
+        "poc": 12,
+        "target_bits": 356045,
+        "actual_bits": 359528
+      },
+      {
+        "poc": 13,
+        "target_bits": 270021,
+        "actual_bits": 273256
+      },
+      {
+        "poc": 14,
+        "target_bits": 352828,
+        "actual_bits": 356072
+      },
+      {
+        "poc": 15,
+        "target_bits": 265381,
+        "actual_bits": 268240
+      }
+    ],
+    "stream_sha256": "e0e978b76d60a56cae8c91d81cd4ed627ced508a125f72b9c81ada6cbd3a6248",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 39.98084117776963,
+    "psnr_y_global": 39.923603523655686,
+    "wspsnr_y_mean_picture": 39.31571164717764
+  },
+  {
+    "engine": "VTM",
+    "rate_id": "R1",
+    "target_bps": 1600000,
+    "actual_rc_bps": 2416350.0,
+    "error_pct": 51.021874999999994,
+    "annex_b_bps": 2417580.0,
+    "poc_log_bps": 2417580.0,
+    "first_picture_bits_log": 1265264,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 29,
+        "bits_log": 1265264,
+        "psnr_y_log": 39.9616
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 37,
+        "bits_log": 4776,
+        "psnr_y_log": 38.7015
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 47,
+        "bits_log": 1040,
+        "psnr_y_log": 38.0922
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 40,
+        "bits_log": 4584,
+        "psnr_y_log": 38.2313
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 50,
+        "bits_log": 688,
+        "psnr_y_log": 37.445
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 43,
+        "bits_log": 2624,
+        "psnr_y_log": 37.4353
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 53,
+        "bits_log": 704,
+        "psnr_y_log": 36.6316
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 46,
+        "bits_log": 1600,
+        "psnr_y_log": 36.3504
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 568,
+        "psnr_y_log": 35.667
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 49,
+        "bits_log": 1040,
+        "psnr_y_log": 35.4112
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1272,
+        "psnr_y_log": 35.1537
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 52,
+        "bits_log": 1000,
+        "psnr_y_log": 34.8522
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1032,
+        "psnr_y_log": 34.5171
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1000,
+        "psnr_y_log": 34.2074
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1024,
+        "psnr_y_log": 34.1087
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1160,
+        "psnr_y_log": 34.0032
+      }
+    ],
+    "rc_pictures": [
+      {
+        "poc": 0,
+        "target_bits": 1287075,
+        "actual_bits": 1265112
+      },
+      {
+        "poc": 1,
+        "target_bits": 100,
+        "actual_bits": 4720
+      },
+      {
+        "poc": 2,
+        "target_bits": 100,
+        "actual_bits": 1008
+      },
+      {
+        "poc": 3,
+        "target_bits": 156,
+        "actual_bits": 4552
+      },
+      {
+        "poc": 4,
+        "target_bits": 150,
+        "actual_bits": 656
+      },
+      {
+        "poc": 5,
+        "target_bits": 158,
+        "actual_bits": 2592
+      },
+      {
+        "poc": 6,
+        "target_bits": 151,
+        "actual_bits": 672
+      },
+      {
+        "poc": 7,
+        "target_bits": 155,
+        "actual_bits": 1568
+      },
+      {
+        "poc": 8,
+        "target_bits": 100,
+        "actual_bits": 536
+      },
+      {
+        "poc": 9,
+        "target_bits": 154,
+        "actual_bits": 1008
+      },
+      {
+        "poc": 10,
+        "target_bits": 151,
+        "actual_bits": 1240
+      },
+      {
+        "poc": 11,
+        "target_bits": 153,
+        "actual_bits": 968
+      },
+      {
+        "poc": 12,
+        "target_bits": 151,
+        "actual_bits": 1000
+      },
+      {
+        "poc": 13,
+        "target_bits": 153,
+        "actual_bits": 968
+      },
+      {
+        "poc": 14,
+        "target_bits": 151,
+        "actual_bits": 992
+      },
+      {
+        "poc": 15,
+        "target_bits": 153,
+        "actual_bits": 1128
+      }
+    ],
+    "stream_sha256": "96a27a1c0c75d14637b1beb06c1c92eb75a0b5a3144e1022beaf4f6bcbd92b83",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 36.298090398781596,
+    "psnr_y_global": 35.954894951432394,
+    "wspsnr_y_mean_picture": 35.54917573177833
+  },
+  {
+    "engine": "VTM",
+    "rate_id": "R2",
+    "target_bps": 3200000,
+    "actual_rc_bps": 3290175.0,
+    "error_pct": 2.8179687499999995,
+    "annex_b_bps": 3291405.0,
+    "poc_log_bps": 3291405.0,
+    "first_picture_bits_log": 1726008,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 27,
+        "bits_log": 1726008,
+        "psnr_y_log": 40.8573
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 35,
+        "bits_log": 6864,
+        "psnr_y_log": 39.229
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 46,
+        "bits_log": 1272,
+        "psnr_y_log": 38.6995
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 39,
+        "bits_log": 5736,
+        "psnr_y_log": 38.7456
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 49,
+        "bits_log": 768,
+        "psnr_y_log": 38.0125
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 43,
+        "bits_log": 3184,
+        "psnr_y_log": 37.9917
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 49,
+        "bits_log": 1160,
+        "psnr_y_log": 37.3566
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 46,
+        "bits_log": 1848,
+        "psnr_y_log": 36.9295
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 568,
+        "psnr_y_log": 36.2284
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 49,
+        "bits_log": 1168,
+        "psnr_y_log": 35.8832
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 52,
+        "bits_log": 2008,
+        "psnr_y_log": 35.897
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 52,
+        "bits_log": 840,
+        "psnr_y_log": 35.3483
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 54,
+        "bits_log": 1072,
+        "psnr_y_log": 35.0382
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1016,
+        "psnr_y_log": 34.5348
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 1032,
+        "psnr_y_log": 34.4097
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 55,
+        "bits_log": 872,
+        "psnr_y_log": 34.1125
+      }
+    ],
+    "rc_pictures": [
+      {
+        "poc": 0,
+        "target_bits": 1748232,
+        "actual_bits": 1725856
+      },
+      {
+        "poc": 1,
+        "target_bits": 100,
+        "actual_bits": 6808
+      },
+      {
+        "poc": 2,
+        "target_bits": 100,
+        "actual_bits": 1240
+      },
+      {
+        "poc": 3,
+        "target_bits": 154,
+        "actual_bits": 5704
+      },
+      {
+        "poc": 4,
+        "target_bits": 150,
+        "actual_bits": 736
+      },
+      {
+        "poc": 5,
+        "target_bits": 156,
+        "actual_bits": 3152
+      },
+      {
+        "poc": 6,
+        "target_bits": 151,
+        "actual_bits": 1128
+      },
+      {
+        "poc": 7,
+        "target_bits": 154,
+        "actual_bits": 1816
+      },
+      {
+        "poc": 8,
+        "target_bits": 100,
+        "actual_bits": 536
+      },
+      {
+        "poc": 9,
+        "target_bits": 153,
+        "actual_bits": 1136
+      },
+      {
+        "poc": 10,
+        "target_bits": 151,
+        "actual_bits": 1976
+      },
+      {
+        "poc": 11,
+        "target_bits": 152,
+        "actual_bits": 808
+      },
+      {
+        "poc": 12,
+        "target_bits": 151,
+        "actual_bits": 1040
+      },
+      {
+        "poc": 13,
+        "target_bits": 152,
+        "actual_bits": 984
+      },
+      {
+        "poc": 14,
+        "target_bits": 151,
+        "actual_bits": 1000
+      },
+      {
+        "poc": 15,
+        "target_bits": 152,
+        "actual_bits": 840
+      }
+    ],
+    "stream_sha256": "a4188ef7d8f9896f6bba035fe708eafe02e7f694643ed9a93c1b0e5980fc998d",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 36.82962032993281,
+    "psnr_y_global": 36.43689298819203,
+    "wspsnr_y_mean_picture": 36.11885936219351
+  },
+  {
+    "engine": "VTM",
+    "rate_id": "R3",
+    "target_bps": 6400000,
+    "actual_rc_bps": 6403305.0,
+    "error_pct": 0.05164062500000455,
+    "annex_b_bps": 6404940.0,
+    "poc_log_bps": 6404940.0,
+    "first_picture_bits_log": 2858600,
+    "picture_log": [
+      {
+        "poc": 0,
+        "slice_type": "I",
+        "qp": 23,
+        "bits_log": 2858600,
+        "psnr_y_log": 42.1944
+      },
+      {
+        "poc": 1,
+        "slice_type": "P",
+        "qp": 32,
+        "bits_log": 18680,
+        "psnr_y_log": 39.7918
+      },
+      {
+        "poc": 2,
+        "slice_type": "P",
+        "qp": 42,
+        "bits_log": 3024,
+        "psnr_y_log": 39.4419
+      },
+      {
+        "poc": 3,
+        "slice_type": "P",
+        "qp": 32,
+        "bits_log": 21544,
+        "psnr_y_log": 39.4397
+      },
+      {
+        "poc": 4,
+        "slice_type": "P",
+        "qp": 39,
+        "bits_log": 9168,
+        "psnr_y_log": 39.0865
+      },
+      {
+        "poc": 5,
+        "slice_type": "P",
+        "qp": 33,
+        "bits_log": 23912,
+        "psnr_y_log": 39.1557
+      },
+      {
+        "poc": 6,
+        "slice_type": "P",
+        "qp": 35,
+        "bits_log": 36208,
+        "psnr_y_log": 39.1109
+      },
+      {
+        "poc": 7,
+        "slice_type": "P",
+        "qp": 34,
+        "bits_log": 23736,
+        "psnr_y_log": 38.9127
+      },
+      {
+        "poc": 8,
+        "slice_type": "P",
+        "qp": 41,
+        "bits_log": 4336,
+        "psnr_y_log": 38.8139
+      },
+      {
+        "poc": 9,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 56000,
+        "psnr_y_log": 39.1127
+      },
+      {
+        "poc": 10,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 77104,
+        "psnr_y_log": 39.1367
+      },
+      {
+        "poc": 11,
+        "slice_type": "P",
+        "qp": 33,
+        "bits_log": 36720,
+        "psnr_y_log": 39.1471
+      },
+      {
+        "poc": 12,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 77232,
+        "psnr_y_log": 39.2634
+      },
+      {
+        "poc": 13,
+        "slice_type": "P",
+        "qp": 30,
+        "bits_log": 47992,
+        "psnr_y_log": 38.9929
+      },
+      {
+        "poc": 14,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 74976,
+        "psnr_y_log": 39.2685
+      },
+      {
+        "poc": 15,
+        "slice_type": "P",
+        "qp": 31,
+        "bits_log": 46736,
+        "psnr_y_log": 39.284
+      }
+    ],
+    "rc_pictures": [
+      {
+        "poc": 0,
+        "target_bits": 2849550,
+        "actual_bits": 2858448
+      },
+      {
+        "poc": 1,
+        "target_bits": 19092,
+        "actual_bits": 18624
+      },
+      {
+        "poc": 2,
+        "target_bits": 28687,
+        "actual_bits": 2992
+      },
+      {
+        "poc": 3,
+        "target_bits": 21101,
+        "actual_bits": 21488
+      },
+      {
+        "poc": 4,
+        "target_bits": 31604,
+        "actual_bits": 9112
+      },
+      {
+        "poc": 5,
+        "target_bits": 23211,
+        "actual_bits": 23856
+      },
+      {
+        "poc": 6,
+        "target_bits": 34715,
+        "actual_bits": 36176
+      },
+      {
+        "poc": 7,
+        "target_bits": 22961,
+        "actual_bits": 23680
+      },
+      {
+        "poc": 8,
+        "target_bits": 160008,
+        "actual_bits": 4304
+      },
+      {
+        "poc": 9,
+        "target_bits": 46873,
+        "actual_bits": 55944
+      },
+      {
+        "poc": 10,
+        "target_bits": 73851,
+        "actual_bits": 77048
+      },
+      {
+        "poc": 11,
+        "target_bits": 45204,
+        "actual_bits": 36664
+      },
+      {
+        "poc": 12,
+        "target_bits": 75660,
+        "actual_bits": 77200
+      },
+      {
+        "poc": 13,
+        "target_bits": 46411,
+        "actual_bits": 47960
+      },
+      {
+        "poc": 14,
+        "target_bits": 74016,
+        "actual_bits": 74920
+      },
+      {
+        "poc": 15,
+        "target_bits": 44916,
+        "actual_bits": 46680
+      }
+    ],
+    "stream_sha256": "94508367363504764d3dd35a42eb1f853fd02756d5d7277f545afab41ffca79d",
+    "decode_matches_reconstruction": true,
+    "psnr_y_mean_picture": 39.384555873960856,
+    "psnr_y_global": 39.32888074669619,
+    "wspsnr_y_mean_picture": 38.711523945592894
+  }
+]

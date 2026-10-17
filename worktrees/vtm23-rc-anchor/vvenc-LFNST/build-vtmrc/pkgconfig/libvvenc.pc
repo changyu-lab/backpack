@@ -1,0 +1,10 @@
+prefix=C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/install
+exec_prefix=bin
+libdir=C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/install/lib
+includedir=C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/install/include
+
+Name: libvvenc
+Description: Fraunhofer Versatile Video Encoder (VVenC)
+Version: 1.12.0
+Libs: -L${libdir} -lvvenc -lstdc++ -lm
+Cflags: -I${includedir}

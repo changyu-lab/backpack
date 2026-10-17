@@ -1,0 +1,66 @@
+{
+  "smoke_full_R1": {
+    "I": {
+      "ctus": 450,
+      "qp_outside_fit": 35,
+      "information_outside_fit": 21,
+      "wrong_rate_slope": 0,
+      "wrong_distortion_slope": 0
+    },
+    "P": {
+      "ctus": 6750,
+      "qp_outside_fit": 6750,
+      "information_outside_fit": 368,
+      "wrong_rate_slope": 0,
+      "wrong_distortion_slope": 5884
+    }
+  },
+  "smoke_full_R2": {
+    "I": {
+      "ctus": 450,
+      "qp_outside_fit": 71,
+      "information_outside_fit": 21,
+      "wrong_rate_slope": 0,
+      "wrong_distortion_slope": 0
+    },
+    "P": {
+      "ctus": 6750,
+      "qp_outside_fit": 6300,
+      "information_outside_fit": 445,
+      "wrong_rate_slope": 0,
+      "wrong_distortion_slope": 5763
+    }
+  },
+  "smoke_full_R3": {
+    "I": {
+      "ctus": 450,
+      "qp_outside_fit": 208,
+      "information_outside_fit": 21,
+      "wrong_rate_slope": 0,
+      "wrong_distortion_slope": 0
+    },
+    "P": {
+      "ctus": 6750,
+      "qp_outside_fit": 830,
+      "information_outside_fit": 682,
+      "wrong_rate_slope": 0,
+      "wrong_distortion_slope": 2128
+    }
+  },
+  "smoke_full_R4": {
+    "I": {
+      "ctus": 450,
+      "qp_outside_fit": 319,
+      "information_outside_fit": 21,
+      "wrong_rate_slope": 0,
+      "wrong_distortion_slope": 0
+    },
+    "P": {
+      "ctus": 6750,
+      "qp_outside_fit": 17,
+      "information_outside_fit": 809,
+      "wrong_rate_slope": 0,
+      "wrong_distortion_slope": 701
+    }
+  }
+}

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\test\vvencinterfacetest\vvencinterfacetest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\test\vvencinterfacetest\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\test\vvencinterfacetest\resource_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\test\vvencinterfacetest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\hitxi\.codex\worktrees\vtm23-rc-anchor\vvenc-LFNST\test\vvencinterfacetest\vvencinterfacetest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A53BB315-9747-396D-B387-FDE822A19272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{86A75046-75F7-32A6-A538-7E0F8AECD057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{64CCE53A-D3B0-3C58-93E2-889962BD2AF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

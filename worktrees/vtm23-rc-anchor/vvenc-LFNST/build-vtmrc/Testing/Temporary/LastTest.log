@@ -1,0 +1,1521 @@
+Start testing: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+----------------------------------------------------------
+1/39 Testing: Test_vvencinterfacetest
+1/39 Test: Test_vvencinterfacetest
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencinterfacetest.exe"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencinterfacetest" start time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+Using RC with IFP. Results are non-deterministic!
+<end of output>
+Test time =   2.03 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencinterfacetest" end time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+"Test_vvencinterfacetest" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/39 Testing: Test_vvenclibtest-parameter_range
+2/39 Test: Test_vvenclibtest-parameter_range
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvenclibtest.exe" "1"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvenclibtest-parameter_range" start time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+
+
+ all of 154 tests succeeded
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvenclibtest-parameter_range" end time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+"Test_vvenclibtest-parameter_range" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/39 Testing: Test_vvenclibtest-calling_order
+3/39 Test: Test_vvenclibtest-calling_order
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvenclibtest.exe" "2"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvenclibtest-calling_order" start time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+
+
+ all of 8 tests succeeded
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvenclibtest-calling_order" end time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+"Test_vvenclibtest-calling_order" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/39 Testing: Test_vvenclibtest-input_params
+4/39 Test: Test_vvenclibtest-input_params
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvenclibtest.exe" "3"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvenclibtest-input_params" start time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+
+
+ all of 5 tests succeeded
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvenclibtest-input_params" end time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+"Test_vvenclibtest-input_params" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/39 Testing: Test_vvenclibtest-sdk_default
+5/39 Test: Test_vvenclibtest-sdk_default
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvenclibtest.exe" "4"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvenclibtest-sdk_default" start time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+
+
+ all of 1 tests succeeded
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvenclibtest-sdk_default" end time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+"Test_vvenclibtest-sdk_default" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/39 Testing: Test_vvenclibtest-sdk_stringapi_interface
+6/39 Test: Test_vvenclibtest-sdk_stringapi_interface
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvenclibtest.exe" "5"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvenclibtest-sdk_stringapi_interface" start time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+
+
+ all of 2 tests succeeded
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvenclibtest-sdk_stringapi_interface" end time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+"Test_vvenclibtest-sdk_stringapi_interface" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/39 Testing: Test_vvenclibtest-timestamps
+7/39 Test: Test_vvenclibtest-timestamps
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvenclibtest.exe" "6"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvenclibtest-timestamps" start time: Oct 10 09:53 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+
+
+ all of 2 tests succeeded
+<end of output>
+Test time =  14.43 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvenclibtest-timestamps" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvenclibtest-timestamps" time elapsed: 00:00:14
+----------------------------------------------------------
+
+8/39 Testing: Test_vvencapp-tooltest
+8/39 Test: Test_vvencapp-tooltest
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "tooltest" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "8" "--mtprofile" "0" "-o" "out_vvencapp-tooltest.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-tooltest" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-tooltest.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 8 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 4  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 32
+vvenc [info]: Perceptual optimization                : Enabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 8/8 fps=   2.6 avg_fps=   2.6 bitrate=    20.32 kbps avg_bitrate=    20.32 kbps elapsed= 00h:00m:04s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 8/8 avg_fps= 2.6 avg_bitrate= 20.32 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 141.72, AvgQP: 23.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 7, kbps:   2.98, AvgQP: 34.29
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        8    a      20.3250   37.0214   42.6260   45.7221   38.0336
+vvencapp [info]: Total Time: 3.091 sec. Fps(avg): 2.588 encoded Frames 8
+<end of output>
+Test time =   3.34 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-tooltest" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-tooltest" time elapsed: 00:00:03
+----------------------------------------------------------
+
+9/39 Testing: Test_vvencFFapp-tooltest
+9/39 Test: Test_vvencFFapp-tooltest
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_tooltest.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/gop32.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "8" "--Threads=-1" "-b" "out_vvencFFapp-tooltest.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-tooltest" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvencFFapp [info]: started @ Sat Oct 10 09:54:14 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-tooltest.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 8 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 8 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 384
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT21 IBD:1 SAO:1 ALF:1 (NonLinLuma:1 NonLinChr:1) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:0 SBT:2 JCbCr:1 CabacInitPresent:0 AMVR:3 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:3 MIP:1 AFFINE:5 (PROF:1, Type:1) MMVD:2 DisFracMMVD:1 SbTMVP:1 GPM:2 LFNST:1 MTS:1 (IntraCand:3) ISP:2 TS:1 TSLog2MaxSize:3 useChromaTS:1 BDPCM:1 IBC:2 BCW:2 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 (fast) RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:1 MCTF:2 BIM:0 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:1 FEN:3 FDM:1 FastSearch:4 (SCC:3) LCTUFast:1 FastMrg:2 PBIntraFast:2 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:3 FastIntraTools:1 IntraEstDecBit:3 FastLocalDualTree:1 IntegerET:1 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:2 FastTTSplit:0 IBCFastMethod:5 FIM:3 (27) ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:0 QP:32 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+POC     7 TId: 0 (IDR_W_RADL, I-SLICE, QP 23, TF 0)       9448 bits [Y 40.8698 dB    U 43.0574 dB    V 45.9873 dB] [ET     1 ] [L0 ] [L1 ]
+POC     3 TId: 3 (      RADL, B-SLICE, QP 32)              392 bits [Y 36.4832 dB    U 42.6660 dB    V 45.6582 dB] [ET     0 ] [L0 7 ] [L1 7 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 34)              224 bits [Y 35.1792 dB    U 42.3391 dB    V 45.5489 dB] [ET     0 ] [L0 3 7 ] [L1 3 7 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 35)              168 bits [Y 35.0960 dB    U 42.2876 dB    V 45.5550 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 35)              168 bits [Y 35.3622 dB    U 42.5134 dB    V 45.7586 dB] [ET     0 ] [L0 1 ] [L1 3 ]
+POC     5 TId: 4 (      RADL, B-SLICE, QP 34)              160 bits [Y 38.1307 dB    U 42.6951 dB    V 45.7588 dB] [ET     0 ] [L0 3 7 ] [L1 7 3 ]
+POC     4 TId: 5 (      RADL, B-SLICE, QP 35)              136 bits [Y 36.6929 dB    U 42.5442 dB    V 45.7692 dB] [ET     0 ] [L0 3 ] [L1 5 ]
+POC     6 TId: 5 (      RADL, B-SLICE, QP 35)              144 bits [Y 38.3568 dB    U 42.9055 dB    V 45.7408 dB] [ET     0 ] [L0 5 ] [L1 7 ]
+vvenc [info]: stats: 100.0% frame= 8/8 fps=   2.6 avg_fps=   2.6 bitrate=    20.32 kbps avg_bitrate=    20.32 kbps elapsed= 00h:00m:04s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 8/8 avg_fps= 2.6 avg_bitrate= 20.32 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 141.72, AvgQP: 23.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 7, kbps:   2.98, AvgQP: 34.29
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        8    a      20.3250   37.0214   42.6260   45.7221   38.0336
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:17 2026
+vvencFFapp [info]: Total Time:        3.257 sec. [user]        3.259 sec. [elapsed]
+<end of output>
+Test time =   3.38 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-tooltest" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-tooltest" time elapsed: 00:00:03
+----------------------------------------------------------
+
+10/39 Testing: Test_compare_output-tooltest
+10/39 Test: Test_compare_output-tooltest
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-tooltest.vvc" "out_vvencFFapp-tooltest.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-tooltest" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-tooltest" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-tooltest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/39 Testing: Test_vvencFFapp-tooltest-Scalar
+11/39 Test: Test_vvencFFapp-tooltest-Scalar
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_tooltest.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/gop32.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "8" "--SIMD=SCALAR" "--Threads=-1" "-b" "out_vvencFFapp-tooltest-Scalar.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-tooltest-Scalar" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=SCALAR]
+vvencFFapp [info]: started @ Sat Oct 10 09:54:18 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-tooltest-Scalar.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 8 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 8 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 384
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT21 IBD:1 SAO:1 ALF:1 (NonLinLuma:1 NonLinChr:1) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:0 SBT:2 JCbCr:1 CabacInitPresent:0 AMVR:3 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:3 MIP:1 AFFINE:5 (PROF:1, Type:1) MMVD:2 DisFracMMVD:1 SbTMVP:1 GPM:2 LFNST:1 MTS:1 (IntraCand:3) ISP:2 TS:1 TSLog2MaxSize:3 useChromaTS:1 BDPCM:1 IBC:2 BCW:2 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 (fast) RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:1 MCTF:2 BIM:0 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:1 FEN:3 FDM:1 FastSearch:4 (SCC:3) LCTUFast:1 FastMrg:2 PBIntraFast:2 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:3 FastIntraTools:1 IntraEstDecBit:3 FastLocalDualTree:1 IntegerET:1 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:2 FastTTSplit:0 IBCFastMethod:5 FIM:3 (27) ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:0 QP:32 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+POC     7 TId: 0 (IDR_W_RADL, I-SLICE, QP 23, TF 0)       9448 bits [Y 40.8698 dB    U 43.0574 dB    V 45.9873 dB] [ET     1 ] [L0 ] [L1 ]
+POC     3 TId: 3 (      RADL, B-SLICE, QP 32)              392 bits [Y 36.4832 dB    U 42.6660 dB    V 45.6582 dB] [ET     0 ] [L0 7 ] [L1 7 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 34)              224 bits [Y 35.1792 dB    U 42.3391 dB    V 45.5489 dB] [ET     0 ] [L0 3 7 ] [L1 3 7 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 35)              168 bits [Y 35.0960 dB    U 42.2876 dB    V 45.5550 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 35)              168 bits [Y 35.3622 dB    U 42.5134 dB    V 45.7586 dB] [ET     0 ] [L0 1 ] [L1 3 ]
+POC     5 TId: 4 (      RADL, B-SLICE, QP 34)              160 bits [Y 38.1307 dB    U 42.6951 dB    V 45.7588 dB] [ET     0 ] [L0 3 7 ] [L1 7 3 ]
+POC     4 TId: 5 (      RADL, B-SLICE, QP 35)              136 bits [Y 36.6929 dB    U 42.5442 dB    V 45.7692 dB] [ET     0 ] [L0 3 ] [L1 5 ]
+POC     6 TId: 5 (      RADL, B-SLICE, QP 35)              144 bits [Y 38.3568 dB    U 42.9055 dB    V 45.7408 dB] [ET     0 ] [L0 5 ] [L1 7 ]
+vvenc [info]: stats: 100.0% frame= 8/8 fps=   2.3 avg_fps=   2.3 bitrate=    20.32 kbps avg_bitrate=    20.32 kbps elapsed= 00h:00m:04s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 8/8 avg_fps= 2.3 avg_bitrate= 20.32 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 141.72, AvgQP: 23.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 7, kbps:   2.98, AvgQP: 34.29
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        8    a      20.3250   37.0214   42.6260   45.7221   38.0336
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:21 2026
+vvencFFapp [info]: Total Time:        3.670 sec. [user]        3.672 sec. [elapsed]
+<end of output>
+Test time =   3.74 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-tooltest-Scalar" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-tooltest-Scalar" time elapsed: 00:00:03
+----------------------------------------------------------
+
+12/39 Testing: Test_compare_output-tooltest-Scalar
+12/39 Test: Test_compare_output-tooltest-Scalar
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-tooltest.vvc" "out_vvencFFapp-tooltest-Scalar.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-tooltest-Scalar" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-tooltest-Scalar" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-tooltest-Scalar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/39 Testing: Test_vvencapp-faster
+13/39 Test: Test_vvencapp-faster
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "faster" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "11" "--mtprofile" "0" "-o" "out_vvencapp-faster.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-faster" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-faster.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 11 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 4  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 32
+vvenc [info]: Perceptual optimization                : Enabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 11/11 fps=  94.8 avg_fps=  94.8 bitrate=    14.74 kbps avg_bitrate=    14.74 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 11/11 avg_fps= 94.8 avg_bitrate= 14.74 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 135.96, AvgQP: 22.00
+vvenc [info]: stats summary: frame P:  0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 10, kbps:   2.62, AvgQP: 33.40
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       11    a      14.7382   36.3204   41.2015   44.2829   37.2670
+vvencapp [info]: Total Time: 0.120 sec. Fps(avg): 91.667 encoded Frames 11
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-faster" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-faster" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/39 Testing: Test_vvencFFapp-faster
+14/39 Test: Test_vvencFFapp-faster
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_faster.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "11" "--Threads=-1" "-b" "out_vvencFFapp-faster.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-faster" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvencFFapp [info]: started @ Sat Oct 10 09:54:22 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-faster.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 11 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 11 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 64
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 128
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU64 QTMin44BTT00 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:0 SDH:1 CST:1 BDOF:0 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:0 CabacInitPresent:0 AMVR:0 SMVD:0 LMCS:0 CIIP:0 MIP:0 AFFINE:0 MMVD:0 SbTMVP:0 GPM:0 LFNST:0 MTS:0 ISP:0 TS:2 TSLog2MaxSize:3 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 (fast) RDQ:2 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:0 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:2 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:3 PBIntraFast:2 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastIntraTools:0 IntraEstDecBit:3 FastLocalDualTree:1 IntegerET:1 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:7 FastTTSplit:0 IBCFastMethod:6 FIM:4 (29) ALFSpeed:2 QuantThr:4 SelectiveRDQO:2 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:0 QP:32 LookAhead:0 FirstPassMode:4 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+POC     7 TId: 0 (IDR_W_RADL, I-SLICE, QP 22, TF 0)       9064 bits [Y 39.8002 dB    U 41.4134 dB    V 44.3639 dB] [ET     0 ] [L0 ] [L1 ]
+POC     3 TId: 3 (      RADL, B-SLICE, QP 32)              360 bits [Y 35.4667 dB    U 41.2208 dB    V 44.2767 dB] [ET     0 ] [L0 7 ] [L1 7 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 33)              208 bits [Y 33.9556 dB    U 41.1123 dB    V 44.1143 dB] [ET     0 ] [L0 3 7 ] [L1 3 7 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 34)              168 bits [Y 34.0010 dB    U 41.0821 dB    V 44.2436 dB] [ET     0 ] [L0 1 3 ] [L1 1 3 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 34)              152 bits [Y 34.2131 dB    U 41.2259 dB    V 44.2015 dB] [ET     0 ] [L0 1 3 ] [L1 3 7 ]
+POC     5 TId: 4 (      RADL, B-SLICE, QP 33)              128 bits [Y 37.3503 dB    U 41.1146 dB    V 44.3378 dB] [ET     0 ] [L0 3 7 ] [L1 7 3 ]
+POC     4 TId: 5 (      RADL, B-SLICE, QP 35)              120 bits [Y 36.0532 dB    U 41.1633 dB    V 44.2757 dB] [ET     0 ] [L0 3 5 ] [L1 5 7 ]
+POC     6 TId: 5 (      RADL, B-SLICE, QP 34)              128 bits [Y 37.8257 dB    U 41.3129 dB    V 44.2504 dB] [ET     0 ] [L0 5 3 ] [L1 7 5 ]
+POC     9 TId: 4 (      STSA, B-SLICE, QP 32)              168 bits [Y 36.8283 dB    U 41.1351 dB    V 44.4776 dB] [ET     0 ] [L0 7 ] [L1 7 ]
+POC     8 TId: 5 (      STSA, B-SLICE, QP 34)              136 bits [Y 38.1761 dB    U 41.3054 dB    V 44.2817 dB] [ET     0 ] [L0 7 9 ] [L1 9 7 ]
+POC    10 TId: 5 (      STSA, B-SLICE, QP 33)              176 bits [Y 35.8542 dB    U 41.1303 dB    V 44.2883 dB] [ET     0 ] [L0 9 7 ] [L1 9 7 ]
+vvenc [info]: stats: 100.0% frame= 11/11 fps= 100.0 avg_fps= 100.0 bitrate=    14.74 kbps avg_bitrate=    14.74 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 11/11 avg_fps= 100.0 avg_bitrate= 14.74 kbps
+vvenc [info]: stats summary: frame I:  1, kbps: 135.96, AvgQP: 22.00
+vvenc [info]: stats summary: frame P:  0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 10, kbps:   2.62, AvgQP: 33.40
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	       11    a      14.7382   36.3204   41.2015   44.2829   37.2670
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:22 2026
+vvencFFapp [info]: Total Time:        0.219 sec. [user]        0.222 sec. [elapsed]
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-faster" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-faster" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/39 Testing: Test_compare_output-faster
+15/39 Test: Test_compare_output-faster
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-faster.vvc" "out_vvencFFapp-faster.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-faster" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-faster" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-faster" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/39 Testing: Test_vvencapp-fast
+16/39 Test: Test_vvencapp-fast
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "fast" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "8" "--mtprofile" "0" "-o" "out_vvencapp-fast.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-fast" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-fast.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 8 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 4  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 32
+vvenc [info]: Perceptual optimization                : Enabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 8/8 fps=  49.1 avg_fps=  49.1 bitrate=    21.09 kbps avg_bitrate=    21.09 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 8/8 avg_fps= 49.1 avg_bitrate= 21.09 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 147.72, AvgQP: 21.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 7, kbps:   3.00, AvgQP: 33.43
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        8    a      21.0900   37.0799   40.9516   45.2150   37.8539
+vvencapp [info]: Total Time: 0.166 sec. Fps(avg): 48.193 encoded Frames 8
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-fast" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-fast" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/39 Testing: Test_vvencFFapp-fast
+17/39 Test: Test_vvencFFapp-fast
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_fast.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "8" "--Threads=-1" "-b" "out_vvencFFapp-fast.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-fast" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvencFFapp [info]: started @ Sat Oct 10 09:54:22 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-fast.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 8 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 8 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 64
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 128
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU64 QTMin44BTT10 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:1 CabacInitPresent:0 AMVR:5 SMVD:0 LMCS:2 (Signal:SDR Opt:0) CIIP:0 MIP:0 AFFINE:5 (PROF:1, Type:1) MMVD:3 DisFracMMVD:1 SbTMVP:1 GPM:0 LFNST:1 MTS:0 ISP:0 TS:2 TSLog2MaxSize:4 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:0 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:2 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:3 PBIntraFast:1 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastIntraTools:0 IntraEstDecBit:2 FastLocalDualTree:1 IntegerET:0 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:3 FastTTSplit:0 IBCFastMethod:4 FIM:2 (19) ALFSpeed:1 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:0 QP:32 LookAhead:0 FirstPassMode:2 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+POC     7 TId: 0 (IDR_W_RADL, I-SLICE, QP 21, TF 0)       9848 bits [Y 41.3241 dB    U 41.2190 dB    V 45.4548 dB] [ET     0 ] [L0 ] [L1 ]
+POC     3 TId: 3 (      RADL, B-SLICE, QP 31)              408 bits [Y 36.6045 dB    U 40.9321 dB    V 45.1313 dB] [ET     0 ] [L0 7 ] [L1 7 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 33)              240 bits [Y 34.8426 dB    U 40.7804 dB    V 45.1543 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 34)              168 bits [Y 34.8186 dB    U 40.7430 dB    V 45.2136 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 34)              152 bits [Y 35.0689 dB    U 40.9324 dB    V 45.0919 dB] [ET     0 ] [L0 1 ] [L1 3 ]
+POC     5 TId: 4 (      RADL, B-SLICE, QP 33)              152 bits [Y 38.5284 dB    U 40.9723 dB    V 45.2590 dB] [ET     0 ] [L0 3 ] [L1 7 ]
+POC     4 TId: 5 (      RADL, B-SLICE, QP 35)              136 bits [Y 36.8487 dB    U 40.8948 dB    V 45.1398 dB] [ET     0 ] [L0 3 ] [L1 5 ]
+POC     6 TId: 5 (      RADL, B-SLICE, QP 34)              144 bits [Y 38.6036 dB    U 41.1388 dB    V 45.2756 dB] [ET     0 ] [L0 5 ] [L1 7 ]
+vvenc [info]: stats: 100.0% frame= 8/8 fps=  47.9 avg_fps=  47.9 bitrate=    21.09 kbps avg_bitrate=    21.09 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 8/8 avg_fps= 47.9 avg_bitrate= 21.09 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 147.72, AvgQP: 21.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 7, kbps:   3.00, AvgQP: 33.43
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        8    a      21.0900   37.0799   40.9516   45.2150   37.8539
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:23 2026
+vvencFFapp [info]: Total Time:        0.278 sec. [user]        0.280 sec. [elapsed]
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-fast" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-fast" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/39 Testing: Test_compare_output-fast
+18/39 Test: Test_compare_output-fast
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-fast.vvc" "out_vvencFFapp-fast.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-fast" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-fast" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-fast" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/39 Testing: Test_vvencapp-medium
+19/39 Test: Test_vvencapp-medium
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "medium" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "5" "--mtprofile" "0" "-o" "out_vvencapp-medium.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-medium" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-medium.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 5 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 4  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 32
+vvenc [info]: Perceptual optimization                : Enabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 5/5 fps=  12.7 avg_fps=  12.7 bitrate=    29.47 kbps avg_bitrate=    29.47 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 5/5 avg_fps= 12.7 avg_bitrate= 29.47 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 138.12, AvgQP: 23.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 4, kbps:   2.31, AvgQP: 34.75
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      29.4720   37.8725   42.2378   46.0461   38.9847
+vvencapp [info]: Total Time: 0.397 sec. Fps(avg): 12.594 encoded Frames 5
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-medium" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-medium" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/39 Testing: Test_vvencFFapp-medium
+20/39 Test: Test_vvencFFapp-medium
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_medium.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "5" "--Threads=-1" "-b" "out_vvencFFapp-medium.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-medium" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvencFFapp [info]: started @ Sat Oct 10 09:54:23 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-medium.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 5 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 5 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 384
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT21 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:1 CabacInitPresent:0 AMVR:5 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:0 MIP:1 AFFINE:4 (PROF:1, Type:1) MMVD:3 DisFracMMVD:1 SbTMVP:1 GPM:3 LFNST:1 MTS:0 ISP:3 TS:2 TSLog2MaxSize:4 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:2 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:0 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:2 PBIntraFast:1 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:3 FastIntraTools:1 IntraEstDecBit:2 FastLocalDualTree:1 IntegerET:0 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:3 FastTTSplit:5 IBCFastMethod:3 FIM:0 ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:0 QP:32 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+POC     3 TId: 0 (IDR_W_RADL, I-SLICE, QP 23)             9208 bits [Y 40.1840 dB    U 42.4457 dB    V 46.2267 dB] [ET     0 ] [L0 ] [L1 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 34)              184 bits [Y 37.2526 dB    U 42.1805 dB    V 46.0213 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 35)              144 bits [Y 37.2041 dB    U 42.1175 dB    V 45.9756 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 35)              152 bits [Y 37.4278 dB    U 42.2760 dB    V 46.0082 dB] [ET     0 ] [L0 1 ] [L1 3 ]
+POC     4 TId: 5 (      STSA, B-SLICE, QP 35)              136 bits [Y 37.2939 dB    U 42.1694 dB    V 45.9984 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+vvenc [info]: stats: 100.0% frame= 5/5 fps=  11.7 avg_fps=  11.7 bitrate=    29.47 kbps avg_bitrate=    29.47 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 5/5 avg_fps= 11.7 avg_bitrate= 29.47 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 138.12, AvgQP: 23.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 4, kbps:   2.31, AvgQP: 34.75
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      29.4720   37.8725   42.2378   46.0461   38.9847
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:24 2026
+vvencFFapp [info]: Total Time:        0.554 sec. [user]        0.556 sec. [elapsed]
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-medium" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-medium" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/39 Testing: Test_compare_output-medium
+21/39 Test: Test_compare_output-medium
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-medium.vvc" "out_vvencFFapp-medium.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-medium" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-medium" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-medium" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/39 Testing: Test_vvencapp-slow
+22/39 Test: Test_vvencapp-slow
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "slow" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "3" "--mtprofile" "0" "-o" "out_vvencapp-slow.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-slow" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-slow.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 3 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 4  (parallel frames: 4)
+vvenc [info]: Rate control                           : QP 32
+vvenc [info]: Perceptual optimization                : Enabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 3/3 fps=   4.2 avg_fps=   4.2 bitrate=    50.12 kbps avg_bitrate=    50.12 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 3/3 avg_fps= 4.2 avg_bitrate= 50.12 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 146.16, AvgQP: 23.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 2, kbps:   2.10, AvgQP: 35.00
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        3    a      50.1200   40.4368   42.7865   45.7881   41.2935
+vvencapp [info]: Total Time: 0.723 sec. Fps(avg): 4.149 encoded Frames 3
+<end of output>
+Test time =   0.91 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-slow" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-slow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/39 Testing: Test_vvencFFapp-slow
+23/39 Test: Test_vvencFFapp-slow
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_slow.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "3" "--Threads=-1" "-b" "out_vvencFFapp-slow.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-slow" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvencFFapp [info]: started @ Sat Oct 10 09:54:25 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-slow.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 3 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 3 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 384
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT32 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:1 SBT:1 JCbCr:1 CabacInitPresent:0 AMVR:1 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:1 MIP:1 AFFINE:3 (PROF:1, Type:1) MMVD:3 DisFracMMVD:1 SbTMVP:1 GPM:1 LFNST:1 MTS:0 ISP:3 TS:2 TSLog2MaxSize:5 useChromaTS:0 BDPCM:2 IBC:2 BCW:2 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:2 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:0 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:3 PBIntraFast:1 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:0 FastIntraTools:0 IntraEstDecBit:1 FastLocalDualTree:1 IntegerET:0 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:2 FastTTSplit:5 IBCFastMethod:1 FIM:0 ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:0 QP:32 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+POC     1 TId: 0 (IDR_W_RADL, I-SLICE, QP 23)             9744 bits [Y 41.2086 dB    U 42.8445 dB    V 45.9030 dB] [ET     0 ] [L0 ] [L1 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 35)              144 bits [Y 40.5753 dB    U 42.7730 dB    V 45.8068 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      STSA, B-SLICE, QP 35)              136 bits [Y 39.5266 dB    U 42.7419 dB    V 45.6547 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+vvenc [info]: stats: 100.0% frame= 3/3 fps=   4.5 avg_fps=   4.5 bitrate=    50.12 kbps avg_bitrate=    50.12 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 3/3 avg_fps= 4.5 avg_bitrate= 50.12 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 146.16, AvgQP: 23.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 2, kbps:   2.10, AvgQP: 35.00
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        3    a      50.1200   40.4368   42.7865   45.7881   41.2935
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:26 2026
+vvencFFapp [info]: Total Time:        0.786 sec. [user]        0.788 sec. [elapsed]
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-slow" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-slow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/39 Testing: Test_compare_output-slow
+24/39 Test: Test_compare_output-slow
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-slow.vvc" "out_vvencFFapp-slow.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-slow" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-slow" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-slow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/39 Testing: Test_vvencapp-medium_noqpa_0thr
+25/39 Test: Test_vvencapp-medium_noqpa_0thr
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "medium" "--qpa" "0" "--threads" "0" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "5" "-o" "out_vvencapp-medium_noqpa_0thr.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-medium_noqpa_0thr" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-medium_noqpa_0thr.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 5 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 0  (parallel frames: 0)
+vvenc [info]: Rate control                           : QP 32
+vvenc [info]: Perceptual optimization                : Disabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 5/5 fps=  13.5 avg_fps=  13.5 bitrate=    19.66 kbps avg_bitrate=    19.66 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 5/5 avg_fps= 13.5 avg_bitrate= 19.66 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 89.28, AvgQP: 29.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 4, kbps:  2.25, AvgQP: 40.75
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      19.6560   34.0156   37.4552   43.1283   35.1768
+vvencapp [info]: Total Time: 0.374 sec. Fps(avg): 13.369 encoded Frames 5
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-medium_noqpa_0thr" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-medium_noqpa_0thr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/39 Testing: Test_vvencFFapp-medium_noqpa_0thr
+26/39 Test: Test_vvencFFapp-medium_noqpa_0thr
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_medium.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-qpa" "0" "--WppBitEqual=0" "--Threads=0" "-f" "5" "-b" "out_vvencFFapp-medium_noqpa_0thr.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-medium_noqpa_0thr" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvencFFapp [info]: started @ Sat Oct 10 09:54:27 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-medium_noqpa_0thr.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 5 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 0  (parallel frames: 0)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Disabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 5 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 384
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 0
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT21 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:1 CabacInitPresent:1 AMVR:5 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:0 MIP:1 AFFINE:4 (PROF:1, Type:1) MMVD:3 DisFracMMVD:1 SbTMVP:1 GPM:3 LFNST:1 MTS:0 ISP:3 TS:2 TSLog2MaxSize:4 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:0 HAD:1 RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:2 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:0 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:2 PBIntraFast:1 AMaxBT:1 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:3 FastIntraTools:1 IntraEstDecBit:2 FastLocalDualTree:1 IntegerET:0 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:3 FastTTSplit:5 IBCFastMethod:3 FIM:0 ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:0 QP:32 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:0 MaxParallelFrames:0 IFP:0 (IFPLines:0) WppBitEqual:0 WF:0 
+
+POC     3 TId: 0 (IDR_W_RADL, I-SLICE, QP 29)             5952 bits [Y 34.7994 dB    U 37.3606 dB    V 43.1537 dB] [ET     0 ] [L0 ] [L1 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 40)              160 bits [Y 33.8301 dB    U 37.4175 dB    V 43.1365 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 41)              144 bits [Y 33.6693 dB    U 37.5271 dB    V 43.1163 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 41)              160 bits [Y 33.8027 dB    U 37.4982 dB    V 43.1083 dB] [ET     0 ] [L0 1 ] [L1 3 ]
+POC     4 TId: 5 (      STSA, B-SLICE, QP 41)              136 bits [Y 33.9765 dB    U 37.4728 dB    V 43.1268 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+vvenc [info]: stats: 100.0% frame= 5/5 fps=  13.2 avg_fps=  13.2 bitrate=    19.66 kbps avg_bitrate=    19.66 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 5/5 avg_fps= 13.2 avg_bitrate= 19.66 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 89.28, AvgQP: 29.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 4, kbps:  2.25, AvgQP: 40.75
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      19.6560   34.0156   37.4552   43.1283   35.1768
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:27 2026
+vvencFFapp [info]: Total Time:        0.390 sec. [user]        0.392 sec. [elapsed]
+<end of output>
+Test time =   0.47 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-medium_noqpa_0thr" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-medium_noqpa_0thr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/39 Testing: Test_compare_output-medium_noqpa_0thr
+27/39 Test: Test_compare_output-medium_noqpa_0thr
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-medium_noqpa_0thr.vvc" "out_vvencFFapp-medium_noqpa_0thr.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-medium_noqpa_0thr" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-medium_noqpa_0thr" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-medium_noqpa_0thr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/39 Testing: Test_vvencFFapp-lowdelay_medium
+28/39 Test: Test_vvencFFapp-lowdelay_medium
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/experimental/lowdelay_medium.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "--IntraPeriod=-1" "-dph" "1" "-f" "8" "--Threads=-1" "-b" "out_vvencFFapp-lowdelay_medium.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-lowdelay_medium" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+vvencFFapp [info]: started @ Sat Oct 10 09:54:27 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-lowdelay_medium.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 8 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : QP 32
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : -1
+vvenc [verbose]: Decoding refresh type                  : none with POC 0 IDR
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 8 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 64
+vvenc [verbose]: QP                                     : 32
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 8
+vvenc [verbose]: PicReordering                          : 0
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT21 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:1 CabacInitPresent:0 AMVR:5 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:0 MIP:1 AFFINE:4 (PROF:1, Type:1) MMVD:3 DisFracMMVD:1 SbTMVP:1 GPM:3 LFNST:1 MTS:0 ISP:3 TS:2 TSLog2MaxSize:4 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:2 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:0 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:0 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:2 PBIntraFast:1 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:3 FastIntraTools:1 IntraEstDecBit:2 FastLocalDualTree:1 IntegerET:0 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:3 FastTTSplit:5 IBCFastMethod:3 FIM:0 ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:0 QP:32 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+POC     0 TId: 0 (  IDR_N_LP, I-SLICE, QP 25, TF 0)       7400 bits [Y 38.8805 dB    U 41.7769 dB    V 45.5305 dB] [ET     0 ] [L0 ] [L1 ] [MD5:9927665e38c8664f19f64a152d32d1ed,5ea97f63900e5a460ce22ec8c163b0a0,47859f6f74dd293d66733a20c072fba5]
+POC     1 TId: 0 (     TRAIL, B-SLICE, QP 30)              136 bits [Y 38.5337 dB    U 41.7458 dB    V 45.4421 dB] [ET     0 ] [L0 0 ] [L1 0 ] [MD5:376c22731df46e194a5f40a7dccf3be3,985e257f403c76a9ed2d7d4288287ff2,ef30971d94d08222d85ea385f9c9470d]
+POC     2 TId: 0 (     TRAIL, B-SLICE, QP 30)              144 bits [Y 37.5038 dB    U 41.7596 dB    V 45.3612 dB] [ET     0 ] [L0 1 0 ] [L1 1 0 ] [MD5:3169ac85213754e91d85d72a001172e1,8eaa1873594b5a1708ac6ed6b3cbccff,401de790a64668542d5bb87d09b14200]
+POC     3 TId: 0 (     TRAIL, B-SLICE, QP 30)              216 bits [Y 37.1550 dB    U 41.6051 dB    V 45.0827 dB] [ET     0 ] [L0 2 1 0 ] [L1 2 1 0 ] [MD5:d5820a36e8834b24c0f2f848576eb632,b0fb23db9fec8824faff37fe9497c12d,c1b0c7e4a3d8e530fdbfd0bd523ac90d]
+POC     4 TId: 0 (     TRAIL, B-SLICE, QP 30)              288 bits [Y 36.4701 dB    U 41.4878 dB    V 44.8064 dB] [ET     0 ] [L0 3 2 1 0 ] [L1 3 2 1 0 ] [MD5:b765626c7468719381536f5cfe5ec3ed,f6423fe5178d3b962a18d79ceba51ba2,47b46a4cb277785b6d738c7b599f9ed9]
+POC     5 TId: 0 (     TRAIL, B-SLICE, QP 30)              312 bits [Y 36.2016 dB    U 41.2547 dB    V 44.5314 dB] [ET     0 ] [L0 4 3 2 0 ] [L1 4 3 2 0 ] [MD5:abcc29fa400f0f6142b052922f146a59,a8729f9767f2af106d0f8a355bbc5e2a,28d33d2a37c691c12ef18fed01095f22]
+POC     6 TId: 0 (     TRAIL, B-SLICE, QP 30)              320 bits [Y 36.0782 dB    U 41.0954 dB    V 44.2088 dB] [ET     0 ] [L0 5 4 3 0 ] [L1 5 4 3 0 ] [MD5:04f789dedea41d34555a4cf89592a2bb,3389a35352c137792528f990814bdff3,38f0554f1cde38e139667ce06f665d6c]
+POC     7 TId: 0 (     TRAIL, B-SLICE, QP 30)              264 bits [Y 35.5249 dB    U 41.1106 dB    V 43.8799 dB] [ET     0 ] [L0 6 5 4 0 ] [L1 6 5 4 0 ] [MD5:f8cabba316831566a6ef49b1cdc9ecd4,13af423b02ef10f6f1eb4f94459cc7b3,be162731b2e7133b9ecacbaf4a28922b]
+vvenc [info]: stats: 100.0% frame= 8/8 fps=  11.7 avg_fps=  11.7 bitrate=    23.98 kbps avg_bitrate=    23.98 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 8/8 avg_fps= 11.7 avg_bitrate= 23.98 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 117.96, AvgQP: 25.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 7, kbps:  10.56, AvgQP: 30.00
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        8    a      17.0250   37.0435   41.4795   44.8554   38.1427
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:28 2026
+vvencFFapp [info]: Total Time:        0.803 sec. [user]        0.804 sec. [elapsed]
+<end of output>
+Test time =   0.90 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-lowdelay_medium" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-lowdelay_medium" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/39 Testing: Test_vvencapp-medium_rc2p
+29/39 Test: Test_vvencapp-medium_rc2p
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "medium" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "5" "--Bitrate=10000" "--Passes=2" "--mtprofile" "0" "-o" "out_vvencapp-medium_rc2p.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-medium_rc2p" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+Using RC with IFP. Results are non-deterministic!
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-medium_rc2p.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 5 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 4  (parallel frames: 4)
+vvenc [info]: Rate control                           : VBR  10 kbps  two-pass
+vvenc [info]: Perceptual optimization                : Enabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 5/5 fps=  15.5 avg_fps=  15.5 bitrate=    18.53 kbps avg_bitrate=    18.53 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 5/5 avg_fps= 15.5 avg_bitrate= 18.53 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 83.52, AvgQP: 30.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 4, kbps:  2.28, AvgQP: 50.75
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      18.5280   32.9828   37.9431   42.3811   34.2810
+vvencapp [info]: Total Time: 0.454 sec. Fps(avg): 11.013 encoded Frames 5
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-medium_rc2p" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-medium_rc2p" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/39 Testing: Test_vvencFFapp-medium_rc2p
+30/39 Test: Test_vvencFFapp-medium_rc2p
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_medium.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "5" "--TargetBitrate=10000" "--Passes=2" "--Threads=-1" "-b" "out_vvencFFapp-medium_rc2p.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-medium_rc2p" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+Using RC with IFP. Results are non-deterministic!
+vvencFFapp [info]: started @ Sat Oct 10 09:54:29 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-medium_rc2p.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 5 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : VBR  10 kbps  two-pass
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 5 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 384
+vvenc [verbose]: QP                                     : 33
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT21 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:1 CabacInitPresent:0 AMVR:5 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:0 MIP:1 AFFINE:4 (PROF:1, Type:1) MMVD:3 DisFracMMVD:1 SbTMVP:1 GPM:3 LFNST:1 MTS:0 ISP:3 TS:2 TSLog2MaxSize:4 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:2 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:0 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:2 PBIntraFast:1 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:3 FastIntraTools:1 IntraEstDecBit:2 FastLocalDualTree:1 IntegerET:0 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:3 FastTTSplit:5 IBCFastMethod:3 FIM:0 ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:1 Passes:2 Pass:-1 TargetBitrate:10000 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+RC pass 1/2, analyze poc     3
+RC pass 1/2, analyze poc     1
+RC pass 1/2, analyze poc     0
+RC pass 1/2, analyze poc     2
+RC pass 1/2, analyze poc     4
+POC     3 TId: 0 (IDR_W_RADL, I-SLICE, QP 30)             5568 bits [Y 33.6783 dB    U 37.8947 dB    V 42.2122 dB] [ET     0 ] [L0 ] [L1 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 50)              160 bits [Y 32.6612 dB    U 37.8469 dB    V 42.5679 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 51)              152 bits [Y 32.9024 dB    U 37.9387 dB    V 42.5467 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 51)              144 bits [Y 33.0788 dB    U 38.0213 dB    V 42.4122 dB] [ET     0 ] [L0 1 ] [L1 3 ]
+POC     4 TId: 5 (      STSA, B-SLICE, QP 51)              152 bits [Y 32.5934 dB    U 38.0139 dB    V 42.1668 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+vvenc [info]: stats: 100.0% frame= 5/5 fps=  15.6 avg_fps=  15.6 bitrate=    18.53 kbps avg_bitrate=    18.53 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 5/5 avg_fps= 15.6 avg_bitrate= 18.53 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 83.52, AvgQP: 30.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 4, kbps:  2.28, AvgQP: 50.75
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      18.5280   32.9828   37.9431   42.3811   34.2810
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:29 2026
+vvencFFapp [info]: Total Time:        0.568 sec. [user]        0.569 sec. [elapsed]
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-medium_rc2p" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-medium_rc2p" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/39 Testing: Test_compare_output-medium_rc2p
+31/39 Test: Test_compare_output-medium_rc2p
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-medium_rc2p.vvc" "out_vvencFFapp-medium_rc2p.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-medium_rc2p" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-medium_rc2p" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-medium_rc2p" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/39 Testing: Test_vvencFFapp-medium_rc2p_statsFile1_exp
+32/39 Test: Test_vvencFFapp-medium_rc2p_statsFile1_exp
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_medium.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "5" "--TargetBitrate=10000" "--Pass=1" "--RCStatsFile=stats_exp.json" "--Threads=-1" "-b" "out_vvencFFapp-medium_rc2p_statsFile1_exp.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-medium_rc2p_statsFile1_exp" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+Using RC with IFP. Results are non-deterministic!
+vvencFFapp [info]: started @ Sat Oct 10 09:54:29 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-medium_rc2p_statsFile1_exp.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 5 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : VBR  10 kbps  two-pass  pass 1/2
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 5 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 384
+vvenc [verbose]: QP                                     : 33
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT21 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:1 CabacInitPresent:0 AMVR:5 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:0 MIP:1 AFFINE:4 (PROF:1, Type:1) MMVD:3 DisFracMMVD:1 SbTMVP:1 GPM:3 LFNST:1 MTS:0 ISP:3 TS:2 TSLog2MaxSize:4 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:2 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:0 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:2 PBIntraFast:1 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:3 FastIntraTools:1 IntraEstDecBit:2 FastLocalDualTree:1 IntegerET:0 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:3 FastTTSplit:5 IBCFastMethod:3 FIM:0 ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:1 Passes:2 Pass:1 TargetBitrate:10000 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+RC pass 1/2, analyze poc     3
+RC pass 1/2, analyze poc     1
+RC pass 1/2, analyze poc     0
+RC pass 1/2, analyze poc     2
+RC pass 1/2, analyze poc     4
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      29.1600   35.4313   40.7153   44.0656   36.6232
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:30 2026
+vvencFFapp [info]: Total Time:        0.146 sec. [user]        0.148 sec. [elapsed]
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-medium_rc2p_statsFile1_exp" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-medium_rc2p_statsFile1_exp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/39 Testing: Test_vvencFFapp-medium_rc2p_statsFile2_exp
+33/39 Test: Test_vvencFFapp-medium_rc2p_statsFile2_exp
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencFFapp.exe" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/cfg/randomaccess_medium.cfg" "-c" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23.cfg" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-f" "5" "--TargetBitrate=10000" "--Pass=2" "--RCStatsFile=stats_exp.json" "--Threads=-1" "-b" "out_vvencFFapp-medium_rc2p_statsFile2_exp.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencFFapp-medium_rc2p_statsFile2_exp" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencFFapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+Using RC with IFP. Results are non-deterministic!
+vvencFFapp [info]: started @ Sat Oct 10 09:54:30 2026
+vvenc [verbose]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [verbose]: Bitstream File                         : out_vvencFFapp-medium_rc2p_statsFile2_exp.vvc
+vvenc [verbose]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [verbose]: Frames                                 : encode 5 frames 
+vvenc [verbose]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [verbose]: Threads                                : 4  (parallel frames: 4)
+vvenc [verbose]: Rate control                           : VBR  10 kbps  two-pass  pass 2/2
+vvenc [verbose]: Perceptual optimization                : Enabled
+vvenc [verbose]: Intra period (keyframe)                : 32
+vvenc [verbose]: Decoding refresh type                  : CRA
+vvenc [verbose]: Sequence PSNR output                   : Linear average only
+vvenc [verbose]: Hexadecimal PSNR output                : Disabled
+vvenc [verbose]: Sequence MSE output                    : Disabled
+vvenc [verbose]: Frame MSE output                       : Disabled
+vvenc [verbose]: Cabac-zero-word-padding                : Enabled
+vvenc [verbose]: Frame index                            : 5 frames
+vvenc [verbose]: Profile                                : main_10
+vvenc [verbose]: Level                                  : 1
+vvenc [verbose]: CU size                                : 128
+vvenc [verbose]: Max TB size                            : 64
+vvenc [verbose]: Min CB size                            : 4
+vvenc [verbose]: Motion search range                    : 384
+vvenc [verbose]: QP                                     : 33
+vvenc [verbose]: Max dQP signaling subdiv               : 2
+vvenc [verbose]: Cb QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: Cr QP Offset (dual tree)               : 0 (0)
+vvenc [verbose]: GOP size                               : 32
+vvenc [verbose]: PicReordering                          : 1
+vvenc [verbose]: Input bit depth                        : (Y:8, C:8)
+vvenc [verbose]: MSB-extended bit depth                 : (Y:8, C:8)
+vvenc [verbose]: Internal bit depth                     : (Y:10, C:10)
+vvenc [verbose]: cu_chroma_qp_offset_subdiv             : -1
+vvenc [verbose]: log2_sao_offset_scale_luma             : 0
+vvenc [verbose]: log2_sao_offset_scale_chroma           : 0
+vvenc [verbose]: Cost function:                         : Lossy coding
+
+vvenc [verbose]: CODING TOOL CFG: CTU128 QTMin44BTT21 IBD:1 SAO:1 ALF:1 (NonLinLuma:0 NonLinChr:0) CCALF:1 Tiles:-1x-1 Slices:1 WPP:0 WPP-Substreams:1 TMVP:1 DQ:1 SDH:0 CST:1 BDOF:1 DMVR:1 MTSImplicit:1 SBT:0 JCbCr:1 CabacInitPresent:0 AMVR:5 SMVD:3 LMCS:2 (Signal:SDR Opt:0) CIIP:0 MIP:1 AFFINE:4 (PROF:1, Type:1) MMVD:3 DisFracMMVD:1 SbTMVP:1 GPM:3 LFNST:1 MTS:0 ISP:3 TS:2 TSLog2MaxSize:4 useChromaTS:0 BDPCM:2 IBC:2 BCW:0 
+vvenc [verbose]: ENC. ALG. CFG: QPA:1 HAD:1 RDQ:1 RDQTS:1 ASR:1 MinSearchWindow:96 EDO:2 MCTF:2 BIM:1 
+vvenc [verbose]: PRE-ANALYSIS CFG: STA:1 LeadFrames:0 TrailFrames:0 
+vvenc [verbose]: FAST TOOL CFG: ECU:0 FEN:3 FDM:1 FastSearch:4 (SCC:2) LCTUFast:1 FastMrg:2 PBIntraFast:1 AMaxBT:0 FastQtBtEnc:1 ContentBasedFastQtbt:1 FastMIP:3 FastIntraTools:1 IntraEstDecBit:2 FastLocalDualTree:1 IntegerET:0 FastSubPel:1 ReduceFilterME:2 QtbttExtraFast:3 FastTTSplit:5 IBCFastMethod:3 FIM:0 ALFSpeed:0 QuantThr:4 SelectiveRDQO:0 
+vvenc [verbose]: RATE CONTROL CFG: VTM23RateControl:0 VTMTargetBitrate:0 RateControl:1 Passes:2 Pass:2 TargetBitrate:10000 LookAhead:0 FirstPassMode:0 
+vvenc [verbose]: PARALLEL PROCESSING CFG: NumThreads:4 MaxParallelFrames:4 IFP:0 (IFPLines:0) WppBitEqual:1 WF:0 
+
+POC     3 TId: 0 (IDR_W_RADL, I-SLICE, QP 30)             5568 bits [Y 33.6783 dB    U 37.8947 dB    V 42.2122 dB] [ET     0 ] [L0 ] [L1 ]
+POC     1 TId: 4 (      RADL, B-SLICE, QP 50)              160 bits [Y 32.6612 dB    U 37.8469 dB    V 42.5679 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+POC     0 TId: 5 (      RADL, B-SLICE, QP 51)              152 bits [Y 32.9024 dB    U 37.9387 dB    V 42.5467 dB] [ET     0 ] [L0 1 ] [L1 1 ]
+POC     2 TId: 5 (      RADL, B-SLICE, QP 51)              144 bits [Y 33.0788 dB    U 38.0213 dB    V 42.4122 dB] [ET     0 ] [L0 1 ] [L1 3 ]
+POC     4 TId: 5 (      STSA, B-SLICE, QP 51)              152 bits [Y 32.5934 dB    U 38.0139 dB    V 42.1668 dB] [ET     0 ] [L0 3 ] [L1 3 ]
+vvenc [info]: stats: 100.0% frame= 5/5 fps=  15.0 avg_fps=  15.0 bitrate=    18.53 kbps avg_bitrate=    18.53 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 5/5 avg_fps= 15.0 avg_bitrate= 18.53 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 83.52, AvgQP: 30.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 4, kbps:  2.28, AvgQP: 50.75
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      18.5280   32.9828   37.9431   42.3811   34.2810
+
+vvencFFapp [info]: finished @ Sat Oct 10 09:54:30 2026
+vvencFFapp [info]: Total Time:        0.587 sec. [user]        0.589 sec. [elapsed]
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencFFapp-medium_rc2p_statsFile2_exp" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencFFapp-medium_rc2p_statsFile2_exp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/39 Testing: Test_compare_output-medium_rc2p_statsFile_exp
+34/39 Test: Test_compare_output-medium_rc2p_statsFile_exp
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-medium_rc2p.vvc" "out_vvencFFapp-medium_rc2p_statsFile2_exp.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-medium_rc2p_statsFile_exp" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-medium_rc2p_statsFile_exp" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-medium_rc2p_statsFile_exp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/39 Testing: Test_vvencapp-medium_rc2p_statsFile1_easy
+35/39 Test: Test_vvencapp-medium_rc2p_statsFile1_easy
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "medium" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "5" "--Bitrate=10000" "--Pass=1" "--RCStatsFile=stats_easy.json" "--mtprofile" "0" "-o" "out_vvencapp-medium_rc2p_statsFile1_easy.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-medium_rc2p_statsFile1_easy" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+Using RC with IFP. Results are non-deterministic!
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-medium_rc2p_statsFile1_easy.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 5 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 4  (parallel frames: 4)
+vvenc [info]: Rate control                           : VBR  10 kbps  two-pass  pass 1/2
+vvenc [info]: Perceptual optimization                : Enabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      29.1600   35.4313   40.7153   44.0656   36.6232
+vvencapp [info]: no frames encoded
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-medium_rc2p_statsFile1_easy" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-medium_rc2p_statsFile1_easy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/39 Testing: Test_vvencapp-medium_rc2p_statsFile2_easy
+36/39 Test: Test_vvencapp-medium_rc2p_statsFile2_easy
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vvencapp.exe" "--preset" "medium" "-s" "80x44" "-r" "15" "-i" "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv" "-ip" "32" "-f" "5" "--Bitrate=10000" "--Pass=2" "--RCStatsFile=stats_easy.json" "--mtprofile" "0" "-o" "out_vvencapp-medium_rc2p_statsFile2_easy.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vvencapp-medium_rc2p_statsFile2_easy" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+vvencapp: VVenC, the Fraunhofer H.266/VVC Encoder, version 1.12.0 [Windows][VS 1929][64 bit][SIMD=AVX2]
+Using RC with IFP. Results are non-deterministic!
+vvenc [info]: Input File                             : C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/test/data/RTn23_80x44p15_f15.yuv
+vvenc [info]: Bitstream File                         : out_vvencapp-medium_rc2p_statsFile2_easy.vvc
+vvenc [info]: Real Format                            : 80x44  yuv420p  15 Hz  SDR  15 frames
+vvenc [info]: Frames                                 : encode 5 frames 
+vvenc [info]: Internal format                        : 80x48  15 Hz  SDR
+vvenc [info]: Threads                                : 4  (parallel frames: 4)
+vvenc [info]: Rate control                           : VBR  10 kbps  two-pass  pass 2/2
+vvenc [info]: Perceptual optimization                : Enabled
+vvenc [info]: Intra period (keyframe)                : 32
+vvenc [info]: Decoding refresh type                  : CRA
+
+vvenc [info]: stats: 100.0% frame= 5/5 fps=  15.3 avg_fps=  15.3 bitrate=    18.53 kbps avg_bitrate=    18.53 kbps elapsed= 00h:00m:01s left= 00h:00m:00s    
+
+vvenc [info]: stats summary: frame= 5/5 avg_fps= 15.3 avg_bitrate= 18.53 kbps
+vvenc [info]: stats summary: frame I: 1, kbps: 83.52, AvgQP: 30.00
+vvenc [info]: stats summary: frame P: 0, kbps: -nan(ind), AvgQP: -nan(ind)
+vvenc [info]: stats summary: frame B: 4, kbps:  2.28, AvgQP: 50.75
+
+
+vvenc [info]:	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR   
+vvenc [info]:	        5    a      18.5280   32.9828   37.9431   42.3811   34.2810
+vvencapp [info]: Total Time: 0.444 sec. Fps(avg): 11.261 encoded Frames 5
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vvencapp-medium_rc2p_statsFile2_easy" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vvencapp-medium_rc2p_statsFile2_easy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/39 Testing: Test_compare_output-medium_rc2p_statsFile_easy
+37/39 Test: Test_compare_output-medium_rc2p_statsFile_easy
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "compare_files" "out_vvencapp-medium_rc2p_statsFile2_easy.vvc" "out_vvencFFapp-medium_rc2p_statsFile2_exp.vvc"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_compare_output-medium_rc2p_statsFile_easy" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Test_compare_output-medium_rc2p_statsFile_easy" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_compare_output-medium_rc2p_statsFile_easy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/39 Testing: Cleanup_remove_temp_files
+38/39 Test: Cleanup_remove_temp_files
+Command: "F:/cmake/Cmake/bin/cmake.exe" "-E" "remove" "-f" "out_vvencapp-tooltest.vvc" "out_vvencFFapp-tooltest.vvc" "out_vvencFFapp-tooltest-Scalar.vvc" "out_vvencapp-faster.vvc" "out_vvencFFapp-faster.vvc" "out_vvencapp-fast.vvc" "out_vvencFFapp-fast.vvc" "out_vvencapp-medium.vvc" "out_vvencFFapp-medium.vvc" "out_vvencapp-slow.vvc" "out_vvencFFapp-slow.vvc" "out_vvencapp-medium_noqpa_0thr.vvc" "out_vvencFFapp-medium_noqpa_0thr.vvc" "out_vvencFFapp-lowdelay_medium.vvc" "out_vvencapp-medium_rc2p.vvc" "out_vvencFFapp-medium_rc2p.vvc" "out_vvencFFapp-medium_rc2p_statsFile1_exp.vvc" "out_vvencFFapp-medium_rc2p_statsFile2_exp.vvc" "out_vvencapp-medium_rc2p_statsFile1_easy.vvc" "out_vvencapp-medium_rc2p_statsFile2_easy.vvc" "rec.yuv" "stats_exp.json" "stats_easy.json"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Cleanup_remove_temp_files" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"Cleanup_remove_temp_files" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Cleanup_remove_temp_files" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/39 Testing: Test_vtmrc_adapter_order
+39/39 Test: Test_vtmrc_adapter_order
+Command: "C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/bin/release-static/vtmrc_adapter_test.exe"
+Directory: C:/Users/hitxi/.codex/worktrees/vtm23-rc-anchor/vvenc-LFNST/build-vtmrc
+"Test_vtmrc_adapter_order" start time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+PASS: ordered adapter feedback guards and original intra DC removal
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"Test_vtmrc_adapter_order" end time: Oct 10 09:54 ?D1迆㊣那℅?那㊣??
+"Test_vtmrc_adapter_order" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 10 09:54 ?D1迆㊣那℅?那㊣??

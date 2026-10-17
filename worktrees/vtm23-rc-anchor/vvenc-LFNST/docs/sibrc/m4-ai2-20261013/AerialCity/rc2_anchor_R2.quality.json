@@ -1,0 +1,51 @@
+{
+  "picture_y_spsnr": [
+    38.52899837978117,
+    38.226182824217
+  ],
+  "picture_y_cpppsnr": [
+    38.992837484624715,
+    38.70943214332168
+  ],
+  "picture_y_psnr": [
+    39.37557301910336,
+    39.08988325025391
+  ],
+  "picture_y_wspsnr": [
+    38.53252792372299,
+    38.246798652263514
+  ],
+  "mean_y_psnr": 39.23272813467864,
+  "mean_y_wspsnr": 38.38966328799325,
+  "mean_y_spsnr": 38.37759060199909,
+  "mean_y_cpppsnr": 38.8511348139732,
+  "name": "rc2_anchor_R2",
+  "target_bps": 37656120,
+  "actual_bps": 37496520.0,
+  "frames": 2,
+  "width": 3840,
+  "height": 1920,
+  "fps": 30,
+  "source_bitdepth": 8,
+  "picture_bits": [
+    1239504,
+    1260264
+  ],
+  "picture_bitrate_bps": [
+    37185120,
+    37807920
+  ],
+  "source_prefix_sha256": "e559b144b37a6131ce4ac8381de742a3a0035c891b48f15c91b9dd7e6048b648",
+  "reconstruction_prefix_sha256": "8a83458c65034800840818ce7f61b82006c239a4eaeedc51e7655e232135d833",
+  "bitstream_sha256": "827b8098a7269e6417af64e98c567f43ef676b12d5706b39da9b4e4df3f405e9",
+  "metrics360_exe_sha256": "68c6805d510824ae7ce9f7b30a4891b5ffbf21a339ec9fa4de06bfa190e853ba",
+  "sphere_sha256": "c7a1cb2ac9499615350dabb1c1935c08734be4411d6ef064a8aeb7b02428aea7",
+  "decoder_sha256": "f8e101576c5cea9a677da615fc0ed431d5acfbe4296042000a5c6a773f3b64e8",
+  "metric_peak_10bit": 1020,
+  "cpp_dimensions": [
+    3840,
+    1920
+  ],
+  "encoder_elapsed_seconds": 12.823451399999996,
+  "rate_error_percent": -0.4238354880959583
+}

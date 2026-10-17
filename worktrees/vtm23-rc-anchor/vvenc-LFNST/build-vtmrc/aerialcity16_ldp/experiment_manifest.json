@@ -1,0 +1,30 @@
+{
+  "vvenc_commit": "dbdf602",
+  "width": 3840,
+  "height": 1920,
+  "frames": 16,
+  "fps": 30,
+  "input_bit_depth": 8,
+  "internal_bit_depth": 10,
+  "output_bit_depth": 10,
+  "input_path": "I:\\Sequences360\\AerialCity_3840x1920_30fps_8bit_420_erp.yuv",
+  "input_file_bytes": 3328819200,
+  "first16_input_sha256": "98f007bbc53d8014c82509e4c278a2ba251ca1dc9a8378f8ecde19b5d7d71448",
+  "preset": "faster",
+  "gop": "Explicit VTM LDP GOP8 P entries, all temporal_id=0",
+  "ctu_size": 128,
+  "temporal_filter": false,
+  "qpa": false,
+  "parallelism": "Threads=0, IFP=0, WPP=0, frame parallel=0",
+  "rates_source": "I:\\001-IBRC-exps\\VTM-23.0\\paper_evidence\\config.json",
+  "rates_grid": "core frozen ERP grid originally32frames, rerun here16frames",
+  "encoder_sha256": "c0044780cb717b84af7f797942ed3480aa18058ba918b63651ac1153dc724dba",
+  "historical16_source": "I:/001-IBRC-exps/VTM-23.0/analysis_outputs/ld_anchor_baseline/ld_anchor_baseline_summary.csv",
+  "historical16_caveat": "Different targets and 4432x2216 coding resampling; not a like-for-like comparator for original 3840x1920 raw ERP.",
+  "kernel_hashes": {
+    "RateCtrl.cpp": "faab7f376fc1abb542900f3351747c516b4dab422306d9c878bc611ab3c503a5",
+    "RateCtrl.h": "caaa8df1eae0e9a62d3d8b941dc514e5a758183bf683d1e5ba58ffafda34567e"
+  },
+  "ctu_correction": "VTM config actual CTUSize128 supersedes legacy MaxCUWidth64; CTU64 precheck archived.",
+  "ldp_cfg_sha256": "507f0786c75191f0964031a901542a435a3be1c66f5099b912ed64ba80850463"
+}
